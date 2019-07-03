@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on Shaojie Jiang</title>
+    <link>https://shaojiejiang.github.io/categories/deep-learning/</link>
+    <description>Recent content in Deep Learning on Shaojie Jiang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year} Shaojie Jiang</copyright>
+    <lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://shaojiejiang.github.io/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What&#39;s New in XLNet?</title>
+      <link>https://shaojiejiang.github.io/post/xlnet/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shaojiejiang.github.io/post/xlnet/</guid>
+      <description>
+
+&lt;h1 id=&#34;r-i-p-bert&#34;&gt;R.I.P BERT&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34;&gt;BERT&lt;/a&gt; got a head shot yesterday, by another guy called &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;XLNet&lt;/a&gt;.
+It is reported that XLNet defeated BERT on 20 NLP tasks, and achieved 18 new state-of-the-art results.
+Isn&amp;rsquo;t it impressive?
+So, farewell, BERT.
+
+
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;images/bert_dead.jpg&#34; &gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;R.I.P BERT&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;is-bert-really-dead&#34;&gt;Is BERT really dead?&lt;/h1&gt;
+
+&lt;p&gt;Since I love BERT, I decided to read the paper to find out what killed him.
+While reading, I was thinking wait a minute, is BERT really dead?
+After finished the paper, I was so glad to know that BERT is still well alive!
+He is just wearing another coat named &lt;em&gt;Two-Stream Self-Attention (TSSA)&lt;/em&gt;, with some other gadgets!
+Because:&lt;br /&gt;
+&lt;code&gt;XLNet = BERT + TSSA + bidirectional data input&lt;/code&gt;&lt;br /&gt;
+Bert you&amp;rsquo;re so tough, buddy!&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s take a closer look at what were trying to kill BERT.&lt;/p&gt;
+
+&lt;h2 id=&#34;two-stream-self-attention-tssa&#34;&gt;Two-stream self-attention (TSSA)&lt;/h2&gt;
+
+&lt;p&gt;Why TSSA is needed to kill BERT?
+Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
+
+&lt;p&gt;BERT is using a masked language model (MLM) training objective, which is essentially why it achieves bidirectional representation.
+
+
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;images/MLM.png&#34; &gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;&lt;a href=&#34;https://nlp.stanford.edu/seminar/details/jdevlin.pdf&#34; target=&#34;_blank&#34;&gt;Image source&lt;/a&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In this example, both words &amp;ldquo;store&amp;rdquo; and &amp;ldquo;gallon&amp;rdquo; are intended to be predicted by BERT, and their input word embeddings are replaced by the embedding of a special token &lt;em&gt;[MASK]&lt;/em&gt;.
+Usually this isn&amp;rsquo;t a problem, but what if the prediction of &amp;ldquo;store&amp;rdquo; requires knowing the word &amp;ldquo;gallon&amp;rdquo;?
+That is exactly where BERT falls short.&lt;/p&gt;
+
+&lt;p&gt;TSSA is what you can use to overcome that downside of MLM:
+
+
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;images/query_stream.png&#34; &gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Query stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In this illustration, query stream gives you the &lt;code&gt;query&lt;/code&gt; vector needed for attention calculation, and this stream is designed in such a way that it doesn&amp;rsquo;t leak the info of the word it&amp;rsquo;s going to predict, but guarantees all information from other positions.
+Take $x_1$ for example: $x_1$&amp;rsquo;s embedding (and hidden state) is not used at all, but embeddings and hidden states from other positions are used in each layer.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;images/content_stream.png&#34; &gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Content stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Content stream, on the other hand, gives you the &lt;code&gt;key&lt;/code&gt; and &lt;code&gt;value&lt;/code&gt; vectors needed for context vector calculation.
+This stream uses a strategy similar to that in a standard &lt;a href=&#34;https://arxiv.org/pdf/1706.03762.pdf&#34; target=&#34;_blank&#34;&gt;Transformer decoder&lt;/a&gt; by masking future positions.
+The only difference is that in content stream, the order of tokens is &lt;em&gt;randomly permuted&lt;/em&gt;.
+For example $x_2$ is right after $x_3$, and therefore $h_2^{(1)}$ can only see the embedding of itself and that of $x_3$ (and $mem^{(0)}$), but not that of $x_1$ or $x_4$.&lt;/p&gt;
+
+&lt;h2 id=&#34;mask-a-span&#34;&gt;Mask a span&lt;/h2&gt;
+
+&lt;p&gt;Another difference from BERT is masking a span of consecutive words.
+The reason I guess, is that this guarantees the dependence of masked words (as claimed to be what BERT can&amp;rsquo;t model).
+This is not a fresh-new idea, though.
+Recently there are two ERNIE papers (BERT based) that propose masking named entities (often of multiple words, &lt;a href=&#34;https://arxiv.org/pdf/1905.07129.pdf&#34; target=&#34;_blank&#34;&gt;paper link&lt;/a&gt;) and/or phrases (&lt;a href=&#34;https://arxiv.org/pdf/1904.09223.pdf&#34; target=&#34;_blank&#34;&gt;paper link&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h2 id=&#34;bidirectional-data-input&#34;&gt;Bidirectional data input&lt;/h2&gt;
+
+&lt;p&gt;Another notably different thing in XLNet is the usage of bidirectional data input.
+The idea (I guess) is to decide the factorization direction (either forward or backward), so that the idea of &amp;ldquo;masking future positions&amp;rdquo; used in a standard Transformer decoder can also be easily used together with XLNet.&lt;/p&gt;
+
+&lt;p&gt;Masking a span makes XLNet look like a denoising autoencoder; but by using bidirectional data input (or masking future positions), XLNet performs more like a autoregressive language model in the masked region.&lt;/p&gt;
+
+&lt;h1 id=&#34;closing-remarks&#34;&gt;Closing remarks&lt;/h1&gt;
+
+&lt;p&gt;So now you probably can see the similarities and differences between XLNet and BERT.
+If not, here is a quick summary:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Instead of masking random words, mask a span of words&lt;/li&gt;
+&lt;li&gt;Use bidirectional data input to decide which direction you treat as &amp;ldquo;future&amp;rdquo;, and then apply the idea of masking future positions&lt;/li&gt;
+&lt;li&gt;To avoid leaking the information of the position to be predicted, use Two-Stream Self-Attention (TSSA)&lt;/li&gt;
+&lt;li&gt;Other minor things like segment recurrence, relative positional encoding, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However, it doesn&amp;rsquo;t seem to be enough changes to make all those improvements.
+What if BERT is also trained using the additional data (Giga5, ClueWeb, Common Crawl), will XLNet still be able to defeat BERT?&lt;/p&gt;
+
+&lt;p&gt;EDIT:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Another model named &lt;a href=&#34;https://arxiv.org/abs/1905.02450&#34; target=&#34;_blank&#34;&gt;MASS&lt;/a&gt; employs a very similar idea.&lt;/li&gt;
+&lt;li&gt;According to Jacob Devlin (author of BERT), relative positional embedding might be of great importance.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -114,7 +114,7 @@
   
   <meta property="article:published_time" content="2019-06-20T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-07-03T15:22:04&#43;02:00">
+  <meta property="article:modified_time" content="2019-07-04T16:07:26&#43;02:00">
   
 
   
@@ -371,7 +371,7 @@
 
 
 <meta content="2019-06-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-07-03 15:22:04 &#43;0200 CEST" itemprop="dateModified">
+<meta content="2019-07-04 16:07:26 &#43;0200 CEST" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -398,7 +398,7 @@
           Last updated on
       
     
-    <time>Jul 3, 2019</time>
+    <time>Jul 4, 2019</time>
   </span>
   
 
@@ -548,7 +548,7 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<h1 id="r-i-p-bert">R.I.P BERT</h1>
+<h2 id="r-i-p-bert">R.I.P BERT</h2>
 
 <p><a href="https://arxiv.org/abs/1810.04805" target="_blank">BERT</a> got a head shot yesterday, by another guy called <a href="https://arxiv.org/abs/1906.08237" target="_blank">XLNet</a>.
 It is reported that XLNet defeated BERT on 20 NLP tasks, and achieved 18 new state-of-the-art results.
@@ -574,7 +574,7 @@ So, farewell, BERT.
 </figure>
 </p>
 
-<h1 id="is-bert-really-dead">Is BERT really dead?</h1>
+<h2 id="is-bert-really-dead">Is BERT really dead?</h2>
 
 <p>Since I love BERT, I decided to read the paper to find out what killed him.
 While reading, I was thinking wait a minute, is BERT really dead?
@@ -586,7 +586,7 @@ Bert you&rsquo;re so tough, buddy!</p>
 
 <p>Let&rsquo;s take a closer look at what were trying to kill BERT.</p>
 
-<h2 id="two-stream-self-attention-tssa">Two-stream self-attention (TSSA)</h2>
+<h3 id="two-stream-self-attention-tssa">Two-stream self-attention (TSSA)</h3>
 
 <p>Why TSSA is needed to kill BERT?
 Well, let&rsquo;s first see some weaknesses BERT has.</p>
@@ -665,21 +665,21 @@ This stream uses a strategy similar to that in a standard <a href="https://arxiv
 The only difference is that in content stream, the order of tokens is <em>randomly permuted</em>.
 For example $x_2$ is right after $x_3$, and therefore $h_2^{(1)}$ can only see the embedding of itself and that of $x_3$ (and $mem^{(0)}$), but not that of $x_1$ or $x_4$.</p>
 
-<h2 id="mask-a-span">Mask a span</h2>
+<h3 id="mask-a-span">Mask a span</h3>
 
 <p>Another difference from BERT is masking a span of consecutive words.
 The reason I guess, is that this guarantees the dependence of masked words (as claimed to be what BERT can&rsquo;t model).
 This is not a fresh-new idea, though.
 Recently there are two ERNIE papers (BERT based) that propose masking named entities (often of multiple words, <a href="https://arxiv.org/pdf/1905.07129.pdf" target="_blank">paper link</a>) and/or phrases (<a href="https://arxiv.org/pdf/1904.09223.pdf" target="_blank">paper link</a>).</p>
 
-<h2 id="bidirectional-data-input">Bidirectional data input</h2>
+<h3 id="bidirectional-data-input">Bidirectional data input</h3>
 
 <p>Another notably different thing in XLNet is the usage of bidirectional data input.
 The idea (I guess) is to decide the factorization direction (either forward or backward), so that the idea of &ldquo;masking future positions&rdquo; used in a standard Transformer decoder can also be easily used together with XLNet.</p>
 
 <p>Masking a span makes XLNet look like a denoising autoencoder; but by using bidirectional data input (or masking future positions), XLNet performs more like a autoregressive language model in the masked region.</p>
 
-<h1 id="closing-remarks">Closing remarks</h1>
+<h2 id="closing-remarks">Closing remarks</h2>
 
 <p>So now you probably can see the similarities and differences between XLNet and BERT.
 If not, here is a quick summary:</p>

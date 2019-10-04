@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Shaojie Jiang</title>
+    <title>Authors | Shaojie Jiang</title>
     <link>https://shaojiejiang.github.io/authors/</link>
-    <description>Recent content in Authors on Shaojie Jiang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Shaojie Jiang</copyright>
-    <lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
+      <atom:link href="https://shaojiejiang.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Shaojie Jiang</copyright><lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shaojiejiang.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://shaojiejiang.github.io/authors/</link>
+    </image>
     
-	    <atom:link href="https://shaojiejiang.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title></title>
+      <link>https://shaojiejiang.github.io/authors/admin/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://shaojiejiang.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a 2nd year PhD student under the supervision of &lt;a href=&#34;https://staff.fnwi.uva.nl/m.derijke/&#34; target=&#34;_blank&#34;&gt;Maarten de Rijke&lt;/a&gt; and &lt;a href=&#34;https://staff.science.uva.nl/c.monz/&#34; target=&#34;_blank&#34;&gt;Christof Monz&lt;/a&gt; at &lt;a href=&#34;https://ilps.science.uva.nl/&#34; target=&#34;_blank&#34;&gt;ILPS&lt;/a&gt;, &lt;a href=&#34;https://www.uva.nl/&#34; target=&#34;_blank&#34;&gt;University of Amsterdam&lt;/a&gt;. I am interested in ML and NLP, especially open-domain dialogue systems (chatbots 🤖). I also take photos as a hobby 📸.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Christof Monz</title>
       <link>https://shaojiejiang.github.io/authors/christof-monz/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/authors/christof-monz/</guid>
       <description></description>
     </item>
@@ -25,7 +33,6 @@
       <title>Maarten de Rijke</title>
       <link>https://shaojiejiang.github.io/authors/maarten-de-rijke/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/authors/maarten-de-rijke/</guid>
       <description></description>
     </item>
@@ -34,7 +41,6 @@
       <title>Pengjie Ren</title>
       <link>https://shaojiejiang.github.io/authors/pengjie-ren/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/authors/pengjie-ren/</guid>
       <description></description>
     </item>
@@ -43,7 +49,6 @@
       <title>Shaojie Jiang</title>
       <link>https://shaojiejiang.github.io/authors/shaojie-jiang/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/authors/shaojie-jiang/</guid>
       <description></description>
     </item>
@@ -52,7 +57,6 @@
       <title>Cheng Cai</title>
       <link>https://shaojiejiang.github.io/authors/cheng-cai/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/authors/cheng-cai/</guid>
       <description></description>
     </item>
@@ -61,7 +65,6 @@
       <title>Jifeng Ning</title>
       <link>https://shaojiejiang.github.io/authors/jifeng-ning/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/authors/jifeng-ning/</guid>
       <description></description>
     </item>
@@ -70,7 +73,6 @@
       <title>Yunsong Li</title>
       <link>https://shaojiejiang.github.io/authors/yunsong-li/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/authors/yunsong-li/</guid>
       <description></description>
     </item>
@@ -79,7 +81,6 @@
       <title>Jimei Yang</title>
       <link>https://shaojiejiang.github.io/authors/jimei-yang/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/authors/jimei-yang/</guid>
       <description></description>
     </item>
@@ -88,7 +89,6 @@
       <title>Lei Zhang</title>
       <link>https://shaojiejiang.github.io/authors/lei-zhang/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/authors/lei-zhang/</guid>
       <description></description>
     </item>
@@ -97,19 +97,8 @@
       <title>Ming-Hsuan Yang</title>
       <link>https://shaojiejiang.github.io/authors/ming-hsuan-yang/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/authors/ming-hsuan-yang/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://shaojiejiang.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shaojiejiang.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a 2nd year PhD student under the supervision of &lt;a href=&#34;https://staff.fnwi.uva.nl/m.derijke/&#34; target=&#34;_blank&#34;&gt;Maarten de Rijke&lt;/a&gt; and &lt;a href=&#34;https://staff.science.uva.nl/c.monz/&#34; target=&#34;_blank&#34;&gt;Christof Monz&lt;/a&gt; at &lt;a href=&#34;https://ilps.science.uva.nl/&#34; target=&#34;_blank&#34;&gt;ILPS&lt;/a&gt;, &lt;a href=&#34;https://www.uva.nl/&#34; target=&#34;_blank&#34;&gt;University of Amsterdam&lt;/a&gt;. I am interested in ML and NLP, especially open-domain dialogue systems (chatbots 🤖). I also take photos as a hobby 📸.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

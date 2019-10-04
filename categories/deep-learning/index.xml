@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deep Learning on Shaojie Jiang</title>
+    <title>Deep Learning | Shaojie Jiang</title>
     <link>https://shaojiejiang.github.io/categories/deep-learning/</link>
-    <description>Recent content in Deep Learning on Shaojie Jiang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Shaojie Jiang</copyright>
-    <lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://shaojiejiang.github.io/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://shaojiejiang.github.io/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Shaojie Jiang</copyright><lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shaojiejiang.github.io/img/icon-192.png</url>
+      <title>Deep Learning</title>
+      <link>https://shaojiejiang.github.io/categories/deep-learning/</link>
+    </image>
     
     <item>
       <title>What&#39;s New in XLNet?</title>
       <link>https://shaojiejiang.github.io/post/xlnet/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/post/xlnet/</guid>
       <description>
 
@@ -32,16 +31,26 @@ So, farewell, BERT.
 
 
 
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;images/bert_dead.jpg&#34; &gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;images/bert_dead.jpg&#34; data-caption=&#34;R.I.P BERT&#34;&gt;
+&lt;img src=&#34;images/bert_dead.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;R.I.P BERT&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    R.I.P BERT
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -70,16 +79,26 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
 
 
 
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;images/MLM.png&#34; &gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;images/MLM.png&#34; data-caption=&#34;Image source&#34;&gt;
+&lt;img src=&#34;images/MLM.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;a href=&#34;https://nlp.stanford.edu/seminar/details/jdevlin.pdf&#34; target=&#34;_blank&#34;&gt;Image source&lt;/a&gt;&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;a href=&#34;https://nlp.stanford.edu/seminar/details/jdevlin.pdf&#34; target=&#34;_blank&#34;&gt;Image source&lt;/a&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -95,16 +114,26 @@ That is exactly where BERT falls short.&lt;/p&gt;
 
 
 
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;images/query_stream.png&#34; &gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;images/query_stream.png&#34; data-caption=&#34;Query stream, source&#34;&gt;
+&lt;img src=&#34;images/query_stream.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Query stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    Query stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -118,16 +147,26 @@ Take $x_1$ for example: $x_1$&amp;rsquo;s embedding (and hidden state) is not us
 
 
 
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;images/content_stream.png&#34; &gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;images/content_stream.png&#34; data-caption=&#34;Content stream, source&#34;&gt;
+&lt;img src=&#34;images/content_stream.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Content stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    Content stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 

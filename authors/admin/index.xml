@@ -3,19 +3,19 @@
   <channel>
     <title>Shaojie Jiang</title>
     <link>https://shaojiejiang.github.io/authors/admin/</link>
-    <description>Recent content on Shaojie Jiang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Shaojie Jiang</copyright>
-    
-	    <atom:link href="https://shaojiejiang.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://shaojiejiang.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shaojie Jiang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Shaojie Jiang</copyright><lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shaojiejiang.github.io/img/icon-192.png</url>
+      <title>Shaojie Jiang</title>
+      <link>https://shaojiejiang.github.io/authors/admin/</link>
+    </image>
     
     <item>
       <title>What&#39;s New in XLNet?</title>
       <link>https://shaojiejiang.github.io/post/xlnet/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/post/xlnet/</guid>
       <description>
 
@@ -31,16 +31,26 @@ So, farewell, BERT.
 
 
 
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;images/bert_dead.jpg&#34; &gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;images/bert_dead.jpg&#34; data-caption=&#34;R.I.P BERT&#34;&gt;
+&lt;img src=&#34;images/bert_dead.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;R.I.P BERT&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    R.I.P BERT
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -69,16 +79,26 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
 
 
 
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;images/MLM.png&#34; &gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;images/MLM.png&#34; data-caption=&#34;Image source&#34;&gt;
+&lt;img src=&#34;images/MLM.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;&lt;a href=&#34;https://nlp.stanford.edu/seminar/details/jdevlin.pdf&#34; target=&#34;_blank&#34;&gt;Image source&lt;/a&gt;&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    &lt;a href=&#34;https://nlp.stanford.edu/seminar/details/jdevlin.pdf&#34; target=&#34;_blank&#34;&gt;Image source&lt;/a&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -94,16 +114,26 @@ That is exactly where BERT falls short.&lt;/p&gt;
 
 
 
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;images/query_stream.png&#34; &gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;images/query_stream.png&#34; data-caption=&#34;Query stream, source&#34;&gt;
+&lt;img src=&#34;images/query_stream.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Query stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    Query stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -117,16 +147,26 @@ Take $x_1$ for example: $x_1$&amp;rsquo;s embedding (and hidden state) is not us
 
 
 
+
+
+
+
+
+
+
 &lt;figure&gt;
 
-&lt;img src=&#34;images/content_stream.png&#34; &gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;images/content_stream.png&#34; data-caption=&#34;Content stream, source&#34;&gt;
+&lt;img src=&#34;images/content_stream.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Content stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+  
+  &lt;figcaption&gt;
+    Content stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34;&gt;source&lt;/a&gt;
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
@@ -171,16 +211,6 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
 &lt;li&gt;Another model named &lt;a href=&#34;https://arxiv.org/abs/1905.02450&#34; target=&#34;_blank&#34;&gt;MASS&lt;/a&gt; employs a very similar idea.&lt;/li&gt;
 &lt;li&gt;According to Jacob Devlin (author of BERT), relative positional embedding might be of great importance.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://shaojiejiang.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shaojiejiang.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a 2nd year PhD student under the supervision of &lt;a href=&#34;https://staff.fnwi.uva.nl/m.derijke/&#34; target=&#34;_blank&#34;&gt;Maarten de Rijke&lt;/a&gt; and &lt;a href=&#34;https://staff.science.uva.nl/c.monz/&#34; target=&#34;_blank&#34;&gt;Christof Monz&lt;/a&gt; at &lt;a href=&#34;https://ilps.science.uva.nl/&#34; target=&#34;_blank&#34;&gt;ILPS&lt;/a&gt;, &lt;a href=&#34;https://www.uva.nl/&#34; target=&#34;_blank&#34;&gt;University of Amsterdam&lt;/a&gt;. I am interested in ML and NLP, especially open-domain dialogue systems (chatbots 🤖). I also take photos as a hobby 📸.&lt;/p&gt;
 </description>
     </item>
     

@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.3.1">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
 
   
 
@@ -35,8 +35,6 @@
 
   
 
-
-  
 
   
   
@@ -69,6 +67,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -76,24 +76,29 @@
 
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.57d053519a5efc7bed4ecdc93c9bff20.css">
+  <link rel="stylesheet" href="/css/academic.min.194cab657720cd27c6d5bb2a6b9e1bb7.css">
 
   
 
   
-  
-  
+
+
+
 
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="https://shaojiejiang.github.io/post/xlnet/">
@@ -104,6 +109,7 @@
   
     
   
+  
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Shaojie Jiang">
@@ -112,10 +118,67 @@
   <meta property="og:description" content="In this post, I will try to understand what makes XLNet better than BERT."><meta property="og:image" content="https://shaojiejiang.github.io/post/xlnet/featured.jpg">
   <meta property="twitter:image" content="https://shaojiejiang.github.io/post/xlnet/featured.jpg"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-06-20T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2019-06-20T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-07-04T16:07:26&#43;02:00">
   
-  <meta property="article:modified_time" content="2019-07-04T16:07:26&#43;02:00">
+
   
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shaojiejiang.github.io/post/xlnet/"
+  },
+  "headline": "What's New in XLNet?",
+  
+  "image": [
+    "https://shaojiejiang.github.io/post/xlnet/featured.jpg"
+  ],
+  
+  "datePublished": "2019-06-20T00:00:00Z",
+  "dateModified": "2019-07-04T16:07:26+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Shaojie Jiang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shaojie Jiang",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://shaojiejiang.github.io/img/icon-512.png"
+    }
+  },
+  "description": "In this post, I will try to understand what makes XLNet better than BERT."
+}
+</script>
+
+  
+
+  
+
 
   
 
@@ -130,8 +193,7 @@
 
 </head>
 
-
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -149,7 +211,7 @@
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -166,7 +228,7 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
@@ -334,7 +396,7 @@
 </nav>
 
 
-  <article class="article" itemscope itemtype="http://schema.org/Article">
+  <article class="article">
 
   
 
@@ -362,16 +424,13 @@
 
 
 <div class="article-container pt-3">
-  <h1 itemprop="name">What&#39;s New in XLNet?</h1>
+  <h1>What&#39;s New in XLNet?</h1>
 
   
 
   
 
 
-
-<meta content="2019-06-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-07-04 16:07:26 &#43;0200 CEST" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -384,7 +443,8 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Shaojie Jiang</a></span>
+  
+  <span><a href="/authors/admin/">Shaojie Jiang</a></span>
 
   </div>
   
@@ -398,7 +458,7 @@
           Last updated on
       
     
-    <time>Jul 4, 2019</time>
+    Jul 4, 2019
   </span>
   
 
@@ -413,6 +473,7 @@
 
   
   
+  
   <span class="middot-divider"></span>
   <a href="/post/xlnet/#disqus_thread"></a>
   
@@ -421,8 +482,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder"></i>
-    <a href="/categories/nlp/">NLP</a>, <a href="/categories/deep-learning/">Deep Learning</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/categories/nlp/">NLP</a>, <a href="/categories/deep-learning/">Deep Learning</a></span>
   
 
   
@@ -545,7 +605,7 @@
 
   <div class="article-container">
 
-    <div class="article-style" itemprop="articleBody">
+    <div class="article-style">
       
 
 <h2 id="r-i-p-bert">R.I.P BERT</h2>
@@ -560,16 +620,26 @@ So, farewell, BERT.
 
 
 
+
+
+
+
+
+
+
 <figure>
 
-<img src="images/bert_dead.jpg" >
+
+  <a data-fancybox="" href="images/bert_dead.jpg" data-caption="R.I.P BERT">
+<img src="images/bert_dead.jpg" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" >
-  <h4>R.I.P BERT</h4>
   
-</figcaption>
+  
+  <figcaption>
+    R.I.P BERT
+  </figcaption>
+
 
 </figure>
 </p>
@@ -598,16 +668,26 @@ Well, let&rsquo;s first see some weaknesses BERT has.</p>
 
 
 
+
+
+
+
+
+
+
 <figure>
 
-<img src="images/MLM.png" >
+
+  <a data-fancybox="" href="images/MLM.png" data-caption="Image source">
+<img src="images/MLM.png" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" >
-  <h4><a href="https://nlp.stanford.edu/seminar/details/jdevlin.pdf" target="_blank">Image source</a></h4>
   
-</figcaption>
+  
+  <figcaption>
+    <a href="https://nlp.stanford.edu/seminar/details/jdevlin.pdf" target="_blank">Image source</a>
+  </figcaption>
+
 
 </figure>
 </p>
@@ -623,16 +703,26 @@ That is exactly where BERT falls short.</p>
 
 
 
+
+
+
+
+
+
+
 <figure>
 
-<img src="images/query_stream.png" >
+
+  <a data-fancybox="" href="images/query_stream.png" data-caption="Query stream, source">
+<img src="images/query_stream.png" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" >
-  <h4>Query stream, <a href="https://arxiv.org/abs/1906.08237" target="_blank">source</a></h4>
   
-</figcaption>
+  
+  <figcaption>
+    Query stream, <a href="https://arxiv.org/abs/1906.08237" target="_blank">source</a>
+  </figcaption>
+
 
 </figure>
 </p>
@@ -646,16 +736,26 @@ Take $x_1$ for example: $x_1$&rsquo;s embedding (and hidden state) is not used a
 
 
 
+
+
+
+
+
+
+
 <figure>
 
-<img src="images/content_stream.png" >
+
+  <a data-fancybox="" href="images/content_stream.png" data-caption="Content stream, source">
+<img src="images/content_stream.png" alt="" ></a>
 
 
-
-<figcaption data-pre="Figure " data-post=":" >
-  <h4>Content stream, <a href="https://arxiv.org/abs/1906.08237" target="_blank">source</a></h4>
   
-</figcaption>
+  
+  <figcaption>
+    Content stream, <a href="https://arxiv.org/abs/1906.08237" target="_blank">source</a>
+  </figcaption>
+
 
 </figure>
 
@@ -705,6 +805,9 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
 
     
 
+
+    
+
 <div class="article-tags">
   
   <a class="badge badge-light" href="/tags/bert/">BERT</a>
@@ -737,104 +840,106 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
 
 
 
+
   
   
   
     
   
   
-  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  <div class="media author-card">
     
       
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu3f9b31f8de8d9b785503d88c3287217c_1313911_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu3f9b31f8de8d9b785503d88c3287217c_1313911_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="https://shaojiejiang.github.io/">Shaojie Jiang</a></h5>
+      <h5 class="card-title"><a href="https://shaojiejiang.github.io/">Shaojie Jiang</a></h5>
       <h6 class="card-subtitle">PhD student at <a href="https://ilps.science.uva.nl/" target="_blank">ILPS</a></h6>
-      <p class="card-text" itemprop="description">I am interested in ML and NLP, especially open-domain dialogue systems.</p>
+      <p class="card-text">I am interested in ML and NLP, especially open-domain dialogue systems.</p>
       <ul class="network-icon" aria-hidden="true">
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-          <li>
-            <a itemprop="sameAs" href="mailto:s.jiang%20AT%20uva%20DOT%20nl" >
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://twitter.com/Shaojie_Jiang" target="_blank" rel="noopener">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://scholar.google.nl/citations?user=ax0e3tkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://github.com/ShaojieJiang" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="/files/cv.pdf" >
-              <i class="ai ai-cv"></i>
-            </a>
-          </li>
-        
-      </ul>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:s.jiang%20AT%20uva%20DOT%20nl" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/Shaojie_Jiang" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.nl/citations?user=ax0e3tkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ShaojieJiang" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
     </div>
   </div>
 
@@ -848,26 +953,31 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
 
     
 <section id="comments">
-  <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
     
     
     
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "neural-notworks" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "neural-notworks" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
 </section>
 
 
@@ -897,6 +1007,8 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
       
 
       
@@ -907,11 +1019,7 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
 
     
     
-
-    
-    
-    
-    <script id="dsq-count-scr" src="//neural-notworks.disqus.com/count.js" async></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -921,13 +1029,13 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
 
     
     
+    
+    
+    
+    
     <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
@@ -966,6 +1074,11 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
 
     
     
+    <script id="dsq-count-scr" src="https://neural-notworks.disqus.com/count.js" async></script>
+    
+
+    
+    
     
     
     
@@ -978,7 +1091,7 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
     
     
     
-    <script src="/js/academic.min.8cd55d839906ab9f8f6514a7081b20c1.js"></script>
+    <script src="/js/academic.min.6cbefe3f0755301b86cd38317ded9f54.js"></script>
 
     
 
@@ -1001,7 +1114,7 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
 
     
     <span class="float-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
+      <a href="#" class="back-to-top">
         <span class="button_icon">
           <i class="fas fa-chevron-up fa-2x"></i>
         </span>

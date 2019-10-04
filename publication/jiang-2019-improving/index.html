@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.3.1">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
 
   
 
@@ -35,8 +35,6 @@
 
   
 
-
-  
 
   
   
@@ -69,6 +67,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -76,24 +76,29 @@
 
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.57d053519a5efc7bed4ecdc93c9bff20.css">
+  <link rel="stylesheet" href="/css/academic.min.194cab657720cd27c6d5bb2a6b9e1bb7.css">
 
   
 
   
-  
-  
+
+
+
 
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="https://shaojiejiang.github.io/publication/jiang-2019-improving/">
@@ -105,6 +110,7 @@
     
     
   
+  
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Shaojie Jiang">
@@ -113,10 +119,61 @@
   <meta property="og:description" content=""><meta property="og:image" content="https://shaojiejiang.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://shaojiejiang.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-07-03T14:11:43&#43;00:00">
+    
+      <meta property="article:published_time" content="2019-07-03T14:11:43&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-07-03T16:24:20&#43;02:00">
   
-  <meta property="article:modified_time" content="2019-07-03T16:24:20&#43;02:00">
+
   
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shaojiejiang.github.io/publication/jiang-2019-improving/"
+  },
+  "headline": "Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss",
+  
+  "datePublished": "2019-07-03T14:11:43Z",
+  "dateModified": "2019-07-03T16:24:20+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Shaojie Jiang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shaojie Jiang",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://shaojiejiang.github.io/img/icon-512.png"
+    }
+  },
+  "description": ""
+}
+</script>
+
+  
+
+  
+
 
   
 
@@ -131,8 +188,7 @@
 
 </head>
 
-
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -150,7 +206,7 @@
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -167,7 +223,7 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
@@ -335,7 +391,7 @@
 </nav>
 
 
-  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="pub">
 
   
 
@@ -356,7 +412,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss</h1>
+  <h1>Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss</h1>
 
   
 
@@ -364,9 +420,6 @@
     
 
 
-
-<meta content="2019-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-07-03 16:24:20 &#43;0200 CEST" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -379,7 +432,8 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/shaojie-jiang/">Shaojie Jiang</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/pengjie-ren/">Pengjie Ren</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/christof-monz/">Christof Monz</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/maarten-de-rijke/">Maarten de Rijke</a></span>
+  
+  <span><a href="/authors/shaojie-jiang/">Shaojie Jiang</a></span>, <span><a href="/authors/pengjie-ren/">Pengjie Ren</a></span>, <span><a href="/authors/christof-monz/">Christof Monz</a></span>, <span><a href="/authors/maarten-de-rijke/">Maarten de Rijke</a></span>
 
   </div>
   
@@ -391,7 +445,7 @@
     
       
     
-    <time>January 2019</time>
+    January 2019
   </span>
   
 
@@ -399,6 +453,7 @@
 
   
 
+  
   
   
   <span class="middot-divider"></span>
@@ -656,23 +711,56 @@
 
 
 
+
   
   
   
   
-  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  <div class="media author-card">
     
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="/authors/shaojie-jiang/"></a></h5>
+      <h5 class="card-title"><a href="/authors/shaojie-jiang/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
-        
-      </ul>
+  
+</ul>
+
     </div>
   </div>
 
+
+
+
+    
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "neural-notworks" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
 
 
 
@@ -703,6 +791,8 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
       
 
       
@@ -713,11 +803,7 @@
 
     
     
-
-    
-    
-    
-    <script id="dsq-count-scr" src="//neural-notworks.disqus.com/count.js" async></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -727,13 +813,13 @@
 
     
     
+    
+    
+    
+    
     <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
@@ -772,6 +858,11 @@
 
     
     
+    <script id="dsq-count-scr" src="https://neural-notworks.disqus.com/count.js" async></script>
+    
+
+    
+    
     
     
     
@@ -784,7 +875,7 @@
     
     
     
-    <script src="/js/academic.min.8cd55d839906ab9f8f6514a7081b20c1.js"></script>
+    <script src="/js/academic.min.6cbefe3f0755301b86cd38317ded9f54.js"></script>
 
     
 
@@ -807,7 +898,7 @@
 
     
     <span class="float-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
+      <a href="#" class="back-to-top">
         <span class="button_icon">
           <i class="fas fa-chevron-up fa-2x"></i>
         </span>

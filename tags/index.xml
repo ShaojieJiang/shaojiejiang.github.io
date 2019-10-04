@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Shaojie Jiang</title>
+    <title>Tags | Shaojie Jiang</title>
     <link>https://shaojiejiang.github.io/tags/</link>
-    <description>Recent content in Tags on Shaojie Jiang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Shaojie Jiang</copyright>
-    <lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://shaojiejiang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://shaojiejiang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Shaojie Jiang</copyright><lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shaojiejiang.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://shaojiejiang.github.io/tags/</link>
+    </image>
     
     <item>
       <title>BERT</title>
       <link>https://shaojiejiang.github.io/tags/bert/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/tags/bert/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Transformer</title>
       <link>https://shaojiejiang.github.io/tags/transformer/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/tags/transformer/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>XLNet</title>
       <link>https://shaojiejiang.github.io/tags/xlnet/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/tags/xlnet/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>Chatbot</title>
       <link>https://shaojiejiang.github.io/tags/chatbot/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/tags/chatbot/</guid>
       <description></description>
     </item>
@@ -52,7 +48,6 @@
       <title>Dialogue system</title>
       <link>https://shaojiejiang.github.io/tags/dialogue-system/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/tags/dialogue-system/</guid>
       <description></description>
     </item>
@@ -61,7 +56,6 @@
       <title>Sequence-to-sequence model</title>
       <link>https://shaojiejiang.github.io/tags/sequence-to-sequence-model/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/tags/sequence-to-sequence-model/</guid>
       <description></description>
     </item>

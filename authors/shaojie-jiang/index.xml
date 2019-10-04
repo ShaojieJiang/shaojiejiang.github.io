@@ -3,20 +3,19 @@
   <channel>
     <title>Shaojie Jiang</title>
     <link>https://shaojiejiang.github.io/authors/shaojie-jiang/</link>
-    <description>Recent content on Shaojie Jiang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} Shaojie Jiang</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://shaojiejiang.github.io/authors/shaojie-jiang/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://shaojiejiang.github.io/authors/shaojie-jiang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shaojie Jiang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Shaojie Jiang</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shaojiejiang.github.io/img/icon-192.png</url>
+      <title>Shaojie Jiang</title>
+      <link>https://shaojiejiang.github.io/authors/shaojie-jiang/</link>
+    </image>
     
     <item>
       <title>Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss</title>
       <link>https://shaojiejiang.github.io/publication/jiang-2019-improving/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/publication/jiang-2019-improving/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Why are Sequence-to-Sequence Models So Dull? Understanding the Low-Diversity Problem of Chatbots</title>
       <link>https://shaojiejiang.github.io/publication/jiang-2018-sequence/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/publication/jiang-2018-sequence/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>Robust Struck tracker via color Haar-like feature and selective updating</title>
       <link>https://shaojiejiang.github.io/publication/jiang-2017-robust/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/publication/jiang-2017-robust/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>Object tracking via dual linear structured SVM and explicit feature map</title>
       <link>https://shaojiejiang.github.io/publication/ning-2016-object/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://shaojiejiang.github.io/publication/ning-2016-object/</guid>
       <description></description>
     </item>

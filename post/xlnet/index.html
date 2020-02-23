@@ -83,7 +83,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.194cab657720cd27c6d5bb2a6b9e1bb7.css">
+  <link rel="stylesheet" href="/css/academic.min.3182cc0f0cee5dca2a8b2073268be046.css">
 
   
 
@@ -368,6 +368,28 @@
         
         
 
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/missions"><span>Missions</span></a>
+        </li>
+
+        
+        
+
       
       </ul>
       <ul class="navbar-nav ml-auto">
@@ -606,11 +628,8 @@
   <div class="article-container">
 
     <div class="article-style">
-      
-
-<h2 id="r-i-p-bert">R.I.P BERT</h2>
-
-<p><a href="https://arxiv.org/abs/1810.04805" target="_blank">BERT</a> got a head shot yesterday, by another guy called <a href="https://arxiv.org/abs/1906.08237" target="_blank">XLNet</a>.
+      <h2 id="rip-bert">R.I.P BERT</h2>
+<p><a href="https://arxiv.org/abs/1810.04805">BERT</a> got a head shot yesterday, by another guy called <a href="https://arxiv.org/abs/1906.08237">XLNet</a>.
 It is reported that XLNet defeated BERT on 20 NLP tasks, and achieved 18 new state-of-the-art results.
 Isn&rsquo;t it impressive?
 So, farewell, BERT.
@@ -643,24 +662,18 @@ So, farewell, BERT.
 
 </figure>
 </p>
-
 <h2 id="is-bert-really-dead">Is BERT really dead?</h2>
-
 <p>Since I love BERT, I decided to read the paper to find out what killed him.
 While reading, I was thinking wait a minute, is BERT really dead?
 After finished the paper, I was so glad to know that BERT is still well alive!
 He is just wearing another coat named <em>Two-Stream Self-Attention (TSSA)</em>, with some other gadgets!
-Because:<br />
-<code>XLNet = BERT + TSSA + bidirectional data input</code><br />
+Because:<br>
+<code>XLNet = BERT + TSSA + bidirectional data input</code><br>
 Bert you&rsquo;re so tough, buddy!</p>
-
 <p>Let&rsquo;s take a closer look at what were trying to kill BERT.</p>
-
 <h3 id="two-stream-self-attention-tssa">Two-stream self-attention (TSSA)</h3>
-
 <p>Why TSSA is needed to kill BERT?
 Well, let&rsquo;s first see some weaknesses BERT has.</p>
-
 <p>BERT is using a masked language model (MLM) training objective, which is essentially why it achieves bidirectional representation.
 
 
@@ -685,17 +698,15 @@ Well, let&rsquo;s first see some weaknesses BERT has.</p>
   
   
   <figcaption>
-    <a href="https://nlp.stanford.edu/seminar/details/jdevlin.pdf" target="_blank">Image source</a>
+    <a href="https://nlp.stanford.edu/seminar/details/jdevlin.pdf">Image source</a>
   </figcaption>
 
 
 </figure>
 </p>
-
 <p>In this example, both words &ldquo;store&rdquo; and &ldquo;gallon&rdquo; are intended to be predicted by BERT, and their input word embeddings are replaced by the embedding of a special token <em>[MASK]</em>.
 Usually this isn&rsquo;t a problem, but what if the prediction of &ldquo;store&rdquo; requires knowing the word &ldquo;gallon&rdquo;?
 That is exactly where BERT falls short.</p>
-
 <p>TSSA is what you can use to overcome that downside of MLM:
 
 
@@ -720,16 +731,14 @@ That is exactly where BERT falls short.</p>
   
   
   <figcaption>
-    Query stream, <a href="https://arxiv.org/abs/1906.08237" target="_blank">source</a>
+    Query stream, <a href="https://arxiv.org/abs/1906.08237">source</a>
   </figcaption>
 
 
 </figure>
 </p>
-
 <p>In this illustration, query stream gives you the <code>query</code> vector needed for attention calculation, and this stream is designed in such a way that it doesn&rsquo;t leak the info of the word it&rsquo;s going to predict, but guarantees all information from other positions.
-Take $x_1$ for example: $x_1$&rsquo;s embedding (and hidden state) is not used at all, but embeddings and hidden states from other positions are used in each layer.</p>
-
+Take $x_1$ for example: $x_1$'s embedding (and hidden state) is not used at all, but embeddings and hidden states from other positions are used in each layer.</p>
 
 
 
@@ -753,51 +762,39 @@ Take $x_1$ for example: $x_1$&rsquo;s embedding (and hidden state) is not used a
   
   
   <figcaption>
-    Content stream, <a href="https://arxiv.org/abs/1906.08237" target="_blank">source</a>
+    Content stream, <a href="https://arxiv.org/abs/1906.08237">source</a>
   </figcaption>
 
 
 </figure>
 
-
 <p>Content stream, on the other hand, gives you the <code>key</code> and <code>value</code> vectors needed for context vector calculation.
-This stream uses a strategy similar to that in a standard <a href="https://arxiv.org/pdf/1706.03762.pdf" target="_blank">Transformer decoder</a> by masking future positions.
+This stream uses a strategy similar to that in a standard <a href="https://arxiv.org/pdf/1706.03762.pdf">Transformer decoder</a> by masking future positions.
 The only difference is that in content stream, the order of tokens is <em>randomly permuted</em>.
 For example $x_2$ is right after $x_3$, and therefore $h_2^{(1)}$ can only see the embedding of itself and that of $x_3$ (and $mem^{(0)}$), but not that of $x_1$ or $x_4$.</p>
-
 <h3 id="mask-a-span">Mask a span</h3>
-
 <p>Another difference from BERT is masking a span of consecutive words.
 The reason I guess, is that this guarantees the dependence of masked words (as claimed to be what BERT can&rsquo;t model).
 This is not a fresh-new idea, though.
-Recently there are two ERNIE papers (BERT based) that propose masking named entities (often of multiple words, <a href="https://arxiv.org/pdf/1905.07129.pdf" target="_blank">paper link</a>) and/or phrases (<a href="https://arxiv.org/pdf/1904.09223.pdf" target="_blank">paper link</a>).</p>
-
+Recently there are two ERNIE papers (BERT based) that propose masking named entities (often of multiple words, <a href="https://arxiv.org/pdf/1905.07129.pdf">paper link</a>) and/or phrases (<a href="https://arxiv.org/pdf/1904.09223.pdf">paper link</a>).</p>
 <h3 id="bidirectional-data-input">Bidirectional data input</h3>
-
 <p>Another notably different thing in XLNet is the usage of bidirectional data input.
 The idea (I guess) is to decide the factorization direction (either forward or backward), so that the idea of &ldquo;masking future positions&rdquo; used in a standard Transformer decoder can also be easily used together with XLNet.</p>
-
 <p>Masking a span makes XLNet look like a denoising autoencoder; but by using bidirectional data input (or masking future positions), XLNet performs more like a autoregressive language model in the masked region.</p>
-
 <h2 id="closing-remarks">Closing remarks</h2>
-
 <p>So now you probably can see the similarities and differences between XLNet and BERT.
 If not, here is a quick summary:</p>
-
 <ul>
 <li>Instead of masking random words, mask a span of words</li>
 <li>Use bidirectional data input to decide which direction you treat as &ldquo;future&rdquo;, and then apply the idea of masking future positions</li>
 <li>To avoid leaking the information of the position to be predicted, use Two-Stream Self-Attention (TSSA)</li>
 <li>Other minor things like segment recurrence, relative positional encoding, etc.</li>
 </ul>
-
 <p>However, it doesn&rsquo;t seem to be enough changes to make all those improvements.
 What if BERT is also trained using the additional data (Giga5, ClueWeb, Common Crawl), will XLNet still be able to defeat BERT?</p>
-
 <p>EDIT:</p>
-
 <ul>
-<li>Another model named <a href="https://arxiv.org/abs/1905.02450" target="_blank">MASS</a> employs a very similar idea.</li>
+<li>Another model named <a href="https://arxiv.org/abs/1905.02450">MASS</a> employs a very similar idea.</li>
 <li>According to Jacob Devlin (author of BERT), relative positional embedding might be of great importance.</li>
 </ul>
 
@@ -855,7 +852,7 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
 
     <div class="media-body">
       <h5 class="card-title"><a href="https://shaojiejiang.github.io/">Shaojie Jiang</a></h5>
-      <h6 class="card-subtitle">PhD student at <a href="https://ilps.science.uva.nl/" target="_blank">ILPS</a></h6>
+      <h6 class="card-subtitle">PhD student at <a href="https://ilps.science.uva.nl/">ILPS</a></h6>
       <p class="card-text">I am interested in ML and NLP, especially open-domain dialogue systems.</p>
       <ul class="network-icon" aria-hidden="true">
   
@@ -1106,7 +1103,7 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
   
 
   <p class="powered-by">
-    &copy; 2020 Shaojie Jiang &middot; 
+    © 2020 Shaojie Jiang &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

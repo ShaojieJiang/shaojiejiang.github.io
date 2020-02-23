@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shaojiejiang.github.io/authors/admin/</loc>
-    <lastmod>2019-12-16T13:44:23+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://shaojiejiang.github.io/authors/</loc>
-    <lastmod>2019-07-04T16:07:26+02:00</lastmod>
+    <lastmod>2019-12-16T13:44:23+01:00</lastmod>
   </url>
   
   <url>
@@ -29,11 +24,6 @@
   
   <url>
     <loc>https://shaojiejiang.github.io/categories/nlp/</loc>
-    <lastmod>2019-07-04T16:07:26+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shaojiejiang.github.io/</loc>
     <lastmod>2019-07-04T16:07:26+02:00</lastmod>
   </url>
   
@@ -158,8 +148,18 @@
   </url>
   
   <url>
+    <loc>https://shaojiejiang.github.io/authors/admin/</loc>
+    <lastmod>2019-12-16T13:44:23+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shaojiejiang.github.io/cv/</loc>
     <lastmod>2019-07-03T18:46:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/missions/</loc>
+    <lastmod>2020-02-23T18:43:29+01:00</lastmod>
   </url>
   
   <url>
@@ -175,6 +175,11 @@
   <url>
     <loc>https://shaojiejiang.github.io/talk/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/</loc>
+    <lastmod>2019-07-03T18:46:22+02:00</lastmod>
   </url>
   
 </urlset>

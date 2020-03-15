@@ -22,10 +22,15 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://jalammar.github.io/illustrated-transformer/&#34;&gt;Blog: The Illustrated Transformer&lt;/a&gt; has many intuitive animations of how transformer models work&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mostafadehghani.com/2019/05/05/universal-transformers/&#34;&gt;Blog: Universal Transformers&lt;/a&gt; introduces the idea of &lt;em&gt;recurrence among layers&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/analytics-vidhya/transformer-vs-rnn-and-cnn-18eeefa3602b&#34;&gt;Blog: Transformer vs RNN and CNN for Translation Task&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;gnns-similarities-and-differences&#34;&gt;GNNs: similarities and differences&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://graphdeeplearning.github.io/post/transformers-are-gnns/&#34;&gt;Blog: Transformers are Graph Neural Networks&lt;/a&gt; bridges transformer models and Graph Neural Networks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;transformer-improvements&#34;&gt;Transformer improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/deepmind-releases-a-new-architecture-and-a-new-dataset-to-improve-long-term-memory-in-deep-22f4b098153&#34;&gt;Blog: DeepMind Releases a New Architecture and a New Dataset to Improve Long-Term Memory in Deep Learning Systems&lt;/a&gt; Nural Turing Machine + transformer?&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

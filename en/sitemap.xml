@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/post/transformer-blog-paper-hub/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/publication_types/2/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://shaojiejiang.github.io/zh/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shaojiejiang.github.io/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/christof-monz/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/maarten-de-rijke/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/publication_types/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://shaojiejiang.github.io/zh/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shaojiejiang.github.io/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/shaojie-jiang/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/thomas-wolf/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/publication/jiang-2020-tldr/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/tags/bert/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/categories/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://shaojiejiang.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shaojiejiang.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/categories/deep-learning/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/categories/nlp/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/tags/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://shaojiejiang.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shaojiejiang.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/tags/transformer/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/post/xlnet/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/tags/xlnet/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/publication_types/1/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/tags/chatbot/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/tags/dialogue-system/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/publication/jiang-2019-improving/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/pengjie-ren/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/tags/sequence-to-sequence-model/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/publication/jiang-2018-sequence/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/cheng-cai/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/jifeng-ning/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/publication/jiang-2017-robust/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/yunsong-li/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/jimei-yang/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/lei-zhang/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/ming-hsuan-yang/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/publication/ning-2016-object/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/authors/admin/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://shaojiejiang.github.io/zh/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shaojiejiang.github.io/authors/admin/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/cv/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/missions/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/post/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://shaojiejiang.github.io/zh/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shaojiejiang.github.io/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/publication/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/talk/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://shaojiejiang.github.io/zh/talk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shaojiejiang.github.io/talk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/</loc>
+    <lastmod>2020-04-27T21:52:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://shaojiejiang.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shaojiejiang.github.io/"
+                />
+  </url>
+  
+</urlset>

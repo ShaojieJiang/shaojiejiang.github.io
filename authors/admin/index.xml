@@ -7,7 +7,7 @@
     <description>Shaojie Jiang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright>
     <image>
-      <url>https://shaojiejiang.github.io/img/icon-192.png</url>
+      <url>https://shaojiejiang.github.io/authors/admin/avatar_hu3f9b31f8de8d9b785503d88c3287217c_1313911_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Shaojie Jiang</title>
       <link>https://shaojiejiang.github.io/authors/admin/</link>
     </image>
@@ -18,7 +18,9 @@
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://shaojiejiang.github.io/post/xlnet/</guid>
       <description>&lt;h2 id=&#34;rip-bert&#34;&gt;R.I.P BERT&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34;&gt;BERT&lt;/a&gt; got a head shot yesterday, by another guy called &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34;&gt;XLNet&lt;/a&gt;.
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BERT&lt;/a&gt; got a head shot yesterday, by another guy called 
+&lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XLNet&lt;/a&gt;.
 It is reported that XLNet defeated BERT on 20 NLP tasks, and achieved 18 new state-of-the-art results.
 Isn&amp;rsquo;t it impressive?
 So, farewell, BERT.
@@ -27,6 +29,8 @@ So, farewell, BERT.
 
 
 
+  
+  
 
 
 
@@ -35,11 +39,17 @@ So, farewell, BERT.
 
 
 
-&lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;images/bert_dead.jpg&#34; data-caption=&#34;R.I.P BERT&#34;&gt;
-&lt;img src=&#34;images/bert_dead.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+&lt;figure id=&#34;figure-rip-bert&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;R.I.P BERT&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;570&#34; height=&#34;570&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -69,6 +79,8 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
 
 
 
+  
+  
 
 
 
@@ -77,11 +89,17 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;images/MLM.png&#34; data-caption=&#34;Image source&#34;&gt;
-&lt;img src=&#34;images/MLM.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+&lt;figure id=&#34;figure-image-sourcehttpsnlpstanfordeduseminardetailsjdevlinpdf&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Image source&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1138&#34; height=&#34;154&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -102,6 +120,8 @@ That is exactly where BERT falls short.&lt;/p&gt;
 
 
 
+  
+  
 
 
 
@@ -110,11 +130,17 @@ That is exactly where BERT falls short.&lt;/p&gt;
 
 
 
-&lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;images/query_stream.png&#34; data-caption=&#34;Query stream, source&#34;&gt;
-&lt;img src=&#34;images/query_stream.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+&lt;figure id=&#34;figure-query-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Query stream, source&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;936&#34; height=&#34;794&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -133,6 +159,8 @@ Take $x_1$ for example: $x_1$&#39;s embedding (and hidden state) is not used at 
 
 
 
+  
+  
 
 
 
@@ -141,11 +169,17 @@ Take $x_1$ for example: $x_1$&#39;s embedding (and hidden state) is not used at 
 
 
 
-&lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;images/content_stream.png&#34; data-caption=&#34;Content stream, source&#34;&gt;
-&lt;img src=&#34;images/content_stream.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+&lt;figure id=&#34;figure-content-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Content stream, source&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;894&#34; height=&#34;660&#34;&gt;
+&lt;/a&gt;
 
 
   
@@ -158,14 +192,17 @@ Take $x_1$ for example: $x_1$&#39;s embedding (and hidden state) is not used at 
 &lt;/figure&gt;
 
 &lt;p&gt;Content stream, on the other hand, gives you the &lt;code&gt;key&lt;/code&gt; and &lt;code&gt;value&lt;/code&gt; vectors needed for context vector calculation.
-This stream uses a strategy similar to that in a standard &lt;a href=&#34;https://arxiv.org/pdf/1706.03762.pdf&#34;&gt;Transformer decoder&lt;/a&gt; by masking future positions.
+This stream uses a strategy similar to that in a standard 
+&lt;a href=&#34;https://arxiv.org/pdf/1706.03762.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transformer decoder&lt;/a&gt; by masking future positions.
 The only difference is that in content stream, the order of tokens is &lt;em&gt;randomly permuted&lt;/em&gt;.
 For example $x_2$ is right after $x_3$, and therefore $h_2^{(1)}$ can only see the embedding of itself and that of $x_3$ (and $mem^{(0)}$), but not that of $x_1$ or $x_4$.&lt;/p&gt;
 &lt;h3 id=&#34;mask-a-span&#34;&gt;Mask a span&lt;/h3&gt;
 &lt;p&gt;Another difference from BERT is masking a span of consecutive words.
 The reason I guess, is that this guarantees the dependence of masked words (as claimed to be what BERT can&amp;rsquo;t model).
 This is not a fresh-new idea, though.
-Recently there are two ERNIE papers (BERT based) that propose masking named entities (often of multiple words, &lt;a href=&#34;https://arxiv.org/pdf/1905.07129.pdf&#34;&gt;paper link&lt;/a&gt;) and/or phrases (&lt;a href=&#34;https://arxiv.org/pdf/1904.09223.pdf&#34;&gt;paper link&lt;/a&gt;).&lt;/p&gt;
+Recently there are two ERNIE papers (BERT based) that propose masking named entities (often of multiple words, 
+&lt;a href=&#34;https://arxiv.org/pdf/1905.07129.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper link&lt;/a&gt;) and/or phrases (
+&lt;a href=&#34;https://arxiv.org/pdf/1904.09223.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper link&lt;/a&gt;).&lt;/p&gt;
 &lt;h3 id=&#34;bidirectional-data-input&#34;&gt;Bidirectional data input&lt;/h3&gt;
 &lt;p&gt;Another notably different thing in XLNet is the usage of bidirectional data input.
 The idea (I guess) is to decide the factorization direction (either forward or backward), so that the idea of &amp;ldquo;masking future positions&amp;rdquo; used in a standard Transformer decoder can also be easily used together with XLNet.&lt;/p&gt;
@@ -183,7 +220,8 @@ If not, here is a quick summary:&lt;/p&gt;
 What if BERT is also trained using the additional data (Giga5, ClueWeb, Common Crawl), will XLNet still be able to defeat BERT?&lt;/p&gt;
 &lt;p&gt;EDIT:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Another model named &lt;a href=&#34;https://arxiv.org/abs/1905.02450&#34;&gt;MASS&lt;/a&gt; employs a very similar idea.&lt;/li&gt;
+&lt;li&gt;Another model named 
+&lt;a href=&#34;https://arxiv.org/abs/1905.02450&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MASS&lt;/a&gt; employs a very similar idea.&lt;/li&gt;
 &lt;li&gt;According to Jacob Devlin (author of BERT), relative positional embedding might be of great importance.&lt;/li&gt;
 &lt;/ul&gt;
 </description>

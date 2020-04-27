@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maarten de Rijke | Shaojie Jiang</title>
+    <link>https://shaojiejiang.github.io/author/maarten-de-rijke/</link>
+      <atom:link href="https://shaojiejiang.github.io/author/maarten-de-rijke/index.xml" rel="self" type="application/rss+xml" />
+    <description>Maarten de Rijke</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shaojiejiang.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Maarten de Rijke</title>
+      <link>https://shaojiejiang.github.io/author/maarten-de-rijke/</link>
+    </image>
+    
+    <item>
+      <title>TLDR: Token Loss Dynamic Reweighting for Reducing Repetitive Utterance Generation</title>
+      <link>https://shaojiejiang.github.io/publication/jiang-2020-tldr/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://shaojiejiang.github.io/publication/jiang-2020-tldr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss</title>
+      <link>https://shaojiejiang.github.io/publication/jiang-2019-improving/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://shaojiejiang.github.io/publication/jiang-2019-improving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why are Sequence-to-Sequence Models So Dull? Understanding the Low-Diversity Problem of Chatbots</title>
+      <link>https://shaojiejiang.github.io/publication/jiang-2018-sequence/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://shaojiejiang.github.io/publication/jiang-2018-sequence/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

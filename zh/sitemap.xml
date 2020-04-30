@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://shaojiejiang.github.io/zh/categories/</loc>
+    <lastmod>2020-04-30T09:12:07+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shaojiejiang.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://shaojiejiang.github.io/zh/categories/"
+                />
+  </url>
+  
+  <url>
     <loc>https://shaojiejiang.github.io/zh/tags/</loc>
     <lastmod>2020-04-30T09:12:07+02:00</lastmod>
     <xhtml:link
@@ -15,6 +30,11 @@
                 hreflang="zh"
                 href="https://shaojiejiang.github.io/zh/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://shaojiejiang.github.io/zh/category/%E4%BA%A4%E5%8F%89/</loc>
+    <lastmod>2020-04-30T09:12:07+02:00</lastmod>
   </url>
   
   <url>
@@ -35,21 +55,6 @@
   <url>
     <loc>https://shaojiejiang.github.io/zh/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2020-04-30T09:12:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shaojiejiang.github.io/zh/categories/</loc>
-    <lastmod>2020-04-29T14:17:37+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shaojiejiang.github.io/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://shaojiejiang.github.io/zh/categories/"
-                />
   </url>
   
   <url>

@@ -14,9 +14,9 @@
     
     <item>
       <title>What&#39;s New in XLNet?</title>
-      <link>https://shaojiejiang.github.io/post/xlnet/</link>
+      <link>https://shaojiejiang.github.io/post/en/xlnet/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/post/xlnet/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/xlnet/</guid>
       <description>&lt;h2 id=&#34;rip-bert&#34;&gt;R.I.P BERT&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BERT&lt;/a&gt; got a head shot yesterday, by another guy called 
@@ -45,10 +45,10 @@ So, farewell, BERT.
 &lt;figure id=&#34;figure-rip-bert&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;R.I.P BERT&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;R.I.P BERT&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;570&#34; height=&#34;570&#34;&gt;
+  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;570&#34; height=&#34;570&#34;&gt;
 &lt;/a&gt;
 
 
@@ -95,10 +95,10 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
 &lt;figure id=&#34;figure-image-sourcehttpsnlpstanfordeduseminardetailsjdevlinpdf&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Image source&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Image source&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1138&#34; height=&#34;154&#34;&gt;
+  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1138&#34; height=&#34;154&#34;&gt;
 &lt;/a&gt;
 
 
@@ -136,10 +136,10 @@ That is exactly where BERT falls short.&lt;/p&gt;
 &lt;figure id=&#34;figure-query-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Query stream, source&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Query stream, source&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;936&#34; height=&#34;794&#34;&gt;
+  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;936&#34; height=&#34;794&#34;&gt;
 &lt;/a&gt;
 
 
@@ -175,10 +175,10 @@ Take $x_1$ for example: $x_1$&#39;s embedding (and hidden state) is not used at 
 &lt;figure id=&#34;figure-content-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Content stream, source&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Content stream, source&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;894&#34; height=&#34;660&#34;&gt;
+  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;894&#34; height=&#34;660&#34;&gt;
 &lt;/a&gt;
 
 

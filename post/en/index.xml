@@ -13,6 +13,52 @@
     </image>
     
     <item>
+      <title>Visualizing the Loss Landscape of Neural Nets</title>
+      <link>https://shaojiejiang.github.io/post/en/visualizing-loss/</link>
+      <pubDate>Wed, 06 May 2020 10:13:43 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/visualizing-loss/</guid>
+      <description>&lt;p&gt;Here are some notes take while reading the NeurlIPS 2018 paper 
+&lt;a href=&#34;http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing the Loss Landscape of Neural Nets&lt;/a&gt;.
+This work helps explain why some models are easier to train/generalize than others.
+The next question is how to get better models.&lt;/p&gt;
+&lt;p&gt;The traditional way of visualizing loss functions of neural models in 2D contour plots is by choosing a center point $\theta^*$ (normally the converged model parameters), two random direction vectors $\delta$ and $\eta$, then plot the function:
+$$f(\alpha, \beta) = L(\theta^* + \alpha \delta + \beta \eta)$$
+Batch norm parameters are unchanged.&lt;/p&gt;
+&lt;p&gt;The above method fails to capture the intrinsic geometry of loss surfaces, and cannot be used to compare the geometry of two different minimizers or two different networks.
+This is because of the &lt;em&gt;scale invariance&lt;/em&gt; in network weights (this statement only applies to rectified networks as per the paper).
+To tackle this, the authors normalize each filter in a direction vector $d$ ($\delta$ or $\eta$) to have the same norm of the corresponding filter in $\theta$:
+$$d_{i, j} \leftarrow \frac{d_{i, j}}{||d_{i, j}||} ||\theta_{i, j} ||.$$
+$i$ is the layer number and $j$ the filter number.
+With the proposed filter-wise normalized direction vectors, the authors found that the sharpness of local minima correlates well with generalization error, even better than layer-wise normalization (for direction vectors).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why flat minima:&lt;/strong&gt; In a recent talk&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Tom Goldstein (the last author) pointed out that flat minima correspond to large margin classifiers, which is more tolerant to domain shifts of data, thus having better generalization ability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Known influential factors:&lt;/strong&gt;
+Small-batch training results in flat minima, while large-batch training results in sharp minima.
+Increased width prevents chaotic behavior, and skip connections dramatically widen minimizers (see figure in the beginning).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interpreting with precaution:&lt;/strong&gt;
+The loss surface is viewed under a dramatic dimensionality reduction.
+According to the authors&amp;rsquo; analysis, if non-convexity is present in the dimensionality reduced plot, then non-convexity must be present in the full-dimensional surface as well.
+However, apparent convexity in the low-dimensional surface does not mean the high-dimensional function is truly convex. Rather it means that the positive curvatures are dominant.&lt;/p&gt;
+&lt;p&gt;Further thoughts/questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Has it been done for visualizing NLP models?&lt;/li&gt;
+&lt;li&gt;Is it more appropriate to visualize loss for NLG or other measures?
+This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt;/li&gt;
+&lt;li&gt;How big a convolution filter normally is?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s similar between RNN and skip connections?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://iclr2020deepdiffeq.rice.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generalization in neural nets:  a perspective from science (not math)&lt;/a&gt; Starting at 1:54:00 in the video. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Adaptive Computation Time</title>
       <link>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</link>
       <pubDate>Tue, 28 Apr 2020 10:46:44 +0200</pubDate>

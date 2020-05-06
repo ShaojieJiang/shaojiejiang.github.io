@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paper reading notes | Shaojie Jiang</title>
+    <link>https://shaojiejiang.github.io/category/paper-reading-notes/</link>
+      <atom:link href="https://shaojiejiang.github.io/category/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <description>paper reading notes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Wed, 06 May 2020 10:13:43 +0200</lastBuildDate>
+    <image>
+      <url>https://shaojiejiang.github.io/images/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_2.png</url>
+      <title>paper reading notes</title>
+      <link>https://shaojiejiang.github.io/category/paper-reading-notes/</link>
+    </image>
+    
+    <item>
+      <title>Visualizing the Loss Landscape of Neural Nets</title>
+      <link>https://shaojiejiang.github.io/post/en/visualizing-loss/</link>
+      <pubDate>Wed, 06 May 2020 10:13:43 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/visualizing-loss/</guid>
+      <description>&lt;p&gt;Here are some notes take while reading the NeurlIPS 2018 paper 
+&lt;a href=&#34;http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing the Loss Landscape of Neural Nets&lt;/a&gt;.
+This work helps explain why some models are easier to train/generalize than others.
+The next question is how to get better models.&lt;/p&gt;
+&lt;p&gt;The traditional way of visualizing loss functions of neural models in 2D contour plots is by choosing a center point $\theta^*$ (normally the converged model parameters), two random direction vectors $\delta$ and $\eta$, then plot the function:
+$$f(\alpha, \beta) = L(\theta^* + \alpha \delta + \beta \eta)$$
+Batch norm parameters are unchanged.&lt;/p&gt;
+&lt;p&gt;The above method fails to capture the intrinsic geometry of loss surfaces, and cannot be used to compare the geometry of two different minimizers or two different networks.
+This is because of the &lt;em&gt;scale invariance&lt;/em&gt; in network weights (this statement only applies to rectified networks as per the paper).
+To tackle this, the authors normalize each filter in a direction vector $d$ ($\delta$ or $\eta$) to have the same norm of the corresponding filter in $\theta$:
+$$d_{i, j} \leftarrow \frac{d_{i, j}}{||d_{i, j}||} ||\theta_{i, j} ||.$$
+$i$ is the layer number and $j$ the filter number.
+With the proposed filter-wise normalized direction vectors, the authors found that the sharpness of local minima correlates well with generalization error, even better than layer-wise normalization (for direction vectors).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why flat minima:&lt;/strong&gt; In a recent talk&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Tom Goldstein (the last author) pointed out that flat minima correspond to large margin classifiers, which is more tolerant to domain shifts of data, thus having better generalization ability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Known influential factors:&lt;/strong&gt;
+Small-batch training results in flat minima, while large-batch training results in sharp minima.
+Increased width prevents chaotic behavior, and skip connections dramatically widen minimizers (see figure in the beginning).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interpreting with precaution:&lt;/strong&gt;
+The loss surface is viewed under a dramatic dimensionality reduction.
+According to the authors&amp;rsquo; analysis, if non-convexity is present in the dimensionality reduced plot, then non-convexity must be present in the full-dimensional surface as well.
+However, apparent convexity in the low-dimensional surface does not mean the high-dimensional function is truly convex. Rather it means that the positive curvatures are dominant.&lt;/p&gt;
+&lt;p&gt;Further thoughts/questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Has it been done for visualizing NLP models?&lt;/li&gt;
+&lt;li&gt;Is it more appropriate to visualize loss for NLG or other measures?
+This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt;/li&gt;
+&lt;li&gt;How big a convolution filter normally is?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s similar between RNN and skip connections?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://iclr2020deepdiffeq.rice.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generalization in neural nets:  a perspective from science (not math)&lt;/a&gt; Starting at 1:54:00 in the video. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Computation Time</title>
+      <link>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</link>
+      <pubDate>Tue, 28 Apr 2020 10:46:44 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</guid>
+      <description>&lt;p&gt;My notes for the paper: Adaptive Computation Time for Recurrent Neural Networks&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;additive-vs-multiplicative-halting-probability&#34;&gt;Additive vs multiplicative halting probability&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Multiplicative:&lt;/strong&gt; In the paper (footnote 1), the authors discuss throughly their considerations for deciding the computation time.
+It is acknowledged by the authors that using the logits $h_n^t$ as the halting probability at step $n$ might be more straightforward.
+Therefore, the overall halting probability is calculated as $$p_t^n = h_t^n \prod_{u=1}^{n-1} (1 - h_t^u)$$.
+We use $(1 - h_t^u)$ for previous update steps to indicate that the updating is *not* stopped until $n$.&lt;/p&gt;
+&lt;p&gt;As each $p_t^n \in (0, 1)$ is relatively independent with each other and $\sum p_t^n$ is not bound to 1, this approach &lt;em&gt;does not&lt;/em&gt; restrict the update depth to grow arbitrarily.
+The model can be of course trained to lower the expected ponder time $\rho_t = \sum n p_t^n$, but it is observed in the experiments that the resulting model is not preferable in two ways:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$h_t^1$ is usually just below threshold, intermediate $h_t^n = 0$, and final $h_t^N$ is high enough to halt the update.&lt;/li&gt;
+&lt;li&gt;as the expectation is low, $p_t^N \ll p_t^1$, but the network learns to have a much higher magnitude of output states at step $N$, so that the final output is still dominated by the final state.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Additive:&lt;/strong&gt; In contrast, the additive approach have an constraint of $\sum p_t^n = 1$, so that the probability is decreased monotonically with the number of updates growing larger.
+Though being non-differentiable, the total ponder time (total updates at all positions) is penalized to avoid consuming unnecessary computation.
+There is still one drawback of this approach, however.
+The performance is sensitive to the penalty factor $\tau$, which is not intuitive to choose as a hyperparameter.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1603.08983&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adaptive Computation Time for Recurrent Neural Networks&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

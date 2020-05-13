@@ -243,7 +243,7 @@
     
       <meta property="article:published_time" content="2020-05-06T10:13:43&#43;02:00">
     
-    <meta property="article:modified_time" content="2020-05-06T19:10:40&#43;02:00">
+    <meta property="article:modified_time" content="2020-05-13T19:20:08&#43;02:00">
   
 
   
@@ -276,7 +276,7 @@
   ],
   
   "datePublished": "2020-05-06T10:13:43+02:00",
-  "dateModified": "2020-05-06T19:10:40+02:00",
+  "dateModified": "2020-05-13T19:20:08+02:00",
   
   "publisher": {
     "@type": "Organization",
@@ -712,7 +712,7 @@
           Last updated on
       
     
-    May 6, 2020
+    May 13, 2020
   </span>
   
 
@@ -721,7 +721,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
@@ -736,7 +736,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/paper-reading-notes/">paper reading notes</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/deep-learning/">Deep Learning</a>, <a href="/category/paper-reading-notes/">paper reading notes</a></span>
   
 
 </div>
@@ -774,7 +774,7 @@
       <p>Here are some notes take while reading the NeurlIPS 2018 paper 
 <a href="http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets" target="_blank" rel="noopener">Visualizing the Loss Landscape of Neural Nets</a>.
 This work helps explain why some models are easier to train/generalize than others.
-The next question is how to get better models.</p>
+The above image is a good illustration: with a much smoother loss landscape, DenseNet with 121 layers is much easier to train than a ResNet-110 without skip connections, and generalizes better in the mean time.</p>
 <p>The traditional way of visualizing loss functions of neural models in 2D contour plots is by choosing a center point $\theta^*$ (normally the converged model parameters), two random direction vectors $\delta$ and $\eta$, then plot the function:
 $$f(\alpha, \beta) = L(\theta^* + \alpha \delta + \beta \eta)$$
 Batch norm parameters are unchanged.</p>
@@ -792,6 +792,10 @@ Increased width prevents chaotic behavior, and skip connections dramatically wid
 The loss surface is viewed under a dramatic dimensionality reduction.
 According to the authors&rsquo; analysis, if non-convexity is present in the dimensionality reduced plot, then non-convexity must be present in the full-dimensional surface as well.
 However, apparent convexity in the low-dimensional surface does not mean the high-dimensional function is truly convex. Rather it means that the positive curvatures are dominant.</p>
+<p><strong>In a nutshell:</strong> It&rsquo;s a great work trying to visualize the mystery of what&rsquo;s going well/bad when training a neural model.
+Although claiming the study to be empirical, I personally found their experiments and results very convincing.
+Appendix B about visualizing optimization paths is also very insightful, and the authors probably also thought so, so they decided to move it as a main section in their latest 
+<a href="https://arxiv.org/pdf/1712.09913.pdf" target="_blank" rel="noopener">Arxiv version</a> 😄!</p>
 <p>Further thoughts/questions:</p>
 <ol>
 <li>Has it been done for visualizing NLP models?</li>
@@ -799,6 +803,7 @@ However, apparent convexity in the low-dimensional surface does not mean the hig
 This might depend on how to define &ldquo;labels&rdquo; in NLG tasks.</li>
 <li>How big a convolution filter normally is?</li>
 <li>What&rsquo;s similar between RNN and skip connections?</li>
+<li>This work can be used together with automatic neural architecture search, but is there any other more efficient way of getting better models?</li>
 </ol>
 <section class="footnotes" role="doc-endnotes">
 <hr>

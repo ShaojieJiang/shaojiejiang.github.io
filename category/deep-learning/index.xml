@@ -5,12 +5,177 @@
     <link>https://shaojiejiang.github.io/category/deep-learning/</link>
       <atom:link href="https://shaojiejiang.github.io/category/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Tue, 12 May 2020 14:29:44 +0200</lastBuildDate>
     <image>
       <url>https://shaojiejiang.github.io/images/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_2.png</url>
       <title>Deep Learning</title>
       <link>https://shaojiejiang.github.io/category/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>Compressive Transformers</title>
+      <link>https://shaojiejiang.github.io/post/en/compressive-transformers/</link>
+      <pubDate>Tue, 12 May 2020 14:29:44 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/compressive-transformers/</guid>
+      <description>&lt;p&gt;Built on top of Transformer-XL, Compressive Transformer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; condenses old memories (hidden states) and stores them in the compressed memory buffer, before completely discarding them.
+This model is suitable for long-range sequence learning but may cause too much computational burden for tasks that only have short sequences.
+Compressive Transformers can also be used as memory components in conjunction with other models.&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;In the beginning, the authors draw the connection between their work and human brains by mentioning that humans memorize things via lossy compression.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We aggressively select, filter, or integrate input stimuli based on factors of surprise, perceived danger, or repetition &amp;ndash; amongst other signals.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s often, if not always, good to see such insights of how AI works are inspired by humans.
+It&amp;rsquo;s also good to see that they relate their work to previous works, i.e. RNNs, transformers and sparse attention.&lt;/p&gt;
+&lt;p&gt;An RNN compresses previous memories into a fixed size hidden vector, which is space-efficient, but also results in its temporal nature and hence difficult to parallelize.
+Transformers, on the other hand, store all the past memories uncompressed, which can be beneficial for achieving better performances such as precision, BLEU, perplexity, etc, but it costs more and more computation and memory space with the sequence length growing.
+Sparse attention can be used to reduce computation, while the spatial cost remains the same.&lt;/p&gt;
+&lt;h2 id=&#34;model-design-and-training&#34;&gt;Model design and training&lt;/h2&gt;
+&lt;p&gt;The proposed Compressive Transformer uses the same attention mechanism over its set of memories and compressed memories, trained to query both its short-term granular memory and longer-term coarse memory.&lt;/p&gt;
+&lt;p&gt;If trained using original task-relevant loss only, it requires backpropagating-through-time (BPTT) over long unrolls for very old memories.
+A better solution is to use local auxiliary losses by stopping gradients and reconstructing either the original memory vectors (lossless objective) or attention vectors (lossy objective; reportedly to work better).
+The second choice for the auxiliary loss, in other words, means that we don&amp;rsquo;t care whether the original memory can be reconstructed or not, as long as the attention vector can be reconstructed, given the same query (brilliant!).&lt;/p&gt;
+&lt;h3 id=&#34;some-practical-concerns&#34;&gt;Some practical concerns&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;The auxiliary loss is only used to train the compression module, as it harms the learning when the gradients flow back to the main network.
+This might also explain why I couldn&amp;rsquo;t reproduce 
+&lt;a href=&#34;../adaptive-computation-time&#34;&gt;ACT&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Batch accumulation (4x bigger batch size) is used for better performance.
+It is observed in some works that bigger batch sizes lead to better generalization, but some other works found the opposite to be true (discussed in the papers and talks mentioned 
+&lt;a href=&#34;../visualizing-loss&#34;&gt;in my other post&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Model optimization is very sensitive to gradient scales, so the gradient norms are clipped to 0.1 for stable results.
+This is typical for transformer variants.&lt;/li&gt;
+&lt;li&gt;Convolution works best for memory compression.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;further-thoughsquestions&#34;&gt;Further thoughs/questions:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Compressive Transformer improves the modeling of rare words.
+But why?&lt;/li&gt;
+&lt;li&gt;In the discussion section, the authors pointed out that future directions could include the investigation of adaptive compression rates by layer, the use of long-range shallow memory layers together with deep short-range memory, and even the use of RNNs as compressors.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1911.05507&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compressive Transformers for Long-Range Sequence Modelling&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualizing the Loss Landscape of Neural Nets</title>
+      <link>https://shaojiejiang.github.io/post/en/visualizing-loss/</link>
+      <pubDate>Wed, 06 May 2020 10:13:43 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/visualizing-loss/</guid>
+      <description>&lt;p&gt;Here are some notes take while reading the NeurlIPS 2018 paper 
+&lt;a href=&#34;http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing the Loss Landscape of Neural Nets&lt;/a&gt;.
+This work helps explain why some models are easier to train/generalize than others.
+The above image is a good illustration: with a much smoother loss landscape, DenseNet with 121 layers is much easier to train than a ResNet-110 without skip connections, and generalizes better in the mean time.&lt;/p&gt;
+&lt;p&gt;The traditional way of visualizing loss functions of neural models in 2D contour plots is by choosing a center point $\theta^*$ (normally the converged model parameters), two random direction vectors $\delta$ and $\eta$, then plot the function:
+$$f(\alpha, \beta) = L(\theta^* + \alpha \delta + \beta \eta)$$
+Batch norm parameters are unchanged.&lt;/p&gt;
+&lt;p&gt;The above method fails to capture the intrinsic geometry of loss surfaces, and cannot be used to compare the geometry of two different minimizers or two different networks.
+This is because of the &lt;em&gt;scale invariance&lt;/em&gt; in network weights (this statement only applies to rectified networks as per the paper).
+To tackle this, the authors normalize each filter in a direction vector $d$ ($\delta$ or $\eta$) to have the same norm of the corresponding filter in $\theta$:
+$$d_{i, j} \leftarrow \frac{d_{i, j}}{||d_{i, j}||} ||\theta_{i, j} ||.$$
+$i$ is the layer number and $j$ the filter number.
+With the proposed filter-wise normalized direction vectors, the authors found that the sharpness of local minima correlates well with generalization error, even better than layer-wise normalization (for direction vectors).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why flat minima:&lt;/strong&gt; In a recent talk&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Tom Goldstein (the last author) pointed out that flat minima correspond to large margin classifiers, which is more tolerant to domain shifts of data, thus having better generalization ability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Known influential factors:&lt;/strong&gt;
+Small-batch training results in flat minima, while large-batch training results in sharp minima.
+Increased width prevents chaotic behavior, and skip connections dramatically widen minimizers (see figure in the beginning).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interpreting with precaution:&lt;/strong&gt;
+The loss surface is viewed under a dramatic dimensionality reduction.
+According to the authors&amp;rsquo; analysis, if non-convexity is present in the dimensionality reduced plot, then non-convexity must be present in the full-dimensional surface as well.
+However, apparent convexity in the low-dimensional surface does not mean the high-dimensional function is truly convex. Rather it means that the positive curvatures are dominant.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In a nutshell:&lt;/strong&gt; It&amp;rsquo;s a great work trying to visualize the mystery of what&amp;rsquo;s going well/bad when training a neural model.
+Although claiming the study to be empirical, I personally found their experiments and results very convincing.
+Appendix B about visualizing optimization paths is also very insightful, and the authors probably also thought so, so they decided to move it as a main section in their latest 
+&lt;a href=&#34;https://arxiv.org/pdf/1712.09913.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv version&lt;/a&gt; 😄!&lt;/p&gt;
+&lt;p&gt;Further thoughts/questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Has it been done for visualizing NLP models?&lt;/li&gt;
+&lt;li&gt;Is it more appropriate to visualize loss for NLG or other measures?
+This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt;/li&gt;
+&lt;li&gt;How big a convolution filter normally is?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s similar between RNN and skip connections?&lt;/li&gt;
+&lt;li&gt;This work can be used together with automatic neural architecture search, but is there any other more efficient way of getting better models?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://iclr2020deepdiffeq.rice.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generalization in neural nets:  a perspective from science (not math)&lt;/a&gt; Starting at 1:54:00 in the video. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Computation Time</title>
+      <link>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</link>
+      <pubDate>Tue, 28 Apr 2020 10:46:44 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</guid>
+      <description>&lt;p&gt;My notes for the paper: Adaptive Computation Time for Recurrent Neural Networks&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;additive-vs-multiplicative-halting-probability&#34;&gt;Additive vs multiplicative halting probability&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Multiplicative:&lt;/strong&gt; In the paper (footnote 1), the authors discuss throughly their considerations for deciding the computation time.
+It is acknowledged by the authors that using the logits $h_n^t$ as the halting probability at step $n$ might be more straightforward.
+Therefore, the overall halting probability is calculated as $$p_t^n = h_t^n \prod_{u=1}^{n-1} (1 - h_t^u)$$.
+We use $(1 - h_t^u)$ for previous update steps to indicate that the updating is *not* stopped until $n$.&lt;/p&gt;
+&lt;p&gt;As each $p_t^n \in (0, 1)$ is relatively independent with each other and $\sum p_t^n$ is not bound to 1, this approach &lt;em&gt;does not&lt;/em&gt; restrict the update depth to grow arbitrarily.
+The model can be of course trained to lower the expected ponder time $\rho_t = \sum n p_t^n$, but it is observed in the experiments that the resulting model is not preferable in two ways:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$h_t^1$ is usually just below threshold, intermediate $h_t^n = 0$, and final $h_t^N$ is high enough to halt the update.&lt;/li&gt;
+&lt;li&gt;as the expectation is low, $p_t^N \ll p_t^1$, but the network learns to have a much higher magnitude of output states at step $N$, so that the final output is still dominated by the final state.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Additive:&lt;/strong&gt; In contrast, the additive approach have an constraint of $\sum p_t^n = 1$, so that the probability is decreased monotonically with the number of updates growing larger.
+Though being non-differentiable, the total ponder time (total updates at all positions) is penalized to avoid consuming unnecessary computation.
+There is still one drawback of this approach, however.
+The performance is sensitive to the penalty factor $\tau$, which is not intuitive to choose as a hyperparameter.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1603.08983&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adaptive Computation Time for Recurrent Neural Networks&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Hub for Transformer Blogs and Papers</title>
+      <link>https://shaojiejiang.github.io/post/en/transformer-blog-paper-hub/</link>
+      <pubDate>Mon, 02 Mar 2020 14:26:59 +0100</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/transformer-blog-paper-hub/</guid>
+      <description>&lt;p&gt;This is a growing list of pointers to useful blog posts and papers related to transformers.&lt;/p&gt;
+&lt;h2 id=&#34;transformers-explained&#34;&gt;Transformers explained&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://jalammar.github.io/illustrated-transformer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: The Illustrated Transformer&lt;/a&gt; has many intuitive animations of how transformer models work&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://mostafadehghani.com/2019/05/05/universal-transformers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Universal Transformers&lt;/a&gt; introduces the idea of &lt;em&gt;recurrence among layers&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://medium.com/analytics-vidhya/transformer-vs-rnn-and-cnn-18eeefa3602b&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Transformer vs RNN and CNN for Translation Task&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;gnns-similarities-and-differences&#34;&gt;GNNs: similarities and differences&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://graphdeeplearning.github.io/post/transformers-are-gnns/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Transformers are Graph Neural Networks&lt;/a&gt; bridges transformer models and Graph Neural Networks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;transformer-improvements&#34;&gt;Transformer improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://towardsdatascience.com/deepmind-releases-a-new-architecture-and-a-new-dataset-to-improve-long-term-memory-in-deep-22f4b098153&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: DeepMind Releases a New Architecture and a New Dataset to Improve Long-Term Memory in Deep Learning Systems&lt;/a&gt; Nural Turing Machine + transformer?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>What&#39;s New in XLNet?</title>

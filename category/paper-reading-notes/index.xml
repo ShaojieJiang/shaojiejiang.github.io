@@ -5,12 +5,65 @@
     <link>https://shaojiejiang.github.io/category/paper-reading-notes/</link>
       <atom:link href="https://shaojiejiang.github.io/category/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
     <description>paper reading notes</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Wed, 06 May 2020 10:13:43 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Tue, 12 May 2020 14:29:44 +0200</lastBuildDate>
     <image>
       <url>https://shaojiejiang.github.io/images/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_2.png</url>
       <title>paper reading notes</title>
       <link>https://shaojiejiang.github.io/category/paper-reading-notes/</link>
     </image>
+    
+    <item>
+      <title>Compressive Transformers</title>
+      <link>https://shaojiejiang.github.io/post/en/compressive-transformers/</link>
+      <pubDate>Tue, 12 May 2020 14:29:44 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/compressive-transformers/</guid>
+      <description>&lt;p&gt;Built on top of Transformer-XL, Compressive Transformer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; condenses old memories (hidden states) and stores them in the compressed memory buffer, before completely discarding them.
+This model is suitable for long-range sequence learning but may cause too much computational burden for tasks that only have short sequences.
+Compressive Transformers can also be used as memory components in conjunction with other models.&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;In the beginning, the authors draw the connection between their work and human brains by mentioning that humans memorize things via lossy compression.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We aggressively select, filter, or integrate input stimuli based on factors of surprise, perceived danger, or repetition &amp;ndash; amongst other signals.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s often, if not always, good to see such insights of how AI works are inspired by humans.
+It&amp;rsquo;s also good to see that they relate their work to previous works, i.e. RNNs, transformers and sparse attention.&lt;/p&gt;
+&lt;p&gt;An RNN compresses previous memories into a fixed size hidden vector, which is space-efficient, but also results in its temporal nature and hence difficult to parallelize.
+Transformers, on the other hand, store all the past memories uncompressed, which can be beneficial for achieving better performances such as precision, BLEU, perplexity, etc, but it costs more and more computation and memory space with the sequence length growing.
+Sparse attention can be used to reduce computation, while the spatial cost remains the same.&lt;/p&gt;
+&lt;h2 id=&#34;model-design-and-training&#34;&gt;Model design and training&lt;/h2&gt;
+&lt;p&gt;The proposed Compressive Transformer uses the same attention mechanism over its set of memories and compressed memories, trained to query both its short-term granular memory and longer-term coarse memory.&lt;/p&gt;
+&lt;p&gt;If trained using original task-relevant loss only, it requires backpropagating-through-time (BPTT) over long unrolls for very old memories.
+A better solution is to use local auxiliary losses by stopping gradients and reconstructing either the original memory vectors (lossless objective) or attention vectors (lossy objective; reportedly to work better).
+The second choice for the auxiliary loss, in other words, means that we don&amp;rsquo;t care whether the original memory can be reconstructed or not, as long as the attention vector can be reconstructed, given the same query (brilliant!).&lt;/p&gt;
+&lt;h3 id=&#34;some-practical-concerns&#34;&gt;Some practical concerns&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;The auxiliary loss is only used to train the compression module, as it harms the learning when the gradients flow back to the main network.
+This might also explain why I couldn&amp;rsquo;t reproduce 
+&lt;a href=&#34;../adaptive-computation-time&#34;&gt;ACT&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Batch accumulation (4x bigger batch size) is used for better performance.
+It is observed in some works that bigger batch sizes lead to better generalization, but some other works found the opposite to be true (discussed in the papers and talks mentioned 
+&lt;a href=&#34;../visualizing-loss&#34;&gt;in my other post&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Model optimization is very sensitive to gradient scales, so the gradient norms are clipped to 0.1 for stable results.
+This is typical for transformer variants.&lt;/li&gt;
+&lt;li&gt;Convolution works best for memory compression.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;further-thoughsquestions&#34;&gt;Further thoughs/questions:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Compressive Transformer improves the modeling of rare words.
+But why?&lt;/li&gt;
+&lt;li&gt;In the discussion section, the authors pointed out that future directions could include the investigation of adaptive compression rates by layer, the use of long-range shallow memory layers together with deep short-range memory, and even the use of RNNs as compressors.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1911.05507&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compressive Transformers for Long-Range Sequence Modelling&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
     
     <item>
       <title>Visualizing the Loss Landscape of Neural Nets</title>
@@ -20,7 +73,7 @@
       <description>&lt;p&gt;Here are some notes take while reading the NeurlIPS 2018 paper 
 &lt;a href=&#34;http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing the Loss Landscape of Neural Nets&lt;/a&gt;.
 This work helps explain why some models are easier to train/generalize than others.
-The next question is how to get better models.&lt;/p&gt;
+The above image is a good illustration: with a much smoother loss landscape, DenseNet with 121 layers is much easier to train than a ResNet-110 without skip connections, and generalizes better in the mean time.&lt;/p&gt;
 &lt;p&gt;The traditional way of visualizing loss functions of neural models in 2D contour plots is by choosing a center point $\theta^*$ (normally the converged model parameters), two random direction vectors $\delta$ and $\eta$, then plot the function:
 $$f(\alpha, \beta) = L(\theta^* + \alpha \delta + \beta \eta)$$
 Batch norm parameters are unchanged.&lt;/p&gt;
@@ -38,6 +91,10 @@ Increased width prevents chaotic behavior, and skip connections dramatically wid
 The loss surface is viewed under a dramatic dimensionality reduction.
 According to the authors&amp;rsquo; analysis, if non-convexity is present in the dimensionality reduced plot, then non-convexity must be present in the full-dimensional surface as well.
 However, apparent convexity in the low-dimensional surface does not mean the high-dimensional function is truly convex. Rather it means that the positive curvatures are dominant.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In a nutshell:&lt;/strong&gt; It&amp;rsquo;s a great work trying to visualize the mystery of what&amp;rsquo;s going well/bad when training a neural model.
+Although claiming the study to be empirical, I personally found their experiments and results very convincing.
+Appendix B about visualizing optimization paths is also very insightful, and the authors probably also thought so, so they decided to move it as a main section in their latest 
+&lt;a href=&#34;https://arxiv.org/pdf/1712.09913.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv version&lt;/a&gt; 😄!&lt;/p&gt;
 &lt;p&gt;Further thoughts/questions:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Has it been done for visualizing NLP models?&lt;/li&gt;
@@ -45,6 +102,7 @@ However, apparent convexity in the low-dimensional surface does not mean the hig
 This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt;/li&gt;
 &lt;li&gt;How big a convolution filter normally is?&lt;/li&gt;
 &lt;li&gt;What&amp;rsquo;s similar between RNN and skip connections?&lt;/li&gt;
+&lt;li&gt;This work can be used together with automatic neural architecture search, but is there any other more efficient way of getting better models?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;

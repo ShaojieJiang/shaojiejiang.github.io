@@ -246,7 +246,7 @@ Additive vs multiplicative halting probability Multiplicative: In the paper (foo
     
       <meta property="article:published_time" content="2020-04-28T10:46:44&#43;02:00">
     
-    <meta property="article:modified_time" content="2020-05-13T19:20:08&#43;02:00">
+    <meta property="article:modified_time" content="2020-05-16T18:45:08&#43;02:00">
   
 
   
@@ -275,7 +275,7 @@ Additive vs multiplicative halting probability Multiplicative: In the paper (foo
   "headline": "Adaptive Computation Time",
   
   "datePublished": "2020-04-28T10:46:44+02:00",
-  "dateModified": "2020-05-13T19:20:08+02:00",
+  "dateModified": "2020-05-16T18:45:08+02:00",
   
   "publisher": {
     "@type": "Organization",
@@ -703,7 +703,7 @@ Additive vs multiplicative halting probability Multiplicative: In the paper (foo
           Last updated on
       
     
-    May 13, 2020
+    May 16, 2020
   </span>
   
 
@@ -759,7 +759,7 @@ Additive vs multiplicative halting probability Multiplicative: In the paper (foo
 <h2 id="additive-vs-multiplicative-halting-probability">Additive vs multiplicative halting probability</h2>
 <p><strong>Multiplicative:</strong> In the paper (footnote 1), the authors discuss throughly their considerations for deciding the computation time.
 It is acknowledged by the authors that using the logits $h_n^t$ as the halting probability at step $n$ might be more straightforward.
-Therefore, the overall halting probability is calculated as $$p_t^n = h_t^n \prod_{u=1}^{n-1} (1 - h_t^u)$$.
+Therefore, the overall halting probability is calculated as $$p_t^n = h_t^n \prod_{u=1}^{n-1} (1 - h_t^u).$$
 We use $(1 - h_t^u)$ for previous update steps to indicate that the updating is *not* stopped until $n$.</p>
 <p>As each $p_t^n \in (0, 1)$ is relatively independent with each other and $\sum p_t^n$ is not bound to 1, this approach <em>does not</em> restrict the update depth to grow arbitrarily.
 The model can be of course trained to lower the expected ponder time $\rho_t = \sum n p_t^n$, but it is observed in the experiments that the resulting model is not preferable in two ways:</p>
@@ -911,7 +911,7 @@ The performance is sensitive to the penalty factor $\tau$, which is not intuitiv
       <div class="media-body">
         <h5 class="card-title"><a href="https://shaojiejiang.github.io/"></a></h5>
         <h6 class="card-subtitle">PhD student at <a href="https://ilps.science.uva.nl/">ILPS</a></h6>
-        <p class="card-text">I am interested in ML and NLP, especially open-domain dialogue systems.</p>
+        <p class="card-text">Opinions are mine. Leave a comment below if you want to discuss the content.</p>
         <ul class="network-icon" aria-hidden="true">
   
     

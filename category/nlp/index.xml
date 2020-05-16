@@ -5,12 +5,51 @@
     <link>https://shaojiejiang.github.io/category/nlp/</link>
       <atom:link href="https://shaojiejiang.github.io/category/nlp/index.xml" rel="self" type="application/rss+xml" />
     <description>NLP</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Tue, 12 May 2020 14:29:44 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Sat, 16 May 2020 16:40:07 +0200</lastBuildDate>
     <image>
       <url>https://shaojiejiang.github.io/images/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_2.png</url>
       <title>NLP</title>
       <link>https://shaojiejiang.github.io/category/nlp/</link>
     </image>
+    
+    <item>
+      <title>Transformer Align Model</title>
+      <link>https://shaojiejiang.github.io/post/en/transformer-align-model/</link>
+      <pubDate>Sat, 16 May 2020 16:40:07 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/transformer-align-model/</guid>
+      <description>&lt;p&gt;In this paper&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, transformer is trained to perform both translation and alignment tasks.&lt;/p&gt;
+&lt;h2 id=&#34;application-scenarios-of-word-alignments-in-nmt&#34;&gt;Application scenarios of word alignments in NMT&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Generating bilingual lexica from parallel corpora&lt;/li&gt;
+&lt;li&gt;External dictionary assisted translation to improve translation of low frequency words&lt;/li&gt;
+&lt;li&gt;Trust, explanation, error analysis&lt;/li&gt;
+&lt;li&gt;Preserving style on webpages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;model-design&#34;&gt;Model design&lt;/h2&gt;
+&lt;p&gt;The attention mechanism has long been motivated by word alignments in statistical machine translation, but ensure the alignment quality, additional supervision is needed.&lt;/p&gt;
+&lt;p&gt;There is a tendency that the attention probabilities from the penultimate layer of a normally trained transformer MT model corresponds to word alignments.
+Therefore, one attention head (clever!) in the penultimate layer is trained as the alignment head.
+The motivation of selecting only one attention head for alignment is to give the freedom to the model of choosing whether to rely more on the alignment or other attention heads.&lt;/p&gt;
+&lt;!-- While in Beamer alignment, the freedom is fully preserved in the attention layer, and the alignment is used for RNN hidden states. --&gt;
+&lt;h2 id=&#34;how-two-train-the-alignment-head&#34;&gt;How two train the alignment head&lt;/h2&gt;
+&lt;p&gt;There are two approaches existing in the literature:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Label alignments beforehand and train the attention weights through KL-divergence.&lt;/li&gt;
+&lt;li&gt;Use the attentional vector to also predict either the target word or the properties such as POS tags of the target tokens.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stopped reading at experiments.
+May come back later.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1909.02074&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jointly Learning to Align and Translate with Transformer Models&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
     
     <item>
       <title>Compressive Transformers</title>

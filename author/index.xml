@@ -365,21 +365,3 @@
     
   </channel>
 </rss>
-i&gt;
-&lt;li&gt;Use bidirectional data input to decide which direction you treat as &amp;ldquo;future&amp;rdquo;, and then apply the idea of masking future positions&lt;/li&gt;
-&lt;li&gt;To avoid leaking the information of the position to be predicted, use Two-Stream Self-Attention (TSSA)&lt;/li&gt;
-&lt;li&gt;Other minor things like segment recurrence, relative positional encoding, etc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;However, it doesn&amp;rsquo;t seem to be enough changes to make all those improvements.
-What if BERT is also trained using the additional data (Giga5, ClueWeb, Common Crawl), will XLNet still be able to defeat BERT?&lt;/p&gt;
-&lt;p&gt;EDIT:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Another model named 
-&lt;a href=&#34;https://arxiv.org/abs/1905.02450&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MASS&lt;/a&gt; employs a very similar idea.&lt;/li&gt;
-&lt;li&gt;According to Jacob Devlin (author of BERT), relative positional embedding might be of great importance.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>

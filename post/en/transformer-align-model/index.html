@@ -244,7 +244,7 @@
     
       <meta property="article:published_time" content="2020-05-16T16:40:07&#43;02:00">
     
-    <meta property="article:modified_time" content="2020-05-16T18:45:32&#43;02:00">
+    <meta property="article:modified_time" content="2020-05-26T17:51:55&#43;02:00">
   
 
   
@@ -273,7 +273,7 @@
   "headline": "Transformer Align Model",
   
   "datePublished": "2020-05-16T16:40:07+02:00",
-  "dateModified": "2020-05-16T18:45:32+02:00",
+  "dateModified": "2020-05-26T17:51:55+02:00",
   
   "publisher": {
     "@type": "Organization",
@@ -688,7 +688,7 @@
     
 
   
-  <span><a href="/author/"></a></span>
+  <span><a href="/author/">shaojie</a></span>
   </div>
   
   
@@ -701,7 +701,7 @@
           Last updated on
       
     
-    May 16, 2020
+    May 26, 2020
   </span>
   
 
@@ -710,7 +710,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    2 min read
   </span>
   
 
@@ -773,8 +773,11 @@ The motivation of selecting only one attention head for alignment is to give the
 <li>Label alignments beforehand and train the attention weights through KL-divergence.</li>
 <li>Use the attentional vector to also predict either the target word or the properties such as POS tags of the target tokens.</li>
 </ul>
-<p>Stopped reading at experiments.
-May come back later.</p>
+<p>In this work, an unsupervised training approach is used to train the alignment head.
+An alignment model is first trained on translation, then the penultimate layer attention weights are averaged and used as weak alignment supervision for a translation (and alignment) model.
+The alignment model is trained in both directions.</p>
+<p>Previous work reported performance gain by introducing alignment supervision.
+In this paper, however, alignment performances are good, but translation results are moderate.</p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -1171,8 +1174,18 @@ May come back later.</p>
   
 
   <p class="powered-by">
-    © 2020 Shaojie Jiang &middot; 
+    © 2020 Shaojie Jiang
+  </p>
 
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.

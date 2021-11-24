@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>经济学 | Shaojie Jiang</title>
-    <link>https://shaojiejiang.github.io/tag/%E7%BB%8F%E6%B5%8E%E5%AD%A6/</link>
-      <atom:link href="https://shaojiejiang.github.io/tag/%E7%BB%8F%E6%B5%8E%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <title>经济学 | Shaojie Jiang&#39;s Homepage</title>
+    <link>https://example.com/tag/%E7%BB%8F%E6%B5%8E%E5%AD%A6/</link>
+      <atom:link href="https://example.com/tag/%E7%BB%8F%E6%B5%8E%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <description>经济学</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Mon, 27 Apr 2020 22:18:24 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 22:18:24 +0200</lastBuildDate>
     <image>
-      <url>https://shaojiejiang.github.io/images/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_2.png</url>
+      <url>https://example.com/media/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_3.png</url>
       <title>经济学</title>
-      <link>https://shaojiejiang.github.io/tag/%E7%BB%8F%E6%B5%8E%E5%AD%A6/</link>
+      <link>https://example.com/tag/%E7%BB%8F%E6%B5%8E%E5%AD%A6/</link>
     </image>
     
     <item>
       <title>凯恩斯主义——中国以基建为核心的经济策略理论背景</title>
-      <link>https://shaojiejiang.github.io/post/zh/keynesianism/</link>
+      <link>https://example.com/post/zh/keynesianism/</link>
       <pubDate>Mon, 27 Apr 2020 22:18:24 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/keynesianism/</guid>
+      <guid>https://example.com/post/zh/keynesianism/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;收入等于人们的需求消费的总量。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -40,9 +40,9 @@
     
     <item>
       <title>拼多多或许造福了中国的贫下中农以及经济与科技</title>
-      <link>https://shaojiejiang.github.io/post/zh/pinduoduo/</link>
+      <link>https://example.com/post/zh/pinduoduo/</link>
       <pubDate>Mon, 27 Apr 2020 22:03:10 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/pinduoduo/</guid>
+      <guid>https://example.com/post/zh/pinduoduo/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;企业家获得成功的同时也得到了财富。他们的新商品在经济体中传播，人们发现自己想要一个留声机或电视，便出门购买。亨利·福特和安德鲁·卡内基分别靠着生产适用于大众的廉价汽车和在钢铁制造中引入新方法而发财致富。 很快，仿效者们开始仿效最初的企业家，生产出了同样的汽车、熔炉或染料。新商品和技术传播地更远了，这引起了整个行业的变革，并扩大了经济体量。最终，一些企业倒闭，经济开始萎缩，直至新一轮创新出现。资本主义的荣衰与浮沉都源自层出不穷的创新浪潮以及创业和模仿的消长。&amp;rdquo; (from &amp;ldquo;经济学通识课（耶鲁大学出品！耶鲁大学经济学入门课，普通人也能读懂的经济学！理论到现实，搭起用经济学改善现实生活的桥梁 ) (博集经管商务必读系列)&amp;rdquo; by 尼尔·基什特尼, 张缘, 刘婧)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -50,8 +50,7 @@
 &lt;p&gt;诚然，拼多多也许在技术上、营销上并没有为同行们带来什么创新，而且还破坏了很多工薪阶层对网购平台的印象，然而也许这些都只是负面作用。整体上拼多多使得方便的网购果实惠及到偏远的乡村家庭里，可以说最大化了当前网购产业的利用率，甚至还可能会带动乡村经济的发展。&lt;/p&gt;
 &lt;p&gt;就像引文里提到的福特。也许他刚开始也因为生产廉价的汽车而为贵族所不齿，也许他的汽车也伤过一时贪图便宜的贵族的心，但不可否认的是，正是他的这种努力才使得汽车成为平民大众的交通工具而不是贵族用来炫耀的奢侈品。那么拼多多也是承担了这样一个角色。&lt;/p&gt;
 &lt;p&gt;作为生在新时代的我们，亦或是生活在大城市、坐在舒适办公桌前的我们，可能无法理解在网购领域已经有淘宝天猫京东等平台覆盖了从廉价到品质各个价格区间，为什么还会有拼多多来进一步拉低品质与价格的下限。我们之所以会有这样的想法，是因为我们在与网购一起成长，我们接受了网购同时也成就了网购。习惯成自然的我们忽视了有一个群体一直都不在我们与网购形成的共生体中——那些生活在乡村的贫苦农民们。&lt;/p&gt;
-&lt;p&gt;他们不能像我们一样很快适应新科技、新潮流的发展，更不能像我们一样在价格与品质之间随性选择。记得之前在一篇时事点评里（『每日人物』关于拼多多的点评《
-&lt;a href=&#34;https://mp.weixin.qq.com/s/kfj6cAIsajiyumnURNxpeQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;他们，在拼多多上拼运气&lt;/a&gt;》。惊讶得发现文章已经是2018年8月的了，我明明记得是去年看过的啊。。）看到过，我们眼里的假冒伪劣产品，可能是那些穷人眼里的一次消费升级。他们不会用淘宝天猫京东，也没有动力去学习如何使用——毕竟他们需求低，就算有需求，这些平台的商品也可能会超出他们的（心理）承受范围。若不是拼多多依靠低价、亲友帮忙砍价等等策略让这个群体接受这种新的消费方式，网络购物何时才能渗透到社会的神经末梢里去？拼多多是一个模仿者，也是一个推广者、一股深化技术对社会变革不可缺少的力量。&lt;/p&gt;
+&lt;p&gt;他们不能像我们一样很快适应新科技、新潮流的发展，更不能像我们一样在价格与品质之间随性选择。记得之前在一篇时事点评里（『每日人物』关于拼多多的点评《&lt;a href=&#34;https://mp.weixin.qq.com/s/kfj6cAIsajiyumnURNxpeQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;他们，在拼多多上拼运气&lt;/a&gt;》。惊讶得发现文章已经是2018年8月的了，我明明记得是去年看过的啊。。）看到过，我们眼里的假冒伪劣产品，可能是那些穷人眼里的一次消费升级。他们不会用淘宝天猫京东，也没有动力去学习如何使用——毕竟他们需求低，就算有需求，这些平台的商品也可能会超出他们的（心理）承受范围。若不是拼多多依靠低价、亲友帮忙砍价等等策略让这个群体接受这种新的消费方式，网络购物何时才能渗透到社会的神经末梢里去？拼多多是一个模仿者，也是一个推广者、一股深化技术对社会变革不可缺少的力量。&lt;/p&gt;
 </description>
     </item>
     

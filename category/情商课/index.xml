@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>情商课 | Shaojie Jiang</title>
-    <link>https://shaojiejiang.github.io/category/%E6%83%85%E5%95%86%E8%AF%BE/</link>
-      <atom:link href="https://shaojiejiang.github.io/category/%E6%83%85%E5%95%86%E8%AF%BE/index.xml" rel="self" type="application/rss+xml" />
+    <title>情商课 | Shaojie Jiang&#39;s Homepage</title>
+    <link>https://example.com/category/%E6%83%85%E5%95%86%E8%AF%BE/</link>
+      <atom:link href="https://example.com/category/%E6%83%85%E5%95%86%E8%AF%BE/index.xml" rel="self" type="application/rss+xml" />
     <description>情商课</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Tue, 30 Jun 2020 14:37:56 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 14:37:56 +0200</lastBuildDate>
     <image>
-      <url>https://shaojiejiang.github.io/images/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_2.png</url>
+      <url>https://example.com/media/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_3.png</url>
       <title>情商课</title>
-      <link>https://shaojiejiang.github.io/category/%E6%83%85%E5%95%86%E8%AF%BE/</link>
+      <link>https://example.com/category/%E6%83%85%E5%95%86%E8%AF%BE/</link>
     </image>
     
     <item>
       <title>《所谓情商高，就是会说话》读书笔记</title>
-      <link>https://shaojiejiang.github.io/post/zh/eq-speaking/</link>
+      <link>https://example.com/post/zh/eq-speaking/</link>
       <pubDate>Tue, 30 Jun 2020 14:37:56 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/eq-speaking/</guid>
+      <guid>https://example.com/post/zh/eq-speaking/</guid>
       <description>&lt;p&gt;这是非常短的一本书。作者主要分享了有求于人时的7个突破口，分别是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;投其所好&lt;/li&gt;
@@ -35,14 +35,13 @@
 &lt;li&gt;团队化，是理解、认可对方的一种方式，更是“协同原则”的直接实践&lt;/li&gt;
 &lt;li&gt;衷心感谢，也属于对别人付出的理解和认可&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;另外书中提到一点“要想掌握‘措辞菜谱’，输出是最便捷的途径”，正印证了本人
-&lt;a href=&#34;../three-key-elements-of-learning&#34;&gt;学习的三要素&lt;/a&gt; 博客里关于“输出”对于学习的重要性。&lt;/p&gt;
+&lt;p&gt;另外书中提到一点“要想掌握‘措辞菜谱’，输出是最便捷的途径”，正印证了本人&lt;a href=&#34;../three-key-elements-of-learning&#34;&gt;学习的三要素&lt;/a&gt; 博客里关于“输出”对于学习的重要性。&lt;/p&gt;
 &lt;p&gt;最后吐槽下该书的不足：作者同样&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;为广告文案员，因此第二章（最后一章）基本都是关于文案写作的语言张力的，与情商没什么关联，有点被欺骗的感觉。作者可能犯了文案员“标题党”的职业病了吧。&lt;/p&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;相对于上一本书《好文案一句话就够了》的作者 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;相对于上一本书《好文案一句话就够了》的作者&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;

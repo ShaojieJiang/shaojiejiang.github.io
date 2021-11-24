@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Shaojie Jiang</title>
-    <link>https://shaojiejiang.github.io/post/</link>
-      <atom:link href="https://shaojiejiang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts | Shaojie Jiang&#39;s Homepage</title>
+    <link>https://example.com/post/</link>
+      <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Tue, 30 Jun 2020 14:37:56 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 14:37:56 +0200</lastBuildDate>
     <image>
-      <url>https://shaojiejiang.github.io/images/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_2.png</url>
+      <url>https://example.com/media/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>https://shaojiejiang.github.io/post/</link>
+      <link>https://example.com/post/</link>
     </image>
     
   </channel>

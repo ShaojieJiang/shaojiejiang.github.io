@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shaojie Jiang</title>
-    <link>https://shaojiejiang.github.io/</link>
-      <atom:link href="https://shaojiejiang.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Shaojie Jiang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright>
+    <title>Shaojie Jiang&#39;s Homepage</title>
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shaojie Jiang&#39;s Homepage</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://shaojiejiang.github.io/images/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_2.png</url>
-      <title>Shaojie Jiang</title>
-      <link>https://shaojiejiang.github.io/</link>
+      <url>https://example.com/media/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_3.png</url>
+      <title>Shaojie Jiang&#39;s Homepage</title>
+      <link>https://example.com/</link>
     </image>
     
     <item>
+      <title>Example Talk</title>
+      <link>https://example.com/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://example.com/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>《所谓情商高，就是会说话》读书笔记</title>
-      <link>https://shaojiejiang.github.io/post/zh/eq-speaking/</link>
+      <link>https://example.com/post/zh/eq-speaking/</link>
       <pubDate>Tue, 30 Jun 2020 14:37:56 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/eq-speaking/</guid>
+      <guid>https://example.com/post/zh/eq-speaking/</guid>
       <description>&lt;p&gt;这是非常短的一本书。作者主要分享了有求于人时的7个突破口，分别是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;投其所好&lt;/li&gt;
@@ -35,14 +55,13 @@
 &lt;li&gt;团队化，是理解、认可对方的一种方式，更是“协同原则”的直接实践&lt;/li&gt;
 &lt;li&gt;衷心感谢，也属于对别人付出的理解和认可&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;另外书中提到一点“要想掌握‘措辞菜谱’，输出是最便捷的途径”，正印证了本人
-&lt;a href=&#34;../three-key-elements-of-learning&#34;&gt;学习的三要素&lt;/a&gt; 博客里关于“输出”对于学习的重要性。&lt;/p&gt;
+&lt;p&gt;另外书中提到一点“要想掌握‘措辞菜谱’，输出是最便捷的途径”，正印证了本人&lt;a href=&#34;../three-key-elements-of-learning&#34;&gt;学习的三要素&lt;/a&gt; 博客里关于“输出”对于学习的重要性。&lt;/p&gt;
 &lt;p&gt;最后吐槽下该书的不足：作者同样&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;为广告文案员，因此第二章（最后一章）基本都是关于文案写作的语言张力的，与情商没什么关联，有点被欺骗的感觉。作者可能犯了文案员“标题党”的职业病了吧。&lt;/p&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;相对于上一本书《好文案一句话就够了》的作者 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;相对于上一本书《好文案一句话就够了》的作者&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -51,9 +70,9 @@
     
     <item>
       <title>《好文案一句话就够了》读后感</title>
-      <link>https://shaojiejiang.github.io/post/zh/copywriting/</link>
+      <link>https://example.com/post/zh/copywriting/</link>
       <pubDate>Mon, 29 Jun 2020 18:23:16 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/copywriting/</guid>
+      <guid>https://example.com/post/zh/copywriting/</guid>
       <description>&lt;p&gt;本人读《好文案一句话就够了》这本书（以下统称“该书”），主要是为了学习一些普适的写作技巧，毕竟虽然本人不需要写广告文案，但还是需要写推文、博客、文章等等，如果能练出更打动人心、有张力、吸引目光的写作风格，又何乐不为呢？&lt;/p&gt;
 &lt;p&gt;该书总结的广告文案的三大基本原则，我认为很是精炼：&lt;/p&gt;
 &lt;ol&gt;
@@ -93,7 +112,7 @@
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;个人理解所谓技巧，是指可以简单地掌握，并且应用起来见效很快。然而真挚的讲话，对于说惯了客套话的人是需要一定练习的，并且见效可能没那么快。用科维的观点来说，“感情真挚”更应该算是一项原则而非技巧。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;个人理解所谓技巧，是指可以简单地掌握，并且应用起来见效很快。然而真挚的讲话，对于说惯了客套话的人是需要一定练习的，并且见效可能没那么快。用科维的观点来说，“感情真挚”更应该算是一项原则而非技巧。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -102,9 +121,9 @@
     
     <item>
       <title>Transformer Align Model</title>
-      <link>https://shaojiejiang.github.io/post/en/transformer-align-model/</link>
+      <link>https://example.com/post/en/transformer-align-model/</link>
       <pubDate>Sat, 16 May 2020 16:40:07 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/en/transformer-align-model/</guid>
+      <guid>https://example.com/post/en/transformer-align-model/</guid>
       <description>&lt;p&gt;In this paper&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, transformer is trained to perform both translation and alignment tasks.&lt;/p&gt;
 &lt;h2 id=&#34;application-scenarios-of-word-alignments-in-nmt&#34;&gt;Application scenarios of word alignments in NMT&lt;/h2&gt;
 &lt;ul&gt;
@@ -134,8 +153,7 @@ In this paper, however, alignment performances are good, but translation results
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://arxiv.org/abs/1909.02074&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jointly Learning to Align and Translate with Transformer Models&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1909.02074&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jointly Learning to Align and Translate with Transformer Models&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -144,9 +162,9 @@ In this paper, however, alignment performances are good, but translation results
     
     <item>
       <title>Compressive Transformers</title>
-      <link>https://shaojiejiang.github.io/post/en/compressive-transformers/</link>
+      <link>https://example.com/post/en/compressive-transformers/</link>
       <pubDate>Tue, 12 May 2020 14:29:44 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/en/compressive-transformers/</guid>
+      <guid>https://example.com/post/en/compressive-transformers/</guid>
       <description>&lt;p&gt;Built on top of Transformer-XL, Compressive Transformer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; condenses old memories (hidden states) and stores them in the compressed memory buffer, before completely discarding them.
 This model is suitable for long-range sequence learning but may cause too much computational burden for tasks that only have short sequences.
 Compressive Transformers can also be used as memory components in conjunction with other models.&lt;/p&gt;
@@ -168,11 +186,9 @@ The second choice for the auxiliary loss, in other words, means that we don&amp;
 &lt;h3 id=&#34;some-practical-concerns&#34;&gt;Some practical concerns&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;The auxiliary loss is only used to train the compression module, as it harms the learning when the gradients flow back to the main network.
-This might also explain why I couldn&amp;rsquo;t reproduce 
-&lt;a href=&#34;../adaptive-computation-time&#34;&gt;ACT&lt;/a&gt;!&lt;/li&gt;
+This might also explain why I couldn&amp;rsquo;t reproduce &lt;a href=&#34;../adaptive-computation-time&#34;&gt;ACT&lt;/a&gt;!&lt;/li&gt;
 &lt;li&gt;Batch accumulation (4x bigger batch size) is used for better performance.
-It is observed in some works that bigger batch sizes lead to better generalization, but some other works found the opposite to be true (discussed in the papers and talks mentioned 
-&lt;a href=&#34;../visualizing-loss&#34;&gt;in my other post&lt;/a&gt;).&lt;/li&gt;
+It is observed in some works that bigger batch sizes lead to better generalization, but some other works found the opposite to be true (discussed in the papers and talks mentioned &lt;a href=&#34;../visualizing-loss&#34;&gt;in my other post&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Model optimization is very sensitive to gradient scales, so the gradient norms are clipped to 0.1 for stable results.
 This is typical for transformer variants.&lt;/li&gt;
 &lt;li&gt;Convolution works best for memory compression.&lt;/li&gt;
@@ -187,8 +203,7 @@ But why?&lt;/li&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://arxiv.org/abs/1911.05507&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compressive Transformers for Long-Range Sequence Modelling&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1911.05507&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compressive Transformers for Long-Range Sequence Modelling&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -197,11 +212,10 @@ But why?&lt;/li&gt;
     
     <item>
       <title>Visualizing the Loss Landscape of Neural Nets</title>
-      <link>https://shaojiejiang.github.io/post/en/visualizing-loss/</link>
+      <link>https://example.com/post/en/visualizing-loss/</link>
       <pubDate>Wed, 06 May 2020 10:13:43 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/en/visualizing-loss/</guid>
-      <description>&lt;p&gt;Here are some notes take while reading the NeurlIPS 2018 paper 
-&lt;a href=&#34;http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing the Loss Landscape of Neural Nets&lt;/a&gt;.
+      <guid>https://example.com/post/en/visualizing-loss/</guid>
+      <description>&lt;p&gt;Here are some notes take while reading the NeurlIPS 2018 paper &lt;a href=&#34;http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing the Loss Landscape of Neural Nets&lt;/a&gt;.
 This work helps explain why some models are easier to train/generalize than others.
 The above image is a good illustration: with a much smoother loss landscape, DenseNet with 121 layers is much easier to train than a ResNet-110 without skip connections, and generalizes better in the mean time.&lt;/p&gt;
 &lt;p&gt;The traditional way of visualizing loss functions of neural models in 2D contour plots is by choosing a center point $\theta^*$ (normally the converged model parameters), two random direction vectors $\delta$ and $\eta$, then plot the function:
@@ -219,12 +233,11 @@ Small-batch training results in flat minima, while large-batch training results 
 Increased width prevents chaotic behavior, and skip connections dramatically widen minimizers (see figure in the beginning).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Interpreting with precaution:&lt;/strong&gt;
 The loss surface is viewed under a dramatic dimensionality reduction.
-According to the authors&amp;rsquo; analysis, if non-convexity is present in the dimensionality reduced plot, then non-convexity must be present in the full-dimensional surface as well.
+According to the authors&#39; analysis, if non-convexity is present in the dimensionality reduced plot, then non-convexity must be present in the full-dimensional surface as well.
 However, apparent convexity in the low-dimensional surface does not mean the high-dimensional function is truly convex. Rather it means that the positive curvatures are dominant.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;In a nutshell:&lt;/strong&gt; It&amp;rsquo;s a great work trying to visualize the mystery of what&amp;rsquo;s going well/bad when training a neural model.
 Although claiming the study to be empirical, I personally found their experiments and results very convincing.
-Appendix B about visualizing optimization paths is also very insightful, and the authors probably also thought so, so they decided to move it as a main section in their latest 
-&lt;a href=&#34;https://arxiv.org/pdf/1712.09913.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv version&lt;/a&gt; 😄!&lt;/p&gt;
+Appendix B about visualizing optimization paths is also very insightful, and the authors probably also thought so, so they decided to move it as a main section in their latest &lt;a href=&#34;https://arxiv.org/pdf/1712.09913.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv version&lt;/a&gt; 😄!&lt;/p&gt;
 &lt;p&gt;Further thoughts/questions:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Has it been done for visualizing NLP models?&lt;/li&gt;
@@ -238,8 +251,7 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://iclr2020deepdiffeq.rice.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generalization in neural nets:  a perspective from science (not math)&lt;/a&gt; Starting at 1:54:00 in the video. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://iclr2020deepdiffeq.rice.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generalization in neural nets:  a perspective from science (not math)&lt;/a&gt; Starting at 1:54:00 in the video.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -248,10 +260,10 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
     
     <item>
       <title>学习的三要素</title>
-      <link>https://shaojiejiang.github.io/post/zh/three-key-elements-of-learning/</link>
+      <link>https://example.com/post/zh/three-key-elements-of-learning/</link>
       <pubDate>Thu, 30 Apr 2020 09:12:07 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/three-key-elements-of-learning/</guid>
-      <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;rdquo; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
+      <guid>https://example.com/post/zh/three-key-elements-of-learning/</guid>
+      <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;quot; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;自我审问要有一个合理的极限。在因为过于自省而感到焦虑之前，你应该通过拍摄一些照片来对外交流。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -306,10 +318,10 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
     
     <item>
       <title>我需要明确自己的摄影主题</title>
-      <link>https://shaojiejiang.github.io/post/zh/photography-subject/</link>
+      <link>https://example.com/post/zh/photography-subject/</link>
       <pubDate>Wed, 29 Apr 2020 14:17:37 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/photography-subject/</guid>
-      <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;rdquo; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
+      <guid>https://example.com/post/zh/photography-subject/</guid>
+      <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;quot; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;你的兴趣是什么？只有你自己可以回答。但这个回答是非常重要的，因为如果你要创作有意义的摄影作品，就必须专注于那些你最感兴趣的领域。不仅如此，你还必须专注于那些你具有强烈个人想法的领域。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -344,8 +356,28 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
-  
-  
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-蘑菇105mm微距&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;蘑菇，105mm微距&#34; srcset=&#34;
+               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg 400w,
+               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_d9d018e85fdbd5595f857a4be0a15e48.jpg 760w,
+               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;https://example.com/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg&#34;
+               width=&#34;600&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      蘑菇，105mm微距
+    &lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -357,62 +389,22 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
-&lt;figure id=&#34;figure-蘑菇105mm微距&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;蘑菇，105mm微距&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;4000&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    蘑菇，105mm微距
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
 
 
 
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-箭头10-20mm广角&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;“箭头”，10-20mm广角&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;500&#34; height=&#34;5816&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    “箭头”，10-20mm广角
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure  id=&#34;figure-箭头10-20mm广角&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;“箭头”，10-20mm广角&#34; srcset=&#34;
+               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg 400w,
+               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_49e3fa121532737996abe2c056fbb077.jpg 760w,
+               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;https://example.com/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg&#34;
+               width=&#34;500&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      “箭头”，10-20mm广角
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;其实很多摄影题材都有吸引我的地方。
 拍摄旅游题材可以收获各地的美景照，但是前期需要对目的地的人文、历史甚至天气和交通等都要有充足的了解；拍摄微距可以把渺小的事物以震撼的角度展示出来，前提是我有足够的耐心去做细致入微的观察；长焦摄影可以让我把美妙的野生动物拉近到眼前并展现给观众，但是难度不亚于狙击一个不确定的目标，而且前期对动物习性的了解也是少不了的；风景摄影可以展示人类建筑或是大自然美景的震撼，但是创意角度的选取、怎么避开人群或者让他们很好地融入画面、在什么样的天气拍摄等等也是让我很头大；而人像摄影不仅需要自己的审美观点，还需要建立好跟模特的关系或交流——如果我有模特的话。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -428,8 +420,6 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
-  
-  
 
 
 
@@ -439,27 +429,19 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
-
-
-&lt;figure id=&#34;figure-网红墙下睡觉的猫未调修&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;网红墙下睡觉的猫，未调修&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;4000&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    网红墙下睡觉的猫，未调修
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-网红墙下睡觉的猫未调修&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;网红墙下睡觉的猫，未调修&#34; srcset=&#34;
+               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg 400w,
+               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_9b27c5531fdf17aade8c0753772a8a8e.jpg 760w,
+               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;https://example.com/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg&#34;
+               width=&#34;600&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      网红墙下睡觉的猫，未调修
+    &lt;/figcaption&gt;&lt;/figure&gt;
 那天我很幸运，因为偶遇了这面网红墙。当时还不知道这面墙小有名气，只是觉得这句话很醒目、很有个性，最关键的是下面长凳上有只睡觉的猫，就像是有人专门安排的一样！
 然而那天我也是很不幸的，因为首先我当时拍照不会构图，把画面重点的猫放到了左下角非常边缘的位置；其次没有足够了解相机的设置，所以没有记录下来无损的照片，给后期调整带来了很大的限制。
 所以当我把这张照片分享到社交媒体上之后反响平平，甚至很多人都没注意到那只在阴影里的猫，反而被占据画面大部分的、高对比的墙吸引了。
@@ -486,26 +468,12 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
-
-&lt;figure id=&#34;figure-乞女-by-bruce-barnbaum&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447459082594-OAR3ZKKQIR87D1PII2Y9/ke17ZwdGBToddI8pDm48kJcL8RUadGdk4gpl41YTwHNZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICa0vOBoO_YRM0aI4T8IW9lHW4ggziL-I7oURYsi2vL8KMshLAGzx4R3EDFOm1kBS/TheBeggarWoman.jpg?&#34; data-caption=&#34;乞女 by Bruce Barnbaum&#34;&gt;
-
-
-  &lt;img src=&#34;https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447459082594-OAR3ZKKQIR87D1PII2Y9/ke17ZwdGBToddI8pDm48kJcL8RUadGdk4gpl41YTwHNZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICa0vOBoO_YRM0aI4T8IW9lHW4ggziL-I7oURYsi2vL8KMshLAGzx4R3EDFOm1kBS/TheBeggarWoman.jpg?&#34; alt=&#34;&#34; width=&#34;600&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    乞女 by Bruce Barnbaum
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-乞女-by-bruce-barnbaum&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447459082594-OAR3ZKKQIR87D1PII2Y9/ke17ZwdGBToddI8pDm48kJcL8RUadGdk4gpl41YTwHNZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICa0vOBoO_YRM0aI4T8IW9lHW4ggziL-I7oURYsi2vL8KMshLAGzx4R3EDFOm1kBS/TheBeggarWoman.jpg?&#34; alt=&#34;乞女 by Bruce Barnbaum&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;600&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      乞女 by Bruce Barnbaum
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;虽然乞丐是视觉中心，但你不会立刻就能发现她。她太小了，无法马上就看得到。但只要你发现了，影像的性质就完全改变了。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -516,8 +484,6 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
-  
-  
 
 
 
@@ -527,27 +493,19 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
-
-
-&lt;figure id=&#34;figure-睡觉的猫抢救版&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;睡觉的猫，抢救版&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;400&#34; height=&#34;4000&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    睡觉的猫，抢救版
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-睡觉的猫抢救版&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;睡觉的猫，抢救版&#34; srcset=&#34;
+               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg 400w,
+               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_bc9e96672018136da30e698a307c5fa6.jpg 760w,
+               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;https://example.com/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg&#34;
+               width=&#34;400&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      睡觉的猫，抢救版
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;这里对照片进行了裁剪和黑白处理以过滤掉颜色干扰，并做了split toning以使猫和墙的色彩略有分离。
 当然，这里叫它“抢救版”，是因为它离一幅好的作品依然还很远。
 如果我再有这样的机会，我会把机位左移，以尽量把猫放在更显眼的位置。&lt;/p&gt;
@@ -556,15 +514,15 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
     
     <item>
       <title>Adaptive Computation Time</title>
-      <link>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</link>
+      <link>https://example.com/post/en/adaptive-computation-time/</link>
       <pubDate>Tue, 28 Apr 2020 10:46:44 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</guid>
+      <guid>https://example.com/post/en/adaptive-computation-time/</guid>
       <description>&lt;p&gt;My notes for the paper: Adaptive Computation Time for Recurrent Neural Networks&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;additive-vs-multiplicative-halting-probability&#34;&gt;Additive vs multiplicative halting probability&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Multiplicative:&lt;/strong&gt; In the paper (footnote 1), the authors discuss throughly their considerations for deciding the computation time.
 It is acknowledged by the authors that using the logits $h_n^t$ as the halting probability at step $n$ might be more straightforward.
 Therefore, the overall halting probability is calculated as $$p_t^n = h_t^n \prod_{u=1}^{n-1} (1 - h_t^u).$$
-We use $(1 - h_t^u)$ for previous update steps to indicate that the updating is *not* stopped until $n$.&lt;/p&gt;
+We use $(1 - h_t^u)$ for previous update steps to indicate that the updating is &lt;em&gt;not&lt;/em&gt; stopped until $n$.&lt;/p&gt;
 &lt;p&gt;As each $p_t^n \in (0, 1)$ is relatively independent with each other and $\sum p_t^n$ is not bound to 1, this approach &lt;em&gt;does not&lt;/em&gt; restrict the update depth to grow arbitrarily.
 The model can be of course trained to lower the expected ponder time $\rho_t = \sum n p_t^n$, but it is observed in the experiments that the resulting model is not preferable in two ways:&lt;/p&gt;
 &lt;ol&gt;
@@ -579,8 +537,7 @@ The performance is sensitive to the penalty factor $\tau$, which is not intuitiv
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://arxiv.org/abs/1603.08983&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adaptive Computation Time for Recurrent Neural Networks&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1603.08983&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adaptive Computation Time for Recurrent Neural Networks&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -589,9 +546,9 @@ The performance is sensitive to the penalty factor $\tau$, which is not intuitiv
     
     <item>
       <title>凯恩斯主义——中国以基建为核心的经济策略理论背景</title>
-      <link>https://shaojiejiang.github.io/post/zh/keynesianism/</link>
+      <link>https://example.com/post/zh/keynesianism/</link>
       <pubDate>Mon, 27 Apr 2020 22:18:24 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/keynesianism/</guid>
+      <guid>https://example.com/post/zh/keynesianism/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;收入等于人们的需求消费的总量。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -615,9 +572,9 @@ The performance is sensitive to the penalty factor $\tau$, which is not intuitiv
     
     <item>
       <title>拼多多或许造福了中国的贫下中农以及经济与科技</title>
-      <link>https://shaojiejiang.github.io/post/zh/pinduoduo/</link>
+      <link>https://example.com/post/zh/pinduoduo/</link>
       <pubDate>Mon, 27 Apr 2020 22:03:10 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/pinduoduo/</guid>
+      <guid>https://example.com/post/zh/pinduoduo/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;企业家获得成功的同时也得到了财富。他们的新商品在经济体中传播，人们发现自己想要一个留声机或电视，便出门购买。亨利·福特和安德鲁·卡内基分别靠着生产适用于大众的廉价汽车和在钢铁制造中引入新方法而发财致富。 很快，仿效者们开始仿效最初的企业家，生产出了同样的汽车、熔炉或染料。新商品和技术传播地更远了，这引起了整个行业的变革，并扩大了经济体量。最终，一些企业倒闭，经济开始萎缩，直至新一轮创新出现。资本主义的荣衰与浮沉都源自层出不穷的创新浪潮以及创业和模仿的消长。&amp;rdquo; (from &amp;ldquo;经济学通识课（耶鲁大学出品！耶鲁大学经济学入门课，普通人也能读懂的经济学！理论到现实，搭起用经济学改善现实生活的桥梁 ) (博集经管商务必读系列)&amp;rdquo; by 尼尔·基什特尼, 张缘, 刘婧)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -625,56 +582,48 @@ The performance is sensitive to the penalty factor $\tau$, which is not intuitiv
 &lt;p&gt;诚然，拼多多也许在技术上、营销上并没有为同行们带来什么创新，而且还破坏了很多工薪阶层对网购平台的印象，然而也许这些都只是负面作用。整体上拼多多使得方便的网购果实惠及到偏远的乡村家庭里，可以说最大化了当前网购产业的利用率，甚至还可能会带动乡村经济的发展。&lt;/p&gt;
 &lt;p&gt;就像引文里提到的福特。也许他刚开始也因为生产廉价的汽车而为贵族所不齿，也许他的汽车也伤过一时贪图便宜的贵族的心，但不可否认的是，正是他的这种努力才使得汽车成为平民大众的交通工具而不是贵族用来炫耀的奢侈品。那么拼多多也是承担了这样一个角色。&lt;/p&gt;
 &lt;p&gt;作为生在新时代的我们，亦或是生活在大城市、坐在舒适办公桌前的我们，可能无法理解在网购领域已经有淘宝天猫京东等平台覆盖了从廉价到品质各个价格区间，为什么还会有拼多多来进一步拉低品质与价格的下限。我们之所以会有这样的想法，是因为我们在与网购一起成长，我们接受了网购同时也成就了网购。习惯成自然的我们忽视了有一个群体一直都不在我们与网购形成的共生体中——那些生活在乡村的贫苦农民们。&lt;/p&gt;
-&lt;p&gt;他们不能像我们一样很快适应新科技、新潮流的发展，更不能像我们一样在价格与品质之间随性选择。记得之前在一篇时事点评里（『每日人物』关于拼多多的点评《
-&lt;a href=&#34;https://mp.weixin.qq.com/s/kfj6cAIsajiyumnURNxpeQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;他们，在拼多多上拼运气&lt;/a&gt;》。惊讶得发现文章已经是2018年8月的了，我明明记得是去年看过的啊。。）看到过，我们眼里的假冒伪劣产品，可能是那些穷人眼里的一次消费升级。他们不会用淘宝天猫京东，也没有动力去学习如何使用——毕竟他们需求低，就算有需求，这些平台的商品也可能会超出他们的（心理）承受范围。若不是拼多多依靠低价、亲友帮忙砍价等等策略让这个群体接受这种新的消费方式，网络购物何时才能渗透到社会的神经末梢里去？拼多多是一个模仿者，也是一个推广者、一股深化技术对社会变革不可缺少的力量。&lt;/p&gt;
+&lt;p&gt;他们不能像我们一样很快适应新科技、新潮流的发展，更不能像我们一样在价格与品质之间随性选择。记得之前在一篇时事点评里（『每日人物』关于拼多多的点评《&lt;a href=&#34;https://mp.weixin.qq.com/s/kfj6cAIsajiyumnURNxpeQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;他们，在拼多多上拼运气&lt;/a&gt;》。惊讶得发现文章已经是2018年8月的了，我明明记得是去年看过的啊。。）看到过，我们眼里的假冒伪劣产品，可能是那些穷人眼里的一次消费升级。他们不会用淘宝天猫京东，也没有动力去学习如何使用——毕竟他们需求低，就算有需求，这些平台的商品也可能会超出他们的（心理）承受范围。若不是拼多多依靠低价、亲友帮忙砍价等等策略让这个群体接受这种新的消费方式，网络购物何时才能渗透到社会的神经末梢里去？拼多多是一个模仿者，也是一个推广者、一股深化技术对社会变革不可缺少的力量。&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Hub for Transformer Blogs and Papers</title>
-      <link>https://shaojiejiang.github.io/post/en/transformer-blog-paper-hub/</link>
+      <link>https://example.com/post/en/transformer-blog-paper-hub/</link>
       <pubDate>Mon, 02 Mar 2020 14:26:59 +0100</pubDate>
-      <guid>https://shaojiejiang.github.io/post/en/transformer-blog-paper-hub/</guid>
+      <guid>https://example.com/post/en/transformer-blog-paper-hub/</guid>
       <description>&lt;p&gt;This is a growing list of pointers to useful blog posts and papers related to transformers.&lt;/p&gt;
 &lt;h2 id=&#34;transformers-explained&#34;&gt;Transformers explained&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;http://jalammar.github.io/illustrated-transformer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: The Illustrated Transformer&lt;/a&gt; has many intuitive animations of how transformer models work&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://mostafadehghani.com/2019/05/05/universal-transformers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Universal Transformers&lt;/a&gt; introduces the idea of &lt;em&gt;recurrence among layers&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://medium.com/analytics-vidhya/transformer-vs-rnn-and-cnn-18eeefa3602b&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Transformer vs RNN and CNN for Translation Task&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://jalammar.github.io/illustrated-transformer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: The Illustrated Transformer&lt;/a&gt; has many intuitive animations of how transformer models work&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mostafadehghani.com/2019/05/05/universal-transformers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Universal Transformers&lt;/a&gt; introduces the idea of &lt;em&gt;recurrence among layers&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/analytics-vidhya/transformer-vs-rnn-and-cnn-18eeefa3602b&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Transformer vs RNN and CNN for Translation Task&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;gnns-similarities-and-differences&#34;&gt;GNNs: similarities and differences&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://graphdeeplearning.github.io/post/transformers-are-gnns/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Transformers are Graph Neural Networks&lt;/a&gt; bridges transformer models and Graph Neural Networks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://graphdeeplearning.github.io/post/transformers-are-gnns/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Transformers are Graph Neural Networks&lt;/a&gt; bridges transformer models and Graph Neural Networks&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;transformer-improvements&#34;&gt;Transformer improvements&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://towardsdatascience.com/deepmind-releases-a-new-architecture-and-a-new-dataset-to-improve-long-term-memory-in-deep-22f4b098153&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: DeepMind Releases a New Architecture and a New Dataset to Improve Long-Term Memory in Deep Learning Systems&lt;/a&gt; Nural Turing Machine + transformer?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/deepmind-releases-a-new-architecture-and-a-new-dataset-to-improve-long-term-memory-in-deep-22f4b098153&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: DeepMind Releases a New Architecture and a New Dataset to Improve Long-Term Memory in Deep Learning Systems&lt;/a&gt; Nural Turing Machine + transformer?&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>TLDR: Token Loss Dynamic Reweighting for Reducing Repetitive Utterance Generation</title>
-      <link>https://shaojiejiang.github.io/publication/jiang-2020-tldr/</link>
+      <link>https://example.com/publication/jiang-2020-tldr/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/publication/jiang-2020-tldr/</guid>
+      <guid>https://example.com/publication/jiang-2020-tldr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What&#39;s New in XLNet?</title>
-      <link>https://shaojiejiang.github.io/post/en/xlnet/</link>
+      <link>https://example.com/post/en/xlnet/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/post/en/xlnet/</guid>
+      <guid>https://example.com/post/en/xlnet/</guid>
       <description>&lt;h2 id=&#34;rip-bert&#34;&gt;R.I.P BERT&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BERT&lt;/a&gt; got a head shot yesterday, by another guy called 
-&lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XLNet&lt;/a&gt;.
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BERT&lt;/a&gt; got a head shot yesterday, by another guy called &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XLNet&lt;/a&gt;.
 It is reported that XLNet defeated BERT on 20 NLP tasks, and achieved 18 new state-of-the-art results.
 Isn&amp;rsquo;t it impressive?
 So, farewell, BERT.
@@ -683,8 +632,6 @@ So, farewell, BERT.
 
 
 
-  
-  
 
 
 
@@ -694,27 +641,19 @@ So, farewell, BERT.
 
 
 
-
-
-&lt;figure id=&#34;figure-rip-bert&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;R.I.P BERT&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;570&#34; height=&#34;570&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    R.I.P BERT
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure  id=&#34;figure-rip-bert&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;R.I.P BERT&#34; srcset=&#34;
+               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_6857e2260ab446b51f13608b386eff69.jpg 400w,
+               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_526b97597aa9149c17bad8b30b8af9af.jpg 760w,
+               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;https://example.com/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_6857e2260ab446b51f13608b386eff69.jpg&#34;
+               width=&#34;570&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      R.I.P BERT
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2 id=&#34;is-bert-really-dead&#34;&gt;Is BERT really dead?&lt;/h2&gt;
 &lt;p&gt;Since I love BERT, I decided to read the paper to find out what killed him.
 While reading, I was thinking wait a minute, is BERT really dead?
@@ -733,8 +672,6 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
 
 
 
-  
-  
 
 
 
@@ -744,27 +681,19 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
 
 
 
-
-
-&lt;figure id=&#34;figure-image-sourcehttpsnlpstanfordeduseminardetailsjdevlinpdf&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Image source&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1138&#34; height=&#34;154&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    &lt;a href=&#34;https://nlp.stanford.edu/seminar/details/jdevlin.pdf&#34;&gt;Image source&lt;/a&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure  id=&#34;figure-image-sourcehttpsnlpstanfordeduseminardetailsjdevlinpdf&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;[Image source](https://nlp.stanford.edu/seminar/details/jdevlin.pdf)&#34; srcset=&#34;
+               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_6ac9179d307010de4dbb4ffedc7ed2bd.png 400w,
+               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_8558609a8e5d6f3d0d698c4c338b2d61.png 760w,
+               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://example.com/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_6ac9179d307010de4dbb4ffedc7ed2bd.png&#34;
+               width=&#34;760&#34;
+               height=&#34;103&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;a href=&#34;https://nlp.stanford.edu/seminar/details/jdevlin.pdf&#34;&gt;Image source&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;In this example, both words &amp;ldquo;store&amp;rdquo; and &amp;ldquo;gallon&amp;rdquo; are intended to be predicted by BERT, and their input word embeddings are replaced by the embedding of a special token &lt;em&gt;[MASK]&lt;/em&gt;.
 Usually this isn&amp;rsquo;t a problem, but what if the prediction of &amp;ldquo;store&amp;rdquo; requires knowing the word &amp;ldquo;gallon&amp;rdquo;?
 That is exactly where BERT falls short.&lt;/p&gt;
@@ -774,8 +703,6 @@ That is exactly where BERT falls short.&lt;/p&gt;
 
 
 
-  
-  
 
 
 
@@ -785,36 +712,21 @@ That is exactly where BERT falls short.&lt;/p&gt;
 
 
 
-
-
-&lt;figure id=&#34;figure-query-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Query stream, source&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;936&#34; height=&#34;794&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Query stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34;&gt;source&lt;/a&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure  id=&#34;figure-query-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Query stream, [source](https://arxiv.org/abs/1906.08237)&#34; srcset=&#34;
+               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_38dac758cb839cc6972fe3fb4a965216.png 400w,
+               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_98626a8d08caed422203da248c1ca4cc.png 760w,
+               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://example.com/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_38dac758cb839cc6972fe3fb4a965216.png&#34;
+               width=&#34;760&#34;
+               height=&#34;645&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Query stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34;&gt;source&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;In this illustration, query stream gives you the &lt;code&gt;query&lt;/code&gt; vector needed for attention calculation, and this stream is designed in such a way that it doesn&amp;rsquo;t leak the info of the word it&amp;rsquo;s going to predict, but guarantees all information from other positions.
-Take $x_1$ for example: $x_1$&#39;s embedding (and hidden state) is not used at all, but embeddings and hidden states from other positions are used in each layer.&lt;/p&gt;
-
-
-
-
-
-  
-  
+Take $x_1$ for example: $x_1$&amp;rsquo;s embedding (and hidden state) is not used at all, but embeddings and hidden states from other positions are used in each layer.&lt;/p&gt;
 
 
 
@@ -826,37 +738,31 @@ Take $x_1$ for example: $x_1$&#39;s embedding (and hidden state) is not used at 
 
 
 
-&lt;figure id=&#34;figure-content-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Content stream, source&#34;&gt;
 
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;894&#34; height=&#34;660&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Content stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34;&gt;source&lt;/a&gt;
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-content-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Content stream, [source](https://arxiv.org/abs/1906.08237)&#34; srcset=&#34;
+               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_35ebc2272312cf14f7535059af84f6b6.png 400w,
+               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_aad57049ce431e4543450b2ad7b1b34c.png 760w,
+               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://example.com/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_35ebc2272312cf14f7535059af84f6b6.png&#34;
+               width=&#34;760&#34;
+               height=&#34;561&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Content stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34;&gt;source&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;Content stream, on the other hand, gives you the &lt;code&gt;key&lt;/code&gt; and &lt;code&gt;value&lt;/code&gt; vectors needed for context vector calculation.
-This stream uses a strategy similar to that in a standard 
-&lt;a href=&#34;https://arxiv.org/pdf/1706.03762.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transformer decoder&lt;/a&gt; by masking future positions.
+This stream uses a strategy similar to that in a standard &lt;a href=&#34;https://arxiv.org/pdf/1706.03762.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transformer decoder&lt;/a&gt; by masking future positions.
 The only difference is that in content stream, the order of tokens is &lt;em&gt;randomly permuted&lt;/em&gt;.
 For example $x_2$ is right after $x_3$, and therefore $h_2^{(1)}$ can only see the embedding of itself and that of $x_3$ (and $mem^{(0)}$), but not that of $x_1$ or $x_4$.&lt;/p&gt;
 &lt;h3 id=&#34;mask-a-span&#34;&gt;Mask a span&lt;/h3&gt;
 &lt;p&gt;Another difference from BERT is masking a span of consecutive words.
 The reason I guess, is that this guarantees the dependence of masked words (as claimed to be what BERT can&amp;rsquo;t model).
 This is not a fresh-new idea, though.
-Recently there are two ERNIE papers (BERT based) that propose masking named entities (often of multiple words, 
-&lt;a href=&#34;https://arxiv.org/pdf/1905.07129.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper link&lt;/a&gt;) and/or phrases (
-&lt;a href=&#34;https://arxiv.org/pdf/1904.09223.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper link&lt;/a&gt;).&lt;/p&gt;
+Recently there are two ERNIE papers (BERT based) that propose masking named entities (often of multiple words, &lt;a href=&#34;https://arxiv.org/pdf/1905.07129.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper link&lt;/a&gt;) and/or phrases (&lt;a href=&#34;https://arxiv.org/pdf/1904.09223.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper link&lt;/a&gt;).&lt;/p&gt;
 &lt;h3 id=&#34;bidirectional-data-input&#34;&gt;Bidirectional data input&lt;/h3&gt;
 &lt;p&gt;Another notably different thing in XLNet is the usage of bidirectional data input.
 The idea (I guess) is to decide the factorization direction (either forward or backward), so that the idea of &amp;ldquo;masking future positions&amp;rdquo; used in a standard Transformer decoder can also be easily used together with XLNet.&lt;/p&gt;
@@ -874,75 +780,213 @@ If not, here is a quick summary:&lt;/p&gt;
 What if BERT is also trained using the additional data (Giga5, ClueWeb, Common Crawl), will XLNet still be able to defeat BERT?&lt;/p&gt;
 &lt;p&gt;EDIT:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Another model named 
-&lt;a href=&#34;https://arxiv.org/abs/1905.02450&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MASS&lt;/a&gt; employs a very similar idea.&lt;/li&gt;
+&lt;li&gt;Another model named &lt;a href=&#34;https://arxiv.org/abs/1905.02450&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MASS&lt;/a&gt; employs a very similar idea.&lt;/li&gt;
 &lt;li&gt;According to Jacob Devlin (author of BERT), relative positional embedding might be of great importance.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
+      <title>Slides</title>
+      <link>https://example.com/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   **Two** 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   Three 
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss</title>
-      <link>https://shaojiejiang.github.io/publication/jiang-2019-improving/</link>
+      <link>https://example.com/publication/jiang-2019-improving/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/publication/jiang-2019-improving/</guid>
+      <guid>https://example.com/publication/jiang-2019-improving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why are Sequence-to-Sequence Models So Dull? Understanding the Low-Diversity Problem of Chatbots</title>
-      <link>https://shaojiejiang.github.io/publication/jiang-2018-sequence/</link>
+      <link>https://example.com/publication/jiang-2018-sequence/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/publication/jiang-2018-sequence/</guid>
+      <guid>https://example.com/publication/jiang-2018-sequence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robust Struck tracker via color Haar-like feature and selective updating</title>
-      <link>https://shaojiejiang.github.io/publication/jiang-2017-robust/</link>
+      <link>https://example.com/publication/jiang-2017-robust/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/publication/jiang-2017-robust/</guid>
+      <guid>https://example.com/publication/jiang-2017-robust/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Example Project</title>
+      <link>https://example.com/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Object tracking via dual linear structured SVM and explicit feature map</title>
-      <link>https://shaojiejiang.github.io/publication/ning-2016-object/</link>
+      <link>https://example.com/publication/ning-2016-object/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/publication/ning-2016-object/</guid>
+      <guid>https://example.com/publication/ning-2016-object/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://shaojiejiang.github.io/cv/</link>
+      <link>https://example.com/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/cv/</guid>
+      <guid>https://example.com/admin/config.yml</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://shaojiejiang.github.io/home-zh/</link>
+      <link>https://example.com/home-zh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/home-zh/</guid>
+      <guid>https://example.com/home-zh/</guid>
       <description></description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://shaojiejiang.github.io/search-zh/</link>
+      <title>Google Search this site 全站谷歌搜索</title>
+      <link>https://example.com/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/search-zh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://shaojiejiang.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/search/</guid>
-      <description></description>
+      <guid>https://example.com/search/</guid>
+      <description>&lt;script async src=&#34;https://cse.google.com/cse.js?cx=018409216753371592144:rrbl3bjsbqc&#34;&gt;&lt;/script&gt;
+&lt;div class=&#34;gcse-search&#34;&gt;&lt;/div&gt;
+&lt;p&gt;Tips: Please change to Light theme 提示：请换成明亮主题&lt;/p&gt;
+&lt;p&gt;Note: If the integrated search function fails to return content, try Google search.
+说明：如果集成搜索功能失效，请使用谷歌搜索。&lt;/p&gt;
+</description>
     </item>
     
   </channel>

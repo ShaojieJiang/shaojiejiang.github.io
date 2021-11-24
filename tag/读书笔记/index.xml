@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>读书笔记 | Shaojie Jiang</title>
-    <link>https://shaojiejiang.github.io/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
-      <atom:link href="https://shaojiejiang.github.io/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <title>读书笔记 | Shaojie Jiang&#39;s Homepage</title>
+    <link>https://example.com/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <atom:link href="https://example.com/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <description>读书笔记</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Shaojie Jiang</copyright><lastBuildDate>Tue, 30 Jun 2020 14:37:56 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 14:37:56 +0200</lastBuildDate>
     <image>
-      <url>https://shaojiejiang.github.io/images/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_2.png</url>
+      <url>https://example.com/media/icon_hubc11b102ed638ad8eb587d60e1601a1f_37041_512x512_fill_lanczos_center_3.png</url>
       <title>读书笔记</title>
-      <link>https://shaojiejiang.github.io/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <link>https://example.com/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
     </image>
     
     <item>
       <title>《所谓情商高，就是会说话》读书笔记</title>
-      <link>https://shaojiejiang.github.io/post/zh/eq-speaking/</link>
+      <link>https://example.com/post/zh/eq-speaking/</link>
       <pubDate>Tue, 30 Jun 2020 14:37:56 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/eq-speaking/</guid>
+      <guid>https://example.com/post/zh/eq-speaking/</guid>
       <description>&lt;p&gt;这是非常短的一本书。作者主要分享了有求于人时的7个突破口，分别是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;投其所好&lt;/li&gt;
@@ -35,14 +35,13 @@
 &lt;li&gt;团队化，是理解、认可对方的一种方式，更是“协同原则”的直接实践&lt;/li&gt;
 &lt;li&gt;衷心感谢，也属于对别人付出的理解和认可&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;另外书中提到一点“要想掌握‘措辞菜谱’，输出是最便捷的途径”，正印证了本人
-&lt;a href=&#34;../three-key-elements-of-learning&#34;&gt;学习的三要素&lt;/a&gt; 博客里关于“输出”对于学习的重要性。&lt;/p&gt;
+&lt;p&gt;另外书中提到一点“要想掌握‘措辞菜谱’，输出是最便捷的途径”，正印证了本人&lt;a href=&#34;../three-key-elements-of-learning&#34;&gt;学习的三要素&lt;/a&gt; 博客里关于“输出”对于学习的重要性。&lt;/p&gt;
 &lt;p&gt;最后吐槽下该书的不足：作者同样&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;为广告文案员，因此第二章（最后一章）基本都是关于文案写作的语言张力的，与情商没什么关联，有点被欺骗的感觉。作者可能犯了文案员“标题党”的职业病了吧。&lt;/p&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;相对于上一本书《好文案一句话就够了》的作者 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;相对于上一本书《好文案一句话就够了》的作者&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -51,9 +50,9 @@
     
     <item>
       <title>《好文案一句话就够了》读后感</title>
-      <link>https://shaojiejiang.github.io/post/zh/copywriting/</link>
+      <link>https://example.com/post/zh/copywriting/</link>
       <pubDate>Mon, 29 Jun 2020 18:23:16 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/copywriting/</guid>
+      <guid>https://example.com/post/zh/copywriting/</guid>
       <description>&lt;p&gt;本人读《好文案一句话就够了》这本书（以下统称“该书”），主要是为了学习一些普适的写作技巧，毕竟虽然本人不需要写广告文案，但还是需要写推文、博客、文章等等，如果能练出更打动人心、有张力、吸引目光的写作风格，又何乐不为呢？&lt;/p&gt;
 &lt;p&gt;该书总结的广告文案的三大基本原则，我认为很是精炼：&lt;/p&gt;
 &lt;ol&gt;
@@ -93,7 +92,7 @@
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;个人理解所谓技巧，是指可以简单地掌握，并且应用起来见效很快。然而真挚的讲话，对于说惯了客套话的人是需要一定练习的，并且见效可能没那么快。用科维的观点来说，“感情真挚”更应该算是一项原则而非技巧。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;个人理解所谓技巧，是指可以简单地掌握，并且应用起来见效很快。然而真挚的讲话，对于说惯了客套话的人是需要一定练习的，并且见效可能没那么快。用科维的观点来说，“感情真挚”更应该算是一项原则而非技巧。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -102,10 +101,10 @@
     
     <item>
       <title>学习的三要素</title>
-      <link>https://shaojiejiang.github.io/post/zh/three-key-elements-of-learning/</link>
+      <link>https://example.com/post/zh/three-key-elements-of-learning/</link>
       <pubDate>Thu, 30 Apr 2020 09:12:07 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/three-key-elements-of-learning/</guid>
-      <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;rdquo; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
+      <guid>https://example.com/post/zh/three-key-elements-of-learning/</guid>
+      <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;quot; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;自我审问要有一个合理的极限。在因为过于自省而感到焦虑之前，你应该通过拍摄一些照片来对外交流。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -160,10 +159,10 @@
     
     <item>
       <title>我需要明确自己的摄影主题</title>
-      <link>https://shaojiejiang.github.io/post/zh/photography-subject/</link>
+      <link>https://example.com/post/zh/photography-subject/</link>
       <pubDate>Wed, 29 Apr 2020 14:17:37 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/photography-subject/</guid>
-      <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;rdquo; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
+      <guid>https://example.com/post/zh/photography-subject/</guid>
+      <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;quot; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;你的兴趣是什么？只有你自己可以回答。但这个回答是非常重要的，因为如果你要创作有意义的摄影作品，就必须专注于那些你最感兴趣的领域。不仅如此，你还必须专注于那些你具有强烈个人想法的领域。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -198,8 +197,28 @@
 
 
 
-  
-  
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-蘑菇105mm微距&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;蘑菇，105mm微距&#34; srcset=&#34;
+               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg 400w,
+               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_d9d018e85fdbd5595f857a4be0a15e48.jpg 760w,
+               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;https://example.com/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg&#34;
+               width=&#34;600&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      蘑菇，105mm微距
+    &lt;/figcaption&gt;&lt;/figure&gt;
 
 
 
@@ -211,62 +230,22 @@
 
 
 
-&lt;figure id=&#34;figure-蘑菇105mm微距&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;蘑菇，105mm微距&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;4000&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    蘑菇，105mm微距
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
 
 
 
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-箭头10-20mm广角&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;“箭头”，10-20mm广角&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;500&#34; height=&#34;5816&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    “箭头”，10-20mm广角
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
+&lt;figure  id=&#34;figure-箭头10-20mm广角&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;“箭头”，10-20mm广角&#34; srcset=&#34;
+               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg 400w,
+               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_49e3fa121532737996abe2c056fbb077.jpg 760w,
+               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;https://example.com/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg&#34;
+               width=&#34;500&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      “箭头”，10-20mm广角
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;其实很多摄影题材都有吸引我的地方。
 拍摄旅游题材可以收获各地的美景照，但是前期需要对目的地的人文、历史甚至天气和交通等都要有充足的了解；拍摄微距可以把渺小的事物以震撼的角度展示出来，前提是我有足够的耐心去做细致入微的观察；长焦摄影可以让我把美妙的野生动物拉近到眼前并展现给观众，但是难度不亚于狙击一个不确定的目标，而且前期对动物习性的了解也是少不了的；风景摄影可以展示人类建筑或是大自然美景的震撼，但是创意角度的选取、怎么避开人群或者让他们很好地融入画面、在什么样的天气拍摄等等也是让我很头大；而人像摄影不仅需要自己的审美观点，还需要建立好跟模特的关系或交流——如果我有模特的话。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -282,8 +261,6 @@
 
 
 
-  
-  
 
 
 
@@ -293,27 +270,19 @@
 
 
 
-
-
-&lt;figure id=&#34;figure-网红墙下睡觉的猫未调修&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;网红墙下睡觉的猫，未调修&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;4000&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    网红墙下睡觉的猫，未调修
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-网红墙下睡觉的猫未调修&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;网红墙下睡觉的猫，未调修&#34; srcset=&#34;
+               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg 400w,
+               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_9b27c5531fdf17aade8c0753772a8a8e.jpg 760w,
+               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;https://example.com/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg&#34;
+               width=&#34;600&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      网红墙下睡觉的猫，未调修
+    &lt;/figcaption&gt;&lt;/figure&gt;
 那天我很幸运，因为偶遇了这面网红墙。当时还不知道这面墙小有名气，只是觉得这句话很醒目、很有个性，最关键的是下面长凳上有只睡觉的猫，就像是有人专门安排的一样！
 然而那天我也是很不幸的，因为首先我当时拍照不会构图，把画面重点的猫放到了左下角非常边缘的位置；其次没有足够了解相机的设置，所以没有记录下来无损的照片，给后期调整带来了很大的限制。
 所以当我把这张照片分享到社交媒体上之后反响平平，甚至很多人都没注意到那只在阴影里的猫，反而被占据画面大部分的、高对比的墙吸引了。
@@ -340,26 +309,12 @@
 
 
 
-
-&lt;figure id=&#34;figure-乞女-by-bruce-barnbaum&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447459082594-OAR3ZKKQIR87D1PII2Y9/ke17ZwdGBToddI8pDm48kJcL8RUadGdk4gpl41YTwHNZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICa0vOBoO_YRM0aI4T8IW9lHW4ggziL-I7oURYsi2vL8KMshLAGzx4R3EDFOm1kBS/TheBeggarWoman.jpg?&#34; data-caption=&#34;乞女 by Bruce Barnbaum&#34;&gt;
-
-
-  &lt;img src=&#34;https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447459082594-OAR3ZKKQIR87D1PII2Y9/ke17ZwdGBToddI8pDm48kJcL8RUadGdk4gpl41YTwHNZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICa0vOBoO_YRM0aI4T8IW9lHW4ggziL-I7oURYsi2vL8KMshLAGzx4R3EDFOm1kBS/TheBeggarWoman.jpg?&#34; alt=&#34;&#34; width=&#34;600&#34; &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    乞女 by Bruce Barnbaum
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-乞女-by-bruce-barnbaum&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447459082594-OAR3ZKKQIR87D1PII2Y9/ke17ZwdGBToddI8pDm48kJcL8RUadGdk4gpl41YTwHNZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICa0vOBoO_YRM0aI4T8IW9lHW4ggziL-I7oURYsi2vL8KMshLAGzx4R3EDFOm1kBS/TheBeggarWoman.jpg?&#34; alt=&#34;乞女 by Bruce Barnbaum&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;600&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      乞女 by Bruce Barnbaum
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;虽然乞丐是视觉中心，但你不会立刻就能发现她。她太小了，无法马上就看得到。但只要你发现了，影像的性质就完全改变了。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -370,8 +325,6 @@
 
 
 
-  
-  
 
 
 
@@ -381,27 +334,19 @@
 
 
 
-
-
-&lt;figure id=&#34;figure-睡觉的猫抢救版&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;睡觉的猫，抢救版&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;400&#34; height=&#34;4000&#34;&gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    睡觉的猫，抢救版
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;figure  id=&#34;figure-睡觉的猫抢救版&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;睡觉的猫，抢救版&#34; srcset=&#34;
+               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg 400w,
+               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_bc9e96672018136da30e698a307c5fa6.jpg 760w,
+               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;https://example.com/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg&#34;
+               width=&#34;400&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      睡觉的猫，抢救版
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;这里对照片进行了裁剪和黑白处理以过滤掉颜色干扰，并做了split toning以使猫和墙的色彩略有分离。
 当然，这里叫它“抢救版”，是因为它离一幅好的作品依然还很远。
 如果我再有这样的机会，我会把机位左移，以尽量把猫放在更显眼的位置。&lt;/p&gt;
@@ -410,9 +355,9 @@
     
     <item>
       <title>凯恩斯主义——中国以基建为核心的经济策略理论背景</title>
-      <link>https://shaojiejiang.github.io/post/zh/keynesianism/</link>
+      <link>https://example.com/post/zh/keynesianism/</link>
       <pubDate>Mon, 27 Apr 2020 22:18:24 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/keynesianism/</guid>
+      <guid>https://example.com/post/zh/keynesianism/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;收入等于人们的需求消费的总量。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -436,9 +381,9 @@
     
     <item>
       <title>拼多多或许造福了中国的贫下中农以及经济与科技</title>
-      <link>https://shaojiejiang.github.io/post/zh/pinduoduo/</link>
+      <link>https://example.com/post/zh/pinduoduo/</link>
       <pubDate>Mon, 27 Apr 2020 22:03:10 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/zh/pinduoduo/</guid>
+      <guid>https://example.com/post/zh/pinduoduo/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;企业家获得成功的同时也得到了财富。他们的新商品在经济体中传播，人们发现自己想要一个留声机或电视，便出门购买。亨利·福特和安德鲁·卡内基分别靠着生产适用于大众的廉价汽车和在钢铁制造中引入新方法而发财致富。 很快，仿效者们开始仿效最初的企业家，生产出了同样的汽车、熔炉或染料。新商品和技术传播地更远了，这引起了整个行业的变革，并扩大了经济体量。最终，一些企业倒闭，经济开始萎缩，直至新一轮创新出现。资本主义的荣衰与浮沉都源自层出不穷的创新浪潮以及创业和模仿的消长。&amp;rdquo; (from &amp;ldquo;经济学通识课（耶鲁大学出品！耶鲁大学经济学入门课，普通人也能读懂的经济学！理论到现实，搭起用经济学改善现实生活的桥梁 ) (博集经管商务必读系列)&amp;rdquo; by 尼尔·基什特尼, 张缘, 刘婧)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -446,8 +391,7 @@
 &lt;p&gt;诚然，拼多多也许在技术上、营销上并没有为同行们带来什么创新，而且还破坏了很多工薪阶层对网购平台的印象，然而也许这些都只是负面作用。整体上拼多多使得方便的网购果实惠及到偏远的乡村家庭里，可以说最大化了当前网购产业的利用率，甚至还可能会带动乡村经济的发展。&lt;/p&gt;
 &lt;p&gt;就像引文里提到的福特。也许他刚开始也因为生产廉价的汽车而为贵族所不齿，也许他的汽车也伤过一时贪图便宜的贵族的心，但不可否认的是，正是他的这种努力才使得汽车成为平民大众的交通工具而不是贵族用来炫耀的奢侈品。那么拼多多也是承担了这样一个角色。&lt;/p&gt;
 &lt;p&gt;作为生在新时代的我们，亦或是生活在大城市、坐在舒适办公桌前的我们，可能无法理解在网购领域已经有淘宝天猫京东等平台覆盖了从廉价到品质各个价格区间，为什么还会有拼多多来进一步拉低品质与价格的下限。我们之所以会有这样的想法，是因为我们在与网购一起成长，我们接受了网购同时也成就了网购。习惯成自然的我们忽视了有一个群体一直都不在我们与网购形成的共生体中——那些生活在乡村的贫苦农民们。&lt;/p&gt;
-&lt;p&gt;他们不能像我们一样很快适应新科技、新潮流的发展，更不能像我们一样在价格与品质之间随性选择。记得之前在一篇时事点评里（『每日人物』关于拼多多的点评《
-&lt;a href=&#34;https://mp.weixin.qq.com/s/kfj6cAIsajiyumnURNxpeQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;他们，在拼多多上拼运气&lt;/a&gt;》。惊讶得发现文章已经是2018年8月的了，我明明记得是去年看过的啊。。）看到过，我们眼里的假冒伪劣产品，可能是那些穷人眼里的一次消费升级。他们不会用淘宝天猫京东，也没有动力去学习如何使用——毕竟他们需求低，就算有需求，这些平台的商品也可能会超出他们的（心理）承受范围。若不是拼多多依靠低价、亲友帮忙砍价等等策略让这个群体接受这种新的消费方式，网络购物何时才能渗透到社会的神经末梢里去？拼多多是一个模仿者，也是一个推广者、一股深化技术对社会变革不可缺少的力量。&lt;/p&gt;
+&lt;p&gt;他们不能像我们一样很快适应新科技、新潮流的发展，更不能像我们一样在价格与品质之间随性选择。记得之前在一篇时事点评里（『每日人物』关于拼多多的点评《&lt;a href=&#34;https://mp.weixin.qq.com/s/kfj6cAIsajiyumnURNxpeQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;他们，在拼多多上拼运气&lt;/a&gt;》。惊讶得发现文章已经是2018年8月的了，我明明记得是去年看过的啊。。）看到过，我们眼里的假冒伪劣产品，可能是那些穷人眼里的一次消费升级。他们不会用淘宝天猫京东，也没有动力去学习如何使用——毕竟他们需求低，就算有需求，这些平台的商品也可能会超出他们的（心理）承受范围。若不是拼多多依靠低价、亲友帮忙砍价等等策略让这个群体接受这种新的消费方式，网络购物何时才能渗透到社会的神经末梢里去？拼多多是一个模仿者，也是一个推广者、一股深化技术对社会变革不可缺少的力量。&lt;/p&gt;
 </description>
     </item>
     

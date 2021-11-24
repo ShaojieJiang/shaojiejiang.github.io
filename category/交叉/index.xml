@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>交叉 | Shaojie Jiang&#39;s Homepage</title>
-    <link>https://example.com/category/%E4%BA%A4%E5%8F%89/</link>
-      <atom:link href="https://example.com/category/%E4%BA%A4%E5%8F%89/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shaojiejiang.github.io/category/%E4%BA%A4%E5%8F%89/</link>
+      <atom:link href="https://shaojiejiang.github.io/category/%E4%BA%A4%E5%8F%89/index.xml" rel="self" type="application/rss+xml" />
     <description>交叉</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2020 09:12:07 +0200</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shaojiejiang.github.io/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
       <title>交叉</title>
-      <link>https://example.com/category/%E4%BA%A4%E5%8F%89/</link>
+      <link>https://shaojiejiang.github.io/category/%E4%BA%A4%E5%8F%89/</link>
     </image>
     
     <item>
       <title>学习的三要素</title>
-      <link>https://example.com/post/zh/three-key-elements-of-learning/</link>
+      <link>https://shaojiejiang.github.io/post/zh/three-key-elements-of-learning/</link>
       <pubDate>Thu, 30 Apr 2020 09:12:07 +0200</pubDate>
-      <guid>https://example.com/post/zh/three-key-elements-of-learning/</guid>
+      <guid>https://shaojiejiang.github.io/post/zh/three-key-elements-of-learning/</guid>
       <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;quot; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;自我审问要有一个合理的极限。在因为过于自省而感到焦虑之前，你应该通过拍摄一些照片来对外交流。&amp;rdquo;&lt;/p&gt;

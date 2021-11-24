@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>写作技巧 | Shaojie Jiang&#39;s Homepage</title>
-    <link>https://example.com/category/%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/</link>
-      <atom:link href="https://example.com/category/%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shaojiejiang.github.io/category/%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/</link>
+      <atom:link href="https://shaojiejiang.github.io/category/%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
     <description>写作技巧</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 Jun 2020 18:23:16 +0200</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shaojiejiang.github.io/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
       <title>写作技巧</title>
-      <link>https://example.com/category/%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/</link>
+      <link>https://shaojiejiang.github.io/category/%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/</link>
     </image>
     
     <item>
       <title>《好文案一句话就够了》读后感</title>
-      <link>https://example.com/post/zh/copywriting/</link>
+      <link>https://shaojiejiang.github.io/post/zh/copywriting/</link>
       <pubDate>Mon, 29 Jun 2020 18:23:16 +0200</pubDate>
-      <guid>https://example.com/post/zh/copywriting/</guid>
+      <guid>https://shaojiejiang.github.io/post/zh/copywriting/</guid>
       <description>&lt;p&gt;本人读《好文案一句话就够了》这本书（以下统称“该书”），主要是为了学习一些普适的写作技巧，毕竟虽然本人不需要写广告文案，但还是需要写推文、博客、文章等等，如果能练出更打动人心、有张力、吸引目光的写作风格，又何乐不为呢？&lt;/p&gt;
 &lt;p&gt;该书总结的广告文案的三大基本原则，我认为很是精炼：&lt;/p&gt;
 &lt;ol&gt;

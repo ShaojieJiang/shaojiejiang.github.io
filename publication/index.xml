@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Shaojie Jiang&#39;s Homepage</title>
-    <link>https://example.com/publication/</link>
-      <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shaojiejiang.github.io/publication/</link>
+      <atom:link href="https://shaojiejiang.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shaojiejiang.github.io/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>https://example.com/publication/</link>
+      <link>https://shaojiejiang.github.io/publication/</link>
     </image>
     
     <item>
       <title>TLDR: Token Loss Dynamic Reweighting for Reducing Repetitive Utterance Generation</title>
-      <link>https://example.com/publication/jiang-2020-tldr/</link>
+      <link>https://shaojiejiang.github.io/publication/jiang-2020-tldr/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/jiang-2020-tldr/</guid>
+      <guid>https://shaojiejiang.github.io/publication/jiang-2020-tldr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss</title>
-      <link>https://example.com/publication/jiang-2019-improving/</link>
+      <link>https://shaojiejiang.github.io/publication/jiang-2019-improving/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/jiang-2019-improving/</guid>
+      <guid>https://shaojiejiang.github.io/publication/jiang-2019-improving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why are Sequence-to-Sequence Models So Dull? Understanding the Low-Diversity Problem of Chatbots</title>
-      <link>https://example.com/publication/jiang-2018-sequence/</link>
+      <link>https://shaojiejiang.github.io/publication/jiang-2018-sequence/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/jiang-2018-sequence/</guid>
+      <guid>https://shaojiejiang.github.io/publication/jiang-2018-sequence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robust Struck tracker via color Haar-like feature and selective updating</title>
-      <link>https://example.com/publication/jiang-2017-robust/</link>
+      <link>https://shaojiejiang.github.io/publication/jiang-2017-robust/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/jiang-2017-robust/</guid>
+      <guid>https://shaojiejiang.github.io/publication/jiang-2017-robust/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Object tracking via dual linear structured SVM and explicit feature map</title>
-      <link>https://example.com/publication/ning-2016-object/</link>
+      <link>https://shaojiejiang.github.io/publication/ning-2016-object/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/ning-2016-object/</guid>
+      <guid>https://shaojiejiang.github.io/publication/ning-2016-object/</guid>
       <description></description>
     </item>
     

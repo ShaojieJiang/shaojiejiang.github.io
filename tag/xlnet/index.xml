@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XLNet | Shaojie Jiang&#39;s Homepage</title>
-    <link>https://example.com/tag/xlnet/</link>
-      <atom:link href="https://example.com/tag/xlnet/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shaojiejiang.github.io/tag/xlnet/</link>
+      <atom:link href="https://shaojiejiang.github.io/tag/xlnet/index.xml" rel="self" type="application/rss+xml" />
     <description>XLNet</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shaojiejiang.github.io/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
       <title>XLNet</title>
-      <link>https://example.com/tag/xlnet/</link>
+      <link>https://shaojiejiang.github.io/tag/xlnet/</link>
     </image>
     
     <item>
       <title>What&#39;s New in XLNet?</title>
-      <link>https://example.com/post/en/xlnet/</link>
+      <link>https://shaojiejiang.github.io/post/en/xlnet/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/en/xlnet/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/xlnet/</guid>
       <description>&lt;h2 id=&#34;rip-bert&#34;&gt;R.I.P BERT&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BERT&lt;/a&gt; got a head shot yesterday, by another guy called &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XLNet&lt;/a&gt;.
 It is reported that XLNet defeated BERT on 20 NLP tasks, and achieved 18 new state-of-the-art results.
@@ -42,7 +42,7 @@ So, farewell, BERT.
                /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_6857e2260ab446b51f13608b386eff69.jpg 400w,
                /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_526b97597aa9149c17bad8b30b8af9af.jpg 760w,
                /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://example.com/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_6857e2260ab446b51f13608b386eff69.jpg&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_6857e2260ab446b51f13608b386eff69.jpg&#34;
                width=&#34;570&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -82,7 +82,7 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
                /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_6ac9179d307010de4dbb4ffedc7ed2bd.png 400w,
                /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_8558609a8e5d6f3d0d698c4c338b2d61.png 760w,
                /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://example.com/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_6ac9179d307010de4dbb4ffedc7ed2bd.png&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_6ac9179d307010de4dbb4ffedc7ed2bd.png&#34;
                width=&#34;760&#34;
                height=&#34;103&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -113,7 +113,7 @@ That is exactly where BERT falls short.&lt;/p&gt;
                /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_38dac758cb839cc6972fe3fb4a965216.png 400w,
                /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_98626a8d08caed422203da248c1ca4cc.png 760w,
                /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://example.com/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_38dac758cb839cc6972fe3fb4a965216.png&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_38dac758cb839cc6972fe3fb4a965216.png&#34;
                width=&#34;760&#34;
                height=&#34;645&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -142,7 +142,7 @@ Take $x_1$ for example: $x_1$&amp;rsquo;s embedding (and hidden state) is not us
                /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_35ebc2272312cf14f7535059af84f6b6.png 400w,
                /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_aad57049ce431e4543450b2ad7b1b34c.png 760w,
                /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://example.com/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_35ebc2272312cf14f7535059af84f6b6.png&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_35ebc2272312cf14f7535059af84f6b6.png&#34;
                width=&#34;760&#34;
                height=&#34;561&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

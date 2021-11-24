@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>摄影 | Shaojie Jiang&#39;s Homepage</title>
-    <link>https://example.com/category/%E6%91%84%E5%BD%B1/</link>
-      <atom:link href="https://example.com/category/%E6%91%84%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shaojiejiang.github.io/category/%E6%91%84%E5%BD%B1/</link>
+      <atom:link href="https://shaojiejiang.github.io/category/%E6%91%84%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
     <description>摄影</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Apr 2020 14:17:37 +0200</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shaojiejiang.github.io/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
       <title>摄影</title>
-      <link>https://example.com/category/%E6%91%84%E5%BD%B1/</link>
+      <link>https://shaojiejiang.github.io/category/%E6%91%84%E5%BD%B1/</link>
     </image>
     
     <item>
       <title>我需要明确自己的摄影主题</title>
-      <link>https://example.com/post/zh/photography-subject/</link>
+      <link>https://shaojiejiang.github.io/post/zh/photography-subject/</link>
       <pubDate>Wed, 29 Apr 2020 14:17:37 +0200</pubDate>
-      <guid>https://example.com/post/zh/photography-subject/</guid>
+      <guid>https://shaojiejiang.github.io/post/zh/photography-subject/</guid>
       <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;quot; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;你的兴趣是什么？只有你自己可以回答。但这个回答是非常重要的，因为如果你要创作有意义的摄影作品，就必须专注于那些你最感兴趣的领域。不仅如此，你还必须专注于那些你具有强烈个人想法的领域。&amp;rdquo;&lt;/p&gt;
@@ -67,7 +67,7 @@
                /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg 400w,
                /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_d9d018e85fdbd5595f857a4be0a15e48.jpg 760w,
                /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://example.com/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg&#34;
                width=&#34;600&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -94,7 +94,7 @@
                /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg 400w,
                /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_49e3fa121532737996abe2c056fbb077.jpg 760w,
                /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://example.com/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg&#34;
                width=&#34;500&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -131,7 +131,7 @@
                /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg 400w,
                /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_9b27c5531fdf17aade8c0753772a8a8e.jpg 760w,
                /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://example.com/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg&#34;
                width=&#34;600&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -195,7 +195,7 @@
                /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg 400w,
                /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_bc9e96672018136da30e698a307c5fa6.jpg 760w,
                /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://example.com/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg&#34;
                width=&#34;400&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

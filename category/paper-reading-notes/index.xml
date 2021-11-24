@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>paper reading notes | Shaojie Jiang&#39;s Homepage</title>
-    <link>https://example.com/category/paper-reading-notes/</link>
-      <atom:link href="https://example.com/category/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shaojiejiang.github.io/category/paper-reading-notes/</link>
+      <atom:link href="https://shaojiejiang.github.io/category/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
     <description>paper reading notes</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2020 16:40:07 +0200</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shaojiejiang.github.io/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
       <title>paper reading notes</title>
-      <link>https://example.com/category/paper-reading-notes/</link>
+      <link>https://shaojiejiang.github.io/category/paper-reading-notes/</link>
     </image>
     
     <item>
       <title>Transformer Align Model</title>
-      <link>https://example.com/post/en/transformer-align-model/</link>
+      <link>https://shaojiejiang.github.io/post/en/transformer-align-model/</link>
       <pubDate>Sat, 16 May 2020 16:40:07 +0200</pubDate>
-      <guid>https://example.com/post/en/transformer-align-model/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/transformer-align-model/</guid>
       <description>&lt;p&gt;In this paper&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, transformer is trained to perform both translation and alignment tasks.&lt;/p&gt;
 &lt;h2 id=&#34;application-scenarios-of-word-alignments-in-nmt&#34;&gt;Application scenarios of word alignments in NMT&lt;/h2&gt;
 &lt;ul&gt;
@@ -55,9 +55,9 @@ In this paper, however, alignment performances are good, but translation results
     
     <item>
       <title>Compressive Transformers</title>
-      <link>https://example.com/post/en/compressive-transformers/</link>
+      <link>https://shaojiejiang.github.io/post/en/compressive-transformers/</link>
       <pubDate>Tue, 12 May 2020 14:29:44 +0200</pubDate>
-      <guid>https://example.com/post/en/compressive-transformers/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/compressive-transformers/</guid>
       <description>&lt;p&gt;Built on top of Transformer-XL, Compressive Transformer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; condenses old memories (hidden states) and stores them in the compressed memory buffer, before completely discarding them.
 This model is suitable for long-range sequence learning but may cause too much computational burden for tasks that only have short sequences.
 Compressive Transformers can also be used as memory components in conjunction with other models.&lt;/p&gt;
@@ -105,9 +105,9 @@ But why?&lt;/li&gt;
     
     <item>
       <title>Visualizing the Loss Landscape of Neural Nets</title>
-      <link>https://example.com/post/en/visualizing-loss/</link>
+      <link>https://shaojiejiang.github.io/post/en/visualizing-loss/</link>
       <pubDate>Wed, 06 May 2020 10:13:43 +0200</pubDate>
-      <guid>https://example.com/post/en/visualizing-loss/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/visualizing-loss/</guid>
       <description>&lt;p&gt;Here are some notes take while reading the NeurlIPS 2018 paper &lt;a href=&#34;http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing the Loss Landscape of Neural Nets&lt;/a&gt;.
 This work helps explain why some models are easier to train/generalize than others.
 The above image is a good illustration: with a much smoother loss landscape, DenseNet with 121 layers is much easier to train than a ResNet-110 without skip connections, and generalizes better in the mean time.&lt;/p&gt;
@@ -153,9 +153,9 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
     
     <item>
       <title>Adaptive Computation Time</title>
-      <link>https://example.com/post/en/adaptive-computation-time/</link>
+      <link>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</link>
       <pubDate>Tue, 28 Apr 2020 10:46:44 +0200</pubDate>
-      <guid>https://example.com/post/en/adaptive-computation-time/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</guid>
       <description>&lt;p&gt;My notes for the paper: Adaptive Computation Time for Recurrent Neural Networks&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;additive-vs-multiplicative-halting-probability&#34;&gt;Additive vs multiplicative halting probability&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Multiplicative:&lt;/strong&gt; In the paper (footnote 1), the authors discuss throughly their considerations for deciding the computation time.

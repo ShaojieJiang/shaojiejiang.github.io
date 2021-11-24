@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>读书笔记 | Shaojie Jiang&#39;s Homepage</title>
-    <link>https://example.com/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
-      <atom:link href="https://example.com/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shaojiejiang.github.io/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <atom:link href="https://shaojiejiang.github.io/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <description>读书笔记</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 14:37:56 +0200</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shaojiejiang.github.io/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
       <title>读书笔记</title>
-      <link>https://example.com/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <link>https://shaojiejiang.github.io/tag/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
     </image>
     
     <item>
       <title>《所谓情商高，就是会说话》读书笔记</title>
-      <link>https://example.com/post/zh/eq-speaking/</link>
+      <link>https://shaojiejiang.github.io/post/zh/eq-speaking/</link>
       <pubDate>Tue, 30 Jun 2020 14:37:56 +0200</pubDate>
-      <guid>https://example.com/post/zh/eq-speaking/</guid>
+      <guid>https://shaojiejiang.github.io/post/zh/eq-speaking/</guid>
       <description>&lt;p&gt;这是非常短的一本书。作者主要分享了有求于人时的7个突破口，分别是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;投其所好&lt;/li&gt;
@@ -50,9 +50,9 @@
     
     <item>
       <title>《好文案一句话就够了》读后感</title>
-      <link>https://example.com/post/zh/copywriting/</link>
+      <link>https://shaojiejiang.github.io/post/zh/copywriting/</link>
       <pubDate>Mon, 29 Jun 2020 18:23:16 +0200</pubDate>
-      <guid>https://example.com/post/zh/copywriting/</guid>
+      <guid>https://shaojiejiang.github.io/post/zh/copywriting/</guid>
       <description>&lt;p&gt;本人读《好文案一句话就够了》这本书（以下统称“该书”），主要是为了学习一些普适的写作技巧，毕竟虽然本人不需要写广告文案，但还是需要写推文、博客、文章等等，如果能练出更打动人心、有张力、吸引目光的写作风格，又何乐不为呢？&lt;/p&gt;
 &lt;p&gt;该书总结的广告文案的三大基本原则，我认为很是精炼：&lt;/p&gt;
 &lt;ol&gt;
@@ -101,9 +101,9 @@
     
     <item>
       <title>学习的三要素</title>
-      <link>https://example.com/post/zh/three-key-elements-of-learning/</link>
+      <link>https://shaojiejiang.github.io/post/zh/three-key-elements-of-learning/</link>
       <pubDate>Thu, 30 Apr 2020 09:12:07 +0200</pubDate>
-      <guid>https://example.com/post/zh/three-key-elements-of-learning/</guid>
+      <guid>https://shaojiejiang.github.io/post/zh/three-key-elements-of-learning/</guid>
       <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;quot; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;自我审问要有一个合理的极限。在因为过于自省而感到焦虑之前，你应该通过拍摄一些照片来对外交流。&amp;rdquo;&lt;/p&gt;
@@ -159,9 +159,9 @@
     
     <item>
       <title>我需要明确自己的摄影主题</title>
-      <link>https://example.com/post/zh/photography-subject/</link>
+      <link>https://shaojiejiang.github.io/post/zh/photography-subject/</link>
       <pubDate>Wed, 29 Apr 2020 14:17:37 +0200</pubDate>
-      <guid>https://example.com/post/zh/photography-subject/</guid>
+      <guid>https://shaojiejiang.github.io/post/zh/photography-subject/</guid>
       <description>&lt;p&gt;前注：如无特殊说明，本文的摘录均取自&amp;quot;摄影的艺术 (世界顶级摄影大师)&amp;quot; by Bruce Barnbaum, 樊智毅&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;你的兴趣是什么？只有你自己可以回答。但这个回答是非常重要的，因为如果你要创作有意义的摄影作品，就必须专注于那些你最感兴趣的领域。不仅如此，你还必须专注于那些你具有强烈个人想法的领域。&amp;rdquo;&lt;/p&gt;
@@ -212,7 +212,7 @@
                /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg 400w,
                /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_d9d018e85fdbd5595f857a4be0a15e48.jpg 760w,
                /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://example.com/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg&#34;
                width=&#34;600&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -239,7 +239,7 @@
                /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg 400w,
                /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_49e3fa121532737996abe2c056fbb077.jpg 760w,
                /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://example.com/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg&#34;
                width=&#34;500&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -276,7 +276,7 @@
                /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg 400w,
                /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_9b27c5531fdf17aade8c0753772a8a8e.jpg 760w,
                /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://example.com/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg&#34;
                width=&#34;600&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -340,7 +340,7 @@
                /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg 400w,
                /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_bc9e96672018136da30e698a307c5fa6.jpg 760w,
                /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://example.com/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg&#34;
                width=&#34;400&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -355,9 +355,9 @@
     
     <item>
       <title>凯恩斯主义——中国以基建为核心的经济策略理论背景</title>
-      <link>https://example.com/post/zh/keynesianism/</link>
+      <link>https://shaojiejiang.github.io/post/zh/keynesianism/</link>
       <pubDate>Mon, 27 Apr 2020 22:18:24 +0200</pubDate>
-      <guid>https://example.com/post/zh/keynesianism/</guid>
+      <guid>https://shaojiejiang.github.io/post/zh/keynesianism/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;收入等于人们的需求消费的总量。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -381,9 +381,9 @@
     
     <item>
       <title>拼多多或许造福了中国的贫下中农以及经济与科技</title>
-      <link>https://example.com/post/zh/pinduoduo/</link>
+      <link>https://shaojiejiang.github.io/post/zh/pinduoduo/</link>
       <pubDate>Mon, 27 Apr 2020 22:03:10 +0200</pubDate>
-      <guid>https://example.com/post/zh/pinduoduo/</guid>
+      <guid>https://shaojiejiang.github.io/post/zh/pinduoduo/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;企业家获得成功的同时也得到了财富。他们的新商品在经济体中传播，人们发现自己想要一个留声机或电视，便出门购买。亨利·福特和安德鲁·卡内基分别靠着生产适用于大众的廉价汽车和在钢铁制造中引入新方法而发财致富。 很快，仿效者们开始仿效最初的企业家，生产出了同样的汽车、熔炉或染料。新商品和技术传播地更远了，这引起了整个行业的变革，并扩大了经济体量。最终，一些企业倒闭，经济开始萎缩，直至新一轮创新出现。资本主义的荣衰与浮沉都源自层出不穷的创新浪潮以及创业和模仿的消长。&amp;rdquo; (from &amp;ldquo;经济学通识课（耶鲁大学出品！耶鲁大学经济学入门课，普通人也能读懂的经济学！理论到现实，搭起用经济学改善现实生活的桥梁 ) (博集经管商务必读系列)&amp;rdquo; by 尼尔·基什特尼, 张缘, 刘婧)&lt;/p&gt;
 &lt;/blockquote&gt;

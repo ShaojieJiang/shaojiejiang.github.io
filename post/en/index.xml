@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>English Posts | Shaojie Jiang&#39;s Homepage</title>
-    <link>https://example.com/post/en/</link>
-      <atom:link href="https://example.com/post/en/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shaojiejiang.github.io/post/en/</link>
+      <atom:link href="https://shaojiejiang.github.io/post/en/index.xml" rel="self" type="application/rss+xml" />
     <description>English Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2020 16:40:07 +0200</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shaojiejiang.github.io/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
       <title>English Posts</title>
-      <link>https://example.com/post/en/</link>
+      <link>https://shaojiejiang.github.io/post/en/</link>
     </image>
     
     <item>
       <title>Transformer Align Model</title>
-      <link>https://example.com/post/en/transformer-align-model/</link>
+      <link>https://shaojiejiang.github.io/post/en/transformer-align-model/</link>
       <pubDate>Sat, 16 May 2020 16:40:07 +0200</pubDate>
-      <guid>https://example.com/post/en/transformer-align-model/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/transformer-align-model/</guid>
       <description>&lt;p&gt;In this paper&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, transformer is trained to perform both translation and alignment tasks.&lt;/p&gt;
 &lt;h2 id=&#34;application-scenarios-of-word-alignments-in-nmt&#34;&gt;Application scenarios of word alignments in NMT&lt;/h2&gt;
 &lt;ul&gt;
@@ -55,9 +55,9 @@ In this paper, however, alignment performances are good, but translation results
     
     <item>
       <title>Compressive Transformers</title>
-      <link>https://example.com/post/en/compressive-transformers/</link>
+      <link>https://shaojiejiang.github.io/post/en/compressive-transformers/</link>
       <pubDate>Tue, 12 May 2020 14:29:44 +0200</pubDate>
-      <guid>https://example.com/post/en/compressive-transformers/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/compressive-transformers/</guid>
       <description>&lt;p&gt;Built on top of Transformer-XL, Compressive Transformer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; condenses old memories (hidden states) and stores them in the compressed memory buffer, before completely discarding them.
 This model is suitable for long-range sequence learning but may cause too much computational burden for tasks that only have short sequences.
 Compressive Transformers can also be used as memory components in conjunction with other models.&lt;/p&gt;
@@ -105,9 +105,9 @@ But why?&lt;/li&gt;
     
     <item>
       <title>Visualizing the Loss Landscape of Neural Nets</title>
-      <link>https://example.com/post/en/visualizing-loss/</link>
+      <link>https://shaojiejiang.github.io/post/en/visualizing-loss/</link>
       <pubDate>Wed, 06 May 2020 10:13:43 +0200</pubDate>
-      <guid>https://example.com/post/en/visualizing-loss/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/visualizing-loss/</guid>
       <description>&lt;p&gt;Here are some notes take while reading the NeurlIPS 2018 paper &lt;a href=&#34;http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing the Loss Landscape of Neural Nets&lt;/a&gt;.
 This work helps explain why some models are easier to train/generalize than others.
 The above image is a good illustration: with a much smoother loss landscape, DenseNet with 121 layers is much easier to train than a ResNet-110 without skip connections, and generalizes better in the mean time.&lt;/p&gt;
@@ -153,9 +153,9 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
     
     <item>
       <title>Adaptive Computation Time</title>
-      <link>https://example.com/post/en/adaptive-computation-time/</link>
+      <link>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</link>
       <pubDate>Tue, 28 Apr 2020 10:46:44 +0200</pubDate>
-      <guid>https://example.com/post/en/adaptive-computation-time/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/adaptive-computation-time/</guid>
       <description>&lt;p&gt;My notes for the paper: Adaptive Computation Time for Recurrent Neural Networks&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;additive-vs-multiplicative-halting-probability&#34;&gt;Additive vs multiplicative halting probability&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Multiplicative:&lt;/strong&gt; In the paper (footnote 1), the authors discuss throughly their considerations for deciding the computation time.
@@ -185,9 +185,9 @@ The performance is sensitive to the penalty factor $\tau$, which is not intuitiv
     
     <item>
       <title>A Hub for Transformer Blogs and Papers</title>
-      <link>https://example.com/post/en/transformer-blog-paper-hub/</link>
+      <link>https://shaojiejiang.github.io/post/en/transformer-blog-paper-hub/</link>
       <pubDate>Mon, 02 Mar 2020 14:26:59 +0100</pubDate>
-      <guid>https://example.com/post/en/transformer-blog-paper-hub/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/transformer-blog-paper-hub/</guid>
       <description>&lt;p&gt;This is a growing list of pointers to useful blog posts and papers related to transformers.&lt;/p&gt;
 &lt;h2 id=&#34;transformers-explained&#34;&gt;Transformers explained&lt;/h2&gt;
 &lt;ul&gt;
@@ -208,9 +208,9 @@ The performance is sensitive to the penalty factor $\tau$, which is not intuitiv
     
     <item>
       <title>What&#39;s New in XLNet?</title>
-      <link>https://example.com/post/en/xlnet/</link>
+      <link>https://shaojiejiang.github.io/post/en/xlnet/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/en/xlnet/</guid>
+      <guid>https://shaojiejiang.github.io/post/en/xlnet/</guid>
       <description>&lt;h2 id=&#34;rip-bert&#34;&gt;R.I.P BERT&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BERT&lt;/a&gt; got a head shot yesterday, by another guy called &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XLNet&lt;/a&gt;.
 It is reported that XLNet defeated BERT on 20 NLP tasks, and achieved 18 new state-of-the-art results.
@@ -236,7 +236,7 @@ So, farewell, BERT.
                /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_6857e2260ab446b51f13608b386eff69.jpg 400w,
                /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_526b97597aa9149c17bad8b30b8af9af.jpg 760w,
                /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://example.com/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_6857e2260ab446b51f13608b386eff69.jpg&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_6857e2260ab446b51f13608b386eff69.jpg&#34;
                width=&#34;570&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -276,7 +276,7 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
                /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_6ac9179d307010de4dbb4ffedc7ed2bd.png 400w,
                /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_8558609a8e5d6f3d0d698c4c338b2d61.png 760w,
                /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://example.com/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_6ac9179d307010de4dbb4ffedc7ed2bd.png&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_6ac9179d307010de4dbb4ffedc7ed2bd.png&#34;
                width=&#34;760&#34;
                height=&#34;103&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -307,7 +307,7 @@ That is exactly where BERT falls short.&lt;/p&gt;
                /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_38dac758cb839cc6972fe3fb4a965216.png 400w,
                /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_98626a8d08caed422203da248c1ca4cc.png 760w,
                /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://example.com/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_38dac758cb839cc6972fe3fb4a965216.png&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_38dac758cb839cc6972fe3fb4a965216.png&#34;
                width=&#34;760&#34;
                height=&#34;645&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -336,7 +336,7 @@ Take $x_1$ for example: $x_1$&amp;rsquo;s embedding (and hidden state) is not us
                /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_35ebc2272312cf14f7535059af84f6b6.png 400w,
                /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_aad57049ce431e4543450b2ad7b1b34c.png 760w,
                /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://example.com/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_35ebc2272312cf14f7535059af84f6b6.png&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_35ebc2272312cf14f7535059af84f6b6.png&#34;
                width=&#34;760&#34;
                height=&#34;561&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

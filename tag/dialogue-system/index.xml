@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dialogue system | Shaojie Jiang&#39;s Homepage</title>
-    <link>https://example.com/tag/dialogue-system/</link>
-      <atom:link href="https://example.com/tag/dialogue-system/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shaojiejiang.github.io/tag/dialogue-system/</link>
+      <atom:link href="https://shaojiejiang.github.io/tag/dialogue-system/index.xml" rel="self" type="application/rss+xml" />
     <description>Dialogue system</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shaojiejiang.github.io/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
       <title>Dialogue system</title>
-      <link>https://example.com/tag/dialogue-system/</link>
+      <link>https://shaojiejiang.github.io/tag/dialogue-system/</link>
     </image>
     
     <item>
       <title>Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss</title>
-      <link>https://example.com/publication/jiang-2019-improving/</link>
+      <link>https://shaojiejiang.github.io/publication/jiang-2019-improving/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/jiang-2019-improving/</guid>
+      <guid>https://shaojiejiang.github.io/publication/jiang-2019-improving/</guid>
       <description></description>
     </item>
     

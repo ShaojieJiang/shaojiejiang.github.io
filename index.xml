@@ -5,9 +5,9 @@
     <link>https://shaojiejiang.github.io/</link>
       <atom:link href="https://shaojiejiang.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shaojie Jiang&#39;s Homepage</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://shaojiejiang.github.io/media/icon_huea2ab159e1edc4ef6a4fb9c9ac1bc57f_18343_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shaojiejiang.github.io/media/icon_huf1850796dc0c27e76df1b37fe2f35b33_25680_512x512_fill_lanczos_center_3.png</url>
       <title>Shaojie Jiang&#39;s Homepage</title>
       <link>https://shaojiejiang.github.io/</link>
     </image>
@@ -30,6 +30,22 @@
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Weakly Supervised Turn-level Engagingness Evaluator for Dialogues</title>
+      <link>https://shaojiejiang.github.io/publication/jiang-2023-weakly/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://shaojiejiang.github.io/publication/jiang-2023-weakly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration</title>
+      <link>https://shaojiejiang.github.io/publication/jiang-2022-simple/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://shaojiejiang.github.io/publication/jiang-2022-simple/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -57,14 +73,14 @@
 &lt;/ol&gt;
 &lt;p&gt;另外书中提到一点“要想掌握‘措辞菜谱’，输出是最便捷的途径”，正印证了本人&lt;a href=&#34;../three-key-elements-of-learning&#34;&gt;学习的三要素&lt;/a&gt; 博客里关于“输出”对于学习的重要性。&lt;/p&gt;
 &lt;p&gt;最后吐槽下该书的不足：作者同样&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;为广告文案员，因此第二章（最后一章）基本都是关于文案写作的语言张力的，与情商没什么关联，有点被欺骗的感觉。作者可能犯了文案员“标题党”的职业病了吧。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;相对于上一本书《好文案一句话就够了》的作者&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -108,14 +124,14 @@
 &lt;p&gt;该书的主要作用，也许就是像作者呼吁的那样“放在公司的桌上，当成字典来使用”吧。
 顺带提一下本人对该书不太认同的一点，就是某些技巧过于强调“吸睛”了，以至于作者本人都多次提醒读者“作为文案员可以如此写，而作为消费者要保持头脑清醒，不要轻易被广告文案诱惑”。
 这也从侧面说明了以上“技巧”中，最普适也最不像“技巧”&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;的一点，就是说话要发自内心，靠套路得来的人心只能是暂时的，而且还有被看穿的危险。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;个人理解所谓技巧，是指可以简单地掌握，并且应用起来见效很快。然而真挚的讲话，对于说惯了客套话的人是需要一定练习的，并且见效可能没那么快。用科维的观点来说，“感情真挚”更应该算是一项原则而非技巧。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -149,14 +165,14 @@ An alignment model is first trained on translation, then the penultimate layer a
 The alignment model is trained in both directions.&lt;/p&gt;
 &lt;p&gt;Previous work reported performance gain by introducing alignment supervision.
 In this paper, however, alignment performances are good, but translation results are moderate.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1909.02074&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jointly Learning to Align and Translate with Transformer Models&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -199,14 +215,14 @@ This is typical for transformer variants.&lt;/li&gt;
 But why?&lt;/li&gt;
 &lt;li&gt;In the discussion section, the authors pointed out that future directions could include the investigation of adaptive compression rates by layer, the use of long-range shallow memory layers together with deep short-range memory, and even the use of RNNs as compressors.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1911.05507&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compressive Transformers for Long-Range Sequence Modelling&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -233,7 +249,7 @@ Small-batch training results in flat minima, while large-batch training results 
 Increased width prevents chaotic behavior, and skip connections dramatically widen minimizers (see figure in the beginning).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Interpreting with precaution:&lt;/strong&gt;
 The loss surface is viewed under a dramatic dimensionality reduction.
-According to the authors&#39; analysis, if non-convexity is present in the dimensionality reduced plot, then non-convexity must be present in the full-dimensional surface as well.
+According to the authors&amp;rsquo; analysis, if non-convexity is present in the dimensionality reduced plot, then non-convexity must be present in the full-dimensional surface as well.
 However, apparent convexity in the low-dimensional surface does not mean the high-dimensional function is truly convex. Rather it means that the positive curvatures are dominant.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;In a nutshell:&lt;/strong&gt; It&amp;rsquo;s a great work trying to visualize the mystery of what&amp;rsquo;s going well/bad when training a neural model.
 Although claiming the study to be empirical, I personally found their experiments and results very convincing.
@@ -247,14 +263,14 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 &lt;li&gt;What&amp;rsquo;s similar between RNN and skip connections?&lt;/li&gt;
 &lt;li&gt;This work can be used together with automatic neural architecture search, but is there any other more efficient way of getting better models?&lt;/li&gt;
 &lt;/ol&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;http://iclr2020deepdiffeq.rice.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generalization in neural nets:  a perspective from science (not math)&lt;/a&gt; Starting at 1:54:00 in the video.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -365,13 +381,17 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
+
+
+
+
 &lt;figure  id=&#34;figure-蘑菇105mm微距&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;蘑菇，105mm微距&#34; srcset=&#34;
-               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg 400w,
-               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_d9d018e85fdbd5595f857a4be0a15e48.jpg 760w,
-               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_9b9197d4eba1a49445ffa1b7d9dff333.jpg&#34;
+               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_bfad4daf1ffcd6c102def86aa31ae798.webp 400w,
+               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_70c9005b3313dcca607fb93f69d63b6e.webp 760w,
+               /post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/mushroom_hud1f6acd565390c5de0622ffd0d4fee53_421574_bfad4daf1ffcd6c102def86aa31ae798.webp&#34;
                width=&#34;600&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -392,19 +412,25 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
+
+
+
+
+
 &lt;figure  id=&#34;figure-箭头10-20mm广角&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;“箭头”，10-20mm广角&#34; srcset=&#34;
-               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg 400w,
-               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_49e3fa121532737996abe2c056fbb077.jpg 760w,
-               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_6efeb65d6cdd5bdb9701d04eb459e945.jpg&#34;
+               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_2055bfaa515325ec6094166f4cc021ff.webp 400w,
+               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_e25923abca67ba00fd03f88146b59bfd.webp 760w,
+               /post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/arrow-head_hu944ed5084f0e8608078ceee70df4f487_448689_2055bfaa515325ec6094166f4cc021ff.webp&#34;
                width=&#34;500&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       “箭头”，10-20mm广角
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;其实很多摄影题材都有吸引我的地方。
 拍摄旅游题材可以收获各地的美景照，但是前期需要对目的地的人文、历史甚至天气和交通等都要有充足的了解；拍摄微距可以把渺小的事物以震撼的角度展示出来，前提是我有足够的耐心去做细致入微的观察；长焦摄影可以让我把美妙的野生动物拉近到眼前并展现给观众，但是难度不亚于狙击一个不确定的目标，而且前期对动物习性的了解也是少不了的；风景摄影可以展示人类建筑或是大自然美景的震撼，但是创意角度的选取、怎么避开人群或者让他们很好地融入画面、在什么样的天气拍摄等等也是让我很头大；而人像摄影不仅需要自己的审美观点，还需要建立好跟模特的关系或交流——如果我有模特的话。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -429,19 +455,24 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
+
+
+
+
 &lt;figure  id=&#34;figure-网红墙下睡觉的猫未调修&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;网红墙下睡觉的猫，未调修&#34; srcset=&#34;
-               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg 400w,
-               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_9b27c5531fdf17aade8c0753772a8a8e.jpg 760w,
-               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1cb3c0534109b4c9974257c92b82eaab.jpg&#34;
+               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_c689bab0096ef9110d9bc1bf6d82c0b3.webp 400w,
+               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_32055c83bc31962ab69502014f5e1042.webp 760w,
+               /post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat_hu6bda404798615778eeb98b7747e06ddb_834419_c689bab0096ef9110d9bc1bf6d82c0b3.webp&#34;
                width=&#34;600&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       网红墙下睡觉的猫，未调修
     &lt;/figcaption&gt;&lt;/figure&gt;
+
 那天我很幸运，因为偶遇了这面网红墙。当时还不知道这面墙小有名气，只是觉得这句话很醒目、很有个性，最关键的是下面长凳上有只睡觉的猫，就像是有人专门安排的一样！
 然而那天我也是很不幸的，因为首先我当时拍照不会构图，把画面重点的猫放到了左下角非常边缘的位置；其次没有足够了解相机的设置，所以没有记录下来无损的照片，给后期调整带来了很大的限制。
 所以当我把这张照片分享到社交媒体上之后反响平平，甚至很多人都没注意到那只在阴影里的猫，反而被占据画面大部分的、高对比的墙吸引了。
@@ -468,12 +499,17 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
+
+
+
+
 &lt;figure  id=&#34;figure-乞女-by-bruce-barnbaum&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.squarespace-cdn.com/content/v1/563fac1de4b07f78f2db1c2c/1447459082594-OAR3ZKKQIR87D1PII2Y9/ke17ZwdGBToddI8pDm48kJcL8RUadGdk4gpl41YTwHNZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICa0vOBoO_YRM0aI4T8IW9lHW4ggziL-I7oURYsi2vL8KMshLAGzx4R3EDFOm1kBS/TheBeggarWoman.jpg?&#34; alt=&#34;乞女 by Bruce Barnbaum&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;600&#34; /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       乞女 by Bruce Barnbaum
     &lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;虽然乞丐是视觉中心，但你不会立刻就能发现她。她太小了，无法马上就看得到。但只要你发现了，影像的性质就完全改变了。&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -493,19 +529,24 @@ This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt
 
 
 
+
+
+
+
 &lt;figure  id=&#34;figure-睡觉的猫抢救版&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;睡觉的猫，抢救版&#34; srcset=&#34;
-               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg 400w,
-               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_bc9e96672018136da30e698a307c5fa6.jpg 760w,
-               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_3f84f573a0168aa658f992ca801fd6b1.jpg&#34;
+               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_9f4f7b33e40b5909e220b1bb7600afee.webp 400w,
+               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_bfbf5b134aea0fcf9e79bee6963dad0f.webp 760w,
+               /post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/zh/photography-subject/images/sleeping-cat-touched_hu6bda404798615778eeb98b7747e06ddb_410272_9f4f7b33e40b5909e220b1bb7600afee.webp&#34;
                width=&#34;400&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       睡觉的猫，抢救版
     &lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;这里对照片进行了裁剪和黑白处理以过滤掉颜色干扰，并做了split toning以使猫和墙的色彩略有分离。
 当然，这里叫它“抢救版”，是因为它离一幅好的作品依然还很远。
 如果我再有这样的机会，我会把机位左移，以尽量把猫放在更显眼的位置。&lt;/p&gt;
@@ -533,14 +574,14 @@ The model can be of course trained to lower the expected ponder time $\rho_t = \
 Though being non-differentiable, the total ponder time (total updates at all positions) is penalized to avoid consuming unnecessary computation.
 There is still one drawback of this approach, however.
 The performance is sensitive to the penalty factor $\tau$, which is not intuitive to choose as a hyperparameter.&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1603.08983&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adaptive Computation Time for Recurrent Neural Networks&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -641,19 +682,24 @@ So, farewell, BERT.
 
 
 
+
+
+
+
 &lt;figure  id=&#34;figure-rip-bert&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;R.I.P BERT&#34; srcset=&#34;
-               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_6857e2260ab446b51f13608b386eff69.jpg 400w,
-               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_526b97597aa9149c17bad8b30b8af9af.jpg 760w,
-               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_6857e2260ab446b51f13608b386eff69.jpg&#34;
+               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_ad3b60d050a67b9089255b10065b08b1.webp 400w,
+               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_910a11ae63908cf22e4e12ec92059faf.webp 760w,
+               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_ad3b60d050a67b9089255b10065b08b1.webp&#34;
                width=&#34;570&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       R.I.P BERT
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;is-bert-really-dead&#34;&gt;Is BERT really dead?&lt;/h2&gt;
 &lt;p&gt;Since I love BERT, I decided to read the paper to find out what killed him.
 While reading, I was thinking wait a minute, is BERT really dead?
@@ -681,19 +727,24 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
 
 
 
+
+
+
+
 &lt;figure  id=&#34;figure-image-sourcehttpsnlpstanfordeduseminardetailsjdevlinpdf&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;[Image source](https://nlp.stanford.edu/seminar/details/jdevlin.pdf)&#34; srcset=&#34;
-               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_6ac9179d307010de4dbb4ffedc7ed2bd.png 400w,
-               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_8558609a8e5d6f3d0d698c4c338b2d61.png 760w,
-               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_6ac9179d307010de4dbb4ffedc7ed2bd.png&#34;
+               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_bbb8a61fc9a0697db6e27484ef59e402.webp 400w,
+               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_a370a21d4f992ecb82ae8e2649177c0d.webp 760w,
+               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_bbb8a61fc9a0697db6e27484ef59e402.webp&#34;
                width=&#34;760&#34;
                height=&#34;103&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      &lt;a href=&#34;https://nlp.stanford.edu/seminar/details/jdevlin.pdf&#34;&gt;Image source&lt;/a&gt;
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+      &lt;a href=&#34;https://nlp.stanford.edu/seminar/details/jdevlin.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Image source&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;In this example, both words &amp;ldquo;store&amp;rdquo; and &amp;ldquo;gallon&amp;rdquo; are intended to be predicted by BERT, and their input word embeddings are replaced by the embedding of a special token &lt;em&gt;[MASK]&lt;/em&gt;.
 Usually this isn&amp;rsquo;t a problem, but what if the prediction of &amp;ldquo;store&amp;rdquo; requires knowing the word &amp;ldquo;gallon&amp;rdquo;?
 That is exactly where BERT falls short.&lt;/p&gt;
@@ -712,21 +763,30 @@ That is exactly where BERT falls short.&lt;/p&gt;
 
 
 
+
+
+
+
 &lt;figure  id=&#34;figure-query-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Query stream, [source](https://arxiv.org/abs/1906.08237)&#34; srcset=&#34;
-               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_38dac758cb839cc6972fe3fb4a965216.png 400w,
-               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_98626a8d08caed422203da248c1ca4cc.png 760w,
-               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_38dac758cb839cc6972fe3fb4a965216.png&#34;
+               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_a84c83c6b945dba172c71d33c7936aac.webp 400w,
+               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_0758dcc20abd12daa219dd5d9bddf6da.webp 760w,
+               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_a84c83c6b945dba172c71d33c7936aac.webp&#34;
                width=&#34;760&#34;
                height=&#34;645&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      Query stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34;&gt;source&lt;/a&gt;
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+      Query stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;source&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;In this illustration, query stream gives you the &lt;code&gt;query&lt;/code&gt; vector needed for attention calculation, and this stream is designed in such a way that it doesn&amp;rsquo;t leak the info of the word it&amp;rsquo;s going to predict, but guarantees all information from other positions.
 Take $x_1$ for example: $x_1$&amp;rsquo;s embedding (and hidden state) is not used at all, but embeddings and hidden states from other positions are used in each layer.&lt;/p&gt;
+
+
+
+
 
 
 
@@ -744,16 +804,17 @@ Take $x_1$ for example: $x_1$&amp;rsquo;s embedding (and hidden state) is not us
 &lt;figure  id=&#34;figure-content-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Content stream, [source](https://arxiv.org/abs/1906.08237)&#34; srcset=&#34;
-               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_35ebc2272312cf14f7535059af84f6b6.png 400w,
-               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_aad57049ce431e4543450b2ad7b1b34c.png 760w,
-               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_35ebc2272312cf14f7535059af84f6b6.png&#34;
+               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_f91903c52b2690d818283e5376124698.webp 400w,
+               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_77f32608974273a37acf00c5c6de89e2.webp 760w,
+               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_f91903c52b2690d818283e5376124698.webp&#34;
                width=&#34;760&#34;
                height=&#34;561&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      Content stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34;&gt;source&lt;/a&gt;
+      Content stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;source&lt;/a&gt;
     &lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;p&gt;Content stream, on the other hand, gives you the &lt;code&gt;key&lt;/code&gt; and &lt;code&gt;value&lt;/code&gt; vectors needed for context vector calculation.
 This stream uses a strategy similar to that in a standard &lt;a href=&#34;https://arxiv.org/pdf/1706.03762.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transformer decoder&lt;/a&gt; by masking future positions.
 The only difference is that in content stream, the order of tokens is &lt;em&gt;randomly permuted&lt;/em&gt;.
@@ -792,7 +853,7 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://shaojiejiang.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
@@ -812,17 +873,16 @@ What if BERT is also trained using the additional data (Giga5, ClueWeb, Common C
 &lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
 &lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
 &lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
 &lt;p&gt;Block math:&lt;/p&gt;
@@ -832,19 +892,18 @@ $$&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
 &lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-   One 
+  One
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-   **Two** 
+  &lt;strong&gt;Two&lt;/strong&gt;
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-   Three 
+  Three
 &lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
@@ -855,12 +914,12 @@ $$&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
 &lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
 &lt;aside class=&#34;notes&#34;&gt;
   &lt;ul&gt;
 &lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
@@ -894,24 +953,22 @@ $$&lt;/p&gt;
 
 &lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
 &lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
 &lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
 &lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -950,6 +1007,14 @@ $$&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://shaojiejiang.github.io/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://shaojiejiang.github.io/project/external-project/</guid>
+      <description></description>
     </item>
     
     <item>

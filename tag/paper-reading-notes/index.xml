@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paper reading notes | Shaojie Jiang&#39;s Homepage</title>
+    <link>https://shaojiejiang.github.io/tag/paper-reading-notes/</link>
+      <atom:link href="https://shaojiejiang.github.io/tag/paper-reading-notes/index.xml" rel="self" type="application/rss+xml" />
+    <description>paper reading notes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Aug 2023 22:16:30 +0200</lastBuildDate>
+    <image>
+      <url>https://shaojiejiang.github.io/media/icon_huf1850796dc0c27e76df1b37fe2f35b33_25680_512x512_fill_lanczos_center_3.png</url>
+      <title>paper reading notes</title>
+      <link>https://shaojiejiang.github.io/tag/paper-reading-notes/</link>
+    </image>
+    
+    <item>
+      <title>One source of LLM hallucination is exposure bias</title>
+      <link>https://shaojiejiang.github.io/post/en/llm-hallucination/</link>
+      <pubDate>Wed, 09 Aug 2023 22:16:30 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/llm-hallucination/</guid>
+      <description>&lt;p&gt;With the release of closed-source ChatGPT, GPT-4, and open-source LLaMa models, the LLM development has seen tremendous improvements in recent months.
+While we are hyped with the fact that these LLMs are capable of many tasks, we have also noticed again and again that these LLMs hallucinate content.
+Today I came accross this inspiring paper, &lt;a href=&#34;https://arxiv.org/abs/2305.14552&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sources of Hallucination by Large Language Models on Inference Tasks&lt;/a&gt; by McKenna et al., in which the authors have identified two main sources of hallucination:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Knowledge that was memorised by the model during pre-training&lt;/li&gt;
+&lt;li&gt;Corpus-based heuristics such as term frequency&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In my opinion, I would put these two reasons into one category: the exposure bias.
+This is becuase either the memorised knowledge, or frequent terms, were exposed to the LLM at pre-training state.
+The observation made in this paper is very enlightning, and reminded me of an ealier paper of mine, where we also concluded that the low-diversity issue of generative chatbots are caused by frequent terms in the training corpora&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Although LLMs are becoming larger, trained with more sophisticated techniques like RLHF, they have a deep root in the field of statistical models.
+Losses are calculated based on terms, which are used to update the model weights, so it&amp;rsquo;s not surprising at all if the trained LLMs respond differently to terms with different frequencies.
+And in fact, it would be surprising if these LLMs only learn &lt;strong&gt;perfect&lt;/strong&gt; grammar and semantics and totally shake off the frequency part.
+There is nothing wrong for LLMs being statistical.
+We human often make decisions based on experience, and isn&amp;rsquo;t that a kind of statistical model?
+To make matters even worse, natural languages have a statistical nature too &amp;ndash; most of them, if not all, evolve over time, not neccessarily changing the meaning of words, but definitely changing the frequency speakers use them.&lt;/p&gt;
+&lt;p&gt;However, all the above facts don&amp;rsquo;t justify the hallucination problem.
+But given that the LLMs are so vulnerable to the statistical nature of the training data, maybe more effort is needed in thinking of a different way of training the model.&lt;/p&gt;
+&lt;p&gt;Lastly, it&amp;rsquo;s worth noting that the McKenna et al. work was studied under NLI.
+Although the hallucination problem is more prominent in NLG, it&amp;rsquo;s not straightforwad how to do a similar analysis in the NLG scenario.
+But if it can be done, it would be more attention catching.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3308558.3313415&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

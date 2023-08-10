@@ -239,6 +239,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VR133NTYQ2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-VR133NTYQ2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -784,11 +823,13 @@
     
       <li><a href="/talk/example-talk/">Example Talk</a></li>
     
+      <li><a href="/post/en/tmp/">Tmp</a></li>
+    
       <li><a href="/post/">Posts</a></li>
     
-      <li><a href="/post/en/llm-hallucination/">One source of LLM hallucination is exposure bias</a></li>
-    
       <li><a href="/post/en/">English Posts</a></li>
+    
+      <li><a href="/post/en/llm-hallucination/">One source of LLM hallucination is exposure bias</a></li>
     
       <li><a href="/publication/jiang-2023-weakly/">Weakly Supervised Turn-level Engagingness Evaluator for Dialogues</a></li>
     
@@ -797,8 +838,6 @@
       <li><a href="/publication/jiang-2022-simple/">A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration</a></li>
     
       <li><a href="/post/zh/">中文博客</a></li>
-    
-      <li><a href="/post/zh/eq-speaking/">《所谓情商高，就是会说话》读书笔记</a></li>
     
   </ul>
   

@@ -911,7 +911,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
@@ -927,7 +927,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/paper-reading-notes/">paper reading notes</a>, <a href="/category/deep-learning/">Deep Learning</a>, <a href="/category/nlp/">NLP</a>, <a href="/category/llm/">LLM</a>, <a href="/category/hallucination/">hallucination</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/paper-reading-notes/">paper reading notes</a>, <a href="/category/deep-learning/">Deep Learning</a>, <a href="/category/nlp/">NLP</a>, <a href="/category/llm/">LLM</a>, <a href="/category/hallucination/">hallucination</a>, <a href="/category/information-retrieval/">information retrieval</a></span>
   
 
 </div>
@@ -962,8 +962,13 @@ And in fact, it would be surprising if these LLMs only learn <strong>perfect</st
 There is nothing wrong for LLMs being statistical.
 We human often make decisions based on experience, and isn&rsquo;t that a kind of statistical model?
 To make matters even worse, natural languages have a statistical nature too &ndash; most of them, if not all, evolve over time, not neccessarily changing the meaning of words, but definitely changing the frequency speakers use them.</p>
-<p>However, all the above facts don&rsquo;t justify the hallucination problem.
-But given that the LLMs are so vulnerable to the statistical nature of the training data, maybe more effort is needed in thinking of a different way of training the model.</p>
+<p>As pointed out by Konstantine Arkoudas<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, GPT-4 can&rsquo;t reason.
+I agree with this statement.
+I think LLMs are sophisticated statistical models, and the generation process is more like information retrieval but using the neural network weights and in the granularity of tokens.
+Also as mentioned by Arkoudas, the lack of reasoning in LLMs has a connection with the hallucination problem.
+I agree with him and many other researchers, retrieval-augmentation could serve as the &ldquo;guardrail&rdquo; of LLM generations, but unlikely to be the silver bullet for eliminating the hallucination problem.</p>
+<p>However, &ldquo;can&rsquo;t be solved&rdquo; is different from &ldquo;can&rsquo;t be improved&rdquo;.
+Given that more and more studies have shown the vulnerability of LLMs to the statistical nature of their training data, maybe more effort is needed in thinking of a different way of training the model.</p>
 <p>Lastly, it&rsquo;s worth noting that the McKenna et al. work was studied under NLI.
 Although the hallucination problem is more prominent in NLG, it&rsquo;s not straightforwad how to do a similar analysis in the NLG scenario.
 But if it can be done, it would be more attention catching.</p>
@@ -972,6 +977,9 @@ But if it can be done, it would be more attention catching.</p>
 <ol>
 <li id="fn:1">
 <p><a href="https://dl.acm.org/doi/abs/10.1145/3308558.3313415" target="_blank" rel="noopener">Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.preprints.org/manuscript/202308.0148/" target="_blank" rel="noopener">GPT-4 Can&rsquo;t Reason</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

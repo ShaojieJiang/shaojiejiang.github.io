@@ -49,7 +49,14 @@ The current best conversational experience you can have with NPCs is to select f
 
 &lt;figure  id=&#34;figure-dialogue-selection-in-witcher-3&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;figures/dialogues-in-witcher3&#34; alt=&#34;Dialogue selection in Witcher 3&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dialogue selection in Witcher 3&#34; srcset=&#34;
+               /post/en/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_527b0774b1c015883502fc1666882b7e.webp 400w,
+               /post/en/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_2c0e283be5301be66b25147cae746fe8.webp 760w,
+               /post/en/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_527b0774b1c015883502fc1666882b7e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Dialogue selection in Witcher 3
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -92,7 +99,14 @@ She is capable of chit-chatting with the player, commenting on the game scenes a
 
 &lt;figure  id=&#34;figure-system-design-of-herika-image-credit-dwemer-dynamics&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;figures/herika-system&#34; alt=&#34;System design of Herika. Image credit: Dwemer Dynamics&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;System design of Herika. Image credit: Dwemer Dynamics&#34; srcset=&#34;
+               /post/en/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_8ef29e5e73f8099642bfabb22652b4d5.webp 400w,
+               /post/en/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_76bd25ffc50f49e25b364c14c33177b2.webp 760w,
+               /post/en/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_8ef29e5e73f8099642bfabb22652b4d5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;418&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       System design of Herika. Image credit: Dwemer Dynamics
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -141,7 +155,9 @@ However, the research characteristic of this line of work makes it far from revo
 
 &lt;figure  id=&#34;figure-an-example-of-openai-gym&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;figures/openai-gym&#34; alt=&#34;An example of OpenAI Gym.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;An example of OpenAI Gym.&#34;
+           src=&#34;https://shaojiejiang.github.io/post/en/ai-gaming-era/figures/openai-gym.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       An example of OpenAI Gym.
     &lt;/figcaption&gt;&lt;/figure&gt;
@@ -166,7 +182,14 @@ However, the research characteristic of this line of work makes it far from revo
 
 &lt;figure  id=&#34;figure-an-example-of-ml-agents&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;figures/ml-agents&#34; alt=&#34;An example of ML-Agents.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;An example of ML-Agents.&#34; srcset=&#34;
+               /post/en/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_5b753ca6463c4352b20c3c6d4160653f.webp 400w,
+               /post/en/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_192e35e39d2b75df501a70ef62b5bd4f.webp 760w,
+               /post/en/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/en/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_5b753ca6463c4352b20c3c6d4160653f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       An example of ML-Agents.
     &lt;/figcaption&gt;&lt;/figure&gt;

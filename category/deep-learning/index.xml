@@ -202,7 +202,12 @@ It would be very interesting to see more and more games with AI companions that 
 To make it more exciting, how about train your AI companions by yourselves, while you&amp;rsquo;re playing the game?
 You already generate a lot of (labelled) data when you play games, and using it to train your AI companion is theoretically possible.
 However, popular game engines like Unity and Unreal don&amp;rsquo;t directly support AI training yet, so we still need some time to make it happen.
-But games with custom engines is much more flexible, and Human-Like is such a game that collects your data in the game and trains an AI opponent online.&lt;/p&gt;
+But games with custom engines is much more flexible, and Human-Like&lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; is such a game that uses your data generated in the game and trains an AI opponent online.&lt;/p&gt;
+&lt;p&gt;If tools aren&amp;rsquo;t a problem, what about model sizes?
+In the last couple years, we saw best-performing models getting larger and larger, most of which definitely can&amp;rsquo;t run on consumer machines.
+I personally believe increasing the model size isn&amp;rsquo;t the ultimate answer.
+Luckily, there is another stream of research studying the grokking&lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; phenomenon of models as small as an MLP, with merely several hundreds of parameters.
+Probably LMs won&amp;rsquo;t have any sensible performance at this size level, but it&amp;rsquo;s possible to largely decrease the model sizes once we have enough understanding on their mechanisms.&lt;/p&gt;
 &lt;p&gt;Taking a step back, not too long ago deep learning and gaming were still almost two extremes of the spectrum: the former is often associated with hard-working researchers, while the latter often reminded us of people killing time.
 Gamers are usually those young and smart people, who devoted large amount of time and energy in the game they love.
 Since finally the &amp;ldquo;two extremes&amp;rdquo; are coming together, maybe something more profound can happen?
@@ -246,6 +251,15 @@ It might be possible, who knows?&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:12&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://research.nvidia.com/labs/par/calm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CALM: Conditional Adversarial Latent Models for Directable Virtual Characters&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://store.steampowered.com/app/1400190/HumanLike/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Human-Like game on Steam&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2201.02177&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://pair.withgoogle.com/explorables/grokking/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Do Machine Learning Models Memorize or Generalize?&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;

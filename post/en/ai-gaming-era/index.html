@@ -1148,7 +1148,12 @@ It would be very interesting to see more and more games with AI companions that 
 To make it more exciting, how about train your AI companions by yourselves, while you&rsquo;re playing the game?
 You already generate a lot of (labelled) data when you play games, and using it to train your AI companion is theoretically possible.
 However, popular game engines like Unity and Unreal don&rsquo;t directly support AI training yet, so we still need some time to make it happen.
-But games with custom engines is much more flexible, and Human-Like is such a game that collects your data in the game and trains an AI opponent online.</p>
+But games with custom engines is much more flexible, and Human-Like<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> is such a game that uses your data generated in the game and trains an AI opponent online.</p>
+<p>If tools aren&rsquo;t a problem, what about model sizes?
+In the last couple years, we saw best-performing models getting larger and larger, most of which definitely can&rsquo;t run on consumer machines.
+I personally believe increasing the model size isn&rsquo;t the ultimate answer.
+Luckily, there is another stream of research studying the grokking<sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> phenomenon of models as small as an MLP, with merely several hundreds of parameters.
+Probably LMs won&rsquo;t have any sensible performance at this size level, but it&rsquo;s possible to largely decrease the model sizes once we have enough understanding on their mechanisms.</p>
 <p>Taking a step back, not too long ago deep learning and gaming were still almost two extremes of the spectrum: the former is often associated with hard-working researchers, while the latter often reminded us of people killing time.
 Gamers are usually those young and smart people, who devoted large amount of time and energy in the game they love.
 Since finally the &ldquo;two extremes&rdquo; are coming together, maybe something more profound can happen?
@@ -1192,6 +1197,15 @@ It might be possible, who knows?</p>
 </li>
 <li id="fn:12">
 <p><a href="https://research.nvidia.com/labs/par/calm/" target="_blank" rel="noopener">CALM: Conditional Adversarial Latent Models for Directable Virtual Characters</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p><a href="https://store.steampowered.com/app/1400190/HumanLike/" target="_blank" rel="noopener">The Human-Like game on Steam</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p><a href="https://arxiv.org/abs/2201.02177" target="_blank" rel="noopener">Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets</a>&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p><a href="https://pair.withgoogle.com/explorables/grokking/" target="_blank" rel="noopener">Do Machine Learning Models Memorize or Generalize?</a>&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

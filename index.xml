@@ -33,16 +33,16 @@
     </item>
     
     <item>
-      <title>Has the era of AI gaming already come?</title>
+      <title>Has the era of AI come to video games already?</title>
       <link>https://shaojiejiang.github.io/post/en/ai-gaming-era/</link>
       <pubDate>Sun, 13 Aug 2023 17:05:13 +0200</pubDate>
       <guid>https://shaojiejiang.github.io/post/en/ai-gaming-era/</guid>
       <description>&lt;p&gt;With the big noises made by ChatGPT, many different industries have noticed the value of LLM technologies.
-Unsurprisingly, the gaming industry is one of them.
-In this blog, I introduce several cool demos/WIPs that I&amp;rsquo;ve recently found, and share my opinions on why they might have profound influences on the future of gaming industry.
+Unsurprisingly, the video game industry is one of them.
+In this blog, I introduce several cool demos/WIPs that I&amp;rsquo;ve recently found, and share my opinions on why they might have profound influences on the future of video game industry.
 I also try to explain the current difficulties, and possible directions for solving them.
 In the end, I also share some dreams of future games.
-I believe, the era of AI gaming has come!&lt;/p&gt;
+I believe, the era of AI has come to video games!&lt;/p&gt;
 &lt;h2 id=&#34;the-matrix-ai-powered-npcs-demo-by-the-replica-studios&#34;&gt;The Matrix AI-Powered NPCs demo by the Replica Studios&lt;/h2&gt;
 &lt;p&gt;Players are used to have chats with the NPCs, but most of these conversations are scripted.
 The current best conversational experience you can have with NPCs is to select from several possible responses, so you have some freedom of steering dialogues.&lt;/p&gt;
@@ -151,7 +151,7 @@ It&amp;rsquo;s not yet clear how the game character is controlled at the time of
 &lt;p&gt;It worths noting that using modern AI&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; to play games is not new.
 Many previous endeavours have already been made, such as the OpenAI Five&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; playing Dota 2.
 Many scientific experiments in the RL field were actually conducted on game environments like OpenAI Gym&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; and Unity ML-Agents&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;.
-However, the research characteristic of this line of work makes it far from revolutionizing the gaming industry, and indeed, this was usually not the indention of researchers.&lt;/p&gt;
+However, the research characteristic of this line of work makes it far from revolutionizing the video game industry, and indeed, this was usually not the indention of researchers.&lt;/p&gt;
 
 
 
@@ -211,7 +211,7 @@ However, the research characteristic of this line of work makes it far from revo
       An example of ML-Agents.
     &lt;/figcaption&gt;&lt;/figure&gt;
 
-&lt;p&gt;In the recent months, several other research outcomes related to gaming have attracted people&amp;rsquo;s attention, e.g., Generative Agents&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; by Stanford University, and CALM&lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; by Nvidia.
+&lt;p&gt;In the recent months, several other research outcomes related to video games have attracted people&amp;rsquo;s attention, e.g., Generative Agents&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; by Stanford University, and CALM&lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; by Nvidia.
 While Generative Agents might have put more focus on studying human behaviour instead of game playing, CALM presents an algorithms of controlling game characters using textual commands (hence easily with voice through ASR).
 What&amp;rsquo;s more interesting about CALM is that the model size it uses to control the game character is as small as several hundreds of parameters, making it easily runnable locally.
 Of course, attaching LMs for more flexible natural language understanding can increase the parameter size many times, but still possible to find a good middle ground between performance and latency.&lt;/p&gt;
@@ -228,7 +228,7 @@ In the last couple years, we saw best-performing models getting larger and large
 I personally believe increasing the model size isn&amp;rsquo;t the ultimate answer.
 Luckily, there is another stream of research studying the grokking&lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; phenomenon of models as small as an MLP, with merely several hundreds of parameters.
 Probably LMs won&amp;rsquo;t have any sensible performance at this size level, but it&amp;rsquo;s possible to largely decrease the model sizes once we have enough understanding on their mechanisms.&lt;/p&gt;
-&lt;p&gt;Taking a step back, not too long ago deep learning and gaming were still almost two extremes of the spectrum: the former is often associated with hard-working researchers, while the latter often reminded us of people killing time.
+&lt;p&gt;Taking a step back, not too long ago deep learning and video games were still almost two extremes of the spectrum: the former is often associated with hard-working researchers, while the latter often reminded us of people killing time.
 Gamers are usually those young and smart people, who devoted large amount of time and energy in the game they love.
 Since finally the &amp;ldquo;two extremes&amp;rdquo; are coming together, maybe something more profound can happen?
 Just some personal thoughts, probably unrealistic, but for instance using LLMs as portals that make the player more interested in real world, and even learn about practical skills that they can use in real life?

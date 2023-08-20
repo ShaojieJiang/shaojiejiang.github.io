@@ -33,7 +33,7 @@
     </item>
     
     <item>
-      <title>Has the era of AI come to video games already?</title>
+      <title>Has the AI-Era come to video games already?</title>
       <link>https://shaojiejiang.github.io/post/en/ai-gaming-era/</link>
       <pubDate>Sun, 13 Aug 2023 17:05:13 +0200</pubDate>
       <guid>https://shaojiejiang.github.io/post/en/ai-gaming-era/</guid>
@@ -233,6 +233,71 @@ Gamers are usually those young and smart people, who devoted large amount of tim
 Since finally the &amp;ldquo;two extremes&amp;rdquo; are coming together, maybe something more profound can happen?
 Just some personal thoughts, probably unrealistic, but for instance using LLMs as portals that make the player more interested in real world, and even learn about practical skills that they can use in real life?
 It might be possible, who knows?&lt;/p&gt;
+&lt;h2 id=&#34;updates-on-08202023&#34;&gt;Updates on 08/20/2023&lt;/h2&gt;
+&lt;h3 id=&#34;nvidia-omniverse-ace&#34;&gt;NVIDIA Omniverse ACE&lt;/h3&gt;
+&lt;p&gt;From ACE&amp;rsquo;s project page:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NVIDIA Omniverse™ Avatar Cloud Engine (ACE) is a suite of real-time AI solutions for end-to-end development and deployment of interactive avatars and digital human applications &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In other words, with this toolkit, you can build NPCs that can not only communicate with you in speech and synchronise lip movements, but also supplies backend LLMs.
+While this was also achieved by combining several independent tools in projects like Herika, NVIDIA ACE provides a one-stop solution.&lt;/p&gt;
+&lt;p&gt;Below is its system design.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-illustration-of-nvidia-ace&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://developer.nvidia.com/sites/default/files/akamai/omniverse/nvidia-omniverse-ace-dev-zone-pipeline-diagram@2x.png&#34; alt=&#34;Illustration of NVIDIA ACE.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Illustration of NVIDIA ACE.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;mantella-by-art-from-the-machine&#34;&gt;Mantella by Art from the Machine&lt;/h3&gt;
+&lt;p&gt;Mantella&lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt; is a project similar to Replica&amp;rsquo;s Matrix demo, but in the world of Skyrim like Herika.&lt;/p&gt;
+&lt;h3 id=&#34;agentsims&#34;&gt;AgentSims&lt;/h3&gt;
+&lt;p&gt;AgentSims&lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt; is a work from academia that shares a lot of similarities with Generative Agents, and they were both released around the same time.
+A main difference of AgentSims from Generative Agents is that AgentSims allows a player to join the town as the mayor and influence the agents by talking with them.
+They also have an online live demo, which can be found on &lt;a href=&#34;https://www.agentsims.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;their website&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-screenshot-of-agentsims&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://generation-sessions.s3.amazonaws.com/7fffe1e230aaf47ad7397c3a59f1a690/img/image-1.png&#34; alt=&#34;A screenshot of AgentSims.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      A screenshot of AgentSims.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -280,6 +345,12 @@ It might be possible, who knows?&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:15&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://pair.withgoogle.com/explorables/grokking/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Do Machine Learning Models Memorize or Generalize?&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:16&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nexusmods.com/skyrimspecialedition/mods/98631&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mantella - Bring NPCs to Life with AI&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:16&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:17&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/py499372727/AgentSims&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AgentSims: An Open-Source Sandbox for Large Language Model Evaluation&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;

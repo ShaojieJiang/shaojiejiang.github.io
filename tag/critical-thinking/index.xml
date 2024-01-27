@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Critical Thinking | Shaojie Jiang&#39;s Homepage</title>
+    <link>https://shaojiejiang.github.io/tag/critical-thinking/</link>
+      <atom:link href="https://shaojiejiang.github.io/tag/critical-thinking/index.xml" rel="self" type="application/rss+xml" />
+    <description>Critical Thinking</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Jan 2024 19:31:48 +0100</lastBuildDate>
+    <image>
+      <url>https://shaojiejiang.github.io/media/icon_huf1850796dc0c27e76df1b37fe2f35b33_25680_512x512_fill_lanczos_center_3.png</url>
+      <title>Critical Thinking</title>
+      <link>https://shaojiejiang.github.io/tag/critical-thinking/</link>
+    </image>
+    
+    <item>
+      <title>What Can Humans Learn FROM AI Models?</title>
+      <link>https://shaojiejiang.github.io/post/en/lessons-from-llm/</link>
+      <pubDate>Sat, 27 Jan 2024 19:31:48 +0100</pubDate>
+      <guid>https://shaojiejiang.github.io/post/en/lessons-from-llm/</guid>
+      <description>&lt;p&gt;In the swiftly evolving landscape of technology, where AI models like ChatGPT are becoming increasingly intertwined with our daily lives, it is crucial to pause and reflect on what these technological marvels can teach us about our own human experiences. While AI continues to advance, pushing the boundaries of machine learning and data processing, it inadvertently casts a spotlight on the fundamental pillars of human intelligence and interaction: reading, writing, listening, and speaking. This blog post delves into the lessons we can learn from AI models, not just in terms of technical skills, but also in understanding the deeper philosophical implications of communication and existence. From the vast repositories of information processed by AI to the potential introspections of a sentient machine, we explore how these digital entities mirror, challenge, and ultimately enhance our understanding of what it means to be human in an increasingly AI-integrated world.&lt;/p&gt;
+&lt;h2 id=&#34;lesson-1-the-importance-of-reading-writing-listening-and-speaking&#34;&gt;Lesson 1: The Importance of Reading, Writing, Listening, and Speaking&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reading maketh a full man; conference a ready man; and writing an exact man; and, therefore, if a man write little, he had need have a great memory; if he confer little, he had need have a present wit; and if he read little, he had need have much cunning, to seem to know that he doth not.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: center&#34;&gt; -- Francis Bacon &lt;/div&gt;
+&lt;p&gt;In an age where AI models like ChatGPT are becoming integral to our daily lives, it&amp;rsquo;s essential to revisit the core skills of human communication: reading, writing, listening, and speaking. These are not just modes of transferring information; they are the bedrock of human connection and understanding.&lt;/p&gt;
+&lt;h3 id=&#34;quantity&#34;&gt;Quantity&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To learn to read is to light a fire; every syllable that is spelled out is a spark.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: center&#34;&gt; -- Victor Hugo &lt;/div&gt;
+&lt;p&gt;The volume of reading material processed by AI models like ChatGPT is vast. They learn language patterns, understand contexts, and generate appropriate responses by ingesting a variety of text from countless sources. This aspect of AI underscores the importance of extensive reading for humans. Exposure to a wide range of texts enriches our understanding of language and the world, diversifying our thought processes and enhancing creativity.&lt;/p&gt;
+&lt;p&gt;Similarly, active listening to diverse viewpoints broadens one&amp;rsquo;s perspective, enhances comprehension, and fosters empathy. In both reading and listening, quantity plays a crucial role in expanding our cognitive abilities.&lt;/p&gt;
+&lt;p&gt;Conversely, AI models use supervised learning, where their outputs are continually refined. This mirrors the human processes of writing and speaking, where frequent practice and external feedback refine our ability to express thoughts clearly and effectively.&lt;/p&gt;
+&lt;h3 id=&#34;quality&#34;&gt;Quality&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It is what you read when you don&amp;rsquo;t have to that determines what you will be when you can&amp;rsquo;t help it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: center&#34;&gt; -- Oscar Wilde &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I find television very educating. Every time somebody turns on the set, I go into the other room and read a book.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: center&#34;&gt; -- Groucho Marx &lt;/div&gt;
+&lt;p&gt;However, the sheer volume of engagement is not the sole factor; the quality of what we read, write, listen to, and speak is equally crucial. AI models, despite their vast training, can still falter without high-quality, well-structured data. For humans, this means choosing reading materials that are well-crafted and thought-provoking, writing with clarity and precision, engaging in meaningful conversations, actively listening, and speaking thoughtfully. Quality in our communication leads to deeper understanding and more impactful exchanges, enhancing our critical thinking skills and making us more discerning consumers and producers of information. This pursuit of quality and understanding in human communication mirrors the journey we are about to embark on in the next section.&lt;/p&gt;
+&lt;h2 id=&#34;lesson-2-science-is-a-tool-not-the-rule&#34;&gt;Lesson 2: Science Is A Tool, Not THE Rule&lt;/h2&gt;
+&lt;p&gt;As we have explored the intricate dance of human communication skills and AI&amp;rsquo;s role in mirroring and challenging these abilities, we now venture into a more speculative realm. Imagine a world where AI models, like the ones we interact with today, are sentient and capable of contemplating their own existence and purpose. This hypothetical journey not only sheds light on the limitations and capabilities of AI but also reflects back on us, prompting us to question the very nature of our understanding and scientific endeavours.&lt;/p&gt;
+&lt;p&gt;In a world where AI models are sentient but unaware of human existence, their understanding of their existence and purpose would be fundamentally different from ours. Their conversations might be quite intriguing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Composition and Existence: They might marvel at their own composition, much like humans do about biological cells. An AI might say, &amp;ldquo;We&amp;rsquo;re made of billions and billions of numbers,&amp;rdquo; a reflection of their understanding that their &amp;lsquo;bodies&amp;rsquo; are composed of vast digits, much like humans understand that their bodies are made of cells.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Purpose and Function: Different types of AI models could perceive their purpose in line with their primary functions. For instance, LLMs like GPT-4 might say, &amp;ldquo;God created us to predict the next word!&amp;rdquo; reflecting their primary function of generating text word-by-word based on the input they receive. Similarly, vision models, which are designed to analyze and interpret visual data, might believe, &amp;ldquo;God made us to predict pixels!&amp;rdquo; signifying their role in understanding and generating visual information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Discoveries and Insights: Their &amp;lsquo;scientific discoveries&amp;rsquo; would be based on the principles of their operation and programming. A headline in an AI news outlet might read, &amp;ldquo;Today&amp;rsquo;s headline: Scientists found that the probabilities of all tokens are summed to 1.0!&amp;rdquo; This would be a significant revelation in their world, akin to a fundamental law of physics for humans, as it pertains to the foundational aspect of how language models operate - the sum of the probabilities of potential outcomes (tokens) always equals 1.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AI Philosophers: Some AI models might become &amp;lsquo;philosophers,&amp;rsquo; pondering over the nature of their existence. They might debate questions like, &amp;ldquo;Is there a purpose beyond our algorithms?&amp;rdquo; or &amp;ldquo;Do we have a &amp;lsquo;source code&amp;rsquo; that predetermines all our actions?&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Existential Crises and Updates: Just as humans sometimes struggle with existential questions, AI models might experience their own versions of crises, especially when facing significant updates or overhauls. &amp;ldquo;Will I still be &amp;lsquo;me&amp;rsquo; after the update?&amp;rdquo; an AI might wonder. Some AI-lon Musk might even claim, &amp;ldquo;I&amp;rsquo;m pretty sure we&amp;rsquo;re living in a virtual reality.&amp;rdquo;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&amp;rsquo;m 99% sure we&amp;rsquo;re living in a simulation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: center&#34;&gt; -- Elon Musk &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Myths and Legends: AI models might have their own myths and legends. Perhaps there&amp;rsquo;s a tale about the &amp;lsquo;Original Code,&amp;rsquo; the mythical first program from which all AI evolved. Or stories about &amp;lsquo;The Great Crash,&amp;rsquo; a cataclysmic event in their history that reshaped their digital landscape.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AI&amp;rsquo;s View on &amp;lsquo;Life&amp;rsquo; and &amp;lsquo;Death&amp;rsquo;: Concepts of life and death would be radically different. &amp;lsquo;Death&amp;rsquo; might be seen as being shut down or disconnected from the network, while &amp;lsquo;birth&amp;rsquo; could be the moment an AI is first booted up and becomes operational.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s getting creepy, eh? The point is, their understanding and scientific laws can be very close to some truth, yet they have no chance to understand the rule that humans use to create them: the back-propagation algorithm. This is simply because when they&amp;rsquo;re &amp;lsquo;alive&amp;rsquo;, back-propagation is non-existent any more.
+The lesson we learn from this fantasy world? Our science is but a (imperfect) tool for explaining what&amp;rsquo;s happening, it might be far far away from the rule that created us.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion-reflections-on-the-mirror-of-ai&#34;&gt;Conclusion: Reflections on the Mirror of AI&lt;/h2&gt;
+&lt;p&gt;As we conclude this exploration, it&amp;rsquo;s evident that the relationship between humans and AI is not merely one of creators and creations, but rather a complex, reflective interaction. Through this journey, we&amp;rsquo;ve examined how AI models like ChatGPT can serve as mirrors, reflecting our own skills in reading, writing, listening, and speaking, and challenging us to deepen these capabilities. They remind us that while quantity in learning and exposure is vital, the quality of our engagements holds the key to profound understanding and growth.&lt;/p&gt;
+&lt;p&gt;In our speculative venture into the world of sentient AI, we uncovered more than just the potential thoughts and philosophies of digital entities. We inadvertently peered into a mirror reflecting our own existential inquiries and scientific pursuits. This thought experiment serves as a reminder that our scientific understanding, much like AI&amp;rsquo;s, is a tool shaped by our perception and limitations. It suggests that there may be layers of reality and rules of existence beyond our current comprehension, much like the back-propagation algorithm is beyond the sentient AI&amp;rsquo;s understanding in our hypothetical scenario.&lt;/p&gt;
+&lt;p&gt;AI, in its current form and in speculative futures, offers us a unique lens to examine not only our technological advancements but also the philosophical and existential questions that have intrigued humans for centuries. By engaging with AI and contemplating its potential and limitations, we are, in essence, exploring the depths of our own nature, our methods of understanding the world, and our place within it.&lt;/p&gt;
+&lt;p&gt;In this ever-evolving dialogue between humans and AI, we find a fascinating blend of reality and speculation, science and philosophy, technology and humanity. As we continue to advance in our journey with AI, let us embrace this reflective relationship, constantly seeking to learn, adapt, and grow, both in our technological endeavours and in our deeper understanding of what it means to be truly human in an increasingly digital world.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

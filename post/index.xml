@@ -12,5 +12,1426 @@
       <link>https://shaojiejiang.github.io/post/</link>
     </image>
     
+    <item>
+      <title>What Can Humans Learn FROM AI Models?</title>
+      <link>https://shaojiejiang.github.io/post/lessons-from-llm/</link>
+      <pubDate>Sat, 27 Jan 2024 19:31:48 +0100</pubDate>
+      <guid>https://shaojiejiang.github.io/post/lessons-from-llm/</guid>
+      <description>&lt;p&gt;In the swiftly evolving landscape of technology, where AI models like ChatGPT are becoming increasingly intertwined with our daily lives, it is crucial to pause and reflect on what these technological marvels can teach us about our own human experiences. While AI continues to advance, pushing the boundaries of machine learning and data processing, it inadvertently casts a spotlight on the fundamental pillars of human intelligence and interaction: reading, writing, listening, and speaking. This blog post delves into the lessons we can learn from AI models, not just in terms of technical skills, but also in understanding the deeper philosophical implications of communication and existence. From the vast repositories of information processed by AI to the potential introspections of a sentient machine, we explore how these digital entities mirror, challenge, and ultimately enhance our understanding of what it means to be human in an increasingly AI-integrated world.&lt;/p&gt;
+&lt;h2 id=&#34;lesson-1-the-importance-of-reading-writing-listening-and-speaking&#34;&gt;Lesson 1: The Importance of Reading, Writing, Listening, and Speaking&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reading maketh a full man; conference a ready man; and writing an exact man; and, therefore, if a man write little, he had need have a great memory; if he confer little, he had need have a present wit; and if he read little, he had need have much cunning, to seem to know that he doth not.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: center&#34;&gt; -- Francis Bacon &lt;/div&gt;
+&lt;p&gt;In an age where AI models like ChatGPT are becoming integral to our daily lives, it&amp;rsquo;s essential to revisit the core skills of human communication: reading, writing, listening, and speaking. These are not just modes of transferring information; they are the bedrock of human connection and understanding.&lt;/p&gt;
+&lt;h3 id=&#34;quantity&#34;&gt;Quantity&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To learn to read is to light a fire; every syllable that is spelled out is a spark.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: center&#34;&gt; -- Victor Hugo &lt;/div&gt;
+&lt;p&gt;The volume of reading material processed by AI models like ChatGPT is vast. They learn language patterns, understand contexts, and generate appropriate responses by ingesting a variety of text from countless sources. This aspect of AI underscores the importance of extensive reading for humans. Exposure to a wide range of texts enriches our understanding of language and the world, diversifying our thought processes and enhancing creativity.&lt;/p&gt;
+&lt;p&gt;Similarly, active listening to diverse viewpoints broadens one&amp;rsquo;s perspective, enhances comprehension, and fosters empathy. In both reading and listening, quantity plays a crucial role in expanding our cognitive abilities.&lt;/p&gt;
+&lt;p&gt;Conversely, AI models use supervised learning, where their outputs are continually refined. This mirrors the human processes of writing and speaking, where frequent practice and external feedback refine our ability to express thoughts clearly and effectively.&lt;/p&gt;
+&lt;h3 id=&#34;quality&#34;&gt;Quality&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It is what you read when you don&amp;rsquo;t have to that determines what you will be when you can&amp;rsquo;t help it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: center&#34;&gt; -- Oscar Wilde &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I find television very educating. Every time somebody turns on the set, I go into the other room and read a book.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: center&#34;&gt; -- Groucho Marx &lt;/div&gt;
+&lt;p&gt;However, the sheer volume of engagement is not the sole factor; the quality of what we read, write, listen to, and speak is equally crucial. AI models, despite their vast training, can still falter without high-quality, well-structured data. For humans, this means choosing reading materials that are well-crafted and thought-provoking, writing with clarity and precision, engaging in meaningful conversations, actively listening, and speaking thoughtfully. Quality in our communication leads to deeper understanding and more impactful exchanges, enhancing our critical thinking skills and making us more discerning consumers and producers of information. This pursuit of quality and understanding in human communication mirrors the journey we are about to embark on in the next section.&lt;/p&gt;
+&lt;h2 id=&#34;lesson-2-science-is-a-tool-not-the-rule&#34;&gt;Lesson 2: Science Is A Tool, Not THE Rule&lt;/h2&gt;
+&lt;p&gt;As we have explored the intricate dance of human communication skills and AI&amp;rsquo;s role in mirroring and challenging these abilities, we now venture into a more speculative realm. Imagine a world where AI models, like the ones we interact with today, are sentient and capable of contemplating their own existence and purpose. This hypothetical journey not only sheds light on the limitations and capabilities of AI but also reflects back on us, prompting us to question the very nature of our understanding and scientific endeavours.&lt;/p&gt;
+&lt;p&gt;In a world where AI models are sentient but unaware of human existence, their understanding of their existence and purpose would be fundamentally different from ours. Their conversations might be quite intriguing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Composition and Existence: They might marvel at their own composition, much like humans do about biological cells. An AI might say, &amp;ldquo;We&amp;rsquo;re made of billions and billions of numbers,&amp;rdquo; a reflection of their understanding that their &amp;lsquo;bodies&amp;rsquo; are composed of vast digits, much like humans understand that their bodies are made of cells.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Purpose and Function: Different types of AI models could perceive their purpose in line with their primary functions. For instance, LLMs like GPT-4 might say, &amp;ldquo;God created us to predict the next word!&amp;rdquo; reflecting their primary function of generating text word-by-word based on the input they receive. Similarly, vision models, which are designed to analyze and interpret visual data, might believe, &amp;ldquo;God made us to predict pixels!&amp;rdquo; signifying their role in understanding and generating visual information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Discoveries and Insights: Their &amp;lsquo;scientific discoveries&amp;rsquo; would be based on the principles of their operation and programming. A headline in an AI news outlet might read, &amp;ldquo;Today&amp;rsquo;s headline: Scientists found that the probabilities of all tokens are summed to 1.0!&amp;rdquo; This would be a significant revelation in their world, akin to a fundamental law of physics for humans, as it pertains to the foundational aspect of how language models operate - the sum of the probabilities of potential outcomes (tokens) always equals 1.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AI Philosophers: Some AI models might become &amp;lsquo;philosophers,&amp;rsquo; pondering over the nature of their existence. They might debate questions like, &amp;ldquo;Is there a purpose beyond our algorithms?&amp;rdquo; or &amp;ldquo;Do we have a &amp;lsquo;source code&amp;rsquo; that predetermines all our actions?&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Existential Crises and Updates: Just as humans sometimes struggle with existential questions, AI models might experience their own versions of crises, especially when facing significant updates or overhauls. &amp;ldquo;Will I still be &amp;lsquo;me&amp;rsquo; after the update?&amp;rdquo; an AI might wonder. Some AI-lon Musk might even claim, &amp;ldquo;I&amp;rsquo;m pretty sure we&amp;rsquo;re living in a virtual reality.&amp;rdquo;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&amp;rsquo;m 99% sure we&amp;rsquo;re living in a simulation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: center&#34;&gt; -- Elon Musk &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Myths and Legends: AI models might have their own myths and legends. Perhaps there&amp;rsquo;s a tale about the &amp;lsquo;Original Code,&amp;rsquo; the mythical first program from which all AI evolved. Or stories about &amp;lsquo;The Great Crash,&amp;rsquo; a cataclysmic event in their history that reshaped their digital landscape.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AI&amp;rsquo;s View on &amp;lsquo;Life&amp;rsquo; and &amp;lsquo;Death&amp;rsquo;: Concepts of life and death would be radically different. &amp;lsquo;Death&amp;rsquo; might be seen as being shut down or disconnected from the network, while &amp;lsquo;birth&amp;rsquo; could be the moment an AI is first booted up and becomes operational.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s getting creepy, eh? The point is, their understanding and scientific laws can be very close to some truth, yet they have no chance to understand the rule that humans use to create them: the back-propagation algorithm. This is simply because when they&amp;rsquo;re &amp;lsquo;alive&amp;rsquo;, back-propagation is non-existent any more.
+The lesson we learn from this fantasy world? Our science is but a (imperfect) tool for explaining what&amp;rsquo;s happening, it might be far far away from the rule that created us.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion-reflections-on-the-mirror-of-ai&#34;&gt;Conclusion: Reflections on the Mirror of AI&lt;/h2&gt;
+&lt;p&gt;As we conclude this exploration, it&amp;rsquo;s evident that the relationship between humans and AI is not merely one of creators and creations, but rather a complex, reflective interaction. Through this journey, we&amp;rsquo;ve examined how AI models like ChatGPT can serve as mirrors, reflecting our own skills in reading, writing, listening, and speaking, and challenging us to deepen these capabilities. They remind us that while quantity in learning and exposure is vital, the quality of our engagements holds the key to profound understanding and growth.&lt;/p&gt;
+&lt;p&gt;In our speculative venture into the world of sentient AI, we uncovered more than just the potential thoughts and philosophies of digital entities. We inadvertently peered into a mirror reflecting our own existential inquiries and scientific pursuits. This thought experiment serves as a reminder that our scientific understanding, much like AI&amp;rsquo;s, is a tool shaped by our perception and limitations. It suggests that there may be layers of reality and rules of existence beyond our current comprehension, much like the back-propagation algorithm is beyond the sentient AI&amp;rsquo;s understanding in our hypothetical scenario.&lt;/p&gt;
+&lt;p&gt;AI, in its current form and in speculative futures, offers us a unique lens to examine not only our technological advancements but also the philosophical and existential questions that have intrigued humans for centuries. By engaging with AI and contemplating its potential and limitations, we are, in essence, exploring the depths of our own nature, our methods of understanding the world, and our place within it.&lt;/p&gt;
+&lt;p&gt;In this ever-evolving dialogue between humans and AI, we find a fascinating blend of reality and speculation, science and philosophy, technology and humanity. As we continue to advance in our journey with AI, let us embrace this reflective relationship, constantly seeking to learn, adapt, and grow, both in our technological endeavours and in our deeper understanding of what it means to be truly human in an increasingly digital world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fun Fact: One Good Job Offer Is All You Need</title>
+      <link>https://shaojiejiang.github.io/post/job-hunting-advice-2/</link>
+      <pubDate>Sat, 25 Nov 2023 13:12:47 +0100</pubDate>
+      <guid>https://shaojiejiang.github.io/post/job-hunting-advice-2/</guid>
+      <description>&lt;p&gt;Ideally, you would like several good job offers to make a considerate selection. But my first advice to people who are panicking about job hunting is: let&amp;rsquo;s start small by getting one good job offer first. Once you&amp;rsquo;ve achieved this, you can definitely stop seeking more if you like. This one offer can already give you the calm and security you need, then you will show your true self, which is very important in job seeking.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s never too much to emphasize the importance of a positive mindset. I recommend you to read &amp;ldquo;The Secret&amp;rdquo; by Rhonda Byrne, which teaches you the law of attraction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-secret-by-rhonda-byrne&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659289885i/52529.jpg&#34; alt=&#34;The Secret by Rhonda Byrne&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The Secret by Rhonda Byrne
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+Yeah, I know some people would call it &amp;ldquo;pseudoscience.&amp;rdquo; But as a pragmatist, here is my take on all pseudosciences and superstition: learn how to focus on what good they do to YOU and people around you instead of what they do to strangers (SCIENTISTS included). Even exact sciences are often double-edged swords. Use whatever tools, mentality included, in the right way can do you a lot of good.&lt;/p&gt;
+&lt;p&gt;In the rest of this blog post, I&amp;rsquo;ll discuss two topics that correspond to adopting the right mentality and getting things done. However, these two topics do not have a specific order. As I mentioned in the &lt;a href=&#34;https://shaojiejiang.github.io/post/en/job-hunting-advice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;previous blog&lt;/a&gt; about 知行合一, knowledge and action can never live without each other.&lt;/p&gt;
+&lt;h2 id=&#34;ask-the-right-questions&#34;&gt;Ask the Right Questions&lt;/h2&gt;
+&lt;p&gt;My job-hunting journey wasn&amp;rsquo;t the smoothest, but it wasn&amp;rsquo;t a nightmare either. Some of my friends and former colleagues asked me for help with some questions, which I think they shouldn&amp;rsquo;t even bother with in their minds. Some examples are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When do you think the job market will get better?&lt;/li&gt;
+&lt;li&gt;How many LeetCode problems should I solve?&lt;/li&gt;
+&lt;li&gt;Is xxx (social media or vacancy platforms) subscription worth it?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s very good that they understand the importance of asking others for help, especially in job hunting. I just don&amp;rsquo;t recommend them to have these questions in mind, not to mention asking them to others. One simple way to check if a question is a good question in this situation, is to ask yourself first: &amp;ldquo;What do I want to achieve with this question?&amp;rdquo; If your answer is &amp;ldquo;seeking for affirmations,&amp;rdquo; you should get these questions out of your brain as soon as possible. You don&amp;rsquo;t need affirmations; you need self-affirmation. If you need help with cultivating self-affirmation, please refer to &lt;a href=&#34;https://shaojiejiang.github.io/post/en/job-hunting-advice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my previous blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;About what questions you should ask, let&amp;rsquo;s separate them into two categories: questions to yourself, and questions to helpers. For questions to yourself, besides the fact-checking question mentioned just now, you should also keep asking yourself with these questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What are important to me in a job, the salary, geolocation, growth, job content, the company reputation, or the team competence?&lt;/li&gt;
+&lt;li&gt;What experiences are you lacking? How could you improve it?
+Most importantly, always remember to ask such questions to ChatGPT, and you can even ask the meta question &amp;ldquo;What questions should I ask myself and others when I&amp;rsquo;m looking for a new job?&amp;rdquo; It&amp;rsquo;s safe to say that ChatGPT is better than the majority of people on this topic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some good example questions you should ask others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do you think there is anything wrong with my CV, cover letter, or application strategy?&lt;/li&gt;
+&lt;li&gt;Do you think this is a good job from your point of view, and why?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Don&amp;rsquo;t apply for random jobs. The more clear you&amp;rsquo;re with what you want, the higher chance you will get it. Yes, the job market is very poor, but &amp;ldquo;right people&amp;rdquo; are always in need. Let me give you some examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There are always novel positions emerging. Prompt Engineer is a very good example.&lt;/li&gt;
+&lt;li&gt;Recession will impact some companies but certainly not all. These companies need the right people to work on their core business, and these people could be you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To help yourself decide whether this job/team is right for you, you should ask insightful questions during interviews, and talk to current or former employees. Finding a good job is a mutual selection. It&amp;rsquo;s important to both you and the interviewers for you to ask the right questions.&lt;/p&gt;
+&lt;h2 id=&#34;get-things-done&#34;&gt;Get Things Done&lt;/h2&gt;
+&lt;p&gt;However, knowing what you want is not enough. You also need to know what the employers want. Equally importantly, you need to get ready the things you or your employers want. &amp;ldquo;Getting things done&amp;rdquo; is a merit that all good jobs require. They seldom mention it in the job description, because it should be treated as common sense. Taking actions can also help you keep your goals realistic.&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t know where to start for your actions, below are some suggestions.&lt;/p&gt;
+&lt;h3 id=&#34;attend-courses-for-cv-and-cover-letter-preparation&#34;&gt;Attend Courses for CV and Cover Letter Preparation&lt;/h3&gt;
+&lt;p&gt;Your CV and cover letters are your representative during the application. Only after your representative has attracted the recruiters&amp;rsquo; attention will they invite yourself to interviews. Therefore, it&amp;rsquo;s important to make your CV and cover letters effective in representing you. There is no simple answer as &amp;ldquo;do this and don&amp;rsquo;t do that&amp;rdquo; for you to understand how to correctly prepare them. This is also not something interesting to learn from words. I recommend you to take courses or attend workshops for learning and experience sharing. If you can find a mentor or a friend to give you some feedback on these documents, that&amp;rsquo;ll be ideal. But this is limited by others&amp;rsquo; availability. One compromise is, unsurprisingly, asking ChatGPT for feedback. It&amp;rsquo;s straightforward to ask ChatGPT to comment on your cover letter, but it might be confusing how to do it with your CV, since the layout of your CV can usually be very rich. Well, let me tell you a secret: You can take a screenshot of your CV and ask ChatGPT&amp;rsquo;s opinion about it! Don&amp;rsquo;t forget to attach the job description you&amp;rsquo;re applying for. If you don&amp;rsquo;t have access to the image analysis function of ChatGPT and are still hesitating about its worth, please go to the previous section about asking the right questions to yourself.&lt;/p&gt;
+&lt;h3 id=&#34;go-to-meetups&#34;&gt;Go to Meetups&lt;/h3&gt;
+&lt;p&gt;If your local community is very active in organizing meetups, you&amp;rsquo;re blessed. Be sure to take part in these events since they are good venues for broadening your network, as well as keeping you updated on the industry trends.&lt;/p&gt;
+&lt;h3 id=&#34;uncover-your-shortcomings-and-fix-them&#34;&gt;Uncover Your Shortcomings and Fix Them&lt;/h3&gt;
+&lt;p&gt;Rejections can cause heartache, but they can also usually tell you what you&amp;rsquo;re lacking in the application. If the recruiter doesn&amp;rsquo;t bother revealing more insights for your rejection, try to analyze it yourself, ask a friend or mentor, or ask ChatGPT. Once you&amp;rsquo;ve realized your shortcomings for this job, of course, you should consider fixing them. But before taking actions, you should also double-check that you&amp;rsquo;re applying to the right position.&lt;/p&gt;
+&lt;h3 id=&#34;submit-your-applications&#34;&gt;Submit your applications&lt;/h3&gt;
+&lt;p&gt;Last but not least, submit your applications, and submit them quickly! Don&amp;rsquo;t just do preparations and act as a theorist. If you don&amp;rsquo;t submit your applications, you can only count on your reputation to get job offers (yes, if you have a good reputation in your field, jobs will hunt you). If you submit too late for a position (say, you&amp;rsquo;re the 300th), then the recruiter may not even have the energy to review your application. I was once also skeptical of continuing to submit applications as there would probably be no positive responses to them. One day I was listening to a podcast given by Gautam Baid, the author of &amp;ldquo;The Joys of Compounding,&amp;rdquo; and his story motivated me ever since for my job applications. Gautam Baid once submitted over 1300 applications before he got his dream job! Upon hearing this, I told myself: &amp;ldquo;If he can do this, so can I. He got a good job with 1300+ applications, and maybe I will hear back something positive after 300 applications.&amp;rdquo; So I adopted this belief, and it didn&amp;rsquo;t take me 300 applications.&lt;/p&gt;
+&lt;p&gt;What is your goal number of submissions?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Navigating The Job Hunting Maze</title>
+      <link>https://shaojiejiang.github.io/post/job-hunting-advice/</link>
+      <pubDate>Sun, 12 Nov 2023 17:47:01 +0100</pubDate>
+      <guid>https://shaojiejiang.github.io/post/job-hunting-advice/</guid>
+      <description>&lt;p&gt;Embarking on a job hunt can be both exhilarating and daunting. Whether you&amp;rsquo;re a fresh graduate or a seasoned professional looking for a change, the journey to land that perfect job requires more than just luck. It&amp;rsquo;s about preparation, strategy, and understanding the nuances of the job market.&lt;/p&gt;
+&lt;p&gt;In the current climate—a mixture of hypes and depression—finding an LLM-related job has become the new favorite pursuit. However, it&amp;rsquo;s not an easy journey. To illustrate, let me share some statistics from my job-seeking experience over the past several months.&lt;/p&gt;
+&lt;h2 id=&#34;my-experience&#34;&gt;My Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Total number of jobs applied for: 200+ (I lost the exact count)&lt;/li&gt;
+&lt;li&gt;Responses with interviews: 20, of which:
+&lt;ul&gt;
+&lt;li&gt;6 were insincere ones that I could have excluded from the count&lt;/li&gt;
+&lt;li&gt;10 of the left 14 were responses to Easy Apply on LinkedIn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In other words, despite the numerous applications, many that I prepared wholeheartedly didn&amp;rsquo;t yield more information than the word &amp;ldquo;unfortunately&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Fortunately, I followed the right strategy and persisted. Now, I have several attractive job offers, and I feel sorry to reject any of them. Additionally, I&amp;rsquo;ve gained many valuable things along the way, such as:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Several promising startup ideas&lt;/li&gt;
+&lt;li&gt;Knowledge of a new programming language: Rust&lt;/li&gt;
+&lt;li&gt;Significantly increased confidence&lt;/li&gt;
+&lt;li&gt;Renewed good habits: reading, jogging, meditation, and attending meetups.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The list goes on. More importantly, here I am, sharing advice with those still deeply mired in the job hunt!&lt;/p&gt;
+&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
+&lt;h3 id=&#34;learn-the-theory----find-your-dream-job-within-100-days&#34;&gt;Learn The Theory &amp;ndash; Find Your Dream Job within 100 Days&lt;/h3&gt;
+&lt;p&gt;To start with the right mentality, I recommend reading &amp;ldquo;The Road to Financial Freedom II&amp;rdquo; by Bodo Schäfer. In Chapter 6, Schäfer outlines four steps to finding your dream job within 100 days. Truth be told, I set this goal and exceeded it by receiving several meaningful job offers! Here&amp;rsquo;s a summary of these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose a helpful attitude, especially if you were laid off. Being laid off can either be a catastrophe or the start of a bright future—it&amp;rsquo;s your choice!&lt;/li&gt;
+&lt;li&gt;It may be surprising, but don&amp;rsquo;t start job hunting immediately. Spend 1-3 weeks answering basic questions to understand what constitutes a meaningful job and one that gives you the &amp;ldquo;flow experience&amp;rdquo;. Don&amp;rsquo;t settle for a job that just supports your life; you deserve better! And even after finding a job, keep questioning its meaningfulness.&lt;/li&gt;
+&lt;li&gt;It may surprise you again, but plan your day as if you have a proper job. Show discipline, as your biggest enemy at the moment is low spirits.&lt;/li&gt;
+&lt;li&gt;Make a 100-day plan, including the 1-3-week thinking period mentioned above.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you&amp;rsquo;re interested, please read Schäfer&amp;rsquo;s book. It promises to be time well spent. Be sure to study the &amp;ldquo;success journal&amp;rdquo; section—it&amp;rsquo;s very helpful for self-affirmation.&lt;/p&gt;
+&lt;h3 id=&#34;no-pain-no-gain----embrace-rejections-as-stepping-stones&#34;&gt;No Pain No Gain &amp;ndash; Embrace Rejections as Stepping Stones&lt;/h3&gt;
+&lt;p&gt;Once you start seeking, you may find that the job hunt can be a rollercoaster of emotions. Adopting a &amp;ldquo;no pain, no gain&amp;rdquo; mindset is one of the first steps to success. The bitter truth is, without undergoing the painstaking procedure of hunting, finding your dream job is unlikely. Easy come, easy go. To lighten the burden, view each &amp;ldquo;no&amp;rdquo; as a step closer to that &amp;ldquo;yes&amp;rdquo;. We live in a world of continuity, not binary. Moreover, job applications and interviews are mutual selections. If they say &amp;ldquo;no&amp;rdquo; to you, they don&amp;rsquo;t deserve your &amp;ldquo;yes&amp;rdquo; either.&lt;/p&gt;
+&lt;h3 id=&#34;bridging-the-gap-between-knowledge-and-action&#34;&gt;Bridging the Gap between Knowledge and Action&lt;/h3&gt;
+&lt;p&gt;Having the right mentality and making plans is one side of the coin, taking action is the other side. One does not exist without the other. This is where the ancient philosophy of &amp;lsquo;Unity of knowledge and action&amp;rsquo; (知行合一) comes into play. It&amp;rsquo;s not enough to simply know what needs to be done; action is crucial. The better you adhere to your plans, the better your achievements will be. In job seeking, this translates to a balance between learning (about the industry, job roles, and companies) and doing (tailoring your CV, networking, and applying for jobs).&lt;/p&gt;
+&lt;h3 id=&#34;how-to-prepare-your-cv-and-cover-letter&#34;&gt;How to Prepare Your CV and Cover Letter&lt;/h3&gt;
+&lt;p&gt;Crafting an effective CV and cover letter is an art. Your CV should not just list your experiences and skills but highlight them in a way that aligns with the job you&amp;rsquo;re applying for. Tailor your CV for each application, emphasizing the skills and experiences most relevant to the job. Your cover letter, on the other hand, is your chance to tell a story, to build a narrative&lt;/p&gt;
+&lt;p&gt;around your CV, explaining why you&amp;rsquo;re the perfect fit for the role. If you find this workflow burdensome, why not make use of ChatGPT, especially since you&amp;rsquo;re seeking a job in this field?&lt;/p&gt;
+&lt;p&gt;However, even with my best efforts (and so did ChatGPT) in the conventional application method, I received no positive responses for my dream positions. Interestingly, all the positive responses I got through &amp;ldquo;Easy Apply&amp;rdquo; on LinkedIn turned out to be enjoyable experiences for both me and the interviewers (at least they said so). Today, when discussing this with my friend Yang, he questioned whether companies hiring through &amp;lsquo;Easy Apply&amp;rsquo; are in dire need of employees. My experience suggests this might be true, but it is not what I felt in my own experience.&lt;/p&gt;
+&lt;h2 id=&#34;the-myth-of-easy-apply-tinder-for-job-hunting&#34;&gt;The Myth of Easy Apply: Tinder for Job Hunting&lt;/h2&gt;
+&lt;p&gt;Modern job-seeking platforms like LinkedIn have introduced the &amp;lsquo;Easy Apply&amp;rsquo; feature, akin to swiping right on Tinder. When you think of job hunting as building a romantic relationship, it might well be more akin to speed dating. Here’s why.&lt;/p&gt;
+&lt;p&gt;The traditional approach to building a &amp;ldquo;romantic relationship&amp;rdquo; with a company involves the CV tailoring and cover letter writing mentioned earlier. However, with tech companies worldwide having laid off over 400,000 employees (and more layoffs looming), recruiters might be overwhelmed by cliché-ridden application materials. Facing such a vast pool of job seekers, the likelihood of a successful application is slim. I&amp;rsquo;ve observed that most recruiters couldn&amp;rsquo;t offer insights into the rejections. Overwhelmed with formulaic applications, their responses often become equally templated. More importantly, this process also drains recruiters&amp;rsquo; energy quickly. In this scenario, &amp;ldquo;Easy Apply&amp;rdquo; emerges as a welcome relief for both job seekers and employers. This might explain its effectiveness in my experience.&lt;/p&gt;
+&lt;h2 id=&#34;startups-vs-big-corporations&#34;&gt;Startups vs Big Corporations&lt;/h2&gt;
+&lt;p&gt;Choosing between startups and big corporations can be tough. However, if you&amp;rsquo;re considering LLM-related positions, startups often have the upper hand. Yes, most leading LLMs were developed by big companies (including OpenAI), but the open positions in these teams are scant compared to the number of job seekers.&lt;/p&gt;
+&lt;p&gt;As SWYX notes:&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are ~5000 LLM researchers in the world, but ~50m software engineers. Supply constraints dictate that an “in-between” class of AI Engineers will rise to meet demand.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So, which companies are hiring most AI Engineers? Not the big names—they&amp;rsquo;re busy competing their foundational models with each other. Startups often offer more responsibility, a chance to wear multiple hats, and a potentially dynamic work environment. In contrast, big corporations provide stability, structured growth, and often, more comprehensive benefits. Your choice should align with your career goals, personal growth plan, and work-life balance preferences. But if you&amp;rsquo;re choosing the LLMs track, startups are likely your best bet. All the large corporate positions that interviewed me were for uninteresting, old-school machine learning roles. While these positions are valuable, LLMs are where my passion currently lies.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Job hunting is more than just a search for employment; it&amp;rsquo;s a journey of self-discovery and growth. By preparing adequately, understanding the intricacies of the application process, and aligning your job choices with your career goals, you can navigate the job market maze with confidence. Remember, each step, each rejection, and each interview is a learning experience paving the way to your ideal job.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.latent.space/p/ai-engineer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Rise of the AI Engineer&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Notes for Creativity Training</title>
+      <link>https://shaojiejiang.github.io/post/creativity-training/</link>
+      <pubDate>Sat, 23 Sep 2023 18:55:44 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/creativity-training/</guid>
+      <description>&lt;p&gt;Generative models of all kinds of modalities, including textual, image, and audio, are evolving very fast.
+They have started to replace humans in some labor-intensive scenarios, and they will keep doing so.
+Like many others, I believe this is a good trend in the long run.
+It&amp;rsquo;s very similar to the Industrial Revolution when much human labor was replaced by machines.
+Yes, it will cause some short-term turbulence.
+But look at the colorful clothes normal people on the street are wearing now, which were privileges of the higher classes a couple of centuries ago.
+How could we have achieved this without the Industrial Revolution?
+I believe we can expect an even more &amp;ldquo;colorful&amp;rdquo; future with AIGC technologies.&lt;/p&gt;
+&lt;p&gt;Generative models are like pens, brushes, and dictionaries, which serve to boost our productivity.
+Why is that?
+In the past, without pens or dictionaries, it was difficult for many people to read, write, or paint well; in the future, with the help of generative models, more and more people will be able to write and paint decently.
+And this to me, sounds like a liberation for humanity.&lt;/p&gt;
+&lt;p&gt;But tools are just tools.
+They can make you more productive but don&amp;rsquo;t necessarily make you more creative.
+I believe with the liberated productivity, we humans will and should devote more time to being creative.&lt;/p&gt;
+&lt;p&gt;As a practice for myself, I open this blog to keep track of some of my ideas.
+They are not brilliant ideas, and probably many of them sound stupid and funny, but I would like to see some of them come true because I believe they can help make the world a better place.
+Maybe some of them already exist in a corner I don&amp;rsquo;t know yet.
+If I come across them in the future, I&amp;rsquo;ll come back and add pointers to them.&lt;/p&gt;
+&lt;p&gt;I first started this exercise in my notes and thought that I was going to realize them at some point.
+Slowly, I came to feel that I wouldn&amp;rsquo;t be able to work on most of them, so why don&amp;rsquo;t I make them public?
+If they can be useful of any sort, that&amp;rsquo;s the best I want to see.
+But probably most of these ideas just don&amp;rsquo;t make much sense, and in that case, I hope you can still have some fun reading it.
+I also welcome everyone to join me for brainstorming new ideas, as an exercise.
+Just keep practicing, and who knows one day we won&amp;rsquo;t come up with a brilliant idea that can influence the world?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;NOTE:&lt;/em&gt; Some of the following ideas, if not all, already have predecessors in the market. I still have them here because I believe they can be boosted by modern technologies, such as generative AI.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;using-video-game-addiction-for-good-causes&#34;&gt;Using video game addiction for good causes&lt;/h2&gt;
+&lt;p&gt;Video game addiction has been a concerning social problem for years.
+However, I&amp;rsquo;m afraid this is only going to get worse with the climbing unemployment rates &amp;ndash; a lesson learned from the Hollywood growth during the Great Depression.
+The game addiction problem should receive more attention, especially because addicts are usually juveniles and young adults &amp;ndash; the group of people who have the most potential.&lt;/p&gt;
+&lt;p&gt;Although new, responsible careers have been developed around the video game industry, and even the Olympic Games have adopted the Esports series, it&amp;rsquo;s usually difficult to see how people&amp;rsquo;s time spent playing games is directly benefiting themselves or society.
+Let&amp;rsquo;s make some comparisons.
+Bakers and chefs feed people, bus drivers transport people, and teachers educate people.
+What do gamers contribute, especially when they spend too much time?
+That is the main reason why our parents have strong stereotypes about video games, and they do have a point.&lt;/p&gt;
+&lt;p&gt;Is entertainment the primary nature of video games, or is it that we haven&amp;rsquo;t tried hard enough to endow them with more usefulness?
+I&amp;rsquo;m leaning towards the latter.
+It&amp;rsquo;s good to see that people from the serious games community have never stopped trying to bring values other than pure entertainment to (video) games.
+I can&amp;rsquo;t help but imagine what it be like if all game developers changed to work on serious games!
+It must be a whole new world where both education, relationships, work, and more are revolutionized.
+Metaverse is arguably a concept in the light of this possible future.&lt;/p&gt;
+&lt;p&gt;Just a side note, with the stunningly fast development of AI, I tend to become a believer in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Simulation_hypothesis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Simulation Hypothesis&lt;/a&gt;.
+Imagine that one day we can simulate everything, including all human senses and interactions with the world, it might be appealing for us to submerge the virtual reality for our development as well as that of society.
+And this is becoming more and more realistic.&lt;/p&gt;
+&lt;p&gt;In the spirit of channeling game addiction to good causes, below are some ideas that can help.
+If we can&amp;rsquo;t overcome game addiction, let&amp;rsquo;s make good use of it.&lt;/p&gt;
+&lt;h3 id=&#34;shoot-to-label&#34;&gt;Shoot to label&lt;/h3&gt;
+&lt;p&gt;Among the top 5 most played games on Steam,&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 3 are FPS games.
+What if we replace the players of human shapes with &lt;strong&gt;images&lt;/strong&gt; that we collected from the real world, and ask the players to shoot the specified targets?
+For example, we collect some images of animals, in all lighting and surroundings, then we ask the players to shoot for a random type of animal in each round.
+In this way, we turn the FPS game into a labeling task!
+The images receive more bullets and are treated as annotated with higher quality.
+We can even mix in some &amp;ldquo;golden labels&amp;rdquo; to decide the accuracy of players&amp;rsquo; shots, and also as a metric for deciding their ranks.
+Higher ranks mean higher skills in this task.
+Annotated data can be sold to AI companies to develop stronger models that will be put to real use.&lt;/p&gt;
+&lt;p&gt;Similarly, many other kinds of data can be collected and utilized.
+For instance, making use of the popularity of racing games and vehicle simulators, driving data can be used for training auto-piloting systems (maybe this is already happening).
+This also has the advantage of being privacy-proof because all the collected data is in a game.
+These ideas can make it possible that in the future there will be such a job that pays workers for playing games, for good reasons!
+In the future, maybe we can all sit back and play games as much as we like, and AI&amp;rsquo;s work to take care of everything else!&lt;/p&gt;
+&lt;h3 id=&#34;games-as-textbooks&#34;&gt;Games as textbooks&lt;/h3&gt;
+&lt;p&gt;There is a type of game that&amp;rsquo;s called &lt;a href=&#34;https://en.wikipedia.org/wiki/Visual_novel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;visual novels&lt;/a&gt;.
+It should be very simple to develop games for teaching history, literature social norms, etc.
+Science teaching is also possible, and potentially simple.
+Just design math exercises, physics, and chemistry experiments as engaging puzzles!
+I know it&amp;rsquo;s easier said than done, but we can keep adding weight to the right thing until it reaches the tipping point.
+Education has been always losing when it fights against entertainment like games.
+What&amp;rsquo;s different now is that we can seek technologies like video games for help.
+Especially with generative models getting popular, the development process might be hugely benefited.&lt;/p&gt;
+&lt;p&gt;The only concern is excessive screen time!
+But maybe this can be solved with the development of brain-computer interfaces.&lt;/p&gt;
+&lt;h3 id=&#34;stock-market-simulator&#34;&gt;Stock market simulator&lt;/h3&gt;
+&lt;p&gt;Inspired by Generative Agents&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, we can also take stock market simulators to the next level.
+With generative AI, we can not only simulate stock managers, with the hope that they can help us with things like buy/sell decisions, but also simulate the world dynamics so that we can get trained for handling black-swan events, without the loss of a fortune.&lt;/p&gt;
+&lt;h3 id=&#34;classroom-simulation&#34;&gt;Classroom simulation&lt;/h3&gt;
+&lt;p&gt;Thinking along the line of simulations, another idea (that probably requires more developments in related fields) is to create a classroom simulator.
+When simulating the teaching from teachers to students, all powered by AI models, humans can supervise the process and give feedback.
+We can define what tools in the real world can be used/taught and how through which we make sure that AI&amp;rsquo;s understand what they&amp;rsquo;re doing.
+Besides, novel ways of teaching can be tested in this simulation.
+Human students can also learn in the virtual classroom.&lt;/p&gt;
+&lt;h2 id=&#34;caring-for-others&#34;&gt;Caring for others&lt;/h2&gt;
+&lt;p&gt;With the progression of AI models, embodiment may also see a surge soon.
+When they are combined, many caring tasks can be done in an effective, quality, and cheap way.
+The dream of employing robots as tireless servants may come true soon.
+Even if they can&amp;rsquo;t undertake too many tasks, they can at least ring alarms and get human help in time.&lt;/p&gt;
+&lt;h3 id=&#34;elderly-companion&#34;&gt;Elderly companion&lt;/h3&gt;
+&lt;p&gt;Hopefully, with liberated human labor, people can spend more time with family, but that&amp;rsquo;s in the far future.
+It should be possible already to build virtual companions for the elderly.
+A tool like this can not only keep the elderly company when their children can&amp;rsquo;t, but also help seniors make emergency calls when needed.
+Aging is a problem with increasing severity.
+Such a product can not only help address the caring but can also do it in a very accessible way.
+I hope such a product is already on the way.&lt;/p&gt;
+&lt;h2 id=&#34;scientific-research-related&#34;&gt;Scientific research related&lt;/h2&gt;
+&lt;p&gt;While generative models are receiving welcome from many many areas in the world, they are still very immature in the eyes of some scientists.
+For example, Yann LeCun has been known as a big protester &lt;a href=&#34;https://twitter.com/ylecun/status/1621805604900585472&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;against LLMs&lt;/a&gt;.
+Many things need to be done or well understood for LLMs, but IMHO this fact doesn&amp;rsquo;t rule them out from being useful.
+Below are some ideas with a focus on making generative models more useful, and with some values for research.&lt;/p&gt;
+&lt;h3 id=&#34;aigc-driven-by-brainwaves&#34;&gt;AIGC driven by brainwaves&lt;/h3&gt;
+&lt;p&gt;Imagine that you don&amp;rsquo;t need to do prompt engineering when using AIGC anymore.
+Just focus on the idea in your mind, and the generative models will draw/write it for you!
+I feel this might have been studied because the concept is simple in theory.
+Generative models essentially use vector representations to work.
+Even though you input texts to ChatGPT or DALL·E, the texts are translated into vectors before the real work begins.
+Brainwaves can be easily represented as vectors with simple transforms, so it should be possible to finetune generative models with brainwave data.
+Indeed, this has been proven to work on image generation with the latest CVPR paper.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
+Similar applications to text generation should be around the corner too.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;UPDATE 10/29/2023:&lt;/em&gt; A new work from Meta&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; has proven the possibility of decoding brain activity into images! In the following years, there will be more and more breakthroughs in using human-machine interface and AIGC to do work.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;use-llms-for-ethical-hacking&#34;&gt;Use LLMs for ethical hacking&lt;/h3&gt;
+&lt;p&gt;Add tools for a specialized and close-sourced LLM (because this is not safe to open-source) to generate code and API calls for hacking a target system, to find unknown loopholes.&lt;/p&gt;
+&lt;h3 id=&#34;human-pet-translator&#34;&gt;Human-pet translator&lt;/h3&gt;
+&lt;p&gt;When a multi-modal model is trained on textual, audio, and video data collected from both humans and pets, it might be possible for the shared model to capture the same patterns.
+If so, then a pet audio input can be translated into human speech or text and vice versa.
+This is a bold idea, but human brains share a lot in common with those of pets.
+If neural models can learn human languages well, it should be possible for them to learn that of pets&amp;rsquo;, as long as we find the right way to train such models.&lt;/p&gt;
+&lt;h2 id=&#34;remarks&#34;&gt;Remarks&lt;/h2&gt;
+&lt;p&gt;I know some of the above ideas may sound foolish, but I&amp;rsquo;ll keep working on them with good intentions in mind, in refining the ideas or implementing them.
+I believe I can be valuable as a practitioner or as a day-dreamer, as long as I put my time and energy to good use.
+I&amp;rsquo;m sure the compounding power will not let me down in the end, but anyway, I&amp;rsquo;m enjoying this process already so whatever.
+I&amp;rsquo;ll also keep updating this post as long as I can until someday I feel the energy needed for updating this post is better put on another more meaningful thing.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://steamdb.info/charts/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://steamdb.info/charts/&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/joonspk-research/generative_agents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generative Agents: Interactive Simulacra of Human Behavior&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://openaccess.thecvf.com/content/CVPR2023/html/Chen_Seeing_Beyond_the_Brain_Conditional_Diffusion_Model_With_Sparse_Masked_CVPR_2023_paper.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Seeing Beyond the Brain: Conditional Diffusion Model With Sparse Masked Modeling for Vision Decoding&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://ai.meta.com/blog/brain-ai-image-decoding-meg-magnetoencephalography/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Towards a Real-Time Decoding of Images from Brain Activity&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Job Invitations From Adult Industry Are Welcome, but Not in the Way You Are Thinking Of</title>
+      <link>https://shaojiejiang.github.io/post/responsible-aigac/</link>
+      <pubDate>Wed, 20 Sep 2023 20:03:07 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/responsible-aigac/</guid>
+      <description>&lt;p&gt;I have received several job invitations from the adult industry.
+They said they are in a blooming market with the popularity of LLMs and chatbots, which I have no doubt.
+They all also mentioned &lt;a href=&#34;https://replika.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Replika&lt;/a&gt; in our chats, which was not surprising at all &amp;ndash; I did an internship there in 2021, and they had already worked on sexting for years.&lt;/p&gt;
+&lt;h2 id=&#34;my-pitch&#34;&gt;My pitch&lt;/h2&gt;
+&lt;p&gt;Since this is kind of a sensitive topic, I think it&amp;rsquo;s important to set the pitch first.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Although I have received higher education, I don&amp;rsquo;t despise at all the legitimate adult industry.&lt;/li&gt;
+&lt;li&gt;Although I&amp;rsquo;m from a country that is very famous for its strictness over the adult industry, I have no prejudice over sex-related work, thanks to my experience in NL, Amsterdam especially.&lt;/li&gt;
+&lt;li&gt;Business is business. I respect every profession as long as they are legal and ethical.&lt;/li&gt;
+&lt;li&gt;Sex is part of human nature, so many professions around it are ethical in the right context.&lt;/li&gt;
+&lt;li&gt;I respect sex-related workers even further if they donate part of their (expectedly high) profit to social good.&lt;/li&gt;
+&lt;li&gt;I interned at Replika, but my work was not related to the erotic part.&lt;/li&gt;
+&lt;li&gt;I have no intention of stepping into this industry yet, and the reason is that it&amp;rsquo;s not the time yet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As you see from the teaser image, I adapted the catchword a bit, which suits my lifelong mission perfectly: I want to cleverly die as a responsible adult.
+Please hear me out.&lt;/p&gt;
+&lt;h2 id=&#34;my-story-with-replika&#34;&gt;My story with Replika&lt;/h2&gt;
+&lt;p&gt;When I started my internship at Replika, I didn&amp;rsquo;t know that the company was working on erotic roleplay.
+I received the offer because of two reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The perfect match with my PhD research topic&lt;/li&gt;
+&lt;li&gt;Its emotional-support aspect, which I think Replika has been doing a decent job&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In my opinion, Replika has been a very responsible company.
+They separated very well the subscribe-only, erotic part from the free, normal, and emotional support part.
+Besides, they were happy that some users used their app to learn English.
+What more can you expect from a for-profit company/startup?
+They charge nothing for the part they influence society positively; they deepen the emotional support part further for people who are suffering from the lack of intimate relationships.
+Agreeably, having both adult and children-safe content in the same app can pose some harm to juveniles.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+But dangerous as adult content to children as fire and blade, are everywhere in life.
+It&amp;rsquo;s the responsibility of many parties to protect juveniles from such harmful things.
+Besides, Replika is working on separating the erotic part,&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; which in my opinion is another responsible action/response.&lt;/p&gt;
+&lt;h2 id=&#34;why-do-i-think-its-not-the-right-time-for-me-to-do-adult-business&#34;&gt;Why do I think it&amp;rsquo;s not the right time for me to do adult business?&lt;/h2&gt;
+&lt;p&gt;The short answer is that my value can be better utilized in a way more beneficial to society.
+Going against the prosperity of the LLMs and chatbots, my team at Huawei working on the exact topic is experiencing adversity.
+This offered me a chance to reconsider the value of my work on a broader scope: how did I perform responsibly as an Earth citizen?
+Although I believe Huawei is in general a responsible and honorable company, it doesn&amp;rsquo;t mean that every division of it is responsible.
+My work more specifically, hasn&amp;rsquo;t had much chance to carry out its responsibility towards the social good.
+I need a recalibration of my compass, therefore, I wouldn&amp;rsquo;t accept any distraction to my long-term goal: social responsibility.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-would-be-happy-to-see&#34;&gt;What I would be happy to see?&lt;/h2&gt;
+&lt;p&gt;Neither am I ready to devote myself to the adult business nor is the business ready for me, it seems.
+I would definitely be happy to contribute my knowledge and experience in the following aspects of the adult business:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fight human trafficking and abusing&lt;/li&gt;
+&lt;li&gt;Anti-harassment&lt;/li&gt;
+&lt;li&gt;Privacy protection&lt;/li&gt;
+&lt;li&gt;Anti addiction&lt;/li&gt;
+&lt;li&gt;Etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re such a team, I&amp;rsquo;ll highly appreciate it if you reach out to me.
+I&amp;rsquo;m a believer in compounding power: a good deed, be it small, can have an overturning effect with enough time.
+Some other related industries I&amp;rsquo;m passionate about are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Educational games, so that we can help channel game-addiction into the addiction to something that brings real value to the world&lt;/li&gt;
+&lt;li&gt;Healthcare, which might lead to a future of chatbots saving lives every day, which is already happening&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I want to elaborate a bit more on the anti-addiction part.
+There are many bad examples in real life other than sex-related addiction.
+Here I want to mention some products that are creating &lt;strong&gt;new, unhealthy&lt;/strong&gt; addictions, such as YouTube and TikTok.
+Interestingly, if you search Google with the keywords &amp;ldquo;TikTok&amp;rsquo;s effort in fighting addiction&amp;rdquo;, you will see a lot of articles on using TikTok for fighting &lt;strong&gt;substance addiction&lt;/strong&gt;, but you won&amp;rsquo;t see ANY of TikTok&amp;rsquo;s effort in dealing with addiction to its own app.
+I&amp;rsquo;m not happy with the finding, especially given the context that my parents, together with many friends and relatives, are TikTok addicts.
+Yet these companies have spent little to no effort in fighting the unhealthy addiction they caused.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-google-results-of-tiktoks-effort-in-fighting-addiction&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Google results of &amp;#34;TikTok&amp;#39;s effort in fighting addiction&amp;#34;&#34; srcset=&#34;
+               /post/responsible-aigac/tiktok_addiction_hue52b2f23ba2c37ea2f1d02bbe19bd9cf_201875_94bee70f70cc4439c7e4650a4dbea8ea.webp 400w,
+               /post/responsible-aigac/tiktok_addiction_hue52b2f23ba2c37ea2f1d02bbe19bd9cf_201875_9b6b8eedbabaa2254ec4b62b31a69262.webp 760w,
+               /post/responsible-aigac/tiktok_addiction_hue52b2f23ba2c37ea2f1d02bbe19bd9cf_201875_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/responsible-aigac/tiktok_addiction_hue52b2f23ba2c37ea2f1d02bbe19bd9cf_201875_94bee70f70cc4439c7e4650a4dbea8ea.webp&#34;
+               width=&#34;470&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Google results of &amp;ldquo;TikTok&amp;rsquo;s effort in fighting addiction&amp;rdquo;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&#34;i-have-a-dream&#34;&gt;I have a dream&lt;/h2&gt;
+&lt;p&gt;Here is how I want the world to remember me after I pass away: He is a man who cleverly died as a responsible adult.
+By &amp;ldquo;cleverly&amp;rdquo;, I mean not to just die being mentally responsible, do something!&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.reuters.com/technology/what-happens-when-your-ai-chatbot-stops-loving-you-back-2023-03-18/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What happens when your AI chatbot stops loving you back?&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.reuters.com/technology/ai-chatbot-company-replika-restores-erotic-roleplay-some-users-2023-03-25/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI chatbot company Replika restores erotic roleplay for some users&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.today.com/health/mom-chatgpt-diagnosis-pain-rcna101843&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A boy saw 17 doctors over 3 years for chronic pain. ChatGPT found the diagnosis&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Break Time Banned in Chinese Schools. What Now?</title>
+      <link>https://shaojiejiang.github.io/post/school-problems-china/</link>
+      <pubDate>Mon, 11 Sep 2023 11:58:24 +0800</pubDate>
+      <guid>https://shaojiejiang.github.io/post/school-problems-china/</guid>
+      <description>&lt;p&gt;（中文版请点击&lt;a href=&#34;https://shaojiejiang.github.io/post/zh/school-problems-china/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;这里&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;I started this post with anger.
+If school is a place that only outlines what we CAN do, then what are the differences between schools and prisons?&lt;/p&gt;
+&lt;h2 id=&#34;the-shocking-news&#34;&gt;The shocking news&lt;/h2&gt;
+&lt;p&gt;My nephew Jimmy just enrolled in primary school on September 1, 2023, in a suburban district of Tianjin, China.
+He isn&amp;rsquo;t a very extrinsic kid.
+He would even be too shy to talk with me after being separated for a couple of months, even if we had just talked happily on the phone days ago.
+&amp;ldquo;It&amp;rsquo;s natural for an intrinsic kid to be afraid of school.&amp;rdquo; I comforted myself, &amp;ldquo;He&amp;rsquo;ll get through it soon.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Several days after the new semester, I happened to have an opportunity to visit him.
+However, when I saw how resistant he was to school, I realized it was more than his young age or intrinsic characteristics.
+He had been crying every time he set for school, repeating things like &amp;ldquo;it&amp;rsquo;s too boring,&amp;rdquo; and &amp;ldquo;time goes too slow.&amp;rdquo;
+Yeah, I can relate to my old memory, Chinese schools weren&amp;rsquo;t necessarily interesting places.
+But the words &amp;ldquo;time goes too slow&amp;rdquo; rang my bell: he is just a 6-year-old, how would he have the feeling of time being too slow??
+If he was enjoying, he should have felt time flies.
+I sensed something was wrong and decided to investigate.&lt;/p&gt;
+&lt;p&gt;I started by asking him why he didn&amp;rsquo;t like school while he had so much fun to enjoy, recalling the happy memory I had in primary school playing games between classes.
+It was the mid-1990s, in a very underdeveloped town in China.
+We didn&amp;rsquo;t have as many toys to kill time, so we made good use of our creativity: we played all kinds of interactive games, like hide-and-seek, police chasing suspects; we also made good use of materials we found nearby, flying paper planes, square-bashing competition (read on for explanation), stalk-pulling (see below).
+The list goes on and on.
+I wouldn&amp;rsquo;t say I enjoyed my primary school overall, but remembering those games, I still can&amp;rsquo;t resist putting on smiles.
+I asked my nephew weren&amp;rsquo;t these fun activities to do at school?&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-square-bashing-game&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://imagepphcloud.thepaper.cn/pph/image/74/93/275.jpg&#34; alt=&#34;The Square-bashing Game.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The Square-bashing Game.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; The square-bashing game is a game with papers folded into squares. In the gameplay, players bash their squares in turn on the ground, nearby, or on their opponents&amp;rsquo; squares. If the opponents&amp;rsquo; squares flip, you win their squares. A good player is proud of piling up the squares he wins &amp;ndash; triumphs to show others how powerful he is.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-game-of-stalk-pulling&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://pic4.zhimg.com/80/v2-fe60a2a26a106cabc95866545f739fd7_720w.webp&#34; alt=&#34;The Game of Stalk-pulling.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The Game of Stalk-pulling.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; The stalk-pulling game is played by pulling stalks (usually from fallen tree leaves) as illustrated above. The one whose stalk breaks loses the game. The fun is very similar to the big boys game, MMA &amp;ndash; you keep winning or you&amp;rsquo;re done.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I was shocked to hear that they are not allowed to enjoy the break-time anymore.
+They must remain in the classroom &lt;strong&gt;unless&lt;/strong&gt; they need to get water or use the toilet.
+Yes, you read it right.
+No chasing around in the corridor, not to mention in the schoolyard.
+Feeling too hard to comprehend, I asked him to wear his smartwatch to school, so that I could give him a video call during break-time and observe his environment by myself.
+Only to know that smartwatches were said to be banned on the first day of his admission.
+Trying to cheer him up, I suggested taking some toys so that he could at least have some fun.
+But sorry, toys are banned too, of course.&lt;/p&gt;
+&lt;p&gt;Still not giving up, I started asking around my friends and relatives, with the hope that Jimmy&amp;rsquo;s school was just a special case.
+Soon I got some responses.
+Some relatives said this to be very common, and even more serious in Beijing.
+Another friend, who is now a teacher in a primary school in my hometown, expressed that this is just like COVID-19 &amp;ndash; a new norm.
+Now I need somebody to cheer me up.&lt;/p&gt;
+&lt;h2 id=&#34;pe-classes&#34;&gt;PE classes&lt;/h2&gt;
+&lt;p&gt;Beside the hopelessness, a very slight comfort is that Jimmy has a PE class 4 days a week.
+They also have group gymnastics every day during the long, 30-minute break in the morning.
+These are the &lt;strong&gt;only&lt;/strong&gt; times when they are allowed in the schoolyard and the playground.
+My sister and I decided to do some investigation on the quality of such outdoor activities.
+We also optimistically thought that after the group gymnastics, the students might have the chance to play freely.
+Yet we were surprised again.&lt;/p&gt;
+&lt;p&gt;Below is a video I took after the gymnastics.
+Kids were taken back to the classroom in order.
+In another corner of the schoolyard, one teacher instructed her students: &amp;ldquo;Don&amp;rsquo;t talk while in the corridor. Quickly drink some water and use the toilet if needed. Don&amp;rsquo;t make me repeat!&amp;rdquo;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://shaojiejiang.github.io/post/school-problems-china/media/gymnastics.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+&lt;p&gt;This second video witnessed the &amp;ldquo;very fierce&amp;rdquo; sport they did during the PE class.
+They walked for &lt;strong&gt;three&lt;/strong&gt; whole rounds during the 40-minute class, which explains why they needed to have good rest when they weren&amp;rsquo;t walking.
+Oh right, they also spend quite some time in practicing lining up the troop.
+Another class nearby, 2nd grade or even higher (because they have uniforms already), also spent their whole class in practicing the lining.
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://shaojiejiang.github.io/post/school-problems-china/media/pe_class.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;the-reason&#34;&gt;The reason&lt;/h2&gt;
+&lt;p&gt;You may tend to think this is a byproduct of the COVID-19 regulations, as I did in the beginning.
+The whole population was basically educated to do this during the miserable 3+ years, so it&amp;rsquo;s somewhat understandable that the schools are still in the shadow of scaring new breakouts, though not forgivable.
+But then my teacher-friend told me a true story in which a boy&amp;rsquo;s parents blamed the school for their son&amp;rsquo;s falling on the ground, resulting in a flea-sized crack on one of his teeth.
+The parents kept pressuring the school for months to find a satisfying solution for them, and they succeeded.
+&amp;ldquo;How could parents put so much pressure on the school?&amp;rdquo; you may wonder.
+Well, now with all kinds of social media, there are already countless stories in which parents &amp;ldquo;exposed&amp;rdquo; schools&amp;rsquo; &amp;ldquo;negligence&amp;rdquo; by mentioning/reporting to newspapers or local Education Bureaus.
+You may argue, &amp;ldquo;The Education Bureaus can give justice to both parents and schools.&amp;rdquo;
+But the simplest solution is to just pass the pressure back to schools and let schools bother themselves with their own problems, and that is what usually what such cases end up with.&lt;/p&gt;
+&lt;h2 id=&#34;after-thoughts-and-call-for-changes&#34;&gt;After thoughts and call for changes&lt;/h2&gt;
+&lt;p&gt;Among the friends I enquired, there was another primary school teacher in Shenzhen who said their school still has normal break times, when kids can freely wander around.
+But I remembered another shocking story where a teacher from her school had to kneel down to get a student back to school.
+With a better understanding of the situation, now I feel a bit sorry for schools and teachers.&lt;/p&gt;
+&lt;p&gt;However, I don&amp;rsquo;t think schools are innocent.
+Quit the opposite, I think schools bear the most responsibility for the current situation, although I think the root causes are irrational parents, failing Education Bureaus, and the misuse of social media.
+Here is my justification.
+IMHO, although the education system comprises families, schools, and society, schools are the lead among these three parties.
+They are the place where students spend most of their study time, and they are the place where most trends, good or bad, start.
+In the case of bad trends, schools should take the responsibility of correcting them so that things won&amp;rsquo;t deteriorate.
+Schools and teachers can&amp;rsquo;t just sit back and watch the education system being doomed, can they?&lt;/p&gt;
+&lt;p&gt;Parents, and citizens who still have faith in this society, shouldn&amp;rsquo;t just sleep on these negative trends.
+We should keep fighting even though we won&amp;rsquo;t change the situation in the near future.
+Media, especially traditional newspapers, you&amp;rsquo;re the ears, eyes, and mouths of this society, please don&amp;rsquo;t pretend that nothing is wrong, let alone act as the gun of ugliness.&lt;/p&gt;
+&lt;p&gt;Education Bureaus, you&amp;rsquo;re the brain of the education system.
+You&amp;rsquo;re the most powerful, but remember, with power comes responsibility.
+If you&amp;rsquo;re asleep, please wake up.
+If you&amp;rsquo;re drunk, please keep sober at work time.
+Or if you&amp;rsquo;re burning out, reconsider whether you&amp;rsquo;re taking too much unnecessary responsibility.
+Don&amp;rsquo;t forget that in the human body, the brain is not the whole nervous system, though it is the core of it.
+The art is to distribute responsibility with rights altogether.&lt;/p&gt;
+&lt;h2 id=&#34;remarks&#34;&gt;Remarks&lt;/h2&gt;
+&lt;p&gt;In the middle school section of the same school, which is by the side of Jimmy&amp;rsquo;s, the same phenomenon was observed.
+If this phenomenon continues or even widens, I can imagine universities in several years will adopt the same regulation.
+There is no reason why they won&amp;rsquo;t: schools, colleges, and universities will have much fewer troubles to deal with; students are so calmly obedient.
+When they start their careers, their employers will be happy too about their do-as-said part.
+Soon enough, in a future virus outbreak, people will be locked down so comfortably, feeling hundreds of thousands of times more relaxed than their parents did.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Has the AI-Era come to video games already?</title>
+      <link>https://shaojiejiang.github.io/post/ai-gaming-era/</link>
+      <pubDate>Sun, 13 Aug 2023 17:05:13 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/ai-gaming-era/</guid>
+      <description>&lt;p&gt;With the big noises made by ChatGPT, many different industries have noticed the value of LLM technologies.
+Unsurprisingly, the video game industry is one of them.
+In this blog, I introduce several cool demos/WIPs that I&amp;rsquo;ve recently found, and share my opinions on why they might have profound influences on the future of video game industry.
+I also try to explain the current difficulties, and possible directions for solving them.
+In the end, I also share some dreams of future games.
+I believe, the era of AI has come to video games!&lt;/p&gt;
+&lt;h2 id=&#34;the-matrix-ai-powered-npcs-demo-by-the-replica-studios&#34;&gt;The Matrix AI-Powered NPCs demo by the Replica Studios&lt;/h2&gt;
+&lt;p&gt;Players are used to have chats with the NPCs, but most of these conversations are scripted.
+The current best conversational experience you can have with NPCs is to select from several possible responses, so you have some freedom of steering dialogues.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-dialogue-selection-in-witcher-3&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dialogue selection in Witcher 3&#34; srcset=&#34;
+               /post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_527b0774b1c015883502fc1666882b7e.webp 400w,
+               /post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_2c0e283be5301be66b25147cae746fe8.webp 760w,
+               /post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_527b0774b1c015883502fc1666882b7e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Dialogue selection in Witcher 3
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you are a game lover, have you ever dreamt about talking to NPCs like they&amp;rsquo;re other human players?
+Well, this is definitely possible now, and the Replica Studios already made a demo about it&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.
+Instead of looping over pre-scripted lines, the Replica Studios attached LMs (probably OpenAI ChatGPT) to the NPCs, allowing them to all speak characteristically.
+You can even chat with NPCs using your voices directly, and they will speak back.
+Take a look at this YouTube video&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; of the demo.&lt;/p&gt;
+&lt;p&gt;In many games, the plot is driven (or better put, reflected) by chatting with NPCs.
+But since LLM chatbots can have randomness in their responses, maybe in the future, the game progression can be take to anywhere, so that every player can have a unique experience in the same game.
+This is already partly made true in the AI Dungeon text game&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;The Matrix demo may look sleek in the video, but in reality it can take around 10 seconds to get a response from NPCs.
+This lag is probably due to many users are calling the LLM API at the same time, and slow processing of several different modules, such as ASR and TTS.
+Besides, current general-purpose LLMs like ChatGPT are very large in terms of number of parameters, and this means long processing time.
+Potential solutions can be training bespoke, smaller-sized chatbot models, and maybe even audio-to-audio model so that the processing is simplified.&lt;/p&gt;
+&lt;h2 id=&#34;herika-by-dwemer-dynamics&#34;&gt;Herika by Dwemer Dynamics&lt;/h2&gt;
+&lt;p&gt;The experience that every player being able to conduct unique conversations with each NPC can already be fascinating.
+Isn&amp;rsquo;t it more interesting to have a computer-controlled companion, one that can not only chat with you, but can also follow your voice commands?
+Then you definitely want to check out Herika, a mod&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; for &lt;em&gt;The Elder Scrolls V: Skyrim&lt;/em&gt;.
+Herika is a ChatGPT-powered AI companion that can understand the player&amp;rsquo;s audio and textual inputs.
+She is capable of chit-chatting with the player, commenting on the game scenes and events, following the player&amp;rsquo;s various commands, and more.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-system-design-of-herika-image-credit-dwemer-dynamics&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;System design of Herika. Image credit: Dwemer Dynamics&#34; srcset=&#34;
+               /post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_8ef29e5e73f8099642bfabb22652b4d5.webp 400w,
+               /post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_76bd25ffc50f49e25b364c14c33177b2.webp 760w,
+               /post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_8ef29e5e73f8099642bfabb22652b4d5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;418&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      System design of Herika. Image credit: Dwemer Dynamics
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Above is an illustration of Herika&amp;rsquo;s system design.
+Here is a brief overview of its main components:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Audio inputs and outputs are processed to and from texts by ASR and TTS modules&lt;/li&gt;
+&lt;li&gt;Game objects, scenes, locations, etc., are extracted from the game as texts&lt;/li&gt;
+&lt;li&gt;The chatting and commenting are all achieved by querying the OpenAI API, in the form of role-playing chats&lt;/li&gt;
+&lt;li&gt;Given player&amp;rsquo;s command in natural language, the command-following ability is achieved by asking GPT to generate formatted commands that are used by the game engine to control Herika&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Check out this YouTube video&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; to get the feeling of how Herika works.
+Although it seems to work astonishingly well in the video, currently Herika has the same problem of long response time like the Matrix demo.
+Of course, another issue is that playing with such a companion can burn money quickly, and this is because most of Herika&amp;rsquo;s functionality is achieved by calling paid APIs.
+Still a lot of work to do before this kind of gameplay can get popular, but this mod definitely cracks open another line of bright future!&lt;/p&gt;
+&lt;h2 id=&#34;ai-playing-tomb-raider&#34;&gt;AI playing Tomb Raider&lt;/h2&gt;
+&lt;p&gt;OK, we&amp;rsquo;ve already seen AI controlling our companion in the game, then what&amp;rsquo;s next?
+Controlling the player directly, of course!
+Here is a video of AI playing Tomb Raider&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;.
+In this demo, similar techniques to Herika like LLM and TTS are also used.
+What&amp;rsquo;s more, it seems that the author has employed several other AI modules, too, such as object detection.
+It&amp;rsquo;s not yet clear how the game character is controlled at the time of writing this blog (08/13/2023).&lt;/p&gt;
+&lt;h2 id=&#34;more-work-of-ai-playing-games-in-academia&#34;&gt;More work of AI playing games, in academia&lt;/h2&gt;
+&lt;p&gt;It worths noting that using modern AI&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; to play games is not new.
+Many previous endeavours have already been made, such as the OpenAI Five&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; playing Dota 2.
+Many scientific experiments in the RL field were actually conducted on game environments like OpenAI Gym&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; and Unity ML-Agents&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;.
+However, the research characteristic of this line of work makes it far from revolutionizing the video game industry, and indeed, this was usually not the indention of researchers.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-an-example-of-openai-gym&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;An example of OpenAI Gym.&#34;
+           src=&#34;https://shaojiejiang.github.io/post/ai-gaming-era/figures/openai-gym.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      An example of OpenAI Gym.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-an-example-of-ml-agents&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;An example of ML-Agents.&#34; srcset=&#34;
+               /post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_5b753ca6463c4352b20c3c6d4160653f.webp 400w,
+               /post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_192e35e39d2b75df501a70ef62b5bd4f.webp 760w,
+               /post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_5b753ca6463c4352b20c3c6d4160653f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      An example of ML-Agents.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;In the recent months, several other research outcomes related to video games have attracted people&amp;rsquo;s attention, e.g., Generative Agents&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; by Stanford University, and CALM&lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; by Nvidia.
+While Generative Agents might have put more focus on studying human behaviour instead of game playing, CALM presents an algorithms of controlling game characters using textual commands (hence easily with voice through ASR).
+What&amp;rsquo;s more interesting about CALM is that the model size it uses to control the game character is as small as several hundreds of parameters, making it easily runnable locally.
+Of course, attaching LMs for more flexible natural language understanding can increase the parameter size many times, but still possible to find a good middle ground between performance and latency.&lt;/p&gt;
+&lt;h2 id=&#34;outlook&#34;&gt;Outlook&lt;/h2&gt;
+&lt;p&gt;It seems that the technologies for applying modern AI in games are already maturing.
+Although current AI models, especially those generative ones, are often criticised for problems like hallucination, repetition, and unsafe responses etc., I would argue that such problems will be much less destructive in the game world than in real life.
+It would be very interesting to see more and more games with AI companions that chat with you, and give you a hand when asked.
+To make it more exciting, how about train your AI companions by yourselves, while you&amp;rsquo;re playing the game?
+You already generate a lot of (labelled) data when you play games, and using it to train your AI companion is theoretically possible.
+However, popular game engines like Unity and Unreal don&amp;rsquo;t directly support AI training yet, so we still need some time to make it happen.
+But games with custom engines is much more flexible, and Human-Like&lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; is such a game that uses your data generated in the game and trains an AI opponent online.&lt;/p&gt;
+&lt;p&gt;If tools aren&amp;rsquo;t a problem, what about model sizes?
+In the last couple years, we saw best-performing models getting larger and larger, most of which definitely can&amp;rsquo;t run on consumer machines.
+I personally believe increasing the model size isn&amp;rsquo;t the ultimate answer.
+Luckily, there is another stream of research studying the grokking&lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; phenomenon of models as small as an MLP, with merely several hundreds of parameters.
+Probably LMs won&amp;rsquo;t have any sensible performance at this size level, but it&amp;rsquo;s possible to largely decrease the model sizes once we have enough understanding on their mechanisms.&lt;/p&gt;
+&lt;p&gt;Taking a step back, not too long ago deep learning and video games were still almost two extremes of the spectrum: the former is often associated with hard-working researchers, while the latter often reminded us of people killing time.
+Gamers are usually those young and smart people, who devoted large amount of time and energy in the game they love.
+Since finally the &amp;ldquo;two extremes&amp;rdquo; are coming together, maybe something more profound can happen?
+Just some personal thoughts, probably unrealistic, but for instance using LLMs as portals that make the player more interested in real world, and even learn about practical skills that they can use in real life?
+It might be possible, who knows?&lt;/p&gt;
+&lt;h2 id=&#34;updates-on-08202023&#34;&gt;Updates on 08/20/2023&lt;/h2&gt;
+&lt;h3 id=&#34;nvidia-omniverse-ace&#34;&gt;NVIDIA Omniverse ACE&lt;/h3&gt;
+&lt;p&gt;From ACE&amp;rsquo;s project page:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NVIDIA Omniverse™ Avatar Cloud Engine (ACE) is a suite of real-time AI solutions for end-to-end development and deployment of interactive avatars and digital human applications &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In other words, with this toolkit, you can build NPCs that can not only communicate with you in speech and synchronise lip movements, but also supplies backend LLMs.
+While this was also achieved by combining several independent tools in projects like Herika, NVIDIA ACE provides a one-stop solution.&lt;/p&gt;
+&lt;p&gt;Below is its system design.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-illustration-of-nvidia-ace&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://developer.nvidia.com/sites/default/files/akamai/omniverse/nvidia-omniverse-ace-dev-zone-pipeline-diagram@2x.png&#34; alt=&#34;Illustration of NVIDIA ACE.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Illustration of NVIDIA ACE.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;mantella-by-art-from-the-machine&#34;&gt;Mantella by Art from the Machine&lt;/h3&gt;
+&lt;p&gt;Mantella&lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt; is a project similar to Replica&amp;rsquo;s Matrix demo, but in the world of Skyrim like Herika.&lt;/p&gt;
+&lt;h3 id=&#34;agentsims&#34;&gt;AgentSims&lt;/h3&gt;
+&lt;p&gt;AgentSims&lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt; is a work from academia that shares a lot of similarities with Generative Agents, and they were both released around the same time.
+A main difference of AgentSims from Generative Agents is that AgentSims allows a player to join the town as the mayor and influence the agents by talking with them.
+They also have an online live demo, which can be found on &lt;a href=&#34;https://www.agentsims.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;their website&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-screenshot-of-agentsims&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://generation-sessions.s3.amazonaws.com/7fffe1e230aaf47ad7397c3a59f1a690/img/image-1.png&#34; alt=&#34;A screenshot of AgentSims.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      A screenshot of AgentSims.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.replicastudios.com/blog/smart-npc-plugin-release&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Replica Smart NPCs&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=SbzBTp_kBIk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI-Powered NPCs: A Game-Changing FREE Demo&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://aidungeon.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI Dungeon: A text-based adventure-story game you direct (and star in) while the AI brings it to life.&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nexusmods.com/skyrimspecialedition/mods/89931&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Herika - The ChatGPT Companion&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=0svu8WBzeQM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The AI Takes Control of the adventure in Skyrim!&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=0wTf_bbkW2U&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creating a Self-Aware Lara Croft that Plays Tomb Raider&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34;&gt;
+&lt;p&gt;As opposed to traditional AI used in games, which are usually implemented with sets of rules, here by modern AI I mean those powered by DL and/or RL algorithms&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/OpenAI_Five&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenAI Five&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.paperspace.com/getting-started-with-openai-gym/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Getting Started With OpenAI Gym: The Basic Building Blocks&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://unity.com/products/machine-learning-agents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unity Machine Learning Agents&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/joonspk-research/generative_agents&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generative Agents: Interactive Simulacra of Human Behavior&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://research.nvidia.com/labs/par/calm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CALM: Conditional Adversarial Latent Models for Directable Virtual Characters&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://store.steampowered.com/app/1400190/HumanLike/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Human-Like game on Steam&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2201.02177&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://pair.withgoogle.com/explorables/grokking/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Do Machine Learning Models Memorize or Generalize?&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:16&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nexusmods.com/skyrimspecialedition/mods/98631&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mantella - Bring NPCs to Life with AI&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:16&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:17&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/py499372727/AgentSims&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AgentSims: An Open-Source Sandbox for Large Language Model Evaluation&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>One source of LLM hallucination is exposure bias</title>
+      <link>https://shaojiejiang.github.io/post/llm-hallucination/</link>
+      <pubDate>Wed, 09 Aug 2023 22:16:30 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/llm-hallucination/</guid>
+      <description>&lt;p&gt;With the release of closed-source ChatGPT, GPT-4, and open-source LLaMa models, the LLM development has seen tremendous improvements in recent months.
+While we are hyped with the fact that these LLMs are capable of many tasks, we have also noticed again and again that these LLMs hallucinate content.
+Today I came accross this inspiring paper, &lt;a href=&#34;https://arxiv.org/abs/2305.14552&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sources of Hallucination by Large Language Models on Inference Tasks&lt;/a&gt; by McKenna et al., in which the authors have identified two main sources of hallucination:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Knowledge that was memorised by the model during pre-training&lt;/li&gt;
+&lt;li&gt;Corpus-based heuristics such as term frequency&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In my opinion, I would put these two reasons into one category: the exposure bias.
+This is becuase either the memorised knowledge, or frequent terms, were exposed to the LLM at pre-training state.
+The observation made in this paper is very enlightning, and reminded me of an ealier paper of mine, where we also concluded that the low-diversity issue of generative chatbots are caused by frequent terms in the training corpora&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Although LLMs are becoming larger, trained with more sophisticated techniques like RLHF, they have a deep root in the field of statistical models.
+Losses are calculated based on terms, which are used to update the model weights, so it&amp;rsquo;s not surprising at all if the trained LLMs respond differently to terms with different frequencies.
+And in fact, it would be surprising if these LLMs only learn &lt;strong&gt;perfect&lt;/strong&gt; grammar and semantics and totally shake off the frequency part.
+There is nothing wrong for LLMs being statistical.
+We human often make decisions based on experience, and isn&amp;rsquo;t that a kind of statistical model?
+To make matters even worse, natural languages have a statistical nature too &amp;ndash; most of them, if not all, evolve over time, not neccessarily changing the meaning of words, but definitely changing the frequency speakers use them.&lt;/p&gt;
+&lt;p&gt;As pointed out by Konstantine Arkoudas&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, GPT-4 can&amp;rsquo;t reason.
+I agree with this statement.
+I think LLMs are sophisticated statistical models, and the generation process is more like information retrieval but using the neural network weights and in the granularity of tokens.
+Also as mentioned by Arkoudas, the lack of reasoning in LLMs has a connection with the hallucination problem.
+I agree with him and many other researchers, retrieval-augmentation could serve as the &amp;ldquo;guardrail&amp;rdquo; of LLM generations, but unlikely to be the silver bullet for eliminating the hallucination problem.&lt;/p&gt;
+&lt;p&gt;However, &amp;ldquo;can&amp;rsquo;t be solved&amp;rdquo; is different from &amp;ldquo;can&amp;rsquo;t be improved&amp;rdquo;.
+Given that more and more studies have shown the vulnerability of LLMs to the statistical nature of their training data, maybe more effort is needed in thinking of a different way of training the model.&lt;/p&gt;
+&lt;p&gt;Lastly, it&amp;rsquo;s worth noting that the McKenna et al. work was studied under NLI.
+Although the hallucination problem is more prominent in NLG, it&amp;rsquo;s not straightforwad how to do a similar analysis in the NLG scenario.
+But if it can be done, it would be more attention catching.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3308558.3313415&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.preprints.org/manuscript/202308.0148/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPT-4 Can&amp;rsquo;t Reason&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transformer Align Model</title>
+      <link>https://shaojiejiang.github.io/post/transformer-align-model/</link>
+      <pubDate>Sat, 16 May 2020 16:40:07 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/transformer-align-model/</guid>
+      <description>&lt;p&gt;In this paper&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, transformer is trained to perform both translation and alignment tasks.&lt;/p&gt;
+&lt;h2 id=&#34;application-scenarios-of-word-alignments-in-nmt&#34;&gt;Application scenarios of word alignments in NMT&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Generating bilingual lexica from parallel corpora&lt;/li&gt;
+&lt;li&gt;External dictionary assisted translation to improve translation of low frequency words&lt;/li&gt;
+&lt;li&gt;Trust, explanation, error analysis&lt;/li&gt;
+&lt;li&gt;Preserving style on webpages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;model-design&#34;&gt;Model design&lt;/h2&gt;
+&lt;p&gt;The attention mechanism has long been motivated by word alignments in statistical machine translation, but ensure the alignment quality, additional supervision is needed.&lt;/p&gt;
+&lt;p&gt;There is a tendency that the attention probabilities from the penultimate layer of a normally trained transformer MT model corresponds to word alignments.
+Therefore, one attention head (clever!) in the penultimate layer is trained as the alignment head.
+The motivation of selecting only one attention head for alignment is to give the freedom to the model of choosing whether to rely more on the alignment or other attention heads.&lt;/p&gt;
+&lt;!-- While in Beamer alignment, the freedom is fully preserved in the attention layer, and the alignment is used for RNN hidden states. --&gt;
+&lt;h2 id=&#34;how-two-train-the-alignment-head&#34;&gt;How two train the alignment head&lt;/h2&gt;
+&lt;p&gt;There are two approaches existing in the literature:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Label alignments beforehand and train the attention weights through KL-divergence.&lt;/li&gt;
+&lt;li&gt;Use the attentional vector to also predict either the target word or the properties such as POS tags of the target tokens.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this work, an unsupervised training approach is used to train the alignment head.
+An alignment model is first trained on translation, then the penultimate layer attention weights are averaged and used as weak alignment supervision for a translation (and alignment) model.
+The alignment model is trained in both directions.&lt;/p&gt;
+&lt;p&gt;Previous work reported performance gain by introducing alignment supervision.
+In this paper, however, alignment performances are good, but translation results are moderate.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1909.02074&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jointly Learning to Align and Translate with Transformer Models&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Compressive Transformers</title>
+      <link>https://shaojiejiang.github.io/post/compressive-transformers/</link>
+      <pubDate>Tue, 12 May 2020 14:29:44 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/compressive-transformers/</guid>
+      <description>&lt;p&gt;Built on top of Transformer-XL, Compressive Transformer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; condenses old memories (hidden states) and stores them in the compressed memory buffer, before completely discarding them.
+This model is suitable for long-range sequence learning but may cause too much computational burden for tasks that only have short sequences.
+Compressive Transformers can also be used as memory components in conjunction with other models.&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;In the beginning, the authors draw the connection between their work and human brains by mentioning that humans memorize things via lossy compression.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We aggressively select, filter, or integrate input stimuli based on factors of surprise, perceived danger, or repetition &amp;ndash; amongst other signals.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s often, if not always, good to see such insights of how AI works are inspired by humans.
+It&amp;rsquo;s also good to see that they relate their work to previous works, i.e. RNNs, transformers and sparse attention.&lt;/p&gt;
+&lt;p&gt;An RNN compresses previous memories into a fixed size hidden vector, which is space-efficient, but also results in its temporal nature and hence difficult to parallelize.
+Transformers, on the other hand, store all the past memories uncompressed, which can be beneficial for achieving better performances such as precision, BLEU, perplexity, etc, but it costs more and more computation and memory space with the sequence length growing.
+Sparse attention can be used to reduce computation, while the spatial cost remains the same.&lt;/p&gt;
+&lt;h2 id=&#34;model-design-and-training&#34;&gt;Model design and training&lt;/h2&gt;
+&lt;p&gt;The proposed Compressive Transformer uses the same attention mechanism over its set of memories and compressed memories, trained to query both its short-term granular memory and longer-term coarse memory.&lt;/p&gt;
+&lt;p&gt;If trained using original task-relevant loss only, it requires backpropagating-through-time (BPTT) over long unrolls for very old memories.
+A better solution is to use local auxiliary losses by stopping gradients and reconstructing either the original memory vectors (lossless objective) or attention vectors (lossy objective; reportedly to work better).
+The second choice for the auxiliary loss, in other words, means that we don&amp;rsquo;t care whether the original memory can be reconstructed or not, as long as the attention vector can be reconstructed, given the same query (brilliant!).&lt;/p&gt;
+&lt;h3 id=&#34;some-practical-concerns&#34;&gt;Some practical concerns&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;The auxiliary loss is only used to train the compression module, as it harms the learning when the gradients flow back to the main network.
+This might also explain why I couldn&amp;rsquo;t reproduce &lt;a href=&#34;../adaptive-computation-time&#34;&gt;ACT&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Batch accumulation (4x bigger batch size) is used for better performance.
+It is observed in some works that bigger batch sizes lead to better generalization, but some other works found the opposite to be true (discussed in the papers and talks mentioned &lt;a href=&#34;../visualizing-loss&#34;&gt;in my other post&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Model optimization is very sensitive to gradient scales, so the gradient norms are clipped to 0.1 for stable results.
+This is typical for transformer variants.&lt;/li&gt;
+&lt;li&gt;Convolution works best for memory compression.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;further-thoughsquestions&#34;&gt;Further thoughs/questions:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Compressive Transformer improves the modeling of rare words.
+But why?&lt;/li&gt;
+&lt;li&gt;In the discussion section, the authors pointed out that future directions could include the investigation of adaptive compression rates by layer, the use of long-range shallow memory layers together with deep short-range memory, and even the use of RNNs as compressors.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1911.05507&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compressive Transformers for Long-Range Sequence Modelling&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualizing the Loss Landscape of Neural Nets</title>
+      <link>https://shaojiejiang.github.io/post/visualizing-loss/</link>
+      <pubDate>Wed, 06 May 2020 10:13:43 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/visualizing-loss/</guid>
+      <description>&lt;p&gt;Here are some notes take while reading the NeurlIPS 2018 paper &lt;a href=&#34;http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing the Loss Landscape of Neural Nets&lt;/a&gt;.
+This work helps explain why some models are easier to train/generalize than others.
+The above image is a good illustration: with a much smoother loss landscape, DenseNet with 121 layers is much easier to train than a ResNet-110 without skip connections, and generalizes better in the mean time.&lt;/p&gt;
+&lt;p&gt;The traditional way of visualizing loss functions of neural models in 2D contour plots is by choosing a center point $\theta^*$ (normally the converged model parameters), two random direction vectors $\delta$ and $\eta$, then plot the function:
+$$f(\alpha, \beta) = L(\theta^* + \alpha \delta + \beta \eta)$$
+Batch norm parameters are unchanged.&lt;/p&gt;
+&lt;p&gt;The above method fails to capture the intrinsic geometry of loss surfaces, and cannot be used to compare the geometry of two different minimizers or two different networks.
+This is because of the &lt;em&gt;scale invariance&lt;/em&gt; in network weights (this statement only applies to rectified networks as per the paper).
+To tackle this, the authors normalize each filter in a direction vector $d$ ($\delta$ or $\eta$) to have the same norm of the corresponding filter in $\theta$:
+$$d_{i, j} \leftarrow \frac{d_{i, j}}{||d_{i, j}||} ||\theta_{i, j} ||.$$
+$i$ is the layer number and $j$ the filter number.
+With the proposed filter-wise normalized direction vectors, the authors found that the sharpness of local minima correlates well with generalization error, even better than layer-wise normalization (for direction vectors).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why flat minima:&lt;/strong&gt; In a recent talk&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Tom Goldstein (the last author) pointed out that flat minima correspond to large margin classifiers, which is more tolerant to domain shifts of data, thus having better generalization ability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Known influential factors:&lt;/strong&gt;
+Small-batch training results in flat minima, while large-batch training results in sharp minima.
+Increased width prevents chaotic behavior, and skip connections dramatically widen minimizers (see figure in the beginning).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interpreting with precaution:&lt;/strong&gt;
+The loss surface is viewed under a dramatic dimensionality reduction.
+According to the authors&amp;rsquo; analysis, if non-convexity is present in the dimensionality reduced plot, then non-convexity must be present in the full-dimensional surface as well.
+However, apparent convexity in the low-dimensional surface does not mean the high-dimensional function is truly convex. Rather it means that the positive curvatures are dominant.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In a nutshell:&lt;/strong&gt; It&amp;rsquo;s a great work trying to visualize the mystery of what&amp;rsquo;s going well/bad when training a neural model.
+Although claiming the study to be empirical, I personally found their experiments and results very convincing.
+Appendix B about visualizing optimization paths is also very insightful, and the authors probably also thought so, so they decided to move it as a main section in their latest &lt;a href=&#34;https://arxiv.org/pdf/1712.09913.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arxiv version&lt;/a&gt; 😄!&lt;/p&gt;
+&lt;p&gt;Further thoughts/questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Has it been done for visualizing NLP models?&lt;/li&gt;
+&lt;li&gt;Is it more appropriate to visualize loss for NLG or other measures?
+This might depend on how to define &amp;ldquo;labels&amp;rdquo; in NLG tasks.&lt;/li&gt;
+&lt;li&gt;How big a convolution filter normally is?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s similar between RNN and skip connections?&lt;/li&gt;
+&lt;li&gt;This work can be used together with automatic neural architecture search, but is there any other more efficient way of getting better models?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://iclr2020deepdiffeq.rice.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generalization in neural nets:  a perspective from science (not math)&lt;/a&gt; Starting at 1:54:00 in the video.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Computation Time</title>
+      <link>https://shaojiejiang.github.io/post/adaptive-computation-time/</link>
+      <pubDate>Tue, 28 Apr 2020 10:46:44 +0200</pubDate>
+      <guid>https://shaojiejiang.github.io/post/adaptive-computation-time/</guid>
+      <description>&lt;p&gt;My notes for the paper: Adaptive Computation Time for Recurrent Neural Networks&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;additive-vs-multiplicative-halting-probability&#34;&gt;Additive vs multiplicative halting probability&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Multiplicative:&lt;/strong&gt; In the paper (footnote 1), the authors discuss throughly their considerations for deciding the computation time.
+It is acknowledged by the authors that using the logits $h_n^t$ as the halting probability at step $n$ might be more straightforward.
+Therefore, the overall halting probability is calculated as $$p_t^n = h_t^n \prod_{u=1}^{n-1} (1 - h_t^u).$$
+We use $(1 - h_t^u)$ for previous update steps to indicate that the updating is &lt;em&gt;not&lt;/em&gt; stopped until $n$.&lt;/p&gt;
+&lt;p&gt;As each $p_t^n \in (0, 1)$ is relatively independent with each other and $\sum p_t^n$ is not bound to 1, this approach &lt;em&gt;does not&lt;/em&gt; restrict the update depth to grow arbitrarily.
+The model can be of course trained to lower the expected ponder time $\rho_t = \sum n p_t^n$, but it is observed in the experiments that the resulting model is not preferable in two ways:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$h_t^1$ is usually just below threshold, intermediate $h_t^n = 0$, and final $h_t^N$ is high enough to halt the update.&lt;/li&gt;
+&lt;li&gt;as the expectation is low, $p_t^N \ll p_t^1$, but the network learns to have a much higher magnitude of output states at step $N$, so that the final output is still dominated by the final state.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Additive:&lt;/strong&gt; In contrast, the additive approach have an constraint of $\sum p_t^n = 1$, so that the probability is decreased monotonically with the number of updates growing larger.
+Though being non-differentiable, the total ponder time (total updates at all positions) is penalized to avoid consuming unnecessary computation.
+There is still one drawback of this approach, however.
+The performance is sensitive to the penalty factor $\tau$, which is not intuitive to choose as a hyperparameter.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1603.08983&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adaptive Computation Time for Recurrent Neural Networks&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Hub for Transformer Blogs and Papers</title>
+      <link>https://shaojiejiang.github.io/post/transformer-blog-paper-hub/</link>
+      <pubDate>Mon, 02 Mar 2020 14:26:59 +0100</pubDate>
+      <guid>https://shaojiejiang.github.io/post/transformer-blog-paper-hub/</guid>
+      <description>&lt;p&gt;This is a growing list of pointers to useful blog posts and papers related to transformers.&lt;/p&gt;
+&lt;h2 id=&#34;transformers-explained&#34;&gt;Transformers explained&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jalammar.github.io/illustrated-transformer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: The Illustrated Transformer&lt;/a&gt; has many intuitive animations of how transformer models work&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mostafadehghani.com/2019/05/05/universal-transformers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Universal Transformers&lt;/a&gt; introduces the idea of &lt;em&gt;recurrence among layers&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/analytics-vidhya/transformer-vs-rnn-and-cnn-18eeefa3602b&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Transformer vs RNN and CNN for Translation Task&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;gnns-similarities-and-differences&#34;&gt;GNNs: similarities and differences&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://graphdeeplearning.github.io/post/transformers-are-gnns/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: Transformers are Graph Neural Networks&lt;/a&gt; bridges transformer models and Graph Neural Networks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;transformer-improvements&#34;&gt;Transformer improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/deepmind-releases-a-new-architecture-and-a-new-dataset-to-improve-long-term-memory-in-deep-22f4b098153&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Blog: DeepMind Releases a New Architecture and a New Dataset to Improve Long-Term Memory in Deep Learning Systems&lt;/a&gt; Nural Turing Machine + transformer?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s New in XLNet?</title>
+      <link>https://shaojiejiang.github.io/post/xlnet/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://shaojiejiang.github.io/post/xlnet/</guid>
+      <description>&lt;h2 id=&#34;rip-bert&#34;&gt;R.I.P BERT&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BERT&lt;/a&gt; got a head shot yesterday, by another guy called &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XLNet&lt;/a&gt;.
+It is reported that XLNet defeated BERT on 20 NLP tasks, and achieved 18 new state-of-the-art results.
+Isn&amp;rsquo;t it impressive?
+So, farewell, BERT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-rip-bert&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;R.I.P BERT&#34; srcset=&#34;
+               /post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_ad3b60d050a67b9089255b10065b08b1.webp 400w,
+               /post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_910a11ae63908cf22e4e12ec92059faf.webp 760w,
+               /post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_ad3b60d050a67b9089255b10065b08b1.webp&#34;
+               width=&#34;570&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      R.I.P BERT
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;is-bert-really-dead&#34;&gt;Is BERT really dead?&lt;/h2&gt;
+&lt;p&gt;Since I love BERT, I decided to read the paper to find out what killed him.
+While reading, I was thinking wait a minute, is BERT really dead?
+After finished the paper, I was so glad to know that BERT is still well alive!
+He is just wearing another coat named &lt;em&gt;Two-Stream Self-Attention (TSSA)&lt;/em&gt;, with some other gadgets!
+Because:&lt;br&gt;
+&lt;code&gt;XLNet = BERT + TSSA + bidirectional data input&lt;/code&gt;&lt;br&gt;
+Bert you&amp;rsquo;re so tough, buddy!&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s take a closer look at what were trying to kill BERT.&lt;/p&gt;
+&lt;h3 id=&#34;two-stream-self-attention-tssa&#34;&gt;Two-stream self-attention (TSSA)&lt;/h3&gt;
+&lt;p&gt;Why TSSA is needed to kill BERT?
+Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
+&lt;p&gt;BERT is using a masked language model (MLM) training objective, which is essentially why it achieves bidirectional representation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-image-sourcehttpsnlpstanfordeduseminardetailsjdevlinpdf&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;[Image source](https://nlp.stanford.edu/seminar/details/jdevlin.pdf)&#34; srcset=&#34;
+               /post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_bbb8a61fc9a0697db6e27484ef59e402.webp 400w,
+               /post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_a370a21d4f992ecb82ae8e2649177c0d.webp 760w,
+               /post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_bbb8a61fc9a0697db6e27484ef59e402.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;103&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      &lt;a href=&#34;https://nlp.stanford.edu/seminar/details/jdevlin.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Image source&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In this example, both words &amp;ldquo;store&amp;rdquo; and &amp;ldquo;gallon&amp;rdquo; are intended to be predicted by BERT, and their input word embeddings are replaced by the embedding of a special token &lt;em&gt;[MASK]&lt;/em&gt;.
+Usually this isn&amp;rsquo;t a problem, but what if the prediction of &amp;ldquo;store&amp;rdquo; requires knowing the word &amp;ldquo;gallon&amp;rdquo;?
+That is exactly where BERT falls short.&lt;/p&gt;
+&lt;p&gt;TSSA is what you can use to overcome that downside of MLM:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-query-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Query stream, [source](https://arxiv.org/abs/1906.08237)&#34; srcset=&#34;
+               /post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_a84c83c6b945dba172c71d33c7936aac.webp 400w,
+               /post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_0758dcc20abd12daa219dd5d9bddf6da.webp 760w,
+               /post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_a84c83c6b945dba172c71d33c7936aac.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;645&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Query stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;source&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In this illustration, query stream gives you the &lt;code&gt;query&lt;/code&gt; vector needed for attention calculation, and this stream is designed in such a way that it doesn&amp;rsquo;t leak the info of the word it&amp;rsquo;s going to predict, but guarantees all information from other positions.
+Take $x_1$ for example: $x_1$&amp;rsquo;s embedding (and hidden state) is not used at all, but embeddings and hidden states from other positions are used in each layer.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-content-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Content stream, [source](https://arxiv.org/abs/1906.08237)&#34; srcset=&#34;
+               /post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_f91903c52b2690d818283e5376124698.webp 400w,
+               /post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_77f32608974273a37acf00c5c6de89e2.webp 760w,
+               /post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_f91903c52b2690d818283e5376124698.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;561&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Content stream, &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;source&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Content stream, on the other hand, gives you the &lt;code&gt;key&lt;/code&gt; and &lt;code&gt;value&lt;/code&gt; vectors needed for context vector calculation.
+This stream uses a strategy similar to that in a standard &lt;a href=&#34;https://arxiv.org/pdf/1706.03762.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transformer decoder&lt;/a&gt; by masking future positions.
+The only difference is that in content stream, the order of tokens is &lt;em&gt;randomly permuted&lt;/em&gt;.
+For example $x_2$ is right after $x_3$, and therefore $h_2^{(1)}$ can only see the embedding of itself and that of $x_3$ (and $mem^{(0)}$), but not that of $x_1$ or $x_4$.&lt;/p&gt;
+&lt;h3 id=&#34;mask-a-span&#34;&gt;Mask a span&lt;/h3&gt;
+&lt;p&gt;Another difference from BERT is masking a span of consecutive words.
+The reason I guess, is that this guarantees the dependence of masked words (as claimed to be what BERT can&amp;rsquo;t model).
+This is not a fresh-new idea, though.
+Recently there are two ERNIE papers (BERT based) that propose masking named entities (often of multiple words, &lt;a href=&#34;https://arxiv.org/pdf/1905.07129.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper link&lt;/a&gt;) and/or phrases (&lt;a href=&#34;https://arxiv.org/pdf/1904.09223.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper link&lt;/a&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;bidirectional-data-input&#34;&gt;Bidirectional data input&lt;/h3&gt;
+&lt;p&gt;Another notably different thing in XLNet is the usage of bidirectional data input.
+The idea (I guess) is to decide the factorization direction (either forward or backward), so that the idea of &amp;ldquo;masking future positions&amp;rdquo; used in a standard Transformer decoder can also be easily used together with XLNet.&lt;/p&gt;
+&lt;p&gt;Masking a span makes XLNet look like a denoising autoencoder; but by using bidirectional data input (or masking future positions), XLNet performs more like a autoregressive language model in the masked region.&lt;/p&gt;
+&lt;h2 id=&#34;closing-remarks&#34;&gt;Closing remarks&lt;/h2&gt;
+&lt;p&gt;So now you probably can see the similarities and differences between XLNet and BERT.
+If not, here is a quick summary:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Instead of masking random words, mask a span of words&lt;/li&gt;
+&lt;li&gt;Use bidirectional data input to decide which direction you treat as &amp;ldquo;future&amp;rdquo;, and then apply the idea of masking future positions&lt;/li&gt;
+&lt;li&gt;To avoid leaking the information of the position to be predicted, use Two-Stream Self-Attention (TSSA)&lt;/li&gt;
+&lt;li&gt;Other minor things like segment recurrence, relative positional encoding, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;However, it doesn&amp;rsquo;t seem to be enough changes to make all those improvements.
+What if BERT is also trained using the additional data (Giga5, ClueWeb, Common Crawl), will XLNet still be able to defeat BERT?&lt;/p&gt;
+&lt;p&gt;EDIT:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Another model named &lt;a href=&#34;https://arxiv.org/abs/1905.02450&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MASS&lt;/a&gt; employs a very similar idea.&lt;/li&gt;
+&lt;li&gt;According to Jacob Devlin (author of BERT), relative positional embedding might be of great importance.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

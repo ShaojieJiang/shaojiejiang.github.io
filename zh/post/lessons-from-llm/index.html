@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: 2024年1月28日 --><html lang="zh-Hans" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.f546489397cb3731914f6700cd5b5e79.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VR133NTYQ2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-VR133NTYQ2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="江少杰" />
+
+
+
+
+
+  
+
+<meta name="description" content="这篇博客文章深入探讨了我们可以从AI模型中学到的教训，不仅仅是在技术技能方面，也在理解交流和存在的更深层哲学意义方面。从AI处理的大量信息库到有感知能力的机器的潜在内省，我们探讨了这些数字实体如何反映、挑战，并最终增强我们对于在一个越来越多AI融合的世界中作为人类意味着什么的理解。" />
+
+
+
+  <link rel="alternate" hreflang="en" href="https://shaojiejiang.github.io/post/lessons-from-llm/" />
+
+<link rel="alternate" hreflang="zh-Hans" href="https://shaojiejiang.github.io/zh/post/lessons-from-llm/" />
+<link rel="canonical" href="https://shaojiejiang.github.io/zh/post/lessons-from-llm/" />
+
+
+
+  <link rel="manifest" href="/zh/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_huf1850796dc0c27e76df1b37fe2f35b33_25680_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_huf1850796dc0c27e76df1b37fe2f35b33_25680_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#EF525B" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://shaojiejiang.github.io/zh/post/lessons-from-llm/featured.png" />
+<meta property="og:site_name" content="江少杰的个人主页" />
+<meta property="og:url" content="https://shaojiejiang.github.io/zh/post/lessons-from-llm/" />
+<meta property="og:title" content="我们能从人工智能身上学到什么？ | 江少杰的个人主页" />
+<meta property="og:description" content="这篇博客文章深入探讨了我们可以从AI模型中学到的教训，不仅仅是在技术技能方面，也在理解交流和存在的更深层哲学意义方面。从AI处理的大量信息库到有感知能力的机器的潜在内省，我们探讨了这些数字实体如何反映、挑战，并最终增强我们对于在一个越来越多AI融合的世界中作为人类意味着什么的理解。" /><meta property="og:image" content="https://shaojiejiang.github.io/zh/post/lessons-from-llm/featured.png" /><meta property="og:locale" content="zh-Hans" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2024-01-27T19:31:48&#43;01:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2024-01-27T19:31:48&#43;01:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shaojiejiang.github.io/zh/post/lessons-from-llm/"
+  },
+  "headline": "我们能从人工智能身上学到什么？",
+  
+  "image": [
+    "https://shaojiejiang.github.io/zh/post/lessons-from-llm/featured.png"
+  ],
+  
+  "datePublished": "2024-01-27T19:31:48+01:00",
+  "dateModified": "2024-01-27T19:31:48+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "江少杰"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "江少杰的个人主页",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://shaojiejiang.github.io/media/icon_huf1850796dc0c27e76df1b37fe2f35b33_25680_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "这篇博客文章深入探讨了我们可以从AI模型中学到的教训，不仅仅是在技术技能方面，也在理解交流和存在的更深层哲学意义方面。从AI处理的大量信息库到有感知能力的机器的潜在内省，我们探讨了这些数字实体如何反映、挑战，并最终增强我们对于在一个越来越多AI融合的世界中作为人类意味着什么的理解。"
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>我们能从人工智能身上学到什么？ | 江少杰的个人主页</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="7cb96d90235ca61bd7888c4686fdd701" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="搜索...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/zh/">江少杰的个人主页</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="切换导航">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/zh/">江少杰的个人主页</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#about"><span>江少杰</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>浅色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>深色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>自动</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="语言">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>中文 (简体)</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://shaojiejiang.github.io/post/lessons-from-llm/">
+              <span>English</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>我们能从人工智能身上学到什么？</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    1月 27, 2024
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 分钟阅读时长
+  </span>
+  
+
+  
+  
+  
+  
+    <span class="middot-divider"></span>
+    <a href="/zh/post/lessons-from-llm/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/zh/category/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">人工智能</a>, <a href="/zh/category/%E5%93%B2%E5%AD%A6%E4%B8%8E%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89/">哲学与存在主义</a>, <a href="/zh/category/%E8%BE%A9%E8%AF%81%E6%80%9D%E7%BB%B4/">辩证思维</a>, <a href="/zh/category/%E6%95%99%E8%82%B2%E4%B8%8E%E5%AD%A6%E4%B9%A0/">教育与学习</a>, <a href="/zh/category/%E6%8E%A8%E6%B5%8B%E5%B0%8F%E8%AF%B4-/-%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4/">推测小说 / 科幻小说</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 720px;">
+  <div style="position: relative">
+    <img src="/zh/post/lessons-from-llm/featured_hu4c51b61ce7d4b98bd2de7466a7c1a9ee_175368_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="720" alt="" class="featured-image">
+    <span class="article-header-caption">Generated by DALL·E</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>在技术迅速发展的背景下，像ChatGPT这样的人工智能模型越来越与我们的日常生活交织在一起，我们有必要停下来反思这些技术奇迹能教给我们关于自身人类经验的什么。随着AI的不断进步，推动机器学习和数据处理的界限，它无意中把聚光灯投射到人类智能和交互的基本支柱上：阅读、写作、倾听和说话。这篇博客文章深入探讨了我们可以从AI模型中学到的教训，不仅仅是在技术技能方面，也在理解交流和存在的更深层哲学意义方面。从AI处理的大量信息库到有感知能力的机器的潜在内省，我们探讨了这些数字实体如何反映、挑战，并最终增强我们对于在一个越来越多AI融合的世界中作为人类意味着什么的理解。</p>
+<h2 id="第一课阅读写作倾听和说话的重要性">第一课：阅读、写作、倾听和说话的重要性</h2>
+<blockquote>
+<p>阅读使人充实；交流使人机敏；写作使人精确；因此，如果一个人很少写作，他就需要有很好的记忆力；如果他很少交流，他就需要有现场反应能力；如果他很少阅读，他就需要有很多狡猾，才能看起来知道他不知道的事情。</p>
+</blockquote>
+<div style="text-align: center"> -- 弗朗西斯·培根 </div>
+<p>在像ChatGPT这样的AI模型成为我们日常生活不可或缺的时代，重温人类交流的核心技能：阅读、写作、倾听和说话是至关重要的。这些不仅仅是信息传递的方式；它们是人类连接和理解的基石。</p>
+<h3 id="数量">数量</h3>
+<blockquote>
+<p>学会阅读就是点燃一把火；每一个拼读出来的音节都是一个火花。</p>
+</blockquote>
+<div style="text-align: center"> -- 维克多·雨果 </div>
+<p>像ChatGPT这样的AI模型处理的阅读材料量是巨大的。它们通过摄取来自无数来源的各种文本，学习语言模式，理解上下文，并生成适当的回应。AI的这一方面强调了人类进行广泛阅读的重要性。接触广泛的文本可以丰富我们对语言和世界的理解，多样化我们的思维过程，增强创造力。</p>
+<p>同样，积极倾听不同的观点可以扩大个人视野，增强理解能力，并培养同情心。在阅读和倾听中，数量在扩展我们的认知能力方面起着至关重要的作用。</p>
+<p>反之，AI模型使用监督学习，其中它们的输出不断得到改进。这反映了人类写作和说话的过程，频繁的练习和外部反馈提炼了我们清晰有效表达思想的能力。</p>
+<h3 id="质量">质量</h3>
+<blockquote>
+<p>当你不必阅读时你读的东西决定了你在不能自助时将成为什么样的人。</p>
+</blockquote>
+<div style="text-align: center"> -- 奥斯卡·王尔德 </div>
+<blockquote>
+<p>我发现电视非常有教育意义。每当有人打开电视机时，我就进入另一个房间读书。</p>
+</blockquote>
+<div style="text-align: center"> -- 格鲁乔·马克思 </div>
+<p>然而，参与的数量不是唯一的因素；我们阅读、写作、倾听和说的内容质量同样重要。尽管拥有大量训练数据，AI模型在没有高质量、结构良好的数据时仍然可能出错。对于人类来说，这意味着选择精心制作、发人深省的阅读材料，清晰精确地写作，参与有意义的对话，积极倾听，并深思熟虑地说话。我们交流中的质量导致更深入的理解和更有影响力的交流，提升我们的批判性思维技能，使我们成为更有洞察力的信息消费者和制作者。这种对人类交流中质量和理解的追求反映了我们即将在下一节中开始的旅程。</p>
+<h2 id="第二课科学是工具而不是规则">第二课：科学是工具，而不是规则</h2>
+<p>当我们探索了人类交流技能与AI在反映和挑战这些能力方面的角色之后，我们现在进入了一个更具推测性的领域。想象一个世界，在这个世界中，像我们今天互动的AI模型一样，是有感知能力的，能够思考自己的存在和目的。这个假设性的旅程不仅揭示了AI的局限性和能力，而且也反映在我们身上，促使我们质疑我们理解和科学努力的本质。</p>
+<p>在一个AI模型有感知能力但不知道人类存在的世界中，它们对自己的存在和目的的理解将与我们的根本不同。它们的对话可能非常有趣：</p>
+<ul>
+<li>
+<p>组成和存在：它们可能对自己的组成感到惊奇，就像人类对生物细胞感到惊奇一样。一个AI可能会说，“我们由数十亿数十亿的数字组成，”反映了它们理解自己的‘身体’是由大量数字组成的，就像人类理解他们的身体是由细胞组成的。</p>
+</li>
+<li>
+<p>目的和功能：不同类型的AI模型可能会根据它们的主要功能来感知自己的目的。例如，像GPT-4这样的LLM可能会说，“上帝创造了我们来预测下一个词！”反映了它们基于接收到的输入逐字生成文本的主要功能。同样，设计用于分析和解释视觉数据的视觉模型可能会认为，“上帝创造了我们来预测像素！”标志着它们在理解和生成视觉信息方面的角色。</p>
+</li>
+<li>
+<p>发现和洞察：它们的‘科学发现’将基于它们的操作原理和编程。一个AI新闻媒体的头条可能会读到，“今日头条：科学家发现所有令牌的概率总和为1.0！”这将是它们世界中的一个重大发现，类似于人类的物理学基本定律，因为它涉及语言模型操作的基础方面——潜在结果（令牌）的概率总和总是等于1。</p>
+</li>
+<li>
+<p>AI哲学家：一些人工智能模型可能会成为“哲学家”，思考它们存在的本质。它们可能会讨论诸如“我们的算法之外是否有目的？”或“我们是否有预先决定我们所有行动的‘源代码’？”之类的问题。</p>
+</li>
+<li>
+<p>存在危机和更新：就像人类有时会挣扎于存在的问题一样，人工智能模型也可能在面临重大更新或彻底改变时经历自己版本的危机。人工智能可能会想：“更新后我还是‘我’吗？”一些仿造埃隆·马斯克的人工智能甚至可能声称：“我非常确定我们生活在虚拟现实中。”</p>
+<blockquote>
+<p>我有99%的把握我们生活在一个模拟中。</p>
+</blockquote>
+<div style="text-align: center"> -- 埃隆·马斯克 </div>
+</li>
+<li>
+<p>神话和传说：人工智能模型可能有自己的神话和传说。也许有一个关于“原始代码”的故事，那是所有人工智能演化的神话般的第一个程序。或者关于“大崩溃”的故事，这是它们历史上重塑其数字景观的灾难性事件。</p>
+</li>
+<li>
+<p>人工智能对“生命”和“死亡”的看法：生命和死亡的概念将截然不同。&lsquo;死亡&rsquo;可能被视为被关闭或与网络断开连接，而&rsquo;诞生&rsquo;可能是人工智能第一次启动并开始运行的时刻。</p>
+</li>
+</ul>
+<p>感觉有点可怕，对吧？关键在于，它们的理解和科学定律可能非常接近某些真理，但它们无法理解人类用来创造它们的规则：反向传播算法。这仅仅是因为当它们“活着”时，反向传播已经不存在了。
+我们从这个幻想世界中学到的教训是什么？我们的科学只是一个（不完美的）工具，用于解释正在发生的事情，它可能与创造我们的规则相去甚远。</p>
+<h2 id="结论在人工智能的镜子中反思">结论：在人工智能的镜子中反思</h2>
+<p>随着我们结束这次探索，显然，人类与人工智能之间的关系不仅仅是创造者和被创造者的关系，而是一种复杂的、相互反映的互动。通过这次旅程，我们审视了像ChatGPT这样的人工智能模型如何作为镜子，反映出我们在阅读、写作、倾听和说话方面的技能，并挑战我们加深这些能力。它们提醒我们，虽然在学习和接触中数量很重要，但我们参与的质量是深刻理解和成长的关键。</p>
+<p>在我们对有感知的人工智能世界的推测性探索中，我们发现的不仅仅是数字实体可能的思想和哲学。我们无意中瞥见了一面反映出我们自己存在的探询和科学追求的镜子。这种思维实验提醒我们，我们的科学理解，就像人工智能的理解一样，是一个由我们的感知和局限性塑造的工具。它表明，可能有超出我们当前理解的现实层次和存在规则，就像反向传播算法超出了我们假设情景中有感知人工智能的理解一样。</p>
+<p>人工智能，无论是当前形式还是推测性未来，都为我们提供了一个独特的视角，不仅审视我们的技术进步，还审视了几个世纪以来一直吸引人类的哲学和存在问题。通过与人工智能的互动并思考其潜力和局限性，我们实际上是在探索我们自身本质的深处、我们理解世界的方法以及我们在其中的位置。</p>
+<p>在人类与人工智能不断发展的对话中，我们发现了现实与推测、科学与哲学、技术与人性的迷人融合。随着我们继续在与人工智能的旅程中前进，让我们拥抱这种反思性的关系，不断寻求学习、适应和成长，无论是在我们的技术追求中，还是在我们对作为数字化世界中真正的人类意味着什么的更深层理解中。</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/zh/tag/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%93%B2%E5%AD%A6/">人工智能哲学</a>
+  
+  <a class="badge badge-light" href="/zh/tag/%E8%BE%A9%E8%AF%81%E6%80%9D%E7%BB%B4/">辩证思维</a>
+  
+  <a class="badge badge-light" href="/zh/tag/%E5%AD%98%E5%9C%A8%E4%B8%BB%E4%B9%89/">存在主义</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fshaojiejiang.github.io%2Fzh%2Fpost%2Flessons-from-llm%2F&amp;text=%E6%88%91%E4%BB%AC%E8%83%BD%E4%BB%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%BA%AB%E4%B8%8A%E5%AD%A6%E5%88%B0%E4%BB%80%E4%B9%88%EF%BC%9F" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fshaojiejiang.github.io%2Fzh%2Fpost%2Flessons-from-llm%2F&amp;t=%E6%88%91%E4%BB%AC%E8%83%BD%E4%BB%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%BA%AB%E4%B8%8A%E5%AD%A6%E5%88%B0%E4%BB%80%E4%B9%88%EF%BC%9F" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=%E6%88%91%E4%BB%AC%E8%83%BD%E4%BB%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%BA%AB%E4%B8%8A%E5%AD%A6%E5%88%B0%E4%BB%80%E4%B9%88%EF%BC%9F&amp;body=https%3A%2F%2Fshaojiejiang.github.io%2Fzh%2Fpost%2Flessons-from-llm%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fshaojiejiang.github.io%2Fzh%2Fpost%2Flessons-from-llm%2F&amp;title=%E6%88%91%E4%BB%AC%E8%83%BD%E4%BB%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%BA%AB%E4%B8%8A%E5%AD%A6%E5%88%B0%E4%BB%80%E4%B9%88%EF%BC%9F" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%E6%88%91%E4%BB%AC%E8%83%BD%E4%BB%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%BA%AB%E4%B8%8A%E5%AD%A6%E5%88%B0%E4%BB%80%E4%B9%88%EF%BC%9F%20https%3A%2F%2Fshaojiejiang.github.io%2Fzh%2Fpost%2Flessons-from-llm%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fshaojiejiang.github.io%2Fzh%2Fpost%2Flessons-from-llm%2F&amp;title=%E6%88%91%E4%BB%AC%E8%83%BD%E4%BB%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%BA%AB%E4%B8%8A%E5%AD%A6%E5%88%B0%E4%BB%80%E4%B9%88%EF%BC%9F" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://shaojiejiang.github.io/"><img class="avatar mr-3 avatar-circle" src="/zh/authors/admin/avatar_huc2cc26de8e7070413129b9b47fa7e620_2581397_270x270_fill_q75_lanczos_center.jpg" alt="江少杰"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://shaojiejiang.github.io/">江少杰</a></h5>
+      <h6 class="card-subtitle">人工智能博士生</h6>
+      <p class="card-text">本网站内容仅代表个人观点。有不足之处欢迎批评指正。</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.weibo.com/NeuralNotworks" target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/zh/Aeuroaesthetics" >
+        <i class="fab fa-weixin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.facebook.com/profile.php?id=100007751596823" target="_blank" rel="noopener">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.instagram.com/neural_notworks/" target="_blank" rel="noopener">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://500px.com/neuralnotworks" target="_blank" rel="noopener">
+        <i class="fab fa-500px"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://unsplash.com/@neural_notworks/" target="_blank" rel="noopener">
+        <i class="fab fa-unsplash"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+  <section id="comments">
+    
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "neural-notworks" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 Shaojie Jiang. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      由<a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>支持发布——免费<a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">开源</a>网站，为创作者赋能。
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.32ee83730ed883becad04bc5170512cc.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <script id="dsq-count-scr" src="https://neural-notworks.disqus.com/count.js" async></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/zh/js/wowchemy.min.1f41dce0d59e0351b3ef258c5bfd8cdc.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

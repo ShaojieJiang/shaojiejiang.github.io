@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: January 28, 2024 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.f546489397cb3731914f6700cd5b5e79.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VR133NTYQ2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-VR133NTYQ2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Shaojie Jiang" />
+
+
+
+
+
+  
+
+<meta name="description" content="With the big noises made by ChatGPT, many different industries have noticed the value of LLM technologies. Unsurprisingly, the video game industry is one of them. In this blog, I introduce several cool demos/WIPs that I&rsquo;ve recently found, and share my opinions on why they might have profound influences on the future of video game industry." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://shaojiejiang.github.io/post/ai-gaming-era/" />
+<link rel="canonical" href="https://shaojiejiang.github.io/post/ai-gaming-era/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_huf1850796dc0c27e76df1b37fe2f35b33_25680_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_huf1850796dc0c27e76df1b37fe2f35b33_25680_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#EF525B" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://shaojiejiang.github.io/post/ai-gaming-era/featured.jpg" />
+<meta property="og:site_name" content="Shaojie Jiang&#39;s Homepage" />
+<meta property="og:url" content="https://shaojiejiang.github.io/post/ai-gaming-era/" />
+<meta property="og:title" content="Has the AI-Era come to video games already? | Shaojie Jiang&#39;s Homepage" />
+<meta property="og:description" content="With the big noises made by ChatGPT, many different industries have noticed the value of LLM technologies. Unsurprisingly, the video game industry is one of them. In this blog, I introduce several cool demos/WIPs that I&rsquo;ve recently found, and share my opinions on why they might have profound influences on the future of video game industry." /><meta property="og:image" content="https://shaojiejiang.github.io/post/ai-gaming-era/featured.jpg" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-08-13T17:05:13&#43;02:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-08-13T17:05:13&#43;02:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shaojiejiang.github.io/post/ai-gaming-era/"
+  },
+  "headline": "Has the AI-Era come to video games already?",
+  
+  "image": [
+    "https://shaojiejiang.github.io/post/ai-gaming-era/featured.jpg"
+  ],
+  
+  "datePublished": "2023-08-13T17:05:13+02:00",
+  "dateModified": "2023-08-13T17:05:13+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Shaojie Jiang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shaojie Jiang's Homepage",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://shaojiejiang.github.io/media/icon_huf1850796dc0c27e76df1b37fe2f35b33_25680_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "With the big noises made by ChatGPT, many different industries have noticed the value of LLM technologies. Unsurprisingly, the video game industry is one of them. In this blog, I introduce several cool demos/WIPs that I\u0026rsquo;ve recently found, and share my opinions on why they might have profound influences on the future of video game industry."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Has the AI-Era come to video games already? | Shaojie Jiang&#39;s Homepage</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="5092b30ab08539c4b6194f8dabc95750" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Shaojie Jiang&#39;s Homepage</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Shaojie Jiang&#39;s Homepage</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link  active" href="/post"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/search"><span>Search</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/Shaojie_Jiang" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Has the AI-Era come to video games already?</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Shaojie Jiang</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 13, 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  
+  
+    <span class="middot-divider"></span>
+    <a href="/post/ai-gaming-era/#disqus_thread"></a>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/deep-learning/">Deep Learning</a>, <a href="/category/nlp/">NLP</a>, <a href="/category/llm/">LLM</a>, <a href="/category/video-games/">video games</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 270px; max-height: 270px;">
+  <div style="position: relative">
+    <img src="/post/ai-gaming-era/featured_hu1865efff9f0875713a0eacc441732602_21963_720x2500_fit_q75_h2_lanczos.webp" width="270" height="270" alt="" class="featured-image">
+    <span class="article-header-caption">Generated by DALL·E</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>With the big noises made by ChatGPT, many different industries have noticed the value of LLM technologies.
+Unsurprisingly, the video game industry is one of them.
+In this blog, I introduce several cool demos/WIPs that I&rsquo;ve recently found, and share my opinions on why they might have profound influences on the future of video game industry.
+I also try to explain the current difficulties, and possible directions for solving them.
+In the end, I also share some dreams of future games.
+I believe, the era of AI has come to video games!</p>
+<h2 id="the-matrix-ai-powered-npcs-demo-by-the-replica-studios">The Matrix AI-Powered NPCs demo by the Replica Studios</h2>
+<p>Players are used to have chats with the NPCs, but most of these conversations are scripted.
+The current best conversational experience you can have with NPCs is to select from several possible responses, so you have some freedom of steering dialogues.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-dialogue-selection-in-witcher-3">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Dialogue selection in Witcher 3" srcset="
+               /post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_527b0774b1c015883502fc1666882b7e.webp 400w,
+               /post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_2c0e283be5301be66b25147cae746fe8.webp 760w,
+               /post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_527b0774b1c015883502fc1666882b7e.webp"
+               width="760"
+               height="428"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Dialogue selection in Witcher 3
+    </figcaption></figure>
+
+<p>If you are a game lover, have you ever dreamt about talking to NPCs like they&rsquo;re other human players?
+Well, this is definitely possible now, and the Replica Studios already made a demo about it<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
+Instead of looping over pre-scripted lines, the Replica Studios attached LMs (probably OpenAI ChatGPT) to the NPCs, allowing them to all speak characteristically.
+You can even chat with NPCs using your voices directly, and they will speak back.
+Take a look at this YouTube video<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> of the demo.</p>
+<p>In many games, the plot is driven (or better put, reflected) by chatting with NPCs.
+But since LLM chatbots can have randomness in their responses, maybe in the future, the game progression can be take to anywhere, so that every player can have a unique experience in the same game.
+This is already partly made true in the AI Dungeon text game<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<p>The Matrix demo may look sleek in the video, but in reality it can take around 10 seconds to get a response from NPCs.
+This lag is probably due to many users are calling the LLM API at the same time, and slow processing of several different modules, such as ASR and TTS.
+Besides, current general-purpose LLMs like ChatGPT are very large in terms of number of parameters, and this means long processing time.
+Potential solutions can be training bespoke, smaller-sized chatbot models, and maybe even audio-to-audio model so that the processing is simplified.</p>
+<h2 id="herika-by-dwemer-dynamics">Herika by Dwemer Dynamics</h2>
+<p>The experience that every player being able to conduct unique conversations with each NPC can already be fascinating.
+Isn&rsquo;t it more interesting to have a computer-controlled companion, one that can not only chat with you, but can also follow your voice commands?
+Then you definitely want to check out Herika, a mod<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> for <em>The Elder Scrolls V: Skyrim</em>.
+Herika is a ChatGPT-powered AI companion that can understand the player&rsquo;s audio and textual inputs.
+She is capable of chit-chatting with the player, commenting on the game scenes and events, following the player&rsquo;s various commands, and more.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-system-design-of-herika-image-credit-dwemer-dynamics">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="System design of Herika. Image credit: Dwemer Dynamics" srcset="
+               /post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_8ef29e5e73f8099642bfabb22652b4d5.webp 400w,
+               /post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_76bd25ffc50f49e25b364c14c33177b2.webp 760w,
+               /post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_8ef29e5e73f8099642bfabb22652b4d5.webp"
+               width="760"
+               height="418"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      System design of Herika. Image credit: Dwemer Dynamics
+    </figcaption></figure>
+
+<p>Above is an illustration of Herika&rsquo;s system design.
+Here is a brief overview of its main components:</p>
+<ol>
+<li>Audio inputs and outputs are processed to and from texts by ASR and TTS modules</li>
+<li>Game objects, scenes, locations, etc., are extracted from the game as texts</li>
+<li>The chatting and commenting are all achieved by querying the OpenAI API, in the form of role-playing chats</li>
+<li>Given player&rsquo;s command in natural language, the command-following ability is achieved by asking GPT to generate formatted commands that are used by the game engine to control Herika</li>
+</ol>
+<p>Check out this YouTube video<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> to get the feeling of how Herika works.
+Although it seems to work astonishingly well in the video, currently Herika has the same problem of long response time like the Matrix demo.
+Of course, another issue is that playing with such a companion can burn money quickly, and this is because most of Herika&rsquo;s functionality is achieved by calling paid APIs.
+Still a lot of work to do before this kind of gameplay can get popular, but this mod definitely cracks open another line of bright future!</p>
+<h2 id="ai-playing-tomb-raider">AI playing Tomb Raider</h2>
+<p>OK, we&rsquo;ve already seen AI controlling our companion in the game, then what&rsquo;s next?
+Controlling the player directly, of course!
+Here is a video of AI playing Tomb Raider<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.
+In this demo, similar techniques to Herika like LLM and TTS are also used.
+What&rsquo;s more, it seems that the author has employed several other AI modules, too, such as object detection.
+It&rsquo;s not yet clear how the game character is controlled at the time of writing this blog (08/13/2023).</p>
+<h2 id="more-work-of-ai-playing-games-in-academia">More work of AI playing games, in academia</h2>
+<p>It worths noting that using modern AI<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> to play games is not new.
+Many previous endeavours have already been made, such as the OpenAI Five<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> playing Dota 2.
+Many scientific experiments in the RL field were actually conducted on game environments like OpenAI Gym<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> and Unity ML-Agents<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>.
+However, the research characteristic of this line of work makes it far from revolutionizing the video game industry, and indeed, this was usually not the indention of researchers.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-an-example-of-openai-gym">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="An example of OpenAI Gym."
+           src="/post/ai-gaming-era/figures/openai-gym.gif"
+           loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      An example of OpenAI Gym.
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-an-example-of-ml-agents">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="An example of ML-Agents." srcset="
+               /post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_5b753ca6463c4352b20c3c6d4160653f.webp 400w,
+               /post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_192e35e39d2b75df501a70ef62b5bd4f.webp 760w,
+               /post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_5b753ca6463c4352b20c3c6d4160653f.webp"
+               width="760"
+               height="428"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      An example of ML-Agents.
+    </figcaption></figure>
+
+<p>In the recent months, several other research outcomes related to video games have attracted people&rsquo;s attention, e.g., Generative Agents<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> by Stanford University, and CALM<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> by Nvidia.
+While Generative Agents might have put more focus on studying human behaviour instead of game playing, CALM presents an algorithms of controlling game characters using textual commands (hence easily with voice through ASR).
+What&rsquo;s more interesting about CALM is that the model size it uses to control the game character is as small as several hundreds of parameters, making it easily runnable locally.
+Of course, attaching LMs for more flexible natural language understanding can increase the parameter size many times, but still possible to find a good middle ground between performance and latency.</p>
+<h2 id="outlook">Outlook</h2>
+<p>It seems that the technologies for applying modern AI in games are already maturing.
+Although current AI models, especially those generative ones, are often criticised for problems like hallucination, repetition, and unsafe responses etc., I would argue that such problems will be much less destructive in the game world than in real life.
+It would be very interesting to see more and more games with AI companions that chat with you, and give you a hand when asked.
+To make it more exciting, how about train your AI companions by yourselves, while you&rsquo;re playing the game?
+You already generate a lot of (labelled) data when you play games, and using it to train your AI companion is theoretically possible.
+However, popular game engines like Unity and Unreal don&rsquo;t directly support AI training yet, so we still need some time to make it happen.
+But games with custom engines is much more flexible, and Human-Like<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> is such a game that uses your data generated in the game and trains an AI opponent online.</p>
+<p>If tools aren&rsquo;t a problem, what about model sizes?
+In the last couple years, we saw best-performing models getting larger and larger, most of which definitely can&rsquo;t run on consumer machines.
+I personally believe increasing the model size isn&rsquo;t the ultimate answer.
+Luckily, there is another stream of research studying the grokking<sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> phenomenon of models as small as an MLP, with merely several hundreds of parameters.
+Probably LMs won&rsquo;t have any sensible performance at this size level, but it&rsquo;s possible to largely decrease the model sizes once we have enough understanding on their mechanisms.</p>
+<p>Taking a step back, not too long ago deep learning and video games were still almost two extremes of the spectrum: the former is often associated with hard-working researchers, while the latter often reminded us of people killing time.
+Gamers are usually those young and smart people, who devoted large amount of time and energy in the game they love.
+Since finally the &ldquo;two extremes&rdquo; are coming together, maybe something more profound can happen?
+Just some personal thoughts, probably unrealistic, but for instance using LLMs as portals that make the player more interested in real world, and even learn about practical skills that they can use in real life?
+It might be possible, who knows?</p>
+<h2 id="updates-on-08202023">Updates on 08/20/2023</h2>
+<h3 id="nvidia-omniverse-ace">NVIDIA Omniverse ACE</h3>
+<p>From ACE&rsquo;s project page:</p>
+<blockquote>
+<p>NVIDIA Omniverse™ Avatar Cloud Engine (ACE) is a suite of real-time AI solutions for end-to-end development and deployment of interactive avatars and digital human applications &hellip;</p>
+</blockquote>
+<p>In other words, with this toolkit, you can build NPCs that can not only communicate with you in speech and synchronise lip movements, but also supplies backend LLMs.
+While this was also achieved by combining several independent tools in projects like Herika, NVIDIA ACE provides a one-stop solution.</p>
+<p>Below is its system design.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-illustration-of-nvidia-ace">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://developer.nvidia.com/sites/default/files/akamai/omniverse/nvidia-omniverse-ace-dev-zone-pipeline-diagram@2x.png" alt="Illustration of NVIDIA ACE." loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Illustration of NVIDIA ACE.
+    </figcaption></figure>
+
+<h3 id="mantella-by-art-from-the-machine">Mantella by Art from the Machine</h3>
+<p>Mantella<sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> is a project similar to Replica&rsquo;s Matrix demo, but in the world of Skyrim like Herika.</p>
+<h3 id="agentsims">AgentSims</h3>
+<p>AgentSims<sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> is a work from academia that shares a lot of similarities with Generative Agents, and they were both released around the same time.
+A main difference of AgentSims from Generative Agents is that AgentSims allows a player to join the town as the mayor and influence the agents by talking with them.
+They also have an online live demo, which can be found on <a href="https://www.agentsims.com/" target="_blank" rel="noopener">their website</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-a-screenshot-of-agentsims">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://generation-sessions.s3.amazonaws.com/7fffe1e230aaf47ad7397c3a59f1a690/img/image-1.png" alt="A screenshot of AgentSims." loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      A screenshot of AgentSims.
+    </figcaption></figure>
+
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.replicastudios.com/blog/smart-npc-plugin-release" target="_blank" rel="noopener">Replica Smart NPCs</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.youtube.com/watch?v=SbzBTp_kBIk" target="_blank" rel="noopener">AI-Powered NPCs: A Game-Changing FREE Demo</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://aidungeon.io/" target="_blank" rel="noopener">AI Dungeon: A text-based adventure-story game you direct (and star in) while the AI brings it to life.</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://www.nexusmods.com/skyrimspecialedition/mods/89931" target="_blank" rel="noopener">Herika - The ChatGPT Companion</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://www.youtube.com/watch?v=0svu8WBzeQM" target="_blank" rel="noopener">The AI Takes Control of the adventure in Skyrim!</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://www.youtube.com/watch?v=0wTf_bbkW2U" target="_blank" rel="noopener">Creating a Self-Aware Lara Croft that Plays Tomb Raider</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>As opposed to traditional AI used in games, which are usually implemented with sets of rules, here by modern AI I mean those powered by DL and/or RL algorithms&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p><a href="https://en.wikipedia.org/wiki/OpenAI_Five" target="_blank" rel="noopener">OpenAI Five</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p><a href="https://blog.paperspace.com/getting-started-with-openai-gym/" target="_blank" rel="noopener">Getting Started With OpenAI Gym: The Basic Building Blocks</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p><a href="https://unity.com/products/machine-learning-agents" target="_blank" rel="noopener">Unity Machine Learning Agents</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p><a href="https://github.com/joonspk-research/generative_agents" target="_blank" rel="noopener">Generative Agents: Interactive Simulacra of Human Behavior</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p><a href="https://research.nvidia.com/labs/par/calm/" target="_blank" rel="noopener">CALM: Conditional Adversarial Latent Models for Directable Virtual Characters</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p><a href="https://store.steampowered.com/app/1400190/HumanLike/" target="_blank" rel="noopener">The Human-Like game on Steam</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p><a href="https://arxiv.org/abs/2201.02177" target="_blank" rel="noopener">Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets</a>&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p><a href="https://pair.withgoogle.com/explorables/grokking/" target="_blank" rel="noopener">Do Machine Learning Models Memorize or Generalize?</a>&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p><a href="https://www.nexusmods.com/skyrimspecialedition/mods/98631" target="_blank" rel="noopener">Mantella - Bring NPCs to Life with AI</a>&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p><a href="https://github.com/py499372727/AgentSims" target="_blank" rel="noopener">AgentSims: An Open-Source Sandbox for Large Language Model Evaluation</a>&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fshaojiejiang.github.io%2Fpost%2Fai-gaming-era%2F&amp;text=Has&#43;the&#43;AI-Era&#43;come&#43;to&#43;video&#43;games&#43;already%3F" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fshaojiejiang.github.io%2Fpost%2Fai-gaming-era%2F&amp;t=Has&#43;the&#43;AI-Era&#43;come&#43;to&#43;video&#43;games&#43;already%3F" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Has%20the%20AI-Era%20come%20to%20video%20games%20already%3F&amp;body=https%3A%2F%2Fshaojiejiang.github.io%2Fpost%2Fai-gaming-era%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fshaojiejiang.github.io%2Fpost%2Fai-gaming-era%2F&amp;title=Has&#43;the&#43;AI-Era&#43;come&#43;to&#43;video&#43;games&#43;already%3F" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Has&#43;the&#43;AI-Era&#43;come&#43;to&#43;video&#43;games&#43;already%3F%20https%3A%2F%2Fshaojiejiang.github.io%2Fpost%2Fai-gaming-era%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fshaojiejiang.github.io%2Fpost%2Fai-gaming-era%2F&amp;title=Has&#43;the&#43;AI-Era&#43;come&#43;to&#43;video&#43;games&#43;already%3F" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://shaojiejiang.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huc2cc26de8e7070413129b9b47fa7e620_2581397_270x270_fill_q75_lanczos_center.jpg" alt="Shaojie Jiang"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://shaojiejiang.github.io/">Shaojie Jiang</a></h5>
+      <h6 class="card-subtitle">Manager AI</h6>
+      <p class="card-text">My research interests include information retrieval, chatbots and conversational question answering.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:shaojie.jiang1@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/Shaojie_Jiang" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.nl/citations?user=ax0e3tkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ShaojieJiang" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://nl.linkedin.com/in/shaojie-jiang-1a69b3122" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+  <section id="comments">
+    
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "neural-notworks" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 Shaojie Jiang. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.32ee83730ed883becad04bc5170512cc.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <script id="dsq-count-scr" src="https://neural-notworks.disqus.com/count.js" async></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.91534f6cb18c3621254d412c69186d7c.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

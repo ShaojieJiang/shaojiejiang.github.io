@@ -14,9 +14,9 @@
     
     <item>
       <title>Navigating The Job Hunting Maze</title>
-      <link>https://shaojiejiang.github.io/post/en/job-hunting-advice/</link>
+      <link>https://shaojiejiang.github.io/post/job-hunting-advice/</link>
       <pubDate>Sun, 12 Nov 2023 17:47:01 +0100</pubDate>
-      <guid>https://shaojiejiang.github.io/post/en/job-hunting-advice/</guid>
+      <guid>https://shaojiejiang.github.io/post/job-hunting-advice/</guid>
       <description>&lt;p&gt;Embarking on a job hunt can be both exhilarating and daunting. Whether you&amp;rsquo;re a fresh graduate or a seasoned professional looking for a change, the journey to land that perfect job requires more than just luck. It&amp;rsquo;s about preparation, strategy, and understanding the nuances of the job market.&lt;/p&gt;
 &lt;p&gt;In the current climate—a mixture of hypes and depression—finding an LLM-related job has become the new favorite pursuit. However, it&amp;rsquo;s not an easy journey. To illustrate, let me share some statistics from my job-seeking experience over the past several months.&lt;/p&gt;
 &lt;h2 id=&#34;my-experience&#34;&gt;My Experience&lt;/h2&gt;
@@ -81,9 +81,9 @@
     
     <item>
       <title>Has the AI-Era come to video games already?</title>
-      <link>https://shaojiejiang.github.io/post/en/ai-gaming-era/</link>
+      <link>https://shaojiejiang.github.io/post/ai-gaming-era/</link>
       <pubDate>Sun, 13 Aug 2023 17:05:13 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/en/ai-gaming-era/</guid>
+      <guid>https://shaojiejiang.github.io/post/ai-gaming-era/</guid>
       <description>&lt;p&gt;With the big noises made by ChatGPT, many different industries have noticed the value of LLM technologies.
 Unsurprisingly, the video game industry is one of them.
 In this blog, I introduce several cool demos/WIPs that I&amp;rsquo;ve recently found, and share my opinions on why they might have profound influences on the future of video game industry.
@@ -114,10 +114,10 @@ The current best conversational experience you can have with NPCs is to select f
 &lt;figure  id=&#34;figure-dialogue-selection-in-witcher-3&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dialogue selection in Witcher 3&#34; srcset=&#34;
-               /post/en/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_527b0774b1c015883502fc1666882b7e.webp 400w,
-               /post/en/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_2c0e283be5301be66b25147cae746fe8.webp 760w,
-               /post/en/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_527b0774b1c015883502fc1666882b7e.webp&#34;
+               /post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_527b0774b1c015883502fc1666882b7e.webp 400w,
+               /post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_2c0e283be5301be66b25147cae746fe8.webp 760w,
+               /post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/ai-gaming-era/figures/dialogues-in-witcher3_hue09e192b7ac8a4706bd7f9ae742b8051_48100_527b0774b1c015883502fc1666882b7e.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -164,10 +164,10 @@ She is capable of chit-chatting with the player, commenting on the game scenes a
 &lt;figure  id=&#34;figure-system-design-of-herika-image-credit-dwemer-dynamics&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;System design of Herika. Image credit: Dwemer Dynamics&#34; srcset=&#34;
-               /post/en/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_8ef29e5e73f8099642bfabb22652b4d5.webp 400w,
-               /post/en/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_76bd25ffc50f49e25b364c14c33177b2.webp 760w,
-               /post/en/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_8ef29e5e73f8099642bfabb22652b4d5.webp&#34;
+               /post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_8ef29e5e73f8099642bfabb22652b4d5.webp 400w,
+               /post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_76bd25ffc50f49e25b364c14c33177b2.webp 760w,
+               /post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/ai-gaming-era/figures/herika-system_hu29424bab3769eb4f68d9166875cc0864_509908_8ef29e5e73f8099642bfabb22652b4d5.webp&#34;
                width=&#34;760&#34;
                height=&#34;418&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -220,7 +220,7 @@ However, the research characteristic of this line of work makes it far from revo
 &lt;figure  id=&#34;figure-an-example-of-openai-gym&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;An example of OpenAI Gym.&#34;
-           src=&#34;https://shaojiejiang.github.io/post/en/ai-gaming-era/figures/openai-gym.gif&#34;
+           src=&#34;https://shaojiejiang.github.io/post/ai-gaming-era/figures/openai-gym.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       An example of OpenAI Gym.
@@ -247,10 +247,10 @@ However, the research characteristic of this line of work makes it far from revo
 &lt;figure  id=&#34;figure-an-example-of-ml-agents&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;An example of ML-Agents.&#34; srcset=&#34;
-               /post/en/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_5b753ca6463c4352b20c3c6d4160653f.webp 400w,
-               /post/en/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_192e35e39d2b75df501a70ef62b5bd4f.webp 760w,
-               /post/en/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_5b753ca6463c4352b20c3c6d4160653f.webp&#34;
+               /post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_5b753ca6463c4352b20c3c6d4160653f.webp 400w,
+               /post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_192e35e39d2b75df501a70ef62b5bd4f.webp 760w,
+               /post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/ai-gaming-era/figures/ml-agents_hud75644e00942eb99ca4ae5a1121fcdf2_44544_5b753ca6463c4352b20c3c6d4160653f.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -406,9 +406,9 @@ They also have an online live demo, which can be found on &lt;a href=&#34;https:
     
     <item>
       <title>One source of LLM hallucination is exposure bias</title>
-      <link>https://shaojiejiang.github.io/post/en/llm-hallucination/</link>
+      <link>https://shaojiejiang.github.io/post/llm-hallucination/</link>
       <pubDate>Wed, 09 Aug 2023 22:16:30 +0200</pubDate>
-      <guid>https://shaojiejiang.github.io/post/en/llm-hallucination/</guid>
+      <guid>https://shaojiejiang.github.io/post/llm-hallucination/</guid>
       <description>&lt;p&gt;With the release of closed-source ChatGPT, GPT-4, and open-source LLaMa models, the LLM development has seen tremendous improvements in recent months.
 While we are hyped with the fact that these LLMs are capable of many tasks, we have also noticed again and again that these LLMs hallucinate content.
 Today I came accross this inspiring paper, &lt;a href=&#34;https://arxiv.org/abs/2305.14552&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sources of Hallucination by Large Language Models on Inference Tasks&lt;/a&gt; by McKenna et al., in which the authors have identified two main sources of hallucination:&lt;/p&gt;

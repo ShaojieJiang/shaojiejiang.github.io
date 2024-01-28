@@ -14,9 +14,9 @@
     
     <item>
       <title>What&#39;s New in XLNet?</title>
-      <link>https://shaojiejiang.github.io/post/en/xlnet/</link>
+      <link>https://shaojiejiang.github.io/post/xlnet/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://shaojiejiang.github.io/post/en/xlnet/</guid>
+      <guid>https://shaojiejiang.github.io/post/xlnet/</guid>
       <description>&lt;h2 id=&#34;rip-bert&#34;&gt;R.I.P BERT&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BERT&lt;/a&gt; got a head shot yesterday, by another guy called &lt;a href=&#34;https://arxiv.org/abs/1906.08237&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XLNet&lt;/a&gt;.
 It is reported that XLNet defeated BERT on 20 NLP tasks, and achieved 18 new state-of-the-art results.
@@ -43,10 +43,10 @@ So, farewell, BERT.
 &lt;figure  id=&#34;figure-rip-bert&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;R.I.P BERT&#34; srcset=&#34;
-               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_ad3b60d050a67b9089255b10065b08b1.webp 400w,
-               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_910a11ae63908cf22e4e12ec92059faf.webp 760w,
-               /post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_ad3b60d050a67b9089255b10065b08b1.webp&#34;
+               /post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_ad3b60d050a67b9089255b10065b08b1.webp 400w,
+               /post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_910a11ae63908cf22e4e12ec92059faf.webp 760w,
+               /post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/xlnet/images/bert_dead_hu61e83ca8534a90d5b1ebee93953bac39_29320_ad3b60d050a67b9089255b10065b08b1.webp&#34;
                width=&#34;570&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -88,10 +88,10 @@ Well, let&amp;rsquo;s first see some weaknesses BERT has.&lt;/p&gt;
 &lt;figure  id=&#34;figure-image-sourcehttpsnlpstanfordeduseminardetailsjdevlinpdf&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;[Image source](https://nlp.stanford.edu/seminar/details/jdevlin.pdf)&#34; srcset=&#34;
-               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_bbb8a61fc9a0697db6e27484ef59e402.webp 400w,
-               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_a370a21d4f992ecb82ae8e2649177c0d.webp 760w,
-               /post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_bbb8a61fc9a0697db6e27484ef59e402.webp&#34;
+               /post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_bbb8a61fc9a0697db6e27484ef59e402.webp 400w,
+               /post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_a370a21d4f992ecb82ae8e2649177c0d.webp 760w,
+               /post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/xlnet/images/MLM_hub4c01273cdd2a52becfd097515ece19b_34267_bbb8a61fc9a0697db6e27484ef59e402.webp&#34;
                width=&#34;760&#34;
                height=&#34;103&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -124,10 +124,10 @@ That is exactly where BERT falls short.&lt;/p&gt;
 &lt;figure  id=&#34;figure-query-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Query stream, [source](https://arxiv.org/abs/1906.08237)&#34; srcset=&#34;
-               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_a84c83c6b945dba172c71d33c7936aac.webp 400w,
-               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_0758dcc20abd12daa219dd5d9bddf6da.webp 760w,
-               /post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_a84c83c6b945dba172c71d33c7936aac.webp&#34;
+               /post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_a84c83c6b945dba172c71d33c7936aac.webp 400w,
+               /post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_0758dcc20abd12daa219dd5d9bddf6da.webp 760w,
+               /post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/xlnet/images/query_stream_hued03336a8aeea8af3524f5a71c4c5e85_138678_a84c83c6b945dba172c71d33c7936aac.webp&#34;
                width=&#34;760&#34;
                height=&#34;645&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -158,10 +158,10 @@ Take $x_1$ for example: $x_1$&amp;rsquo;s embedding (and hidden state) is not us
 &lt;figure  id=&#34;figure-content-stream-sourcehttpsarxivorgabs190608237&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Content stream, [source](https://arxiv.org/abs/1906.08237)&#34; srcset=&#34;
-               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_f91903c52b2690d818283e5376124698.webp 400w,
-               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_77f32608974273a37acf00c5c6de89e2.webp 760w,
-               /post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://shaojiejiang.github.io/post/en/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_f91903c52b2690d818283e5376124698.webp&#34;
+               /post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_f91903c52b2690d818283e5376124698.webp 400w,
+               /post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_77f32608974273a37acf00c5c6de89e2.webp 760w,
+               /post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shaojiejiang.github.io/post/xlnet/images/content_stream_hude0ab6174270e4e71fb20a58d5784b5d_120246_f91903c52b2690d818283e5376124698.webp&#34;
                width=&#34;760&#34;
                height=&#34;561&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

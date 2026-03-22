@@ -1,0 +1,71 @@
+---
+import Layout from '@/layouts/main.astro';
+import { ArrowLeft, Calendar, Clock3 } from 'lucide-react';
+import { withBase } from '@/lib/utils';
+import type { PostEntry } from '@/lib/content';
+import { estimateReadingTime } from '@/lib/readingTime';
+
+type Props = {
+  post: PostEntry;
+  backHref: '/blog';
+  backLabel: string;
+  showReadingTime?: boolean;
+};
+
+const { post, backHref, backLabel, showReadingTime = false } = Astro.props as Props;
+const { Content } = await post.render();
+---
+
+<Layout title={`${post.data.title} - Shaojie Jiang`} description={post.data.summary} image={post.data.image}>
+  <article class="pt-4 pb-8 md:pt-6 md:pb-12 overflow-x-hidden">
+    <div class="container mx-auto px-4">
+      <div class="max-w-5xl mx-auto">
+        <a
+          href={withBase(backHref)}
+          class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-6"
+        >
+          <ArrowLeft class="h-4 w-4" />
+          {backLabel}
+        </a>
+        <header class="mb-10 border-b pb-8 text-center">
+          <div class="flex items-center justify-center gap-3 text-sm text-muted-foreground mb-4">
+            <span class="inline-flex items-center gap-1">
+              <Calendar class="h-4 w-4" />
+              {post.data.pubDate.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric',
+              })}
+            </span>
+            {showReadingTime ? (
+              <span class="inline-flex items-center gap-1">
+                <Clock3 class="h-4 w-4" />
+                {estimateReadingTime(post.body).text}
+              </span>
+            ) : null}
+            <span class="inline-block px-2 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">
+              {post.data.category}
+            </span>
+          </div>
+          <h1 class="text-3xl md:text-5xl font-bold mb-4">{post.data.title}</h1>
+          <p class="text-xl text-muted-foreground mb-4">{post.data.summary}</p>
+          {post.data.tags.length > 0 && (
+            <div class="flex flex-wrap justify-center gap-2">
+              {post.data.tags.map((tag: string) => (
+                <span class="inline-block px-3 py-1 rounded-full bg-muted text-muted-foreground text-sm">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </header>
+      </div>
+
+      <div class="max-w-3xl mx-auto">
+        <div class="prose prose-lg dark:prose-invert max-w-none">
+          <Content />
+        </div>
+      </div>
+    </div>
+  </article>
+</Layout>

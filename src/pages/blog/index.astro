@@ -1,0 +1,104 @@
+---
+import Layout from '@/layouts/main.astro';
+import PostCardGrid from '@/components/content/PostCardGrid.astro';
+import { getPublishedPosts } from '@/lib/content';
+import { Rss } from 'lucide-react';
+import { withBase } from '@/lib/utils';
+
+const posts = await getPublishedPosts('blog');
+
+// Collect all tags with counts, sorted by frequency
+const tagCounts = new Map<string, number>();
+posts.forEach((post) => {
+  post.data.tags.forEach((tag) => {
+    tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+  });
+});
+const popularTags = [...tagCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .map(([tag, count]) => ({ tag, count }));
+---
+
+<Layout title="Blog - Shaojie Jiang">
+  <section class="py-20 md:py-28">
+    <div class="container mx-auto px-4">
+      <div class="text-center space-y-4 mb-10">
+        <h1 class="text-4xl md:text-6xl font-bold">
+          <span class="bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-300 bg-clip-text text-transparent">Blog</span>
+        </h1>
+        <p class="text-xl text-muted-foreground max-w-2xl mx-auto">
+          Thoughts on AI, career development, and life.
+        </p>
+        <a
+          href={withBase('/rss.xml')}
+          class="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"
+          aria-label="RSS Feed"
+        >
+          <Rss className="h-4 w-4" />
+          RSS Feed
+        </a>
+      </div>
+
+      {popularTags.length > 0 && (
+        <div class="max-w-5xl mx-auto mb-10">
+          <h2 class="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-3 text-center">Popular Topics</h2>
+          <div class="flex flex-wrap justify-center gap-2" id="tag-filter">
+            <button
+              class="tag-btn active px-3 py-1 rounded-full text-sm font-medium bg-primary text-primary-foreground transition-colors"
+              data-tag="all"
+            >
+              All
+            </button>
+            {popularTags.map(({ tag, count }) => (
+              <button
+                class="tag-btn px-3 py-1 rounded-full text-sm font-medium bg-muted text-muted-foreground hover:bg-primary/10 hover:text-primary transition-colors"
+                data-tag={tag}
+              >
+                {tag} ({count})
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <PostCardGrid posts={posts} hrefPrefix="/blog" ctaLabel="Read post" showReadingTime />
+    </div>
+  </section>
+</Layout>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.tag-btn');
+  const cards = document.querySelectorAll<HTMLAnchorElement>('.grid > a');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const tag = btn.dataset.tag;
+
+      buttons.forEach((b) => {
+        b.classList.remove('active', 'bg-primary', 'text-primary-foreground');
+        b.classList.add('bg-muted', 'text-muted-foreground');
+      });
+      btn.classList.add('active', 'bg-primary', 'text-primary-foreground');
+      btn.classList.remove('bg-muted', 'text-muted-foreground');
+
+      cards.forEach((card) => {
+        if (tag === 'all') {
+          card.style.display = '';
+        } else {
+          const cardTags = Array.from(card.querySelectorAll('.rounded-md'))
+            .map((el) => el.textContent?.trim());
+          // Also check category badge
+          const categoryBadge = card.querySelector('.rounded-full');
+          const category = categoryBadge?.textContent?.trim();
+          const allCardTags = [...cardTags];
+          if (category) allCardTags.push(category);
+
+          // Check full tag list from data attribute
+          const postTags = card.dataset.tags?.split(',') || [];
+          const hasTag = postTags.some((t) => t === tag) || allCardTags.includes(tag);
+          card.style.display = hasTag ? '' : 'none';
+        }
+      });
+    });
+  });
+</script>

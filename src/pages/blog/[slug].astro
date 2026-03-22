@@ -1,0 +1,16 @@
+---
+import PostDetailPage from '@/components/content/PostDetailPage.astro';
+import { getPostStaticPaths, type PostEntry } from '@/lib/content';
+
+export async function getStaticPaths() {
+  return getPostStaticPaths('blog');
+}
+
+type Props = {
+  post: PostEntry<'blog'>;
+};
+
+const { post } = Astro.props as Props;
+---
+
+<PostDetailPage post={post} backHref="/blog" backLabel="Back to Blog" showReadingTime />

@@ -1,0 +1,72 @@
+---
+import '../styles/global.css';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
+
+const {
+  title = 'Shaojie Jiang',
+  description = 'Personal homepage of Shaojie Jiang — AI researcher and engineer.',
+  image,
+} = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="light dark" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url.href} />
+    {image && <meta property="og:image" content={new URL(image, Astro.site).href} />}
+    <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
+    <meta name="twitter:site" content="@Shaojie_Jiang" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <script is:inline>
+      (() => {
+        const root = document.documentElement;
+        try {
+          const stored = localStorage.getItem("theme");
+          const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          const resolved =
+            stored === "dark" ? "dark"
+            : stored === "light" ? "light"
+            : prefersDark ? "dark" : "light";
+          root.classList.toggle("dark", resolved === "dark");
+          root.style.colorScheme = resolved;
+        } catch (e) {
+          root.classList.toggle("dark", false);
+          root.style.colorScheme = "light";
+        }
+      })();
+    </script>
+    <style is:inline>
+      html {
+        background-color: #ffffff;
+      }
+
+      html.dark {
+        background-color: #020817;
+      }
+
+      body {
+        background-color: inherit;
+      }
+    </style>
+    <link rel="icon" type="image/x-icon" href={`${base}favicon.ico`} />
+    <link rel="alternate" type="application/rss+xml" title="Shaojie Jiang — Blog" href={`${base}rss.xml`} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Header client:load />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

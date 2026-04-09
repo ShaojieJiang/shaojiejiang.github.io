@@ -5,7 +5,7 @@ pubDate: 2023-08-13
 author: "Shaojie Jiang"
 category: "AI"
 tags: ["Deep Learning", "NLP", "LLM", "Video Games"]
-image: "https://shaojiejiang.github.io/post/ai-gaming-era/featured.jpg"
+image: "/post/ai-gaming-era/featured.jpg"
 ---
 
 The convergence of large language models and video games is creating fascinating possibilities. Let me examine several practical demos and research projects showing AI's integration into gaming.

@@ -6,7 +6,7 @@ updatedDate: 2019-07-03
 author: "Shaojie Jiang"
 category: "Paper Notes"
 tags: ["NLP", "Deep Learning", "BERT", "Transformer", "XLNet"]
-image: "https://shaojiejiang.github.io/post/xlnet/featured.jpg"
+image: "/post/xlnet/featured.jpg"
 ---
 
 Let me break down what makes XLNet different from BERT.

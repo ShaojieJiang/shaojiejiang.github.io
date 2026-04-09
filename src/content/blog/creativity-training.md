@@ -5,7 +5,7 @@ pubDate: 2023-09-23
 author: "Shaojie Jiang"
 category: "Ideas"
 tags: ["Creativity", "AI", "Ideas"]
-image: "https://shaojiejiang.github.io/post/creativity-training/featured.png"
+image: "/post/creativity-training/featured.png"
 ---
 
 While AI models will continue replacing human labor, humans should focus on winning in creativity. Generative models are tools — similar to pens and dictionaries — that boost productivity but don't automatically enhance creativity. With the liberated productivity, we humans will and should devote more time to being creative.

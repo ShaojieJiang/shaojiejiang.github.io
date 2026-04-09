@@ -5,7 +5,7 @@ pubDate: 2024-01-27
 author: "Shaojie Jiang"
 category: "AI"
 tags: ["Philosophy of AI", "Critical Thinking", "Existential Inquiry"]
-image: "https://shaojiejiang.github.io/post/lessons-from-llm/featured.png"
+image: "/post/lessons-from-llm/featured.png"
 ---
 
 The rapid development of AI models like ChatGPT has prompted many to ask what AI can do for us. But perhaps a more interesting question is: what can humans learn *from* AI models?

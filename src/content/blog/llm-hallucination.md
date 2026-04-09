@@ -5,6 +5,7 @@ pubDate: 2023-08-09
 author: "Shaojie Jiang"
 category: "AI"
 tags: ["Deep Learning", "NLP", "LLM", "Hallucination", "Information Retrieval"]
+image: "https://shaojiejiang.github.io/post/llm-hallucination/featured.png"
 ---
 
 A recent paper titled "Sources of Hallucination by Large Language Models on Inference Tasks" by McKenna et al. identifies that large language models hallucinate content due to two primary factors:

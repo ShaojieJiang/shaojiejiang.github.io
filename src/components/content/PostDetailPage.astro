@@ -2,7 +2,7 @@
 import Layout from '@/layouts/main.astro';
 import { ArrowLeft, Calendar, Clock3 } from 'lucide-react';
 import { withBase } from '@/lib/utils';
-import type { PostEntry } from '@/lib/content';
+import { getPostTeaserImage, type PostEntry } from '@/lib/content';
 import { estimateReadingTime } from '@/lib/readingTime';
 
 type Props = {
@@ -14,9 +14,10 @@ type Props = {
 
 const { post, backHref, backLabel, showReadingTime = false } = Astro.props as Props;
 const { Content } = await post.render();
+const teaserImage = getPostTeaserImage(post.data.image);
 ---
 
-<Layout title={`${post.data.title} - Shaojie Jiang`} description={post.data.summary} image={post.data.image}>
+<Layout title={`${post.data.title} - Shaojie Jiang`} description={post.data.summary} image={teaserImage}>
   <article class="pt-4 pb-8 md:pt-6 md:pb-12 overflow-x-hidden">
     <div class="container mx-auto px-4">
       <div class="max-w-5xl mx-auto">
@@ -47,6 +48,15 @@ const { Content } = await post.render();
               {post.data.category}
             </span>
           </div>
+          {teaserImage ? (
+            <div class="mb-6 overflow-hidden rounded-3xl border bg-muted shadow-sm">
+              <img
+                src={withBase(teaserImage)}
+                alt={post.data.title}
+                class="h-full w-full object-cover"
+              />
+            </div>
+          ) : null}
           <h1 class="text-3xl md:text-5xl font-bold mb-4">{post.data.title}</h1>
           <p class="text-xl text-muted-foreground mb-4">{post.data.summary}</p>
           {post.data.tags.length > 0 && (

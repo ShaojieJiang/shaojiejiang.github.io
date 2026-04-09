@@ -5,6 +5,7 @@ pubDate: 2020-05-06
 author: "Shaojie Jiang"
 category: "Paper Notes"
 tags: ["Deep Learning"]
+image: "https://shaojiejiang.github.io/post/visualizing-loss/featured.png"
 ---
 
 Notes from the NeurIPS 2018 paper on visualizing neural network loss landscapes. The work addresses why certain models train more easily and generalize better than others.

@@ -5,6 +5,7 @@ pubDate: 2023-09-11
 author: "Shaojie Jiang"
 category: "Education"
 tags: ["Education", "Current Affairs", "Personal Opinions"]
+image: "https://shaojiejiang.github.io/post/school-problems-china/featured.png"
 ---
 
 I recently discovered that my nephew's primary school in Tianjin has banned unsupervised break times, restricting students to classrooms unless using restrooms or getting water. This practice extends beyond COVID-19 measures and reflects systemic pressures from litigation-prone parents and insufficient oversight.

@@ -5,6 +5,7 @@ pubDate: 2023-11-12
 author: "Shaojie Jiang"
 category: "Career"
 tags: ["Job Hunting", "LLM Careers", "Career Advice", "Personal Development"]
+image: "https://shaojiejiang.github.io/post/job-hunting-advice/featured.png"
 ---
 
 Embarking on a job hunt can be both exhilarating and daunting. Whether you're a fresh graduate or a seasoned professional looking for a change, the journey to land that perfect job requires more than just luck. It's about preparation, strategy, and understanding the nuances of the job market.

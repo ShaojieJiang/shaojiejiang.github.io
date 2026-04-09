@@ -5,6 +5,7 @@ pubDate: 2020-05-12
 author: "Shaojie Jiang"
 category: "Paper Notes"
 tags: ["Deep Learning", "NLP"]
+image: "https://shaojiejiang.github.io/post/compressive-transformers/featured.png"
 ---
 
 Notes on the paper: [Compressive Transformers for Long-Range Sequence Modelling](https://arxiv.org/abs/1911.05507).

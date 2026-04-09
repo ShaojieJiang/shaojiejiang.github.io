@@ -5,6 +5,7 @@ pubDate: 2023-09-20
 author: "Shaojie Jiang"
 category: "AI Ethics"
 tags: ["Responsible AI", "Personal Opinions"]
+image: "https://shaojiejiang.github.io/post/responsible-aigac/featured.png"
 ---
 
 I have received multiple job offers from adult industry companies interested in AI and chatbot technology. Let me clarify upfront: I respect legitimate adult work while explaining why I'm not ready to accept such positions yet.

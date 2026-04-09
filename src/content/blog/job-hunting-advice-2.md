@@ -5,6 +5,7 @@ pubDate: 2023-11-25
 author: "Shaojie Jiang"
 category: "Career"
 tags: ["Job Hunting", "Career Advice", "Personal Development"]
+image: "https://shaojiejiang.github.io/post/job-hunting-advice-2/featured.png"
 ---
 
 Here's a fun fact that might change how you approach job hunting: you only need one good job offer. Once you achieve this goal, you can cease your search and benefit from the psychological boost and confidence this provides.

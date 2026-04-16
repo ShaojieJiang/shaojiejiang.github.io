@@ -2,7 +2,7 @@
 title: "Orcheo and Harness Engineering: Where It Fits and Where It Can Grow Next"
 summary: "A grounded look at how the Orcheo ecosystem relates to harness engineering: where Orcheo already reduces agent failure modes through structure, observability, and guardrails, and where stronger verification and behavioural checks are next on the roadmap."
 pubDate: 2026-04-16
-image: "/post/orcheo-and-harness-engineering/featured.png"
+image: "/post/orcheo-and-harness-engineering/featured.webp"
 author: Shaojie Jiang
 category: Engineering
 tags:
@@ -15,7 +15,7 @@ tags:
   - agentic-systems
 ---
 
-Harness engineering is becoming a useful lens for thinking about agent systems although the term is still being shaped in public discourse.
+Harness engineering is becoming a useful lens for thinking about agent systems, although the term is still being shaped in public discourse.
 I have been thinking about it a lot in the context of Orcheo, and I wanted to share how I see the relationship between the two.
 
 Mitchell Hashimoto describes it as the work of preventing agents from repeating known bad behaviours by improving instructions and adding programmed checks.[^1]

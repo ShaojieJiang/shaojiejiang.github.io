@@ -48,15 +48,6 @@ const teaserImage = getPostTeaserImage(post.data.image);
               {post.data.category}
             </span>
           </div>
-          {teaserImage ? (
-            <div class="mb-6 overflow-hidden rounded-3xl border bg-muted shadow-sm">
-              <img
-                src={withBase(teaserImage)}
-                alt={post.data.title}
-                class="h-full w-full object-cover"
-              />
-            </div>
-          ) : null}
           <h1 class="text-3xl md:text-5xl font-bold mb-4">{post.data.title}</h1>
           <p class="text-xl text-muted-foreground mb-4">{post.data.summary}</p>
           {post.data.tags.length > 0 && (

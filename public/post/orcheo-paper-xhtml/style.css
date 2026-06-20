@@ -1,0 +1,281 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #eeeeee;
+  color: #111111;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a,
+.cite {
+  color: #7a147a;
+  text-decoration: none;
+}
+
+.url {
+  color: #0645ad;
+}
+
+.index {
+  max-width: 46rem;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 8.5in;
+  margin: 14px auto;
+  font: 14px/1.2 Georgia, "Times New Roman", serif;
+}
+
+.page {
+  box-sizing: border-box;
+  width: 8.5in;
+  min-height: 11in;
+  margin: 0 auto 24px;
+  padding: 0.82in 0.74in 0.55in;
+  background: #ffffff;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.16);
+  position: relative;
+  overflow: hidden;
+}
+
+.page::after {
+  content: "AI replica - may have discrepancies with the original paper";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 9.5in;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  color: rgba(105, 105, 105, 0.12);
+  font: 700 34px/1.15 Georgia, "Times New Roman", serif;
+  text-align: center;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.page > * {
+  position: relative;
+  z-index: 1;
+}
+
+.running {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.34in;
+  font-size: 11px;
+}
+
+.title-block {
+  text-align: center;
+}
+
+.title-block h1 {
+  margin: 0 0 16px;
+  font-size: 25px;
+  line-height: 1.06;
+}
+
+.authors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+.author-name {
+  color: #0645ad;
+  font-size: 18px;
+}
+
+.columns {
+  column-count: 2;
+  column-gap: 0.38in;
+  font-size: 13.8px;
+  line-height: 1.24;
+  text-align: justify;
+  hyphens: none;
+}
+
+.columns p {
+  margin: 0 0 0.58em;
+  text-indent: 1em;
+}
+
+.columns p.noindent,
+.columns .noindent p,
+p.noindent {
+  text-indent: 0;
+}
+
+h2,
+h3,
+h4 {
+  break-after: avoid;
+  page-break-after: avoid;
+  text-align: left;
+}
+
+h2 {
+  margin: 0.8em 0 0.3em;
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+h3 {
+  margin: 0.7em 0 0.25em;
+  font-size: 17px;
+  line-height: 1.1;
+}
+
+h4 {
+  display: inline;
+  margin: 0;
+  font-size: 13.8px;
+}
+
+.abstract h2,
+.front h2 {
+  font-size: 16px;
+}
+
+.wide {
+  column-span: all;
+  margin: 0 0 0.5em;
+}
+
+.table-caption,
+.caption,
+.listing-caption {
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.14;
+  margin: 0.45em 0 0.35em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.6px;
+  line-height: 1.15;
+}
+
+table.paper-table {
+  border-top: 1.4px solid #000;
+  border-bottom: 1.4px solid #000;
+}
+
+table.paper-table thead {
+  border-bottom: 0.8px solid #000;
+}
+
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 3px 7px;
+}
+
+.num {
+  text-align: right;
+}
+
+figure {
+  margin: 0.45em 0 0.7em;
+  break-inside: avoid;
+}
+
+figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+figure.diagram img {
+  width: 100%;
+}
+
+pre {
+  margin: 0.25em 0 0.7em;
+  padding: 0.4em 0.55em;
+  border: 1px solid #111;
+  font: 10.2px/1.22 "Courier New", monospace;
+  white-space: pre-wrap;
+  break-inside: avoid;
+}
+
+.enum {
+  margin: 0.25em 0 0.65em 1.5em;
+  padding: 0;
+}
+
+.enum li {
+  margin: 0.18em 0;
+}
+
+.refs {
+  font-size: 10.4px;
+  line-height: 1.16;
+  text-align: left;
+}
+
+.refs p {
+  padding-left: 1.8em;
+  text-indent: -1.8em;
+  margin-bottom: 0.28em;
+}
+
+.arxiv {
+  position: absolute;
+  left: 0.18in;
+  top: 3.05in;
+  width: 0.35in;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  color: #888;
+  font-size: 31px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
+.license {
+  margin-top: 0.55em;
+  border-top: 1px solid #111;
+  padding-top: 0.25em;
+  font-size: 11px;
+  text-align: left;
+}
+
+.cc-logo {
+  display: block;
+  width: 70px;
+  height: auto;
+  margin: 0 0 4px;
+}
+
+@media print {
+  html,
+  body {
+    background: #fff;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .page {
+    margin: 0;
+    box-shadow: none;
+    page-break-after: always;
+  }
+}

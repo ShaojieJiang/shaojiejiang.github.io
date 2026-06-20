@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Orcheo - Page 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav"><a href="index.xhtml">Index</a><a href="page-002.xhtml">Next</a></nav>
+    <main class="page">
+      <div class="arxiv">arXiv:2602.14710v2 [cs.IR] 14 Jun 2026</div>
+      <section class="title-block wide">
+        <h1>Orcheo: A Modular Full-Stack Platform for Conversational Search</h1>
+        <div class="authors">
+          <div><div class="author-name">Shaojie Jiang</div><div>University of Amsterdam<br />Amsterdam, The Netherlands<br />AI Colleagues<br />Diemen, The Netherlands<br />s.jiang@ai-colleagues.com</div></div>
+          <div><div class="author-name">Svitlana Vakulenko</div><div>WU Vienna University of Economics<br />and Business<br />Vienna, Austria<br />svitlana.vakulenko@wu.ac.at</div></div>
+          <div><div class="author-name">Maarten de Rijke</div><div>University of Amsterdam<br />Amsterdam, The Netherlands<br />m.derijke@uva.nl</div></div>
+        </div>
+      </section>
+      <div class="columns">
+        <section class="abstract">
+          <h2>Abstract</h2>
+          <p class="noindent">Conversational search (CS) requires a complex software engineering pipeline that integrates query reformulation, ranking, and response generation. CS researchers currently face two barriers: the lack of a unified framework for efficiently sharing contributions with the community, and the difficulty of deploying end-to-end prototypes needed for user evaluation. We introduce Orcheo, an open-source platform designed to bridge this gap. Orcheo offers three key advantages: (i) <strong>A modular architecture</strong> promotes component reuse through single-file node modules, facilitating sharing and reproducibility in CS research; (ii) <strong>Production-ready infrastructure</strong> bridges the prototype-to-system gap via dual execution modes, secure credential management, and execution telemetry, with built-in AI coding support that lowers the learning curve; (iii) <strong>Starter-kit assets</strong> include 45+ off-the-shelf components for query understanding, ranking, and response generation, enabling the rapid bootstrapping of complete CS pipelines.</p>
+          <p>We describe the framework architecture and validate Orcheo's utility through case studies that highlight modularity and ease of use. Orcheo is released as open source under the MIT License at <span class="url">https://github.com/AI-Colleagues/orcheo</span>.</p>
+        </section>
+        <section class="front">
+          <h2>CCS Concepts</h2>
+          <p class="noindent">• <strong>Information systems -&gt; Process control systems; Enterprise applications; Collaborative search.</strong></p>
+          <h2>Keywords</h2>
+          <p class="noindent">Conversational search, retrieval-augmented generation, LLM agents, research infrastructure</p>
+          <h2>ACM Reference Format:</h2>
+          <p class="noindent">Shaojie Jiang, Svitlana Vakulenko, and Maarten de Rijke. 2026. Orcheo: A Modular Full-Stack Platform for Conversational Search. In <em>Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '26), July 20-24, 2026, Melbourne, VIC, Australia</em>. ACM, New York, NY, USA, 8 pages. <span class="url">https://doi.org/10.1145/3805712.3808613</span></p>
+        </section>
+        <section>
+          <h2>1&#160;&#160; Introduction</h2>
+          <p class="noindent">Conversational search (CS) has transformed traditional information retrieval (IR) into a dynamic, multi-turn dialogue, allowing users to iteratively refine their information needs <span class="cite">[2, 13, 28]</span>. The promise of an end-to-end CS system brings significant architectural challenges. To function effectively, these systems must orchestrate a complex pipeline that includes query rewriting, initial passage retrieval, re-ranking, and dialogue state management <span class="cite">[13, 29]</span>. While research has yielded significant advances in individual components, such as dense retrieval <span class="cite">[15]</span>, sparse representations <span class="cite">[10]</span>, and contextual query rewriting <span class="cite">[3, 31]</span>, the compounded impact of these innovations on the end-to-end CS pipeline remains underexplored. Consequently, it is often unclear how local optimizations translate to global improvements in user experience.</p>
+          <p>We identify two persistent challenges that hinder progress, adoption, and impact in CS research:</p>
+          <p><strong>Challenge 1: Lack of a unified modular framework.</strong> Advancements in individual CS components are often developed within isolated, ad hoc pipelines, obscuring their true utility and complicating cross-paper comparisons. This fragmentation forces researchers to reinvent the underlying infrastructure for every new experiment, leading to inconsistent implementations and a "reproducibility gap." There is a critical need for reusable, standardized frameworks that lower the barrier to entry and provide a stable foundation for establishing reliable baselines <span class="cite">[1, 33]</span>.</p>
+          <p><strong>Challenge 2: Barriers to deployment and holistic evaluation.</strong> Moving from a research prototype to a functional application is a major challenge. It requires engineering skills, such as backend orchestration and web development, that often fall outside the scope of core research. Without standardized deployment, researchers cannot easily run user-facing studies or apply robust conversational evaluation protocols <span class="cite">[8, 25]</span>. This lack of empirical feedback creates a bottleneck that prevents theoretical models from being systematically tested and stifles the iterative insights needed to refine future frameworks.</p>
+          <p>To address these challenges, we introduce <strong>Orcheo</strong>, an open-source platform designed to unify and accelerate CS research and development. Orcheo treats CS pipelines as first-class graph-structured workflow artifacts that can be easily shared, versioned, and collaboratively improved. We offer three main contributions:</p>
+          <p><strong>(1) A modular CS framework designed for reproducibility.</strong> Orcheo is a Python platform built on LangGraph that lets researchers package contributions as plug-and-play, single-file modules. This modular architecture enables seamless integration of new models, such as query rewriters or re-rankers, without the overhead of a monolithic codebase, enabling replication and comparison. Additionally, Orcheo integrates with an open-source "Agent Skills" repository (<span class="url">https://agentskills.io</span>) to support AI-assisted "vibe-coding," where coding assistants guide users through development and deployment.</p>
+          <p><strong>(2) Research-to-production pipeline.</strong> Orcheo provides a full-stack environment with dual execution modes: a local CLI for experimentation and a remote backend for production. To simplify engineering, it includes an encrypted Credential Vault, automated telemetry, and integrated tooling for systematic prompt engineering. This integrated stack bridges the gap between isolated prototypes and deployable applications.</p>
+        </section>
+        <div class="license"><img class="cc-logo" src="assets/cc-by-logo.png" width="140" height="40" alt="Creative Commons Attribution logo" />This work is licensed under a Creative Commons Attribution 4.0 International License.<br />SIGIR '26, Melbourne, VIC, Australia<br />© 2026 Copyright held by the owner/author(s).<br />ACM ISBN 979-8-4007-2599-9/2026/07<br /><span class="url">https://doi.org/10.1145/3805712.3808613</span></div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Orcheo - Page 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav"><a href="page-004.xhtml">Previous</a><a href="page-006.xhtml">Next</a></nav>
+    <main class="page">
+      <div class="running"><span>Orcheo: A Modular Full-Stack Platform for Conversational Search</span><span>SIGIR '26, July 20-24, 2026, Melbourne, VIC, Australia</span></div>
+      <div class="columns">
+        <p class="noindent"><strong>Workflow management.</strong> CRUD operations for workflows with versioning support. Workflows can be created via the SDK/CLI or imported from Python scripts.</p>
+        <p><strong>Execution engine.</strong> Synchronous and asynchronous workflow execution with support for streaming responses. WebSocket connections enable real-time progress monitoring and intermediate result inspection.</p>
+        <p><strong>ChatKit server integration.</strong> ChatKit's integration mode targets teams that need custom authentication, data residency, on-premises deployment, or bespoke orchestration. Orcheo implements the ChatKit server contract so the ChatKit frontend can connect directly to Orcheo-hosted workflows, while the server handles request processing, tool execution, streaming responses, and persistence of threads/messages/files (including uploads and action payloads).</p>
+        <p><strong>Tracing interface.</strong> Each workflow run is captured as an execution trace, exposing node-level timings, inputs, and outputs. A tracing interface surfaces these traces for debugging, provenance inspection, and performance tuning.</p>
+        <p><strong>Background processing.</strong> Celery workers with a Redis message broker handle long-running executions. Celery Beat supports cron-style scheduled workflows for periodic tasks (e.g., daily index updates).</p>
+        <p><strong>Authentication and access control.</strong> Configurable authentication modes (disabled, optional, or required) with JWT support. Service tokens enable programmatic access with scoped permissions.</p>
+        <h3>4.3&#160;&#160; SDK and CLI</h3>
+        <p class="noindent">The Orcheo SDK (<code>OrcheoClient</code>) provides async programmatic access for workflow execution, management, and credential handling. The accompanying CLI (<code>orcheo</code>) exposes the same capabilities as shell commands for node discovery (e.g., <code>orcheo node list</code>), workflow management, and execution.</p>
+        <h3>4.4&#160;&#160; AI-Assisted Workflow Development and Deployment</h3>
+        <p class="noindent">Rather than requiring users to learn visual editor paradigms, Orcheo makes code-first development accessible through AI-assisted "vibe-coding." Orcheo provides an open-source <em>Agent Skills</em> repository (<span class="url">https://github.com/AI-Colleagues/agent-skills</span>) that enables modern AI coding assistants (Claude Code, Cursor, OpenAI Codex CLI) to help users work with Orcheo. With the Orcheo agent skill installed, users can issue natural language requests such as <em>"install Orcheo," "start the full Orcheo stack with Docker,"</em> or <em>"create a conversational search workflow with query rewriting and hybrid retrieval,"</em> and the AI assistant generates appropriate code, commands, and configurations. This approach offers key advantages over visual workflow tools: users describe intent in plain English rather than learning tool-specific UI conventions; generated workflows are standard Python code that can be versioned and reviewed; and the same code runs locally during development and on remote backends in production without export/import steps.</p>
+        <h3>4.5&#160;&#160; Deployment Tools</h3>
+        <p class="noindent">Orcheo includes deployment infrastructure for moving from development to production: (i) <em>Docker support:</em> Dockerfiles and Docker Compose configurations enable single-command deployment of the full stack (backend, Redis, workers, Postgres, and Canvas). (ii) <em>System units:</em> Production deployment templates for Linux servers with proper service management and logging. (iii) <em>Environment configuration:</em> Environment variable support for database connections, authentication settings, vault configuration, and external service credentials. (iv) <em>Workflow publishing:</em> Workflows can be published with configurable access controls, enabling researchers to share interactive demos through the ChatKit frontend without building bespoke frontends for each workflow.</p>
+        <h3>4.6&#160;&#160; Credential Vault and Secret Management</h3>
+        <p class="noindent">Conversational search systems often require access to external services (embedding APIs, vector stores, LLM providers). Orcheo provides an AES-256 encrypted vault with runtime credential resolution via <code>[[credential_name]]</code> references, scoped access controls, and automatic OAuth token refresh. This separates credential management from workflow definitions, enabling secure sharing without exposing sensitive information.</p>
+        <h3>4.7&#160;&#160; Integration Points</h3>
+        <p class="noindent">Orcheo is designed to integrate with the broader conversational search research ecosystem: (i) <em>Vector stores:</em> Pluggable vector store abstraction supporting in-memory stores (development), Pinecone, and custom backends. (ii) <em>Embedding providers:</em> Registry-based embedding method resolution supporting LangChain embeddings, Pinecone inference, and custom implementations. (iii) <em>LLM providers:</em> Any LangChain-compatible LLM provider (OpenAI, Anthropic, local models via Ollama, etc.). (iv) <em>External toolkits:</em> The node architecture allows wrapping external IR toolkits to incorporate established components into Orcheo workflows, including built-in support for Pinecone text encoders (BM25, SPLADE).</p>
+        <h2>5&#160;&#160; Case Studies</h2>
+        <p class="noindent">We validate Orcheo's practical utility through three case studies that highlight its modularity and ease of use. The first demonstrates how built-in nodes compose into a grounded generation pipeline; the remaining two show end-to-end evaluation on established benchmarks, illustrating how Orcheo's workflow model naturally extends to evaluation tasks while substantially reducing engineering overhead. Companion workflows and documentation are available in the project repository and online documentation.</p>
+        <h3>5.1&#160;&#160; Grounded Generation Pipeline</h3>
+        <p class="noindent">To demonstrate how Orcheo's components work together, we present a retrieval-augmented generation pipeline (Figure <span class="cite">3</span>), which is later used as the system under test in the MultiDoc2Dial evaluation (Section <span class="cite">5.3</span>).</p>
+        <p><strong>Pipeline composition.</strong> This pipeline chains four nodes:</p>
+        <ol class="enum">
+          <li><em>QueryRewrite</em> rewrites the current turn's query using conversation history.</li>
+          <li><em>DenseSearch</em> retrieves passages from a vector store.</li>
+        </ol>
+      </div>
+    </main>
+  </body>
+</html>

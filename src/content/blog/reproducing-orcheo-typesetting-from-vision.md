@@ -29,7 +29,7 @@ Below is an embedded preview of the XHTML bundle that Codex produced. Click the 
   ></iframe>
 </div>
 
-**Disclaimer.** The XHTML content embedded above was created using GPT-5.5 for research purposes only. It is an experimental reconstruction, not an official or distributable copy of the original Orcheo paper, any conference version, or any ACM proceedings artifact. The reproduced text may contain discrepancies from the original paper because LLMs can hallucinate, omit, or alter content. Please use the [official paper](https://arxiv.org/pdf/2602.14710) for reading, citation, and distribution.
+**Disclaimer.** The XHTML content embedded above was created using GPT-5.5 for research purposes only. It is an experimental reconstruction, not an official or distributable copy of the original Orcheo paper, any conference version, or any ACM proceedings artifact. The reproduced text may contain discrepancies from the original paper because LLMs can hallucinate, omit, or alter content. Please cross-check any details against the [official paper](https://arxiv.org/pdf/2602.14710), and use that version for reading, citation, and distribution.
 
 [Open the XHTML index directly](/post/orcheo-paper-xhtml/index.xhtml).
 

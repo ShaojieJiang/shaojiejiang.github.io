@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Orcheo - Page 6</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav"><a href="page-005.xhtml">Previous</a><a href="page-007.xhtml">Next</a></nav>
+    <main class="page">
+      <div class="running"><span>SIGIR '26, July 20-24, 2026, Melbourne, VIC, Australia</span><span>Shaojie Jiang, Svitlana Vakulenko, &amp; Maarten de Rijke</span></div>
+      <div class="columns">
+        <figure class="diagram">
+          <img src="assets/figure-3-grounded-generation.svg" width="380" height="38" alt="QueryRewrite to DenseSearch to ContextCompressor to GroundedGenerator workflow." />
+          <figcaption class="caption">Figure 3: Grounded generation pipeline expressed as an Orcheo graph. This pipeline is used as the system under test in the MultiDoc2Dial evaluation (Section <span class="cite">5.3</span>).</figcaption>
+        </figure>
+        <ol class="enum" start="3">
+          <li><em>ContextCompressor</em> deduplicates context and enforces token budgets.</li>
+          <li><em>GroundedGenerator</em> produces a cited response grounded in the retrieved context.</li>
+        </ol>
+        <p><strong>Modularity in practice.</strong> Each node is independently configurable: the retrieval model, vector store, and generation model are set via a JSON configuration file, with no code changes required. A researcher developing a novel query rewriting method can implement it as a custom <code>QueryRewrite</code> node, test it within this pipeline using Orcheo's built-in upstream and downstream nodes, and share only the custom node implementation (typically fewer than 200 lines). Adopters swap the node into existing workflows with a one-line configuration change, demonstrating principles P1 (minimal shareable code) and P2 (composability). Thanks to Orcheo's high-level abstractions, the entire four-stage pipeline requires only approximately 50 lines of Python code, including configuration.</p>
+        <h3>5.2&#160;&#160; QReCC Query Rewriting Evaluation</h3>
+        <p class="noindent">Our first evaluation targets query rewriting on the QReCC benchmark <span class="cite">[3]</span>.</p>
+        <p><strong>Evaluation workflow.</strong> The QReCC study is implemented as a native Orcheo workflow:</p>
+        <ol class="enum">
+          <li><code>QReCCDatasetNode</code> loads conversations with gold rewrites.</li>
+          <li><code>ConversationalBatchEvalNode</code> iterates through each conversation's turns, invokes a <code>QueryRewriteNode</code> subgraph, and collects predicted rewrites alongside gold labels.</li>
+          <li><code>RougeMetricsNode</code> and <code>SemanticSimilarityMetricsNode</code> run in <em>parallel branches</em> to produce ROUGE-1 recall and embedding cosine similarity.</li>
+          <li><code>AnalyticsExportNode</code> merges results into a unified report.</li>
+        </ol>
+        <p>Here, "semantic similarity" denotes the mean cosine similarity between the embedding vectors of the predicted and gold rewrites. This differs from the original QReCC paper, which reports Universal Sentence Encoder (USE) similarity rather than the embedding-based score used in our implementation. The entire pipeline executes with a single <code>orcheo workflow run</code> command; the rewriting model or embedding provider can be swapped via the JSON configuration file without code changes.</p>
+        <h3>5.3&#160;&#160; MultiDoc2Dial Grounded Generation Evaluation</h3>
+        <p class="noindent">Our second evaluation targets a full retrieval-generation pipeline on MultiDoc2Dial <span class="cite">[9]</span>.</p>
+        <p><strong>Nested workflow design.</strong> This evaluation (Figure <span class="cite">4</span>) follows the same pattern but with a more complex pipeline under test: the <code>ConversationalBatchEvalNode</code> wraps the four-stage generation pipeline of Figure <span class="cite">3</span> as a composable subgraph-a workflow that evaluates another workflow. Three metric nodes-<code>TokenF1</code>, <code>BleuMetrics</code>, and <code>RougeMetrics</code> (ROUGE-L)-run in parallel downstream, and <code>AnalyticsExportNode</code> produces the final report. The same metric nodes used for QReCC (e.g., <code>RougeMetricsNode</code>) are reused here with different configurations, confirming their task-agnostic design.</p>
+        <section>
+          <div class="table-caption">Table 2: Evaluation results on QReCC and MultiDoc2Dial using Orcheo workflows with GPT-4o-mini, alongside published reference results.</div>
+          <table class="paper-table">
+            <thead><tr><th>Benchmark</th><th>Metric</th><th class="num">Orcheo</th><th class="num">Published</th></tr></thead>
+            <tbody>
+              <tr><td rowspan="2">QReCC</td><td>ROUGE-1 Recall</td><td class="num">75.25</td><td class="num">89.50</td></tr>
+              <tr><td>Semantic Similarity</td><td class="num">79.00</td><td class="num">95.20†</td></tr>
+              <tr><td rowspan="3">MultiDoc2Dial</td><td>Token F1</td><td class="num">8.34</td><td class="num">48.04</td></tr>
+              <tr><td>SacreBLEU</td><td class="num">13.32</td><td class="num">34.56</td></tr>
+              <tr><td>ROUGE-L</td><td class="num">6.82</td><td class="num">45.93</td></tr>
+            </tbody>
+          </table>
+          <p class="noindent refs">†QReCC published reference numbers are the Transformer++ results from the original dataset paper <span class="cite">[3]</span>; its semantic score is USE similarity, so this row is only an approximate point of comparison. MultiDoc2Dial published reference numbers are the validation-seen SARCAT results <span class="cite">[19]</span>, chosen because they report Token F1, SacreBLEU, and ROUGE-L on the same validation setting used here.</p>
+        </section>
+        <figure class="diagram">
+          <img src="assets/figure-4-evaluation-workflow.svg" width="410" height="104" alt="MultiDoc2Dial evaluation workflow with parallel metric nodes and analytics export." />
+          <figcaption class="caption">Figure 4: MultiDoc2Dial evaluation workflow. Metric nodes execute in parallel branches and results are merged by the analytics node.</figcaption>
+        </figure>
+        <h3>5.4&#160;&#160; Evaluation Results and Engineering Efficiency</h3>
+        <p class="noindent">Compared with typical manual evaluation scripts that require 500-1,000+ lines of code for data loading, history management, pipeline orchestration, metric computation, and reporting, equivalent Orcheo workflows require only 85-150 lines of code. This reduction stems from composable metric nodes with a uniform output contract, automatic conversation history threading, and configuration-driven execution that separates model choices from workflow logic.</p>
+        <p>Table <span class="cite">2</span> reports corpus-level scores for both case studies together with published reference results.</p>
+        <h2>6&#160;&#160; Conclusion</h2>
+        <p class="noindent">We have presented Orcheo, an open-source platform designed to address two persistent challenges in conversational search research: the lack of a unified framework for sharing modular contributions, and the difficulty of deploying and sharing working systems with end users. Through its modular LangGraph-based framework with first-class AI coding support, full-stack development-to-deployment infrastructure, and a catalog of 45+ off-the-shelf CS nodes, Orcheo lowers barriers for prototyping and sharing reproducible research artifacts. We treat conversational search pipelines as first-class workflow artifacts, and seek to accelerate research progress and facilitate knowledge transfer in conversational search.</p>
+        <p>Orcheo's current design involves deliberate trade-offs worth noting. Performance on large-scale document collections (millions of passages) has not been extensively benchmarked. The modular architecture promotes flexibility, but it also means researchers must</p>
+      </div>
+    </main>
+  </body>
+</html>

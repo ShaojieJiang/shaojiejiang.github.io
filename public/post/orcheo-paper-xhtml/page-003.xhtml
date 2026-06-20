@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Orcheo - Page 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav"><a href="page-002.xhtml">Previous</a><a href="page-004.xhtml">Next</a></nav>
+    <main class="page">
+      <div class="running"><span>Orcheo: A Modular Full-Stack Platform for Conversational Search</span><span>SIGIR '26, July 20-24, 2026, Melbourne, VIC, Australia</span></div>
+      <div class="columns">
+        <section class="wide">
+          <div class="table-caption">Table 1: Comparison of Orcheo with related frameworks and platforms.</div>
+          <table class="paper-table">
+            <thead><tr><th>Framework</th><th>Primary focus</th><th>CS pipeline<br />support</th><th>Modular<br />sharing</th><th>Deployment<br />tools</th><th>Evaluation<br />support</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Orcheo</strong></td><td>Workflow orchestration</td><td><strong>Native</strong></td><td><strong>Node registry</strong></td><td><strong>Full-stack</strong></td><td><strong>Built-in nodes</strong></td></tr>
+              <tr><td>DECAF <span class="cite">[1]</span></td><td>CS experimentation</td><td><strong>Native</strong></td><td>Components</td><td>N/A</td><td>CAsT baselines</td></tr>
+              <tr><td>Chatty Goose <span class="cite">[33]</span></td><td>CS passage retrieval</td><td><strong>Native</strong></td><td>Components</td><td>Via ParlAI</td><td>CAsT '19 baselines</td></tr>
+              <tr><td>ConvLab-2 <span class="cite">[34]</span></td><td>Task-oriented dialogue</td><td>Partial</td><td>Plugin system</td><td>Limited</td><td>Dialogue metrics</td></tr>
+              <tr><td>ParlAI <span class="cite">[24]</span></td><td>Conversational AI</td><td>Limited</td><td>Agent zoo</td><td>Limited</td><td>Dialogue metrics</td></tr>
+              <tr><td>Pyserini <span class="cite">[21]</span></td><td>Sparse/dense retrieval</td><td>Component only</td><td>N/A</td><td>N/A</td><td>External</td></tr>
+              <tr><td>LangChain <span class="cite">[16]</span></td><td>LLM applications</td><td>Via composition</td><td>Hub</td><td>External</td><td>External</td></tr>
+              <tr><td>LangGraph Srv. <span class="cite">[18]</span></td><td>Graph workflow deployment</td><td>Via composition</td><td>Via code</td><td><strong>Server/Cloud</strong></td><td>External</td></tr>
+              <tr><td>LlamaIndex <span class="cite">[22]</span></td><td>Data + retrieval</td><td>Via composition</td><td>Hub</td><td>External</td><td>External</td></tr>
+              <tr><td>Haystack <span class="cite">[7]</span></td><td>NLP pipelines</td><td>Via composition</td><td>Components</td><td>Cloud offering</td><td>External</td></tr>
+              <tr><td>TIREx <span class="cite">[11]</span></td><td>IR evaluation</td><td>N/A</td><td>N/A</td><td>Evaluation only</td><td><strong>Comprehensive</strong></td></tr>
+            </tbody>
+          </table>
+        </section>
+        <h2>3&#160;&#160; The Orcheo Framework</h2>
+        <p class="noindent">This section details the architectural foundations of Orcheo. By leveraging LangGraph, Orcheo formalizes CS pipelines as stateful directed graphs in which each component is encapsulated as a discrete, interchangeable node.</p>
+        <h3>3.1&#160;&#160; Design Principles</h3>
+        <p class="noindent">Orcheo's framework is built around three core principles directly motivated by the challenges identified in Section <span class="cite">1</span>:</p>
+        <p class="noindent"><strong>(P1) <em>Minimal Shareable Code:</em></strong> Researchers should be able to share novel algorithmic contributions as a single Python file implementing a node.</p>
+        <p class="noindent"><strong>(P2) <em>Composability with Existing Components:</em></strong> To foster an ecosystem for reproducible research, new nodes should integrate seamlessly with existing upstream and downstream components.</p>
+        <p class="noindent"><strong>(P3) <em>Type-safe Interfaces:</em></strong> To move beyond "ad hoc scripts," Orcheo enforces strict schema validation. By explicitly typing node inputs and outputs, we move error detection from runtime to development time, catching integration errors early and enabling automated compatibility tests.</p>
+        <h3>3.2&#160;&#160; Node Architecture</h3>
+        <p class="noindent">Orcheo provides a three-tier node hierarchy designed for different use cases (Figure <span class="cite">1</span>):</p>
+        <p><strong>BaseNode.</strong> Provides core functionality shared by all nodes: (i) <em>Variable interpolation:</em> Node attributes can reference outputs from previous nodes using <code>{{node_name.field}}</code> syntax (e.g., <code>{{retriever.documents}}</code>), enabling dynamic configuration. (ii) <em>Credential resolution:</em> Secure access to API keys and secrets via <code>[[name]]</code> or <code>[[name#field]]</code> references, resolved at runtime. (iii) <em>Tool interface:</em> Nodes can be exposed as tools for agent nodes.</p>
+        <p><strong>AINode.</strong> Extends BaseNode for nodes that involve LLM interactions (e.g., query rewriting, response generation). Outputs are wrapped in LangChain message format to ensure compatibility with conversation history. Subclasses implement an async <code>run()</code> method that returns messages.</p>
+        <p><strong>TaskNode.</strong> Extends BaseNode for utility and integration nodes (e.g., retrieval, re-ranking, data transformation). Outputs are structured dictionaries that are merged into the workflow state. Subclasses implement an async <code>run()</code> method that returns structured data.</p>
+        <figure class="diagram">
+          <img src="assets/figure-1-node-hierarchy.svg" width="410" height="96" alt="Orcheo node hierarchy diagram." />
+          <figcaption class="caption">Figure 1: Orcheo's node hierarchy. BaseNode provides shared infrastructure; AINode and TaskNode specialize for LLM-based and utility operations, respectively.</figcaption>
+        </figure>
+        <div class="listing-caption">Listing 1: A custom query rewriting node.</div>
+<pre>from orcheo.nodes.base import AINode
+from orcheo.nodes.registry import registry, NodeMetadata
+
+@registry.register(NodeMetadata(
+    name="MyQueryRewriter",
+    description="Novel_query_rewriting_method",
+    category="query_processing"
+))
+class MyQueryRewriterNode(AINode):
+    model: str = "gpt-4"
+    rewrite_prompt: str = "..."
+
+    async def run(self, state, config):
+        history = state.get("messages", [])
+        query = state["inputs"]["query"]
+        rewritten = await self._rewrite(query, history)
+        return {"rewritten_query": rewritten}</pre>
+        <h3>3.3&#160;&#160; Built-in Conversational Search Nodes</h3>
+        <p class="noindent">Orcheo includes approximately 100 built-in nodes in total, including 45+ designed specifically for conversational search pipelines that cover ingestion, query understanding, retrieval, re-ranking, conversation management, generation, and evaluation. Additional nodes support data transformation, external integrations (e.g., Slack, Telegram, Discord), database operations, and workflow triggers. A comprehensive node catalog is available in the documentation at <span class="url">https://orcheo.readthedocs.io/en/latest/node_catalog/</span>.</p>
+        <h3>3.4&#160;&#160; Implementing Custom Nodes</h3>
+        <p class="noindent">Researchers contribute new components by implementing custom nodes. Listing <span class="cite">1</span> shows a minimal example of a custom query rewriting node:</p>
+        <p>Key aspects of this design include: (i) <em>Registry-based discovery:</em> The <code>@registry.register</code> decorator makes the node discoverable via the CLI without modifying core code. (ii) <em>Pydantic configuration:</em> Node parameters are typed fields enabling validation and schema generation.</p>
+      </div>
+    </main>
+  </body>
+</html>

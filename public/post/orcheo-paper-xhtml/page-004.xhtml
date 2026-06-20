@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Orcheo - Page 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav"><a href="page-003.xhtml">Previous</a><a href="page-005.xhtml">Next</a></nav>
+    <main class="page">
+      <div class="running"><span>SIGIR '26, July 20-24, 2026, Melbourne, VIC, Australia</span><span>Shaojie Jiang, Svitlana Vakulenko, &amp; Maarten de Rijke</span></div>
+      <div class="columns">
+        <p class="noindent">generation. (iii) <em>State access:</em> The <code>run()</code> method receives workflow state containing conversation history, previous outputs, and inputs. (iv) <em>Minimal dependencies:</em> The implementation depends only on Orcheo's base classes and standard LangChain types. A custom node typically requires only 20-50 lines of code.</p>
+        <h3>3.5&#160;&#160; State Management and Data Flow</h3>
+        <p class="noindent">Each Orcheo workflow uses a typed <code>State</code> schema that extends LangChain's <code>MessagesState</code>. The schema stores workflow inputs, accumulated node results (keyed by node name), a structured response, and runtime configuration. The <code>results</code> dictionary accumulates outputs from TaskNodes, keyed by node name; downstream nodes can reference upstream outputs via variable interpolation (e.g., <code>{{retriever.documents}}</code>).</p>
+        <h3>3.6&#160;&#160; Graph Building and Execution</h3>
+        <p class="noindent">Workflows are defined as directed graphs with nodes and edges. Orcheo supports three edge types: (i) <em>Sequential edges:</em> Simple A -> B transitions. (ii) <em>Conditional edges:</em> Routing based on state values (e.g., intent classification results). (iii) <em>Parallel branches:</em> Concurrent execution with result aggregation.</p>
+        <p>The graph builder compiles workflow definitions into LangGraph's <code>StateGraph</code>, which handles execution, checkpointing, and streaming. This architecture inherits LangGraph's benefits: async execution, automatic state persistence, and observability through LangSmith integration. Additionally, Orcheo provides native OpenTelemetry (OTel) tracing with configurable exporters, enabling integration with observability platforms such as Jaeger or Datadog. Canvas supports real-time trace streaming.</p>
+        <h3>3.7&#160;&#160; Sharing Contributions</h3>
+        <p class="noindent">Orcheo minimizes the code researchers need to share. At its simplest, a researcher shares a single Python file containing a custom node; adopters can install it in their registry and immediately use it alongside built-in nodes. Complete pipelines can also be shared as Python scripts that others import, inspect, and modify; credential references (e.g., <code>[[api_key]]</code>) resolve at runtime from the user's vault, so workflows can be shared without exposing tokens. The core node library (<code>orcheo</code>) can additionally be used as a standalone Python package, though the full platform is recommended for deployment and reproducibility.</p>
+        <h3>3.8&#160;&#160; Evaluation Support</h3>
+        <p class="noindent">Orcheo provides two complementary approaches for different evaluation scenarios. Built-in evaluation nodes can be embedded directly in workflows for online monitoring, quality gating, and offline evaluation. <code>ABTestingNode</code> routes live traffic between pipeline variants; <code>LLMJudgeNode</code> applies configurable rubrics as real-time quality gates; <code>RetrievalEvaluationNode</code> computes standard metrics (Recall@k, MRR, NDCG, MAP) compatible with TREC-style evaluation; and <code>AnswerQualityEvaluationNode</code> assesses responses using reference-based metrics and faithfulness checks. These nodes can also be composed into batch evaluation pipelines for offline benchmarking, with outputs formatted for submission to platforms like TIREx <span class="cite">[11]</span> or ranxhub <span class="cite">[4]</span>.</p>
+        <figure>
+          <img src="assets/figure-2-platform-architecture.png" width="808" height="580" alt="Orcheo platform architecture diagram with presentation, API, execution, and persistence layers." />
+          <figcaption class="caption">Figure 2: Orcheo platform architecture showing the interaction between the presentation layer, backend, and execution components.</figcaption>
+        </figure>
+        <p><strong>Reproducibility support.</strong> Orcheo's evaluation infrastructure is designed with reproducibility in mind. Workflow definitions, node configurations, and prompt versions are stored as versionable artifacts alongside evaluation checkpoints, enabling researchers to precisely reconstruct experimental conditions and share complete experimental setups with minimal documentation overhead.</p>
+        <h2>4&#160;&#160; The Orcheo Platform</h2>
+        <p class="noindent">Beyond the core framework, Orcheo provides a full-stack platform designed to reduce the engineering burden throughout the conversational search system lifecycle. This section describes the platform components: backend services, the integrated ChatKit (<span class="url">https://platform.openai.com/docs/guides/chatkit</span>) server and UI, SDK/CLI, deployment tools, tracing/observability capabilities, and agent skills for AI-assisted workflow development and deployment. While the Orcheo core node library can be used independently in custom Python projects (Section <span class="cite">3</span>), the platform components described in this section provide infrastructure that makes workflows easy to deploy, share, and reproduce-capabilities that would otherwise need to be implemented and maintained by project authors.</p>
+        <h3>4.1&#160;&#160; Architecture Overview</h3>
+        <p class="noindent">Figure <span class="cite">2</span> illustrates Orcheo's platform architecture. The system comprises four main layers: (i) <em>Presentation layer:</em> ChatKit UI for embedding a full-featured chat experience (custom theming, widgets, tool invocation, file attachments, reasoning visualizations), as well as the SDK/CLI for workflow authoring and management and a tracing viewer for run inspection. (ii) <em>API layer:</em> FastAPI services exposing REST and WebSocket endpoints, the integrated ChatKit server, and authentication. (iii) <em>Execution layer:</em> Trigger layer and LangGraph runtime for orchestration, with Celery workers for background execution and Celery Beat for scheduled jobs. (iv) <em>Persistence layer:</em> Workflow DB (SQLite/PostgreSQL), checkpoint store, run history store, credential vault, and Redis broker.</p>
+        <h3>4.2&#160;&#160; Backend Services</h3>
+        <p class="noindent">Orcheo's FastAPI backend provides:</p>
+      </div>
+    </main>
+  </body>
+</html>
